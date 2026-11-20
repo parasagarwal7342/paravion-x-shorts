@@ -1,0 +1,313 @@
+{
+ "slug": "2026-11-19_trilateral",
+ "series": "Why Everyone's Talking About…",
+ "kickers": {
+  "HOOK": "THE SIGNAL · NOV. 19 SUMMIT",
+  "SUB": "THE SIGNAL · NOV. 19 SUMMIT",
+  "CONTEXT": "WHAT HAPPENED",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "VERDICT": "HYPE CHECK",
+  "CTA": "THE WORLD, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "THE SIGNAL · NOV. 19 SUMMIT",
+  "head": [
+   "Trump. Xi.",
+   "Putin.",
+   "Why now?"
+  ],
+  "sub": "The first-ever three-way meeting: what's confirmed, and what's still unknown.",
+  "visual": {
+   "type": "three",
+   "names": [
+    "Trump",
+    "Xi",
+    "Putin"
+   ],
+   "center": "SHENZHEN"
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "Trump, Xi and Putin… in one room.",
+   "ost": "Trump. Xi. Putin.|One room.",
+   "visual": {
+    "type": "three",
+    "names": [
+     "Trump",
+     "Xi",
+     "Putin"
+    ],
+    "center": "SHENZHEN"
+   },
+   "keys": [
+    "room."
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "That has never happened before.",
+   "ost": "A first.|Ever.",
+   "visual": {
+    "type": "stat",
+    "text": "1st",
+    "count": false,
+    "label": "THREE-WAY MEETING",
+    "color": "accent"
+   },
+   "keys": [
+    "never"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know what it means.",
+   "ost": "60 seconds.|Full story.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "sixty"
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "On Thursday, they met in Shenzhen, China.",
+   "ost": "Shenzhen,|Nov. 19.",
+   "visual": {
+    "type": "calendar",
+    "month": "NOV",
+    "day": "19"
+   },
+   "keys": [
+    "Shenzhen,"
+   ],
+   "source": "RFE/RL, ABC News, France 24"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "It happened on the sidelines of the APEC summit.",
+   "ost": "At the|APEC summit.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "APEC summit",
+     "Shenzhen"
+    ]
+   },
+   "keys": [
+    "APEC"
+   ],
+   "source": "RFE/RL, ABC News, France 24"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Keep watching for fact three. It's what's missing.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "missing."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. It's the first-ever three-way meeting of these leaders.",
+   "ost": "First-ever|three-way talks.",
+   "visual": {
+    "type": "three",
+    "names": [
+     "US",
+     "China",
+     "Russia"
+    ]
+   },
+   "keys": [
+    "one.",
+    "first-ever"
+   ],
+   "source": "RFE/RL, ABC News, France 24"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. On the table: Ukraine, Iran, and nuclear weapons.",
+   "ost": "Ukraine. Iran.|Nukes.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "Ukraine",
+     "Iran",
+     "Nuclear arms"
+    ]
+   },
+   "keys": [
+    "two.",
+    "Ukraine,"
+   ],
+   "source": "RFE/RL, ABC News, France 24"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Trump said they were making history.",
+   "ost": "Trump: “making|history.”",
+   "visual": {
+    "type": "hero",
+    "note": "Trump, opening remarks"
+   },
+   "keys": [
+    "history."
+   ],
+   "source": "RFE/RL, France 24"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. No joint deal has been announced yet.",
+   "ost": "No deal|announced yet.",
+   "visual": {
+    "type": "hero",
+    "icon": "x",
+    "note": "No joint statement reported when we checked"
+   },
+   "keys": [
+    "big",
+    "No"
+   ],
+   "source": "RFE/RL, ABC News, France 24"
+  },
+  {
+   "beat": "FACT3",
+   "text": "Before the talks, analysts expected few concrete results.",
+   "ost": "Low|expectations.",
+   "visual": {
+    "type": "rows",
+    "rows": [
+     [
+      "BEFORE THE TALKS",
+      "Analysts expected few concrete results",
+      "CNBC · France 24",
+      "q"
+     ]
+    ]
+   },
+   "keys": [
+    "few"
+   ],
+   "source": "CNBC, France 24"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. The historic meeting did happen.",
+   "ost": "The meeting:|confirmed.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "The meeting",
+      "CONFIRMED",
+      "green"
+     ],
+     [
+      "Concrete results",
+      "UNKNOWN YET",
+      "amber"
+     ]
+    ]
+   },
+   "keys": [
+    "happen."
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "What it actually changes… is still unknown.",
+   "ost": "Results:|still unknown.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "The meeting",
+      "CONFIRMED",
+      "green"
+     ],
+     [
+      "Concrete results",
+      "UNKNOWN YET",
+      "amber"
+     ]
+    ]
+   },
+   "keys": [
+    "unknown."
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion X for more updates.",
+   "ost": "Follow for|more updates.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "updates."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "Trump, Xi and Putin Meet: What We Know",
+   "First-Ever Trump–Xi–Putin Meeting Explained",
+   "Why the Trump–Xi–Putin Meeting Matters"
+  ],
+  "summary": "Trump, Xi and Putin held their first-ever three-way meeting in Shenzhen at the APEC summit, discussing Ukraine, Iran and nuclear weapons. No joint deal had been announced at the time of recording.",
+  "hashtags": [
+   "#shorts",
+   "#Trump",
+   "#APEC",
+   "#WorldNews",
+   "#Explained"
+  ],
+  "ig_tags": "#worldnews #apec #trump #xijinping #putin #geopolitics #explained #newsexplained #diplomacy",
+  "pinned": "What should these talks focus on first? Keep it respectful 👇",
+  "poll": [
+   "Will these talks lead to a deal?",
+   "Yes 🤝",
+   "Not yet ⏳"
+  ],
+  "sources": [
+   [
+    "RFE/RL, Nov 19 2026",
+    "https://www.rferl.org/a/trump-and-putin-hold-brief-apec-meeting/33901539.html"
+   ],
+   [
+    "ABC News live, Nov 19 2026",
+    "https://abcnews.com/Politics/live-updates/trump-asia-trip-2026/?id=138187702"
+   ],
+   [
+    "France 24 live, Nov 19 2026",
+    "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting"
+   ],
+   [
+    "CNBC, Nov 18 2026",
+    "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+   ]
+  ],
+  "removed": [
+   "Xi's 'groundbreaking significance' quote (single source)",
+   "Trump's 'choosing a different course' quote (single source)",
+   "Details of the Trump–Putin pull-aside (sources differ)",
+   "Meeting length (not reported)"
+  ],
+  "notes": "TIME-SENSITIVE: outcomes may be announced within hours. Re-check for a readout or joint statement and update fact 3 and the verdict before posting. Political: neutral, no opinion.",
+  "schedule": "2026-11-20T08:00:00+05:30",
+  "verdict": "The historic meeting happened. What it changes is still unknown."
+ }
+}

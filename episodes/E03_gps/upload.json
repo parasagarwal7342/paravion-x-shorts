@@ -1,0 +1,12 @@
+{
+ "title": "Does GPS Need Internet? No. Here's How It Works",
+ "description": "GPS is receive-only: satellites broadcast time and position, and your phone listens. Four satellites fix your position. Satellite clocks gain about 38 microseconds a day from relativity and are corrected.\n\nSources:\n• GPS.gov (archive): Space segment: https://archive.gps.gov/systems/gps/space/\n• arXiv: Relativity in navigation satellite systems: https://arxiv.org/abs/gr-qc/0507121\n• Ohio State: GPS and relativity (PDF): https://www.astronomy.ohio-state.edu/thompson.1847/1144/gps.pdf\n\nFollow for daily world updates — the world, explained in 60 seconds.\n#shorts #GPS #Tech #Science #Explained",
+ "tags": [
+  "GPS",
+  "Tech",
+  "Science",
+  "Explained"
+ ],
+ "publish_at": "2026-11-24T19:30:00+05:30",
+ "pinned_comment": "Did you know GPS works offline? 👇"
+}

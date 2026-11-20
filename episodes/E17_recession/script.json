@@ -1,0 +1,255 @@
+{
+ "slug": "E17_recession",
+ "series": "Fake or Fact?",
+ "kickers": {
+  "HOOK": "EXPLAINED · ECONOMY",
+  "SUB": "EXPLAINED · ECONOMY",
+  "CONTEXT": "THE BASICS",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "VERDICT": "FAKE OR FACT?",
+  "CTA": "THE WORLD, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "FAKE OR FACT? · ECONOMY",
+  "head": [
+   "What really",
+   "is a",
+   "recession?"
+  ],
+  "sub": "The two-quarter rule, fact-checked.",
+  "visual": {
+   "type": "stat",
+   "text": "2 quarters",
+   "count": false,
+   "label": "THE RULE OF THUMB"
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "'Two bad quarters' is not the official recession rule everywhere.",
+   "ost": "Two bad quarters?|Not official.",
+   "visual": {
+    "type": "stat",
+    "text": "2 quarters",
+    "count": false,
+    "label": "THE RULE OF THUMB"
+   },
+   "keys": [
+    "not"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "So what is a recession?",
+   "ost": "So what is a|recession?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "recession?"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know the truth.",
+   "ost": "60 seconds.|The truth.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "truth."
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "It's a broad fall in economic activity.",
+   "ost": "A broad|slowdown.",
+   "visual": {
+    "type": "stock_drop",
+    "pct": 3,
+    "label": "ECONOMIC ACTIVITY"
+   },
+   "keys": [
+    "fall"
+   ],
+   "source": "IMF, NBER"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Jobs, spending and production all weaken.",
+   "ost": "Jobs, spending,|output fall.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "Jobs",
+     "Spending",
+     "Output"
+    ]
+   },
+   "keys": [
+    "weaken."
+   ],
+   "source": "IMF, NBER"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Keep watching for fact three. It's the big one.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. A common rule of thumb is two quarters of shrinking GDP.",
+   "ost": "Rule of thumb:|2 quarters.",
+   "visual": {
+    "type": "stat",
+    "value": 2,
+    "label": "QUARTERS OF FALLING GDP"
+   },
+   "keys": [
+    "one.",
+    "two"
+   ],
+   "source": "IMF, NBER"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. In the US, an expert committee looks at much more than GDP.",
+   "ost": "US: experts|decide.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "Jobs",
+     "Income",
+     "Spending",
+     "Output"
+    ]
+   },
+   "keys": [
+    "two.",
+    "committee"
+   ],
+   "source": "NBER, IMF"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. They often confirm a recession months after it starts.",
+   "ost": "Confirmed|months later.",
+   "visual": {
+    "type": "hero",
+    "note": "They wait for solid data"
+   },
+   "keys": [
+    "big",
+    "months"
+   ],
+   "source": "NBER"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. 'Two quarters is official' is false.",
+   "ost": "The myth:|false.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "2 quarters is the official rule",
+      "FALSE",
+      "red"
+     ],
+     [
+      "It's a rule of thumb",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "false."
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "It's a handy rule of thumb, not an official definition everywhere.",
+   "ost": "A rule of|thumb.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "2 quarters is the official rule",
+      "FALSE",
+      "red"
+     ],
+     [
+      "It's a rule of thumb",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "thumb,"
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion X for more updates.",
+   "ost": "Follow for|more updates.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "updates."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "What Is a Recession, Really?",
+   "The 'Two Quarters' Recession Rule, Fact-Checked",
+   "Recession Explained in 60 Seconds"
+  ],
+  "summary": "Two quarters of falling GDP is a common rule of thumb, not an official definition everywhere. In the US, the NBER committee weighs jobs, income, spending and output, often confirming recessions months later.",
+  "hashtags": [
+   "#shorts",
+   "#Recession",
+   "#Economy",
+   "#Finance",
+   "#Explained"
+  ],
+  "ig_tags": "#recession #economy #finance #explained #explained #factcheck #learnsomethingnew #paravionx",
+  "pinned": "Does your country feel like it's in a slowdown? 👇",
+  "poll": [
+   "Thought 2 quarters was official?",
+   "Yes 📉",
+   "No 🧠"
+  ],
+  "sources": [
+   [
+    "IMF: Recession, back to basics",
+    "https://www.imf.org/external/pubs/ft/fandd/basics/recess.htm"
+   ],
+   [
+    "NBER: Business cycle dating",
+    "https://www.nber.org/research/business-cycle-dating"
+   ]
+  ],
+  "removed": [],
+  "notes": "Evergreen explainer: not time-sensitive.",
+  "schedule": "2026-12-08T19:30:00+05:30",
+  "verdict": "2 quarters is the official rule: FALSE. It's a rule of thumb: True."
+ }
+}

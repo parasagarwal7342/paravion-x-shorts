@@ -1,0 +1,249 @@
+{
+ "slug": "E30_flight_paths",
+ "series": "Fake or Fact?",
+ "kickers": {
+  "HOOK": "EXPLAINED · TRAVEL",
+  "SUB": "EXPLAINED · TRAVEL",
+  "CONTEXT": "THE BASICS",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "VERDICT": "FAKE OR FACT?",
+  "CTA": "THE WORLD, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "FAKE OR FACT? · TRAVEL",
+  "head": [
+   "Why do",
+   "flights fly",
+   "curved?"
+  ],
+  "sub": "Great circle routes, explained in 60 seconds.",
+  "visual": {
+   "type": "hero",
+   "note": "Look at any flight tracker",
+   "icon": "x"
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "A straight line on a map is not the shortest flight.",
+   "ost": "Straight line =|shortest?",
+   "visual": {
+    "type": "hero",
+    "note": "Look at any flight tracker",
+    "icon": "x"
+   },
+   "keys": [
+    "not"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "So why do flights curve?",
+   "ost": "Why do flights|curve?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "curve?"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know the truth.",
+   "ost": "60 seconds.|The truth.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "truth."
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Earth is a sphere, but most maps are flat.",
+   "ost": "Round Earth.|Flat maps.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "Sphere",
+     "Flat map"
+    ]
+   },
+   "keys": [
+    "sphere,"
+   ],
+   "source": "Britannica, Wikipedia"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Flattening it stretches distances, especially near the poles.",
+   "ost": "Maps stretch|distances.",
+   "visual": {
+    "type": "hero",
+    "note": ""
+   },
+   "keys": [
+    "stretches"
+   ],
+   "source": "Britannica, Wikipedia"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Keep watching for fact three. It's the big one.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. The shortest path on a sphere is called a great circle.",
+   "ost": "Shortest path:|great circle.",
+   "visual": {
+    "type": "hero",
+    "note": ""
+   },
+   "keys": [
+    "one.",
+    "great"
+   ],
+   "source": "Britannica, Wikipedia"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. On a flat map, that path looks curved.",
+   "ost": "On a flat map:|it curves.",
+   "visual": {
+    "type": "hero",
+    "note": ""
+   },
+   "keys": [
+    "two.",
+    "curved."
+   ],
+   "source": "Britannica, Wikipedia"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. That's why many long flights arc toward the poles.",
+   "ost": "Long flights|arc north.",
+   "visual": {
+    "type": "hero",
+    "note": "Winds and airspace change routes too"
+   },
+   "keys": [
+    "big",
+    "poles."
+   ],
+   "source": "Britannica, Wikipedia"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. 'Straight on a map is shortest' is false.",
+   "ost": "The myth:|false.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "Map straight lines are shortest",
+      "FALSE",
+      "red"
+     ],
+     [
+      "Great circles are shortest",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "false."
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "On a globe, the curve is the shortcut.",
+   "ost": "The curve is|the shortcut.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "Map straight lines are shortest",
+      "FALSE",
+      "red"
+     ],
+     [
+      "Great circles are shortest",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "shortcut."
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion X for more updates.",
+   "ost": "Follow for|more updates.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "updates."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "Why Do Planes Fly Curved Routes?",
+   "The Shortest Flight Isn't a Straight Line",
+   "Great Circle Routes Explained in 60s"
+  ],
+  "summary": "Earth is a sphere, so flat maps stretch distances. The shortest path on a sphere is a great circle, which looks curved on a flat map; that's why many long flights arc toward the poles.",
+  "hashtags": [
+   "#shorts",
+   "#Aviation",
+   "#Travel",
+   "#Geography",
+   "#Explained"
+  ],
+  "ig_tags": "#aviation #travel #geography #explained #explained #factcheck #learnsomethingnew #paravionx",
+  "pinned": "What's the longest flight you've taken? ✈️👇",
+  "poll": [
+   "Thought straight was shortest?",
+   "Yes 🗺️",
+   "No 🌍"
+  ],
+  "sources": [
+   [
+    "Britannica: Great circle",
+    "https://www.britannica.com/science/great-circle"
+   ],
+   [
+    "Wikipedia: Great-circle navigation",
+    "https://en.wikipedia.org/wiki/Great-circle_navigation"
+   ],
+   [
+    "Wikipedia: Map projection",
+    "https://en.wikipedia.org/wiki/Map_projection"
+   ]
+  ],
+  "removed": [],
+  "notes": "Evergreen explainer: not time-sensitive.",
+  "schedule": "2026-12-21T19:30:00+05:30",
+  "verdict": "Map straight lines are shortest: FALSE. Great circles are shortest: True."
+ }
+}

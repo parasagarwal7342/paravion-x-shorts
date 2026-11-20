@@ -1,0 +1,32 @@
+# large / regenerable
+assets/piper/
+assets/voice_cache/
+voice_samples/
+logs/
+*.log
+episodes/*/voice.wav
+episodes/*/music.wav
+episodes/*/sfx.wav
+episodes/*/video_only.mp4
+episodes/*/final_tmp.mp4
+# placeholder-voice videos are not for posting
+episodes/*/final_video_preview.mp4
+__pycache__/
+episodes/2026-11-19_csat_alerts/final_video.mp4
+episodes/2026-11-19_trilateral/final_video.mp4
+episodes/E15_sensex_nifty/final_video.mp4
+episodes/E16_ipo/final_video.mp4
+episodes/E17_recession/final_video.mp4
+episodes/E18_gdp/final_video.mp4
+episodes/E19_tariffs/final_video.mp4
+episodes/E20_strait_of_hormuz/final_video.mp4
+episodes/E21_un_security_council/final_video.mp4
+episodes/E22_nato_article5/final_video.mp4
+episodes/E23_g20/final_video.mp4
+episodes/E24_india_time_zone/final_video.mp4
+episodes/E25_black_box/final_video.mp4
+episodes/E26_bitcoin/final_video.mp4
+episodes/E27_deepfakes/final_video.mp4
+episodes/E28_ai_chatbots/final_video.mp4
+episodes/E29_delhi_air/final_video.mp4
+episodes/E30_flight_paths/final_video.mp4

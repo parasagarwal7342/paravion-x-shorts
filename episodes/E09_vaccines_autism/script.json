@@ -1,0 +1,255 @@
+{
+ "slug": "E09_vaccines_autism",
+ "series": "Fake or Fact?",
+ "kickers": {
+  "HOOK": "EXPLAINED · HEALTH",
+  "SUB": "EXPLAINED · HEALTH",
+  "CONTEXT": "THE BASICS",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "VERDICT": "FAKE OR FACT?",
+  "CTA": "THE WORLD, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "FAKE OR FACT? · HEALTH",
+  "head": [
+   "Do vaccines",
+   "cause",
+   "autism?"
+  ],
+  "sub": "Where the myth came from, and what research found.",
+  "visual": {
+   "type": "hero",
+   "note": "Where the myth started",
+   "icon": "x"
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "Vaccines do not cause autism.",
+   "ost": "Vaccines and|autism?",
+   "visual": {
+    "type": "hero",
+    "note": "Where the myth started",
+    "icon": "x"
+   },
+   "keys": [
+    "not"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "So where did that idea come from?",
+   "ost": "Where did it|come from?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "come"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know the truth.",
+   "ost": "60 seconds.|The truth.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "truth."
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "It started with a 1998 study of just twelve children.",
+   "ost": "A 1998 study.|12 children.",
+   "visual": {
+    "type": "stat",
+    "value": 12,
+    "label": "CHILDREN STUDIED",
+    "sub": "The 1998 paper"
+   },
+   "keys": [
+    "twelve"
+   ],
+   "source": "NPR, PMC"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "It suggested a link between the MMR vaccine and autism.",
+   "ost": "It claimed|a link.",
+   "visual": {
+    "type": "hero",
+    "note": ""
+   },
+   "keys": [
+    "link"
+   ],
+   "source": "NPR, PMC"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Keep watching for fact three. It's the big one.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. Investigators later found serious problems with the study.",
+   "ost": "Serious|problems found.",
+   "visual": {
+    "type": "hero",
+    "note": "Including ethics breaches"
+   },
+   "keys": [
+    "one.",
+    "serious"
+   ],
+   "source": "NPR, PMC"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. In 2010, the journal The Lancet retracted it.",
+   "ost": "2010:|retracted.",
+   "visual": {
+    "type": "stat",
+    "text": "2010",
+    "count": false,
+    "label": "PAPER RETRACTED",
+    "color": "red"
+   },
+   "keys": [
+    "two.",
+    "retracted"
+   ],
+   "source": "NPR, PBS"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. Large studies since then found no link.",
+   "ost": "Big studies:|no link.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "Britain",
+     "Japan",
+     "Finland"
+    ]
+   },
+   "keys": [
+    "big",
+    "no"
+   ],
+   "source": "PBS, NPR"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. The autism claim is false.",
+   "ost": "The myth:|false.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "Vaccines cause autism",
+      "FALSE",
+      "red"
+     ],
+     [
+      "No link found",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "false."
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Research has found no link between vaccines and autism.",
+   "ost": "No link|found.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "Vaccines cause autism",
+      "FALSE",
+      "red"
+     ],
+     [
+      "No link found",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "no"
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion X for more updates.",
+   "ost": "Follow for|more updates.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "updates."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "Do Vaccines Cause Autism? What Research Found",
+   "The 1998 Study Behind a Huge Myth",
+   "Vaccines and Autism: The Facts in 60s"
+  ],
+  "summary": "The vaccine–autism myth began with a 1998 study of 12 children. Investigators found serious problems, and The Lancet retracted it in 2010. Large studies since then have found no link.",
+  "hashtags": [
+   "#shorts",
+   "#Health",
+   "#Vaccines",
+   "#FactCheck",
+   "#Explained"
+  ],
+  "ig_tags": "#health #vaccines #factcheck #explained #explained #factcheck #learnsomethingnew #paravionx",
+  "pinned": "Please share facts kindly. What health myth should we check next? 👇",
+  "poll": [
+   "Seen this myth online?",
+   "Yes 📱",
+   "No 🙅"
+  ],
+  "sources": [
+   [
+    "NPR: Lancet retracts Wakefield paper (2010)",
+    "https://www.npr.org/sections/health-shots/2010/02/lancet_wakefield_autism_mmr_au.html"
+   ],
+   [
+    "PMC: The MMR vaccine and autism: retraction",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC2831678/"
+   ],
+   [
+    "PBS NewsHour (2010)",
+    "https://www.pbs.org/newshour/health/europe-jan-june10-lancet_0204"
+   ]
+  ],
+  "removed": [],
+  "notes": "Evergreen explainer: not time-sensitive.",
+  "schedule": "2026-11-30T19:30:00+05:30",
+  "verdict": "Vaccines cause autism: FALSE. No link found: True."
+ }
+}

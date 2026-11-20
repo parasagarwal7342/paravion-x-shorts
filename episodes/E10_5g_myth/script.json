@@ -1,0 +1,254 @@
+{
+ "slug": "E10_5g_myth",
+ "series": "Fake or Fact?",
+ "kickers": {
+  "HOOK": "EXPLAINED · TECH",
+  "SUB": "EXPLAINED · TECH",
+  "CONTEXT": "THE BASICS",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "VERDICT": "FAKE OR FACT?",
+  "CTA": "THE WORLD, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "FAKE OR FACT? · TECH",
+  "head": [
+   "Can 5G",
+   "spread a",
+   "virus?"
+  ],
+  "sub": "The rumour that burned towers, fact-checked.",
+  "visual": {
+   "type": "phone_alert",
+   "banner": "5G",
+   "banner_sub": "Radio waves"
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "5G cannot spread viruses.",
+   "ost": "5G and|viruses?",
+   "visual": {
+    "type": "phone_alert",
+    "banner": "5G",
+    "banner_sub": "Radio waves"
+   },
+   "keys": [
+    "cannot"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "So where did that rumour start?",
+   "ost": "Where did it|start?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "rumour"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know the truth.",
+   "ost": "60 seconds.|The truth.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "truth."
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "In 2020, posts online linked 5G towers to COVID-19.",
+   "ost": "2020: 5G|blamed.",
+   "visual": {
+    "type": "hero",
+    "note": ""
+   },
+   "keys": [
+    "linked"
+   ],
+   "source": "UN News, Boston University"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Some towers in Europe were even damaged.",
+   "ost": "Towers were|damaged.",
+   "visual": {
+    "type": "hero",
+    "note": ""
+   },
+   "keys": [
+    "damaged."
+   ],
+   "source": "UN News"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Keep watching for fact three. It's the big one.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. Viruses can't travel on radio waves.",
+   "ost": "Viruses can't ride|radio waves.",
+   "visual": {
+    "type": "hero",
+    "note": "",
+    "icon": "x"
+   },
+   "keys": [
+    "one.",
+    "can't"
+   ],
+   "source": "WHO via UN, UK Government"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. COVID spread in countries with no 5G at all.",
+   "ost": "It spread|without 5G.",
+   "visual": {
+    "type": "hero",
+    "note": ""
+   },
+   "keys": [
+    "two.",
+    "no"
+   ],
+   "source": "WHO via UN, UN News"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. The UN's telecom agency called the link a hoax.",
+   "ost": "UN agency:|'a hoax'.",
+   "visual": {
+    "type": "stat",
+    "text": "Hoax",
+    "count": false,
+    "label": "ITU VERDICT",
+    "color": "red"
+   },
+   "keys": [
+    "big",
+    "hoax."
+   ],
+   "source": "UN News, UK Government"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. The 5G virus claim is false.",
+   "ost": "The myth:|false.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "5G spreads viruses",
+      "FALSE",
+      "red"
+     ],
+     [
+      "No technical basis",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "false."
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "5G radio waves can't carry viruses. The claim has no technical basis.",
+   "ost": "No technical|basis.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "5G spreads viruses",
+      "FALSE",
+      "red"
+     ],
+     [
+      "No technical basis",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "no"
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion X for more updates.",
+   "ost": "Follow for|more updates.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "updates."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "Can 5G Spread Viruses? No. Here's Why",
+   "The 5G Rumour, Fact-Checked",
+   "Why 5G Towers Were Burned in 2020"
+  ],
+  "summary": "In 2020, online posts linked 5G to COVID-19 and some towers were damaged. The WHO said viruses can't travel on radio waves, COVID spread where there was no 5G, and the UN's ITU called the link a hoax.",
+  "hashtags": [
+   "#shorts",
+   "#5G",
+   "#Tech",
+   "#FactCheck",
+   "#Explained"
+  ],
+  "ig_tags": "#5g #tech #factcheck #explained #explained #factcheck #learnsomethingnew #paravionx",
+  "pinned": "Did someone forward you this rumour? 👇",
+  "poll": [
+   "Seen this rumour?",
+   "Yes 📲",
+   "No 🙅"
+  ],
+  "sources": [
+   [
+    "UN News (Apr 2020)",
+    "https://news.un.org/en/story/2020/04/1062362"
+   ],
+   [
+    "UN Namibia: WHO myth busters",
+    "https://namibia.un.org/en/41807-covid-19-myth-busters-knowthefacts"
+   ],
+   [
+    "UK Government: 5G and coronavirus",
+    "https://www.gov.uk/guidance/5g-and-coronavirus-covid-19"
+   ],
+   [
+    "Boston University (2021)",
+    "https://www.bu.edu/hic/2021/01/04/5g-doesnt-cause-covid-19-but-the-rumor-it-does-spread-like-a-virus/"
+   ]
+  ],
+  "removed": [],
+  "notes": "Evergreen explainer: not time-sensitive.",
+  "schedule": "2026-12-01T19:30:00+05:30",
+  "verdict": "5G spreads viruses: FALSE. No technical basis: True."
+ }
+}

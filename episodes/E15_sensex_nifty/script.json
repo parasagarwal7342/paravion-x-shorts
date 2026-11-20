@@ -1,0 +1,263 @@
+{
+ "slug": "E15_sensex_nifty",
+ "series": "Fake or Fact?",
+ "kickers": {
+  "HOOK": "EXPLAINED · MARKETS",
+  "SUB": "EXPLAINED · MARKETS",
+  "CONTEXT": "THE BASICS",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "VERDICT": "FAKE OR FACT?",
+  "CTA": "THE WORLD, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "FAKE OR FACT? · MARKETS",
+  "head": [
+   "What is",
+   "Sensex,",
+   "really?"
+  ],
+  "sub": "Sensex vs Nifty in 60 seconds.",
+  "visual": {
+   "type": "tags",
+   "tags": [
+    "Sensex",
+    "Nifty 50"
+   ]
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "Sensex and Nifty are not the whole stock market.",
+   "ost": "Not the whole|market.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "Sensex",
+     "Nifty 50"
+    ]
+   },
+   "keys": [
+    "not"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "So what are they, really?",
+   "ost": "So what|are they?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "really?"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know the truth.",
+   "ost": "60 seconds.|The truth.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "truth."
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "They're indexes: scorecards for a group of big companies.",
+   "ost": "Indexes =|scorecards.",
+   "visual": {
+    "type": "hero",
+    "note": ""
+   },
+   "keys": [
+    "scorecards"
+   ],
+   "source": "Wikipedia, NSE Indices"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "When they rise, those companies' shares rose overall.",
+   "ost": "Index up =|those shares up.",
+   "visual": {
+    "type": "stock_drop",
+    "pct": 1.2,
+    "direction": "up",
+    "label": "INDEX"
+   },
+   "keys": [
+    "rise,"
+   ],
+   "source": "Wikipedia, NSE Indices"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Keep watching for fact three. It's the big one.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. Sensex tracks thirty companies on the BSE.",
+   "ost": "Sensex:|30 companies.",
+   "visual": {
+    "type": "stat",
+    "value": 30,
+    "label": "SENSEX COMPANIES",
+    "sub": "Bombay Stock Exchange"
+   },
+   "keys": [
+    "one.",
+    "thirty"
+   ],
+   "source": "Wikipedia, Business Standard"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. Nifty fifty tracks fifty companies on the NSE.",
+   "ost": "Nifty 50:|50 companies.",
+   "visual": {
+    "type": "stat",
+    "value": 50,
+    "label": "NIFTY 50 COMPANIES",
+    "sub": "National Stock Exchange",
+    "color": "accent"
+   },
+   "keys": [
+    "two.",
+    "fifty"
+   ],
+   "source": "NSE Indices, Britannica"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. Thousands of listed companies are in neither.",
+   "ost": "Thousands|left out.",
+   "visual": {
+    "type": "hero",
+    "note": "Indexes show the big names only"
+   },
+   "keys": [
+    "big",
+    "Thousands"
+   ],
+   "source": "Wikipedia, NSE Indices"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. 'Sensex is the whole market' is false.",
+   "ost": "The myth:|false.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "Sensex is the whole market",
+      "FALSE",
+      "red"
+     ],
+     [
+      "A snapshot of big firms",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "false."
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "They're a snapshot of the biggest companies, not every stock.",
+   "ost": "A snapshot,|not everything.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "Sensex is the whole market",
+      "FALSE",
+      "red"
+     ],
+     [
+      "A snapshot of big firms",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "snapshot"
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion X for more updates.",
+   "ost": "Follow for|more updates.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "updates."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "Sensex vs Nifty Explained in 60 Seconds",
+   "What Sensex Really Measures",
+   "Sensex Isn't the Whole Stock Market"
+  ],
+  "summary": "Sensex tracks 30 big companies on the BSE; the Nifty 50 tracks 50 on the NSE. They're scorecards for the biggest names, not the whole market: thousands of listed companies are in neither.",
+  "hashtags": [
+   "#shorts",
+   "#Sensex",
+   "#Nifty",
+   "#StockMarket",
+   "#India"
+  ],
+  "ig_tags": "#sensex #nifty #stockmarket #india #explained #factcheck #learnsomethingnew #paravionx",
+  "pinned": "Do you follow the markets daily? 👇",
+  "poll": [
+   "Thought Sensex = market?",
+   "Yes 📊",
+   "No 🧠"
+  ],
+  "sources": [
+   [
+    "Wikipedia: BSE SENSEX",
+    "https://en.wikipedia.org/wiki/BSE_SENSEX"
+   ],
+   [
+    "Business Standard: What is Sensex",
+    "https://www.business-standard.com/about/what-is-sensex"
+   ],
+   [
+    "NSE Indices: Nifty 50",
+    "https://www.niftyindices.com/indices/equity/broad-based-indices/NIFTY--50"
+   ],
+   [
+    "Britannica: Bombay Stock Exchange",
+    "https://www.britannica.com/topic/Bombay-Stock-Exchange"
+   ]
+  ],
+  "removed": [
+   "Not investment advice."
+  ],
+  "notes": "Evergreen explainer: not time-sensitive.",
+  "schedule": "2026-12-06T19:30:00+05:30",
+  "verdict": "Sensex is the whole market: FALSE. A snapshot of big firms: True."
+ }
+}

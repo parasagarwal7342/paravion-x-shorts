@@ -1,0 +1,299 @@
+{
+ "slug": "E05_tides",
+ "series": "Fake or Fact?",
+ "kickers": {
+  "HOOK": "EXPLAINED · OCEANS",
+  "SUB": "EXPLAINED · OCEANS",
+  "CONTEXT": "THE BASICS",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "VERDICT": "FAKE OR FACT?",
+  "CTA": "THE WORLD, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "FAKE OR FACT? · OCEANS",
+  "head": [
+   "One Moon.",
+   "Two high",
+   "tides?"
+  ],
+  "sub": "How tides really work, in 60 seconds.",
+  "visual": {
+   "type": "tags",
+   "tags": [
+    "High tide",
+    "High tide"
+   ]
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "One Moon… but two high tides a day.",
+   "ost": "One Moon.|Two high tides.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "High tide",
+     "High tide"
+    ]
+   },
+   "keys": [
+    "two"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "How does that work?",
+   "ost": "How does that|work?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "work?"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know the truth.",
+   "ost": "60 seconds.|The truth.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "truth."
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Tides are the ocean being pulled by gravity.",
+   "ost": "Gravity pulls|the ocean.",
+   "visual": {
+    "type": "hero",
+    "note": ""
+   },
+   "keys": [
+    "gravity."
+   ],
+   "source": "NOAA"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "The Moon's pull is strongest on the side facing it.",
+   "ost": "Strongest on|the near side.",
+   "visual": {
+    "type": "hero",
+    "note": ""
+   },
+   "keys": [
+    "strongest"
+   ],
+   "source": "NOAA"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Keep watching for fact three. It's the big one.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. The far side bulges too, so Earth has two bulges.",
+   "ost": "Two bulges.|Two tides.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "Near-side bulge",
+     "Far-side bulge"
+    ]
+   },
+   "keys": [
+    "one.",
+    "two"
+   ],
+   "source": "NOAA"
+  },
+  {
+   "beat": "FACT1",
+   "text": "As Earth spins through both, most coasts get two high tides a day.",
+   "ost": "2 high tides|a day.",
+   "visual": {
+    "type": "stat",
+    "value": 2,
+    "label": "HIGH TIDES A DAY",
+    "sub": "On most coasts"
+   },
+   "keys": [
+    "two"
+   ],
+   "source": "NOAA"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. The Sun pulls tides too, about half as strongly as the Moon.",
+   "ost": "Sun: about half|the Moon's pull.",
+   "visual": {
+    "type": "split_bar",
+    "total": "Tidal pull",
+    "parts": [
+     {
+      "value": 2,
+      "value_text": "Moon",
+      "label": "About 2/3",
+      "color": "ink"
+     },
+     {
+      "value": 1,
+      "value_text": "Sun",
+      "label": "About 1/3",
+      "color": "accent"
+     }
+    ]
+   },
+   "keys": [
+    "two.",
+    "half"
+   ],
+   "source": "NOAA"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. At new and full moon, they line up for extra-big spring tides.",
+   "ost": "Lined up =|spring tides.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "Sun",
+     "Earth",
+     "Moon"
+    ]
+   },
+   "keys": [
+    "big",
+    "spring"
+   ],
+   "source": "NOAA"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And spring tides have nothing to do with the season.",
+   "ost": "Not about|spring.",
+   "visual": {
+    "type": "hero",
+    "note": "Named for the tide 'springing' up"
+   },
+   "keys": [
+    "nothing"
+   ],
+   "source": "NOAA"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. 'Only the Moon' is false.",
+   "ost": "The myth:|false.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "Only the Moon makes tides",
+      "FALSE",
+      "red"
+     ],
+     [
+      "The Sun adds about half",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "false."
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "The Sun adds roughly half the Moon's pull.",
+   "ost": "The Sun:|about half.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "Only the Moon makes tides",
+      "FALSE",
+      "red"
+     ],
+     [
+      "The Sun adds about half",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "half"
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion X for more updates.",
+   "ost": "Follow for|more updates.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "updates."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "Why Are There Two High Tides a Day?",
+   "Tides Explained: It's Not Only the Moon",
+   "What Are Spring Tides? (Not the Season)"
+  ],
+  "summary": "The Moon's gravity raises two ocean bulges, giving most coasts two high tides a day. The Sun's tidal pull is about half the Moon's; when they line up at new and full moon we get spring tides.",
+  "hashtags": [
+   "#shorts",
+   "#Ocean",
+   "#Tides",
+   "#Science",
+   "#Explained"
+  ],
+  "ig_tags": "#ocean #tides #science #explained #explained #factcheck #learnsomethingnew #paravionx",
+  "pinned": "Have you ever seen a huge spring tide? 👇",
+  "poll": [
+   "Knew the Sun affects tides?",
+   "Yes 🌊",
+   "No 🌙"
+  ],
+  "sources": [
+   [
+    "NOAA: What causes tides",
+    "https://oceanservice.noaa.gov/education/tutorial_tides/tides02_cause.html"
+   ],
+   [
+    "NOAA: Sun vs Moon tidal forces",
+    "https://oceanservice.noaa.gov/education/tutorial_tides/media/supp_tide02.html"
+   ],
+   [
+    "NOAA: What is a spring tide?",
+    "https://oceanservice.noaa.gov/facts/springtide.html"
+   ]
+  ],
+  "removed": [],
+  "notes": "Evergreen explainer: not time-sensitive.",
+  "schedule": "2026-11-26T19:30:00+05:30",
+  "verdict": "Only the Moon makes tides: FALSE. The Sun adds about half: True."
+ }
+}

@@ -1,0 +1,348 @@
+{
+ "slug": "2026-11-19_saff_final",
+ "series": "Why Everyone's Talking About…",
+ "kickers": {
+  "HOOK": "THE SIGNAL · NOV. 17 FINAL",
+  "SUB": "THE SIGNAL · NOV. 17 FINAL",
+  "CONTEXT": "WHAT HAPPENED",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "VERDICT": "HYPE CHECK",
+  "CTA": "THE WORLD, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "THE SIGNAL · NOV. 17 FINAL",
+  "head": [
+   "India was",
+   "losing.",
+   "Then?"
+  ],
+  "sub": "The SAFF final comeback against Pakistan, and the record it set.",
+  "visual": {
+   "type": "scoreboard",
+   "teams": [
+    "INDIA",
+    "PAKISTAN"
+   ],
+   "score": [
+    2,
+    1
+   ],
+   "label": "FULL TIME"
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "India was losing to Pakistan… in a final.",
+   "ost": "India was|losing.",
+   "visual": {
+    "type": "scoreboard",
+    "teams": [
+     "INDIA",
+     "PAKISTAN"
+    ],
+    "score": [
+     0,
+     1
+    ],
+    "label": "HALF-TIME"
+   },
+   "keys": [
+    "losing"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "Then everything flipped.",
+   "ost": "Then it|flipped.",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "flipped."
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know how.",
+   "ost": "60 seconds.|Full story.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "sixty"
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "It was the SAFF Championship final, in Dhaka, on Tuesday.",
+   "ost": "SAFF final.|Dhaka.",
+   "visual": {
+    "type": "calendar",
+    "month": "NOV",
+    "day": "17"
+   },
+   "keys": [
+    "final,"
+   ],
+   "source": "Khel Now, The Sports Encounter, FinChannel"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "It was Pakistan's first-ever SAFF final.",
+   "ost": "Pakistan's|first final.",
+   "visual": {
+    "type": "stat",
+    "text": "1st",
+    "count": false,
+    "label": "PAKISTAN'S SAFF FINALS",
+    "sub": "A first for Pakistan"
+   },
+   "keys": [
+    "first-ever"
+   ],
+   "source": "The Sports Encounter, FinChannel"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "And Pakistan scored first, just before half-time.",
+   "ost": "Pakistan|led 1–0.",
+   "visual": {
+    "type": "scoreboard",
+    "teams": [
+     "INDIA",
+     "PAKISTAN"
+    ],
+    "score": [
+     0,
+     1
+    ],
+    "label": "HALF-TIME",
+    "sub": "Alamgir Ghazi scored"
+   },
+   "keys": [
+    "first,"
+   ],
+   "source": "The Sports Encounter, FinChannel"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Keep watching for fact three. It's history.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "history."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. Pakistan went down to ten men near the hour.",
+   "ost": "Pakistan:|ten men.",
+   "visual": {
+    "type": "stat",
+    "text": "10 men",
+    "count": false,
+    "label": "PAKISTAN",
+    "sub": "Red card after a video review",
+    "color": "red"
+   },
+   "keys": [
+    "one.",
+    "ten"
+   ],
+   "source": "Khel Now, The Sports Encounter, FinChannel"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. Suhail Bhat equalised. Sandip Mandi headed the winner late.",
+   "ost": "Bhat. Then|Mandi.",
+   "visual": {
+    "type": "rows",
+    "rows": [
+     [
+      "60'",
+      "Suhail Bhat",
+      "Equaliser",
+      "dot"
+     ],
+     [
+      "88'",
+      "Sandip Mandi",
+      "Winning header",
+      "check"
+     ]
+    ]
+   },
+   "keys": [
+    "two.",
+    "Mandi"
+   ],
+   "source": "Khel Now, The Sports Encounter"
+  },
+  {
+   "beat": "FACT2",
+   "text": "India won the final, two goals to one.",
+   "ost": "India wins|2–1.",
+   "visual": {
+    "type": "scoreboard",
+    "teams": [
+     "INDIA",
+     "PAKISTAN"
+    ],
+    "score": [
+     2,
+     1
+    ],
+    "label": "FULL TIME"
+   },
+   "keys": [
+    "won",
+    "two"
+   ],
+   "source": "Khel Now, The Sports Encounter, FinChannel"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. It's India's record tenth SAFF title.",
+   "ost": "A record|10th title.",
+   "visual": {
+    "type": "stat",
+    "value": 10,
+    "label": "INDIA'S SAFF TITLES",
+    "sub": "A record",
+    "color": "accent"
+   },
+   "keys": [
+    "big",
+    "tenth"
+   ],
+   "source": "Khel Now, The Sports Encounter, FinChannel"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the third in a row. No team had done that.",
+   "ost": "Three in a row.|A first.",
+   "visual": {
+    "type": "stat",
+    "text": "3 in a row",
+    "count": false,
+    "label": "CONSECUTIVE TITLES",
+    "sub": "First team to do it"
+   },
+   "keys": [
+    "third"
+   ],
+   "source": "Khel Now, The Sports Encounter, FinChannel"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. India's record is official.",
+   "ost": "The record:|confirmed.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "India's 10th title",
+      "CONFIRMED",
+      "green"
+     ],
+     [
+      "Pakistan",
+      "FIRST-EVER FINAL",
+      "amber"
+     ]
+    ]
+   },
+   "keys": [
+    "official."
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "And Pakistan reached its first-ever final.",
+   "ost": "Pakistan:|a first final.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "India's 10th title",
+      "CONFIRMED",
+      "green"
+     ],
+     [
+      "Pakistan",
+      "FIRST-EVER FINAL",
+      "amber"
+     ]
+    ]
+   },
+   "keys": [
+    "first-ever"
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion X for more updates.",
+   "ost": "Follow for|more updates.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "updates."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "India's Comeback vs Pakistan Explained in 60s",
+   "India Beat Pakistan for a Record 10th SAFF Title",
+   "10 Men, a Late Header, and a Record: SAFF Final"
+  ],
+  "summary": "India came from 1–0 down to beat Pakistan 2–1 in the SAFF Championship final in Dhaka, winning a record 10th title and a third in a row.",
+  "hashtags": [
+   "#shorts",
+   "#IndianFootball",
+   "#SAFFChampionship",
+   "#Football",
+   "#Explained"
+  ],
+  "ig_tags": "#indianfootball #saffchampionship #indvspak #football #bluetigers #sports #explained #newsexplained #india",
+  "pinned": "Who was your player of the final? 👇",
+  "poll": [
+   "Best moment of the final?",
+   "Bhat's equaliser ⚽",
+   "Mandi's winner 🎯"
+  ],
+  "sources": [
+   [
+    "Khel Now, Nov 18 2026",
+    "https://khelnow.com/football/indian-football-saff-championship-2026-27-india-2-1-pakistan-key-takeaways"
+   ],
+   [
+    "The Sports Encounter, Nov 17 2026",
+    "https://thesportsencounter.com/2026/11/17/india-pakistan-saff-championship-final-2026-mandi/"
+   ],
+   [
+    "FinChannel (citing AIFF), Nov 18 2026",
+    "https://finchannel.com/india-wins-saff-championship-after-late-comeback-against-pakistan/142033/world-2/2026/11/"
+   ]
+  ],
+  "removed": [
+   "Exact minute of Pakistan's goal (single source)",
+   "Bhat as tournament top scorer (single source)",
+   "Possession and shot stats (single source)"
+  ],
+  "notes": "No wire-service source was found. Facts agree across three sports outlets, one of which cites the AIFF match report. The tone stays neutral on India–Pakistan.",
+  "schedule": "2026-11-21T13:00:00+05:30",
+  "verdict": "India's record 10th title is official, and Pakistan reached its first-ever SAFF final."
+ }
+}

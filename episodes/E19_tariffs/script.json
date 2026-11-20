@@ -1,0 +1,249 @@
+{
+ "slug": "E19_tariffs",
+ "series": "Fake or Fact?",
+ "kickers": {
+  "HOOK": "EXPLAINED · TRADE",
+  "SUB": "EXPLAINED · TRADE",
+  "CONTEXT": "THE BASICS",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "VERDICT": "FAKE OR FACT?",
+  "CTA": "THE WORLD, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "FAKE OR FACT? · TRADE",
+  "head": [
+   "Who really",
+   "pays a",
+   "tariff?"
+  ],
+  "sub": "Trade wars, explained in 60 seconds.",
+  "visual": {
+   "type": "two_hats",
+   "a": "Foreign goods arrive",
+   "b": "Importer pays tax",
+   "join": "↓"
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "A tariff is not paid by the other country.",
+   "ost": "Who pays|a tariff?",
+   "visual": {
+    "type": "two_hats",
+    "a": "Foreign goods arrive",
+    "b": "Importer pays tax",
+    "join": "↓"
+   },
+   "keys": [
+    "not"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "So who actually pays it?",
+   "ost": "Who actually|pays?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "actually"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know the truth.",
+   "ost": "60 seconds.|The truth.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "truth."
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "A tariff is a tax on goods coming into a country.",
+   "ost": "A tax on|imports.",
+   "visual": {
+    "type": "hero",
+    "note": ""
+   },
+   "keys": [
+    "tax"
+   ],
+   "source": "Tax Foundation, Britannica"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Governments use them to protect local industries, or as leverage.",
+   "ost": "Protection or|leverage.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "Protect industry",
+     "Leverage"
+    ]
+   },
+   "keys": [
+    "protect"
+   ],
+   "source": "Tax Foundation, Britannica"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Keep watching for fact three. It's the big one.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. It's collected at the border, from the importing business.",
+   "ost": "The importer|pays at the border.",
+   "visual": {
+    "type": "hero",
+    "note": ""
+   },
+   "keys": [
+    "one.",
+    "importing"
+   ],
+   "source": "Tax Foundation, Britannica"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. That cost often passes on to shoppers through higher prices.",
+   "ost": "Often: higher|shop prices.",
+   "visual": {
+    "type": "stock_drop",
+    "pct": 5,
+    "direction": "up",
+    "label": "PRICES"
+   },
+   "keys": [
+    "two.",
+    "higher"
+   ],
+   "source": "Tax Foundation"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. Foreign sellers may cut prices to compete, sharing the cost.",
+   "ost": "Sometimes|shared.",
+   "visual": {
+    "type": "hero",
+    "note": "Who bears it depends on the market"
+   },
+   "keys": [
+    "big",
+    "sharing"
+   ],
+   "source": "Tax Foundation"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. 'The other country pays' is false.",
+   "ost": "The myth:|false.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "The other country pays",
+      "FALSE",
+      "red"
+     ],
+     [
+      "Importers pay at the border",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "false."
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Importers pay it, and costs often reach shoppers.",
+   "ost": "Importers pay.|Shoppers feel it.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "The other country pays",
+      "FALSE",
+      "red"
+     ],
+     [
+      "Importers pay at the border",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "Importers"
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion X for more updates.",
+   "ost": "Follow for|more updates.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "updates."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "Who Really Pays a Tariff?",
+   "Tariffs Explained in 60 Seconds",
+   "Tariffs: The Other Country Doesn't Pay"
+  ],
+  "summary": "A tariff is a tax on imported goods, collected at the border from the importing business. The cost often reaches shoppers as higher prices, though foreign sellers sometimes cut prices and share it.",
+  "hashtags": [
+   "#shorts",
+   "#Tariffs",
+   "#Trade",
+   "#Economy",
+   "#Explained"
+  ],
+  "ig_tags": "#tariffs #trade #economy #explained #explained #factcheck #learnsomethingnew #paravionx",
+  "pinned": "Have tariffs changed prices where you live? 👇",
+  "poll": [
+   "Thought the other country pays?",
+   "Yes 🌍",
+   "No 🧾"
+  ],
+  "sources": [
+   [
+    "Tax Foundation: Tariff",
+    "https://taxfoundation.org/taxedu/glossary/tariff/"
+   ],
+   [
+    "Britannica: Tariff",
+    "https://www.britannica.com/topic/tariff"
+   ]
+  ],
+  "removed": [],
+  "notes": "Evergreen explainer: not time-sensitive.",
+  "schedule": "2026-12-10T19:30:00+05:30",
+  "verdict": "The other country pays: FALSE. Importers pay at the border: True."
+ }
+}

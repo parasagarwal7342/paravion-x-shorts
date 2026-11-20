@@ -1,0 +1,268 @@
+{
+ "slug": "E14_inflation_target",
+ "series": "Fake or Fact?",
+ "kickers": {
+  "HOOK": "EXPLAINED · ECONOMY",
+  "SUB": "EXPLAINED · ECONOMY",
+  "CONTEXT": "THE BASICS",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "VERDICT": "FAKE OR FACT?",
+  "CTA": "THE WORLD, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "FAKE OR FACT? · ECONOMY",
+  "head": [
+   "Why India",
+   "targets 4%",
+   "inflation"
+  ],
+  "sub": "Why zero isn't the goal, in 60 seconds.",
+  "visual": {
+   "type": "stat",
+   "text": "4%",
+   "count": false,
+   "label": "RBI INFLATION TARGET",
+   "color": "accent"
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "India's inflation target is four percent… not zero.",
+   "ost": "Target: 4%.|Not zero.",
+   "visual": {
+    "type": "stat",
+    "text": "4%",
+    "count": false,
+    "label": "RBI INFLATION TARGET",
+    "color": "accent"
+   },
+   "keys": [
+    "four"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "Why would anyone want prices to rise?",
+   "ost": "Why want prices|to rise?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "rise?"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know the truth.",
+   "ost": "60 seconds.|The truth.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "truth."
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Inflation is how fast prices rise overall.",
+   "ost": "Inflation =|price rise speed.",
+   "visual": {
+    "type": "hero",
+    "note": ""
+   },
+   "keys": [
+    "prices"
+   ],
+   "source": "IMF, RBI"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "India measures it with the Consumer Price Index.",
+   "ost": "Measured by|CPI.",
+   "visual": {
+    "type": "hero",
+    "note": ""
+   },
+   "keys": [
+    "Consumer"
+   ],
+   "source": "Outlook Money, Drishti IAS"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Keep watching for fact three. It's the big one.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. RBI's target is four percent, with a band of two to six.",
+   "ost": "4%, with a|2–6% band.",
+   "visual": {
+    "type": "stat",
+    "text": "4% ±2",
+    "count": false,
+    "label": "RBI TARGET",
+    "color": "accent"
+   },
+   "keys": [
+    "one.",
+    "four"
+   ],
+   "source": "Outlook Money, Drishti IAS"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. That target was renewed through March 2031.",
+   "ost": "Renewed to|March 2031.",
+   "visual": {
+    "type": "calendar",
+    "month": "MAR",
+    "day": "31",
+    "year": "2031"
+   },
+   "keys": [
+    "two.",
+    "2031."
+   ],
+   "source": "Outlook Money, Drishti IAS"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. Prices falling can hurt too, as people delay spending.",
+   "ost": "Falling prices|hurt too.",
+   "visual": {
+    "type": "hero",
+    "note": "That's called deflation"
+   },
+   "keys": [
+    "big",
+    "delay"
+   ],
+   "source": "IMF"
+  },
+  {
+   "beat": "FACT3",
+   "text": "If RBI misses the band three quarters in a row, it must explain why.",
+   "ost": "Miss 3 quarters?|Explain why.",
+   "visual": {
+    "type": "hero",
+    "note": ""
+   },
+   "keys": [
+    "explain"
+   ],
+   "source": "Outlook Money, Drishti IAS"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. 'Zero is the goal' is false.",
+   "ost": "The myth:|false.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "Zero inflation is the goal",
+      "FALSE",
+      "red"
+     ],
+     [
+      "Target is a steady 4%",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "false."
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "A small, steady rise is the target: four percent.",
+   "ost": "Target:|4%.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "Zero inflation is the goal",
+      "FALSE",
+      "red"
+     ],
+     [
+      "Target is a steady 4%",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "four"
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion X for more updates.",
+   "ost": "Follow for|more updates.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "updates."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "Why India's Inflation Target Is 4%, Not 0%",
+   "RBI's Inflation Target Explained",
+   "Inflation Explained in 60 Seconds"
+  ],
+  "summary": "Inflation is how fast prices rise. India's target, renewed through March 2031, is 4% CPI inflation with a 2–6% band. Falling prices (deflation) can hurt too, as people delay spending.",
+  "hashtags": [
+   "#shorts",
+   "#Inflation",
+   "#RBI",
+   "#Economy",
+   "#India"
+  ],
+  "ig_tags": "#inflation #rbi #economy #india #explained #factcheck #learnsomethingnew #paravionx",
+  "pinned": "What price rise have you noticed most this year? 👇",
+  "poll": [
+   "Thought 0% was the goal?",
+   "Yes 🤔",
+   "No 📈"
+  ],
+  "sources": [
+   [
+    "Outlook Money: RBI to maintain 4% target until 2031",
+    "https://www.outlookmoney.com/banking/rbi-to-maintain-4-per-cent-inflation-target-until-2031-centre"
+   ],
+   [
+    "Drishti IAS: India retains 4% inflation target",
+    "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-retains-4-inflation-target-for-rbi"
+   ],
+   [
+    "IMF F&D: Inflation, back to basics",
+    "https://www.imf.org/external/pubs/ft/fandd/2010/03/basics.htm"
+   ]
+  ],
+  "removed": [],
+  "notes": "Evergreen explainer: not time-sensitive.",
+  "schedule": "2026-12-05T19:30:00+05:30",
+  "verdict": "Zero inflation is the goal: FALSE. Target is a steady 4%: True."
+ }
+}

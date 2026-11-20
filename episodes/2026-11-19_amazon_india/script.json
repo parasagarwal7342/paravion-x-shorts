@@ -1,0 +1,353 @@
+{
+ "slug": "2026-11-19_amazon_india",
+ "series": "Why Everyone's Talking About…",
+ "kickers": {
+  "HOOK": "THE SIGNAL · NOV. 17 PLEDGE",
+  "SUB": "THE SIGNAL · NOV. 17 PLEDGE",
+  "CONTEXT": "WHAT HAPPENED",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "VERDICT": "HYPE CHECK",
+  "CTA": "THE WORLD, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "THE SIGNAL · NOV. 17 PLEDGE",
+  "head": [
+   "$7 billion",
+   "for India's",
+   "clean power."
+  ],
+  "sub": "Amazon's new wind and solar pledge: where it goes, and what's still unclear.",
+  "visual": {
+   "type": "stat",
+   "value": 7,
+   "prefix": "$",
+   "suffix": "B",
+   "label": "NEW PLEDGE",
+   "color": "accent",
+   "count": false
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "Amazon just pledged seven billion dollars… for clean power in India.",
+   "ost": "$7 billion|for India.",
+   "visual": {
+    "type": "stat",
+    "value": 7,
+    "prefix": "$",
+    "suffix": "B",
+    "label": "NEW PLEDGE",
+    "color": "accent"
+   },
+   "keys": [
+    "seven"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "But what does that money actually buy?",
+   "ost": "What does it|buy?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "buy?"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know exactly.",
+   "ost": "60 seconds.|Full story.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "sixty"
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "On Tuesday, Amazon announced the plan.",
+   "ost": "Announced|Nov. 17.",
+   "visual": {
+    "type": "calendar",
+    "month": "NOV",
+    "day": "17"
+   },
+   "keys": [
+    "announced"
+   ],
+   "source": "Amazon, ESG Today"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "It's for wind and solar power, by 2030.",
+   "ost": "Wind + solar,|by 2030.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "Wind",
+     "Solar",
+     "By 2030"
+    ]
+   },
+   "keys": [
+    "wind",
+    "solar"
+   ],
+   "source": "Amazon, ESG Today, SolarQuarter"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Keep watching for fact three. It's a record.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "record."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. It's on top of four billion already contracted.",
+   "ost": "On top of|$4B already.",
+   "visual": {
+    "type": "split_bar",
+    "total": "$11B",
+    "parts": [
+     {
+      "value": 4,
+      "value_text": "$4B",
+      "label": "Already contracted",
+      "color": "ink"
+     },
+     {
+      "value": 7,
+      "value_text": "$7B",
+      "label": "New pledge",
+      "color": "accent"
+     }
+    ]
+   },
+   "keys": [
+    "one.",
+    "four"
+   ],
+   "source": "Amazon, ESG Today, SolarQuarter"
+  },
+  {
+   "beat": "FACT1",
+   "text": "That earlier money covers more than two gigawatts.",
+   "ost": "2+ gigawatts|already.",
+   "visual": {
+    "type": "stat",
+    "text": "2+ GW",
+    "count": false,
+    "label": "ALREADY CONTRACTED",
+    "sub": "Once operational"
+   },
+   "keys": [
+    "two"
+   ],
+   "source": "Amazon, ESG Today, SolarQuarter"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. Four new projects add nine hundred thirty-four megawatts.",
+   "ost": "4 new projects.|934 MW.",
+   "visual": {
+    "type": "stat",
+    "value": 934,
+    "suffix": " MW",
+    "label": "4 NEW PROJECTS"
+   },
+   "keys": [
+    "two.",
+    "thirty-four"
+   ],
+   "source": "Amazon, SolarQuarter"
+  },
+  {
+   "beat": "FACT2",
+   "text": "They're in Karnataka, Madhya Pradesh and Rajasthan.",
+   "ost": "Three states.|Four projects.",
+   "visual": {
+    "type": "rows",
+    "rows": [
+     [
+      "KARNATAKA",
+      "234 MW wind",
+      "",
+      "dot"
+     ],
+     [
+      "KARNATAKA",
+      "200 MW wind + solar",
+      "",
+      "dot"
+     ],
+     [
+      "MADHYA PRADESH",
+      "300 MW solar",
+      "",
+      "dot"
+     ],
+     [
+      "RAJASTHAN",
+      "200 MW solar",
+      "",
+      "dot"
+     ]
+    ]
+   },
+   "keys": [
+    "Karnataka,"
+   ],
+   "source": "Amazon, SolarQuarter"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. Karnataka gets Amazon's biggest wind project in Asia.",
+   "ost": "Amazon's biggest|wind deal in Asia.",
+   "visual": {
+    "type": "stat",
+    "text": "234 MW",
+    "count": false,
+    "label": "KARNATAKA WIND",
+    "sub": "Largest Amazon has contracted in Asia",
+    "color": "accent"
+   },
+   "keys": [
+    "big",
+    "biggest"
+   ],
+   "source": "Amazon, ESG Today"
+  },
+  {
+   "beat": "FACT3",
+   "text": "Amazon buys the power through long-term contracts.",
+   "ost": "Bought through|long-term deals.",
+   "visual": {
+    "type": "two_hats",
+    "a": "Project makes power",
+    "b": "Amazon buys it",
+    "join": "→"
+   },
+   "keys": [
+    "long-term"
+   ],
+   "source": "Amazon, ESG Today, SolarQuarter"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. The pledge is real, and it's big.",
+   "ost": "The pledge:|confirmed.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "The $7B pledge",
+      "CONFIRMED",
+      "green"
+     ],
+     [
+      "Split per project",
+      "NOT DISCLOSED",
+      "amber"
+     ]
+    ]
+   },
+   "keys": [
+    "real,"
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "How the money splits per project… Amazon hasn't said.",
+   "ost": "The split:|not disclosed.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "The $7B pledge",
+      "CONFIRMED",
+      "green"
+     ],
+     [
+      "Split per project",
+      "NOT DISCLOSED",
+      "amber"
+     ]
+    ]
+   },
+   "keys": [
+    "hasn't"
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion X for more updates.",
+   "ost": "Follow for|more updates.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "updates."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "Amazon's $7B India Clean Power Plan Explained",
+   "Where Amazon's $7 Billion in India Is Going",
+   "Amazon's Biggest Wind Deal in Asia Is in India"
+  ],
+  "summary": "Amazon plans to invest $7B in renewable energy in India by 2030, on top of $4B already contracted. Four new projects add 934 MW across Karnataka, Madhya Pradesh and Rajasthan.",
+  "hashtags": [
+   "#shorts",
+   "#Amazon",
+   "#India",
+   "#RenewableEnergy",
+   "#Explained"
+  ],
+  "ig_tags": "#amazon #india #renewableenergy #solar #wind #karnataka #rajasthan #business #explained #newsexplained",
+  "pinned": "Which state should get the next big project? 👇",
+  "poll": [
+   "Good news for India's power?",
+   "Yes ⚡",
+   "Wait and see ⏳"
+  ],
+  "sources": [
+   [
+    "Amazon, Nov 17 2026",
+    "https://www.aboutamazon.com/news/sustainability/amazon-investment-india-renewable-energy"
+   ],
+   [
+    "ESG Today, Nov 17 2026",
+    "https://www.esgtoday.com/amazon-targets-7-billion-in-new-renewable-energy-investments-in-india-by-2030/"
+   ],
+   [
+    "SolarQuarter, Nov 18 2026",
+    "https://solarquarter.com/2026/11/18/amazon-announces-7-billion-renewable-energy-investment-in-india-by-2030-expands-wind-and-solar-portfolio/"
+   ]
+  ],
+  "removed": [
+   "'3.5 million households' (unclear which projects it covers)",
+   "India's 500 GW target (single source)",
+   "Link to a separate earlier India pledge (not confirmed)",
+   "Pralhad Joshi quote (single source)"
+  ],
+  "notes": "Company announcement: figures are Amazon's own, reported by two trade outlets.",
+  "schedule": "2026-11-21T19:30:00+05:30",
+  "verdict": "The $7B pledge is real. Amazon hasn't said how it splits per project."
+ }
+}

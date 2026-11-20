@@ -1,0 +1,265 @@
+{
+ "slug": "E24_india_time_zone",
+ "series": "Fake or Fact?",
+ "kickers": {
+  "HOOK": "EXPLAINED · INDIA",
+  "SUB": "EXPLAINED · INDIA",
+  "CONTEXT": "THE BASICS",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "VERDICT": "FAKE OR FACT?",
+  "CTA": "THE WORLD, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "FAKE OR FACT? · INDIA",
+  "head": [
+   "India had",
+   "more than",
+   "one clock."
+  ],
+  "sub": "The story of Indian Standard Time, in 60 seconds.",
+  "visual": {
+   "type": "stat",
+   "text": "UTC+5:30",
+   "count": false,
+   "label": "INDIAN STANDARD TIME",
+   "color": "accent"
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "India did not always have one time zone.",
+   "ost": "One time zone?|Not always.",
+   "visual": {
+    "type": "stat",
+    "text": "UTC+5:30",
+    "count": false,
+    "label": "INDIAN STANDARD TIME",
+    "color": "accent"
+   },
+   "keys": [
+    "not"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "So how did we end up with IST?",
+   "ost": "How did we|get IST?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "IST?"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know the truth.",
+   "ost": "60 seconds.|The truth.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "truth."
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Today, all of India runs on Indian Standard Time.",
+   "ost": "All of India:|one clock.",
+   "visual": {
+    "type": "hero",
+    "note": ""
+   },
+   "keys": [
+    "all"
+   ],
+   "source": "Wikipedia, timeanddate"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "That's five and a half hours ahead of UTC.",
+   "ost": "5½ hours|ahead of UTC.",
+   "visual": {
+    "type": "stat",
+    "text": "+5:30",
+    "count": false,
+    "label": "AHEAD OF UTC"
+   },
+   "keys": [
+    "five"
+   ],
+   "source": "timeanddate, Wikipedia"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Keep watching for fact three. It's the big one.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. It's based on a line of longitude near Mirzapur, in Uttar Pradesh.",
+   "ost": "Based near|Mirzapur.",
+   "visual": {
+    "type": "stat",
+    "text": "82.5°E",
+    "count": false,
+    "label": "REFERENCE LONGITUDE"
+   },
+   "keys": [
+    "one.",
+    "Mirzapur,"
+   ],
+   "source": "Wikipedia, Live History India"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. India adopted IST nationwide in 1947, soon after independence.",
+   "ost": "Adopted|1947.",
+   "visual": {
+    "type": "calendar",
+    "month": "SEP",
+    "day": "1",
+    "year": "1947"
+   },
+   "keys": [
+    "two.",
+    "1947,"
+   ],
+   "source": "Wikipedia, Maps of India"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. Mumbai kept its own Bombay Time until 1955.",
+   "ost": "Bombay Time|until 1955.",
+   "visual": {
+    "type": "stat",
+    "text": "1955",
+    "count": false,
+    "label": "BOMBAY TIME ENDS",
+    "color": "accent"
+   },
+   "keys": [
+    "big",
+    "1955."
+   ],
+   "source": "Wikipedia, Live History India"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. 'Always one time zone' is false.",
+   "ost": "The myth:|false.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "India always had one time zone",
+      "FALSE",
+      "red"
+     ],
+     [
+      "Bombay Time lasted to 1955",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "false."
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Mumbai switched to IST only in 1955.",
+   "ost": "Mumbai joined|in 1955.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "India always had one time zone",
+      "FALSE",
+      "red"
+     ],
+     [
+      "Bombay Time lasted to 1955",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "1955."
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion X for more updates.",
+   "ost": "Follow for|more updates.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "updates."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "India Didn't Always Have One Time Zone",
+   "Why IST Is UTC+5:30",
+   "Bombay Time: The Clock Mumbai Kept Until 1955"
+  ],
+  "summary": "IST is UTC+5:30, based on 82.5°E near Mirzapur. India adopted it nationwide in 1947, but Mumbai kept its own Bombay Time until 1955.",
+  "hashtags": [
+   "#shorts",
+   "#India",
+   "#IST",
+   "#History",
+   "#Explained"
+  ],
+  "ig_tags": "#india #ist #history #explained #explained #factcheck #learnsomethingnew #paravionx",
+  "pinned": "Should India have two time zones? 👇",
+  "poll": [
+   "Knew about Bombay Time?",
+   "Yes 🕰️",
+   "No 😮"
+  ],
+  "sources": [
+   [
+    "Wikipedia: Indian Standard Time",
+    "https://en.wikipedia.org/wiki/Indian_Standard_Time"
+   ],
+   [
+    "Wikipedia: Bombay Time",
+    "https://en.wikipedia.org/wiki/Bombay_Time"
+   ],
+   [
+    "Live History India: When setting the clock divided the subcontinent",
+    "https://livehistoryindia.com/story/eras/indian-standard-time"
+   ],
+   [
+    "timeanddate: India time zone",
+    "https://timeanddate.com/time/zone/india"
+   ]
+  ],
+  "removed": [
+   "Calcutta Time (ended 1948) and the exact 1905/1906 adoption details, which sources state differently."
+  ],
+  "notes": "Evergreen explainer: not time-sensitive.",
+  "schedule": "2026-12-15T19:30:00+05:30",
+  "verdict": "India always had one time zone: FALSE. Bombay Time lasted to 1955: True."
+ }
+}

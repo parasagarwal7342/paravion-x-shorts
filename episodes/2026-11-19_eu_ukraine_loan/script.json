@@ -1,0 +1,367 @@
+{
+ "slug": "2026-11-19_eu_ukraine_loan",
+ "series": "60-Second Verdict",
+ "kickers": {
+  "HOOK": "THE SIGNAL · NOV. 18 PROPOSAL",
+  "SUB": "THE SIGNAL · NOV. 18 PROPOSAL",
+  "CONTEXT": "WHAT HAPPENED",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "VERDICT": "HYPE CHECK",
+  "CTA": "THE WORLD, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "THE SIGNAL · NOV. 18 PROPOSAL",
+  "head": [
+   "€45 billion",
+   "for Ukraine.",
+   "The catch?"
+  ],
+  "sub": "The EU's new loan plan, and why repayment depends on Russia.",
+  "visual": {
+   "type": "stat",
+   "value": 45,
+   "prefix": "€",
+   "suffix": "B",
+   "label": "PROPOSED LOAN",
+   "color": "accent",
+   "count": false
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "Europe wants to lend Ukraine… forty-five billion euros.",
+   "ost": "€45 billion|for Ukraine.",
+   "visual": {
+    "type": "stat",
+    "value": 45,
+    "prefix": "€",
+    "suffix": "B",
+    "label": "PROPOSED LOAN",
+    "color": "accent"
+   },
+   "keys": [
+    "forty-five"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "But the way it gets paid back is unusual.",
+   "ost": "The twist:|repayment.",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "unusual."
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know how it works.",
+   "ost": "60 seconds.|How it works.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "sixty"
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "On Wednesday, the European Commission proposed the loan.",
+   "ost": "Proposed|Nov. 18.",
+   "visual": {
+    "type": "calendar",
+    "month": "NOV",
+    "day": "18"
+   },
+   "keys": [
+    "proposed"
+   ],
+   "source": "European Commission, Reuters"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "It's meant for Ukraine's needs in 2027.",
+   "ost": "For Ukraine's|2027 needs.",
+   "visual": {
+    "type": "stat",
+    "text": "2027",
+    "count": false,
+    "label": "FUNDING YEAR"
+   },
+   "keys": [
+    "2027."
+   ],
+   "source": "European Commission, Euronews"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Keep watching for fact three. That's the catch.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. Up to twenty-five billion is for military aid.",
+   "ost": "€25B for|military aid.",
+   "visual": {
+    "type": "split_bar",
+    "total": "€45B",
+    "parts": [
+     {
+      "value": 25,
+      "value_text": "€25B",
+      "label": "Military aid",
+      "color": "accent"
+     },
+     {
+      "value": 20,
+      "value_text": "€20B",
+      "label": "Budget support",
+      "color": "ink"
+     }
+    ]
+   },
+   "keys": [
+    "one.",
+    "military"
+   ],
+   "source": "European Commission, Reuters, Euronews"
+  },
+  {
+   "beat": "FACT1",
+   "text": "Up to twenty billion supports Ukraine's budget.",
+   "ost": "€20B for|the budget.",
+   "visual": {
+    "type": "split_bar",
+    "total": "€45B",
+    "parts": [
+     {
+      "value": 25,
+      "value_text": "€25B",
+      "label": "Military aid",
+      "color": "accent"
+     },
+     {
+      "value": 20,
+      "value_text": "€20B",
+      "label": "Budget support",
+      "color": "ink"
+     }
+    ]
+   },
+   "keys": [
+    "budget."
+   ],
+   "source": "European Commission, Reuters, Euronews"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. Ukraine faces a seventy-billion-euro gap in 2027.",
+   "ost": "A €70B|gap.",
+   "visual": {
+    "type": "stat",
+    "value": 70,
+    "prefix": "€",
+    "suffix": "B",
+    "label": "UKRAINE'S 2027 FUNDING GAP",
+    "color": "red"
+   },
+   "keys": [
+    "two.",
+    "seventy-billion-euro"
+   ],
+   "source": "European Commission, Reuters"
+  },
+  {
+   "beat": "FACT2",
+   "text": "This loan covers about two-thirds. Other partners cover the rest.",
+   "ost": "EU: two-thirds.|Others: the rest.",
+   "visual": {
+    "type": "split_bar",
+    "total": "€70B gap",
+    "parts": [
+     {
+      "value": 45,
+      "value_text": "€45B",
+      "label": "EU loan",
+      "color": "accent"
+     },
+     {
+      "value": 25,
+      "value_text": "~€25B",
+      "label": "Other partners",
+      "color": "muted"
+     }
+    ]
+   },
+   "keys": [
+    "two-thirds."
+   ],
+   "source": "European Commission, Euronews"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. Ukraine repays only if Russia pays reparations.",
+   "ost": "Repaid only if|Russia pays.",
+   "visual": {
+    "type": "rows",
+    "rows": [
+     [
+      "IF RUSSIA PAYS REPARATIONS",
+      "Ukraine repays the loan",
+      "",
+      "check"
+     ],
+     [
+      "IF RUSSIA DOESN'T",
+      "No repayment required yet",
+      "",
+      "x"
+     ]
+    ]
+   },
+   "keys": [
+    "big",
+    "Russia"
+   ],
+   "source": "European Commission, Reuters, Euronews"
+  },
+  {
+   "beat": "FACT3",
+   "text": "Meanwhile, the EU borrows the money jointly, on financial markets.",
+   "ost": "Funded by|joint EU debt.",
+   "visual": {
+    "type": "two_hats",
+    "a": "EU borrows",
+    "b": "Ukraine receives",
+    "join": "↓"
+   },
+   "keys": [
+    "jointly,"
+   ],
+   "source": "European Commission, Reuters, Euronews"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. The proposal is real, and it's on the table.",
+   "ost": "The proposal:|confirmed.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "The €45B proposal",
+      "CONFIRMED",
+      "green"
+     ],
+     [
+      "Approval by EU countries",
+      "NOT YET",
+      "amber"
+     ]
+    ]
+   },
+   "keys": [
+    "real,"
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "But EU countries still have to approve it.",
+   "ost": "Approval:|not yet.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "The €45B proposal",
+      "CONFIRMED",
+      "green"
+     ],
+     [
+      "Approval by EU countries",
+      "NOT YET",
+      "amber"
+     ]
+    ]
+   },
+   "keys": [
+    "approve"
+   ],
+   "source": "Reuters, Euronews"
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion X for more updates.",
+   "ost": "Follow for|more updates.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "updates."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "EU's €45B Ukraine Loan Explained in 60 Seconds",
+   "Why Ukraine Repays Only If Russia Pays",
+   "€45 Billion for Ukraine: What's the Catch?"
+  ],
+  "summary": "The European Commission proposed a €45B loan for Ukraine's 2027 needs: up to €25B military, up to €20B budget. Ukraine repays only once Russia pays reparations. EU countries still have to approve it.",
+  "hashtags": [
+   "#shorts",
+   "#Ukraine",
+   "#EU",
+   "#WorldNews",
+   "#Explained"
+  ],
+  "ig_tags": "#ukraine #europeanunion #eu #worldnews #economy #explained #newsexplained #geopolitics #europe",
+  "pinned": "Should loans like this depend on reparations? Share your view respectfully 👇",
+  "poll": [
+   "Will EU countries approve it?",
+   "Yes 👍",
+   "Not yet ⏳"
+  ],
+  "sources": [
+   [
+    "European Commission, Nov 18 2026",
+    "https://enlargement.ec.europa.eu/news/commission-proposes-eur45-billion-additional-financial-support-ukraine-2027-2026-11-18_en"
+   ],
+   [
+    "Reuters via Defense News, Nov 18 2026",
+    "https://www.defensenews.com/global/europe/2026/11/18/eu-proposes-e45-billion-ukraine-loan-to-be-repaid-after-russia-pays-reparations/"
+   ],
+   [
+    "Euronews, Nov 18 2026",
+    "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+   ],
+   [
+    "Euronews explainer, Nov 19 2026",
+    "https://www.euronews.com/2026/11/19/eu-plans-a-new-45bn-loan-to-ukraine-how-much-will-it-cost-and-will-it-be-repaid"
+   ]
+  ],
+  "removed": [
+   "Interest cost €2–2.5B/yr (single source)",
+   "Bulgaria opting out (one outlet only)",
+   "€210B immobilised Russian assets figure (one outlet)",
+   "Merz veto threat (one outlet)",
+   "Summit date (not given exactly)"
+  ],
+  "notes": "Political topic: the script states only the proposal's terms, with no opinion. Re-check whether EU leaders have acted before posting.",
+  "schedule": "2026-11-21T08:00:00+05:30",
+  "verdict": "The proposal is real and on the table. EU countries still have to approve it."
+ }
+}
