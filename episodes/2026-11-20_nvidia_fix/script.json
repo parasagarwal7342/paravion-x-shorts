@@ -1,0 +1,323 @@
+{
+ "slug": "2026-11-20_nvidia_fix",
+ "series": "Why Everyone's Talking About…",
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "Nvidia's boss of thirty-three years… is GONE.",
+   "ost": "Nvidia's CEO|is gone.",
+   "visual": {
+    "type": "chip_stamp",
+    "stamp": "GONE"
+   },
+   "keys": [
+    "GONE",
+    "thirty-three"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "So what really happened?",
+   "ost": "So what|happened?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "really"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know the whole story.",
+   "ost": "60 seconds.|Full story.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "sixty"
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Nvidia makes the chips that power AI.",
+   "ost": "The chips|behind AI.",
+   "visual": {
+    "type": "chip_glow"
+   },
+   "keys": [
+    "AI"
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Jensen Huang co-founded it in 1993.",
+   "ost": "Co-founded|in 1993.",
+   "visual": {
+    "type": "counter",
+    "from": 2026,
+    "to": 1993,
+    "fmt": "{:d}",
+    "label": "NVIDIA FOUNDED",
+    "sub": "33 years as CEO"
+   },
+   "keys": [
+    "1993"
+   ],
+   "source": "Nvidia / AP"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "On November twelfth, he resigned. Effective immediately.",
+   "ost": "Resigned|Nov. 12.",
+   "visual": {
+    "type": "calendar",
+    "month": "NOV",
+    "day": "12"
+   },
+   "keys": [
+    "twelfth",
+    "immediately."
+   ],
+   "source": "Nvidia SEC filing"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "But here's the twist. The board later cited a conduct breach.",
+   "ost": "Board cites|conduct breach",
+   "visual": {
+    "type": "rows",
+    "rows": [
+     [
+      "NOV. 12 FILING",
+      "No reason given",
+      "SEC 8-K",
+      "x"
+     ],
+     [
+      "BOARD, NOV. 17",
+      "Cited a conduct breach",
+      "Earnings call",
+      "check"
+     ],
+     [
+      "MEDIA REPORTS",
+      "Linked to his personal life",
+      "AP · Al Jazeera",
+      "dot"
+     ]
+    ]
+   },
+   "keys": [
+    "twist.",
+    "conduct"
+   ],
+   "source": "Nvidia earnings call, NPR, The Verge"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Media reports linked it to his personal life.",
+   "ost": "Reports:|personal life.",
+   "visual": {
+    "type": "rows",
+    "rows": [
+     [
+      "MEDIA REPORTS",
+      "Linked to his personal life",
+      "AP · Al Jazeera",
+      "dot"
+     ],
+     [
+      "NVIDIA ON SPECIFICS",
+      "Not confirmed",
+      "",
+      "q"
+     ]
+    ]
+   },
+   "keys": [
+    "personal"
+   ],
+   "source": "AP, Al Jazeera"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Stay for fact three. It's the biggest.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. CFO Colette Kress is now interim CEO.",
+   "ost": "Interim CEO:|Kress.",
+   "visual": {
+    "type": "fact_card",
+    "n": 1,
+    "title": "Colette Kress",
+    "sub": "INTERIM CEO"
+   },
+   "keys": [
+    "one.",
+    "interim"
+   ],
+   "source": "Nvidia SEC filing"
+  },
+  {
+   "beat": "FACT1",
+   "text": "And she's still running the money, too.",
+   "ost": "Still CFO,|too.",
+   "visual": {
+    "type": "two_hats",
+    "a": "INTERIM CEO",
+    "b": "CFO"
+   },
+   "keys": [
+    "money,"
+   ],
+   "source": "Nvidia SEC filing"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. The stock closed down over four percent.",
+   "ost": "Stock:|down 4%+.",
+   "visual": {
+    "type": "stock_drop",
+    "pct": 4.3,
+    "label": "NVDA · NOV. 12 CLOSE"
+   },
+   "keys": [
+    "two.",
+    "four"
+   ],
+   "source": "CNBC, AP"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. Huang says he'd return, if asked.",
+   "ost": "Huang: open|to return.",
+   "visual": {
+    "type": "versus",
+    "left": "HUANG",
+    "left_sub": "WILLING TO RETURN",
+    "right": "BOARD",
+    "right_sub": "?",
+    "reveal": false
+   },
+   "keys": [
+    "big",
+    "return,"
+   ],
+   "source": "CNBC, AP"
+  },
+  {
+   "beat": "FACT3",
+   "text": "The board's answer… NO. It won't reinstate him.",
+   "ost": "The board:|no.",
+   "visual": {
+    "type": "versus",
+    "left": "HUANG",
+    "left_sub": "WILLING TO RETURN",
+    "right": "BOARD",
+    "right_sub": "NOT REINSTATING",
+    "reveal": true
+   },
+   "keys": [
+    "NO.",
+    "won't"
+   ],
+   "source": "AP, Engadget"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. His exit is confirmed.",
+   "ost": "The exit:|confirmed.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "The exit",
+      "CONFIRMED",
+      "green"
+     ],
+     [
+      "Next CEO",
+      "STILL OPEN",
+      "amber"
+     ]
+    ]
+   },
+   "keys": [
+    "confirmed."
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Who replaces him is still open.",
+   "ost": "Next CEO:|still open.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "The exit",
+      "CONFIRMED",
+      "green"
+     ],
+     [
+      "Next CEO",
+      "STILL OPEN",
+      "amber"
+     ]
+    ]
+   },
+   "keys": [
+    "replaces",
+    "open."
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion X for more updates.",
+   "ost": "Follow for|more updates.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "updates."
+   ]
+  }
+ ],
+ "kickers": {
+  "HOOK": "THE SIGNAL · NOV. 12 EXIT",
+  "SUB": "THE SIGNAL · NOV. 12 EXIT",
+  "CONTEXT": "WHAT HAPPENED",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "VERDICT": "HYPE CHECK",
+  "CTA": "THE WORLD, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "THE SIGNAL · NOV. 12 EXIT",
+  "head": [
+   "Nvidia's CEO",
+   "is gone.",
+   "Why?"
+  ],
+  "sub": "Jensen Huang quit after 33 years. Here's what's confirmed, and what's still open.",
+  "visual": {
+   "type": "chip_glow"
+  }
+ },
+ "meta": {
+  "schedule": "2026-11-20T19:30:00+05:30"
+ }
+}
