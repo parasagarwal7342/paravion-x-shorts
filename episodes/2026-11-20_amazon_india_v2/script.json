@@ -1,0 +1,330 @@
+{
+ "slug": "2026-11-20_amazon_india_v2",
+ "series": "Why Everyone's Talking About…",
+ "kickers": {
+  "HOOK": "THE SIGNAL · NOV. 17 PLEDGE",
+  "SUB": "THE SIGNAL · NOV. 17 PLEDGE",
+  "CONTEXT": "WHAT HAPPENED",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "VERDICT": "HYPE CHECK",
+  "CTA": "THE WORLD, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "THE SIGNAL · NOV. 17 PLEDGE",
+  "head": [
+   "$7 billion",
+   "for India.",
+   "What's left out?"
+  ],
+  "sub": "The newly announced 934 MW is part of Amazon's existing $4B book, not the new $7B.",
+  "visual": {
+   "type": "stat",
+   "value": 7,
+   "prefix": "$",
+   "suffix": "B",
+   "label": "NEW PLEDGE",
+   "color": "accent",
+   "count": false
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "Amazon just pledged seven billion dollars… for clean power in India.",
+   "ost": "$7 billion|for India.",
+   "visual": {
+    "type": "stat",
+    "value": 7,
+    "prefix": "$",
+    "suffix": "B",
+    "label": "NEW PLEDGE",
+    "color": "accent",
+    "count": false
+   },
+   "keys": [
+    "seven"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "But what does that money actually buy?",
+   "ost": "What does it|buy?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "buy?"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know exactly.",
+   "ost": "60 seconds.|Full story.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "sixty"
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "On Tuesday, Amazon announced the plan.",
+   "ost": "Announced|Nov. 17.",
+   "visual": {
+    "type": "calendar",
+    "month": "NOV",
+    "day": "17"
+   },
+   "keys": [
+    "announced"
+   ],
+   "source": "Amazon, PV Tech, LiveMint"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "It's for wind and solar power, by 2030.",
+   "ost": "Wind + solar,|by 2030.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "Wind",
+     "Solar",
+     "By 2030"
+    ]
+   },
+   "keys": [
+    "wind",
+    "solar"
+   ],
+   "source": "Amazon, PV Tech, LiveMint"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Stay for fact three.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. It's on top of four billion already contracted.",
+   "ost": "On top of|$4B already.",
+   "visual": {
+    "type": "split_bar",
+    "total": "$11B",
+    "parts": [
+     {
+      "value": 4,
+      "value_text": "$4B",
+      "label": "Already contracted",
+      "color": "ink"
+     },
+     {
+      "value": 7,
+      "value_text": "$7B",
+      "label": "New pledge",
+      "color": "accent"
+     }
+    ]
+   },
+   "keys": [
+    "one.",
+    "four"
+   ],
+   "source": "Amazon, PV Tech, LiveMint"
+  },
+  {
+   "beat": "FACT1",
+   "text": "That earlier money covers more than two gigawatts.",
+   "ost": "2+ gigawatts|already.",
+   "visual": {
+    "type": "stat",
+    "text": "2+ GW",
+    "count": false,
+    "label": "ALREADY CONTRACTED",
+    "sub": "Once operational"
+   },
+   "keys": [
+    "two"
+   ],
+   "source": "Amazon, PV Tech, LiveMint"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. Four new projects add nine hundred thirty-four megawatts.",
+   "ost": "4 new projects.|934 MW.",
+   "visual": {
+    "type": "stat",
+    "value": 934,
+    "suffix": " MW",
+    "label": "NEWLY ANNOUNCED"
+   },
+   "keys": [
+    "two.",
+    "thirty-four"
+   ],
+   "source": "Amazon, PV Tech, LiveMint"
+  },
+  {
+   "beat": "FACT2",
+   "text": "They're in Karnataka, Madhya Pradesh and Rajasthan.",
+   "ost": "Three states.|Four projects.",
+   "visual": {
+    "type": "rows",
+    "rows": [
+     [
+      "KARNATAKA",
+      "234 MW wind, 200 MW hybrid",
+      "",
+      "dot"
+     ],
+     [
+      "MADHYA PRADESH",
+      "300 MW solar",
+      "",
+      "dot"
+     ],
+     [
+      "RAJASTHAN",
+      "200 MW solar",
+      "",
+      "dot"
+     ]
+    ]
+   },
+   "keys": [
+    "Karnataka,"
+   ],
+   "source": "Amazon, PV Tech, LiveMint"
+  },
+  {
+   "beat": "FACT3",
+   "text": "They're part of the existing four billion, in three states.",
+   "ost": "Part of the|$4B book.",
+   "visual": {
+    "type": "stat",
+    "text": "934 MW",
+    "count": false,
+    "label": "PART OF THE $4B BOOK",
+    "sub": "Not the new $7B pledge",
+    "color": "accent"
+   },
+   "keys": [
+    "existing",
+    "four"
+   ],
+   "source": "Amazon, PV Tech, LiveMint"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. The pledge is real, and it's big.",
+   "ost": "The pledge:|confirmed.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "The $7B pledge",
+      "CONFIRMED",
+      "green"
+     ],
+     [
+      "What that $7B funds",
+      "NOT DISCLOSED",
+      "amber"
+     ]
+    ]
+   },
+   "keys": [
+    "real,"
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "How the money splits per project… Amazon hasn't said.",
+   "ost": "The $7B split:|undisclosed.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "The $7B pledge",
+      "CONFIRMED",
+      "green"
+     ],
+     [
+      "What that $7B funds",
+      "NOT DISCLOSED",
+      "amber"
+     ]
+    ]
+   },
+   "keys": [
+    "hasn't"
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Should India want more deals like this? Yes or no. Comment below, and follow Paravion X for more.",
+   "ost": "More deals like this?|Yes or no.",
+   "visual": {
+    "type": "cta",
+    "yesno": true,
+    "comment": "Comment below",
+    "follow": "Follow PARAVION X for more."
+   },
+   "keys": [
+    "Should",
+    "Yes",
+    "no."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "Amazon's $7B India Pledge: What's Actually Confirmed",
+   "Amazon's $7B vs the 934 MW: What's Left Out",
+   "Amazon's India Clean Power Plan, Explained"
+  ],
+  "summary": "Amazon plans to invest $7 billion in Indian renewable energy by 2030, on top of $4 billion already contracted. Four newly announced projects totaling 934 MW in Karnataka, Madhya Pradesh and Rajasthan are part of that existing $4 billion portfolio, which will total more than 2 GW once operational. Amazon has not said which projects the additional $7 billion will fund.",
+  "hashtags": [
+   "#shorts",
+   "#Amazon",
+   "#India",
+   "#RenewableEnergy",
+   "#Explained"
+  ],
+  "ig_tags": "#amazon #india #renewableenergy #cleanenergy #shorts #explained",
+  "pinned": "Should India want more of these deals? Yes or no. Comment below 👇 Follow @PARAVION_X for more.",
+  "poll": [
+   "Should India want more of these deals?",
+   "Yes",
+   "No"
+  ],
+  "sources": [
+   [
+    "Amazon, 17 Nov 2026",
+    "https://www.aboutamazon.com/news/sustainability/amazon-investment-india-renewable-energy"
+   ],
+   [
+    "PV Tech, 18 Nov 2026",
+    "https://www.pv-tech.org/amazon-us7-billion-investment-solar-wind-india-2030/"
+   ],
+   [
+    "LiveMint, 17 Nov 2026",
+    "https://www.livemint.com/companies/amazon-renewable-energy-investment-7-billion-by-2030-green-energy-clean-transition-11794925796977.html"
+   ]
+  ],
+  "schedule": "2026-11-22T13:00:00+05:30",
+  "verdict": "The $7B pledge is confirmed. The 934 MW projects belong to the existing $4B. What the $7B will fund is not disclosed.",
+  "notes": "Rebuilt in the Nvidia CTA Short style (no retention checklist). Fact-check retained: 934 MW is part of the existing $4B, not the new $7B. Closing card: yes/no, comment below, follow PARAVION X."
+ }
+}
