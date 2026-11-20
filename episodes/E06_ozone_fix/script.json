@@ -1,0 +1,205 @@
+{
+ "slug": "E06_ozone_fix",
+ "series": "Fake or Fact?",
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "The ozone hole is actually healing.",
+   "ost": "The ozone hole|is healing. When?",
+   "visual": {
+    "type": "stat",
+    "text": "healing",
+    "count": false,
+    "label": "OZONE HOLE",
+    "color": "accent"
+   },
+   "keys": [
+    "healing."
+   ],
+   "instant_ost": true,
+   "theme": "dark",
+   "source": "UNEP / WMO 2026 assessment",
+   "label": "confirmed"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Keep watching for fact three. It's the big one.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ],
+   "theme": "light"
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. Chemicals called CFCs, from fridges and sprays, were destroying it.",
+   "ost": "The culprit:|CFCs.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "Fridges",
+     "Spray cans"
+    ]
+   },
+   "keys": [
+    "CFCs,"
+   ],
+   "source": "UNEP, WMO",
+   "fact": "1/3",
+   "theme": "dark",
+   "label": "confirmed"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. In 1987, countries signed the Montreal Protocol to phase them out.",
+   "ost": "1987: Montreal|Protocol.",
+   "visual": {
+    "type": "calendar",
+    "month": "SEP",
+    "day": "16",
+    "year": "1987"
+   },
+   "keys": [
+    "1987",
+    "Montreal"
+   ],
+   "source": "UNEP Ozone Secretariat",
+   "fact": "2/3",
+   "theme": "light",
+   "label": "confirmed"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. Experts expect most of the world to recover by around 2040.",
+   "ost": "Most of the world:|~2040.",
+   "visual": {
+    "type": "rows",
+    "rows": [
+     [
+      "MOST OF THE WORLD",
+      "~2040",
+      "",
+      "check"
+     ],
+     [
+      "ANTARCTIC",
+      "2060s",
+      "",
+      "check"
+     ]
+    ]
+   },
+   "keys": [
+    "2040."
+   ],
+   "source": "WMO/UNEP 2026 assessment",
+   "fact": "3/3",
+   "theme": "dark",
+   "label": "projected"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the Antarctic hole during the twenty-sixties.",
+   "ost": "Antarctic recovery.",
+   "visual": {
+    "type": "stat",
+    "text": "2060s",
+    "count": false,
+    "label": "ANTARCTIC RECOVERY",
+    "color": "accent"
+   },
+   "keys": [
+    "twenty-sixties."
+   ],
+   "source": "WMO/UNEP 2026 assessment",
+   "fact": "3/3",
+   "theme": "dark",
+   "label": "projected"
+  },
+  {
+   "beat": "CTA",
+   "text": "Did you know? Yes or no.",
+   "ost": "Did you know?|Yes or no.",
+   "instant_ost": true,
+   "theme": "light",
+   "follow": "Follow for climate facts that actually check out.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Yes",
+    "no."
+   ]
+  }
+ ],
+ "kickers": {
+  "HOOK": "FAKE OR FACT?",
+  "CONTEXT": "3 FACTS",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "CTA": "YOUR CALL"
+ },
+ "cover": {
+  "kicker": "FAKE OR FACT? · ENVIRONMENT",
+  "head": [
+   "The ozone",
+   "hole is",
+   "healing."
+  ],
+  "sub": "The 2026 UN assessment expects recovery around 2040 for most of the world, and during the 2060s over Antarctica.",
+  "visual": {
+   "type": "stat",
+   "text": "2060s",
+   "count": false,
+   "label": "ANTARCTIC RECOVERY",
+   "color": "accent"
+  }
+ },
+ "meta": {
+  "retention": true,
+  "mid_cta": "Follow for climate facts that actually check out",
+  "loop": 0.4,
+  "titles": [
+   "The Ozone Hole Is Healing. When Will It Close?",
+   "How the World Started Fixing the Ozone Layer",
+   "Ozone Recovery in the 2060s, Explained"
+  ],
+  "summary": "CFCs from fridges and sprays damaged the ozone layer. The 1987 Montreal Protocol phased them out. The 2026 UNEP/WMO Scientific Assessment expects recovery around 2040 for most of the world and during the 2060s over Antarctica. It no longer gives a specific Arctic return year.",
+  "hashtags": [
+   "#shorts",
+   "#Environment",
+   "#Ozone",
+   "#Science",
+   "#Explained"
+  ],
+  "pinned": "Did you know the ozone hole was healing? Yes or no 👇",
+  "sources": [
+   [
+    "2026 WMO/UNEP Ozone Assessment Executive Summary",
+    "https://ozone.unep.org/sites/default/files/2026-10/OA2026ExecSummary.pdf"
+   ],
+   [
+    "NOAA CSL: Scientific Assessment of Ozone Depletion 2026",
+    "https://www.csl.noaa.gov/assessments/ozone/2026/"
+   ],
+   [
+    "UNEP Ozone Secretariat, Montreal Protocol Article 15",
+    "https://ozone.unep.org/treaties/montreal-protocol/articles/article-15-signature"
+   ]
+  ],
+  "schedule": "unscheduled-local-fix",
+  "verdict": "Recovery is on track if compliance continues. Most of the world around 2040; Antarctica during the 2060s.",
+  "notes": "Retention rebuild + fact-check fix. Antarctic wording is 'during the 2060s'; Arctic ~2045 row dropped.",
+  "ig_tags": "#ozone #environment #climate #science #shorts #explained",
+  "poll": [
+   "Did you know it was healing?",
+   "Yes",
+   "No"
+  ]
+ }
+}
