@@ -50,19 +50,23 @@ Requirements: Python 3, ffmpeg, `pip install pillow numpy piper-tts faster-whisp
 - **Preview voice only (18), need re-voicing before posting:** Trump–Xi–Putin summit and South Korea exam alerts (both stale now, skip them), and **E15–E30**. About 650 characters each with ElevenLabs.
 
 ## 6. What's scheduled in Buffer (all IST)
+**Nov 21 update (owner request):** Amazon $7B India and E01–E06 were **unscheduled and deleted from Buffer on Nov 21** at the owner's request (he wants daily trending, fact-checked Shorts instead). **Do not re-add Amazon or E01–E14 to Buffer** unless the owner asks again. The failed SAFF YouTube entry was also removed.
+
 | Date | YouTube | X |
 |---|---|---|
-| Nov 20, 7:30 PM | Nvidia CEO exit | same, native video |
-| Nov 21, 8:00 AM | EU €45B Ukraine loan | same |
-| Nov 21, 1:00 PM | SAFF final | same |
-| Nov 22, 1:00 PM | Amazon $7B India | same |
-| Nov 22, 7:30 PM | E01 Sky blue | same |
-| Nov 23–27, 7:30 PM | E02 Leap year, E03 GPS, E04 Black holes, E05 Tides, E06 Ozone | same |
+| Nov 20, 7:30 PM | Nvidia CEO exit (sent) | same (sent) |
+| Nov 21, 8:00 AM | EU €45B Ukraine loan (sent) | same (sent) |
+| Nov 21, 1:00 PM | SAFF final (failed: YouTube daily limit) | sent |
+| Nov 23, 1:00 PM | Nvidia series Part 1 (`episodes/2026-11-23_nvidia_part01`) | same |
+| Nov 24, 1:00 PM | Nvidia series Part 2 | same |
+| Nov 25, 1:00 PM | Nvidia series Part 3 | same |
+
+Nvidia Parts 4–10 are added one a day at 1 PM (Nov 26 – Dec 2) by a Grok Bot routine as Buffer slots open. YouTube descriptions now end with "Subscribe to PARAVION X for more".
 
 **Waiting for a free X slot:** the G20 poll answer post for Nov 22 at 5 PM (text in `growth/approved.md`).
 **Owner posts by hand:** the G20 native X poll on **Nov 21 at 5 PM**: "Quick one 🌐 How many members does the G20 actually have?" with options `20 countries` / `19 + EU + African Union` / `25 countries`, 1 day.
 
-**Buffer free-plan limits:** 10 queued posts per channel, YouTube max 2 posts/day. Keep topping up as posts go out: next are E07–E14 at 7:30 PM daily (Nov 28 onwards). Use YouTube category 27 (Education) or 28 (Science & Tech) for explainers, 25 for news, 17 for sports. Set madeForKids false and public.
+**Buffer free-plan limits:** 10 queued posts per channel, YouTube max 2 posts/day. Keep topping up as posts go out with the daily trending Shorts and the remaining Nvidia parts (not E07–E14, see the Nov 21 note above). Use YouTube category 27 (Education) or 28 (Science & Tech) for explainers, 25 for news, 17 for sports. Set madeForKids false and public.
 
 ## 7. Automations (currently running in Claude Code; they keep running unless paused)
 | Name | When (IST) | What |
