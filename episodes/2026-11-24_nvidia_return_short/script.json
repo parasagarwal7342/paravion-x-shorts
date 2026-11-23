@@ -1,0 +1,218 @@
+{
+ "slug": "2026-11-24_nvidia_return_short",
+ "series": "Why Everyone's Talking About…",
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "Jensen Huang is BACK as Nvidia's CEO.",
+   "ost": "Huang is|BACK.",
+   "visual": {
+    "type": "chip_stamp",
+    "stamp": "BACK"
+   },
+   "keys": [
+    "BACK"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "Just eleven days after he quit.",
+   "ost": "11 days|later.",
+   "visual": {
+    "type": "counter",
+    "from": 0,
+    "to": 11,
+    "fmt": "{:d}",
+    "label": "DAYS OUT",
+    "sub": "Nov. 12 to Nov. 23"
+   },
+   "keys": [
+    "eleven"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "Here's the whole story in thirty seconds.",
+   "ost": "The whole|story.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "thirty"
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "November twelfth. He resigns, effective immediately.",
+   "ost": "Resigned|Nov. 12.",
+   "visual": {
+    "type": "calendar",
+    "month": "NOV",
+    "day": "12"
+   },
+   "keys": [
+    "twelfth"
+   ],
+   "source": "Nvidia"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "November seventeenth. The board says it won't bring him back.",
+   "ost": "Board said|no.",
+   "visual": {
+    "type": "versus",
+    "left": "HUANG",
+    "right": "BOARD",
+    "reveal": true
+   },
+   "keys": [
+    "won't"
+   ],
+   "source": "Nvidia earnings call / AP"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Then President Trump backs his return.",
+   "ost": "Trump backs|his return.",
+   "visual": {
+    "type": "rows",
+    "rows": [
+     [
+      "NOV. 20",
+      "Trump backs Huang's return",
+      "AP · White House",
+      "check"
+     ]
+    ]
+   },
+   "keys": [
+    "Trump"
+   ],
+   "source": "AP"
+  },
+  {
+   "beat": "FACT1",
+   "text": "November twenty-third. The board votes unanimously. He's back.",
+   "ost": "Unanimous.|He's back.",
+   "visual": {
+    "type": "stat",
+    "text": "UNANIMOUS",
+    "count": false,
+    "label": "NVIDIA BOARD · NOV. 23",
+    "sub": "Reinstated as CEO",
+    "color": "accent"
+   },
+   "keys": [
+    "unanimously."
+   ],
+   "source": "Nvidia, Nov. 23"
+  },
+  {
+   "beat": "FACT2",
+   "text": "The board says American officials see no national security risk.",
+   "ost": "No security|risk.",
+   "visual": {
+    "type": "stat",
+    "text": "NO RISK",
+    "count": false,
+    "label": "NATIONAL SECURITY",
+    "sub": "Board, citing senior US officials",
+    "color": "ink"
+   },
+   "keys": [
+    "no"
+   ],
+   "source": "Nvidia, Nov. 23"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the stock jumped twenty-five to thirty percent before the bell.",
+   "ost": "Stock:|up 25–30%.",
+   "visual": {
+    "type": "stock_drop",
+    "pct": 28.7,
+    "direction": "up",
+    "label": "NVDA · NOV. 23 PREMARKET"
+   },
+   "keys": [
+    "jumped"
+   ],
+   "source": "Benzinga · Investing.com · Bloomberg"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. His return is confirmed.",
+   "ost": "His return:|confirmed.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "His return",
+      "CONFIRMED",
+      "green"
+     ],
+     [
+      "Investigation",
+      "STILL RUNNING",
+      "amber"
+     ]
+    ]
+   },
+   "keys": [
+    "confirmed."
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "But the independent investigation is still running.",
+   "ost": "Investigation:|still running.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "His return",
+      "CONFIRMED",
+      "green"
+     ],
+     [
+      "Investigation",
+      "STILL RUNNING",
+      "amber"
+     ]
+    ]
+   },
+   "keys": [
+    "still"
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion X for more updates.",
+   "ost": "Follow for|more updates.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "follow"
+   ]
+  }
+ ],
+ "meta": {
+  "schedule": "2026-11-24T19:30:00+05:30"
+ },
+ "cover": {
+  "kicker": "THE SIGNAL · NOV. 23 RETURN",
+  "head": [
+   "Huang is",
+   "back.",
+   "How?"
+  ],
+  "sub": "Out on Nov. 12, back 11 days later. What's confirmed, and what's still open.",
+  "visual": {
+   "type": "chip_stamp",
+   "stamp": "BACK"
+  }
+ }
+}
