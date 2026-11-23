@@ -193,13 +193,23 @@ def seed_cache(ep):
     return n
 
 
+LONG = False          # set in main(): long-form Deep Dives get cinematic pacing
+
+
+def pause_after(lines, i):
+    """Silence after line i: tight for Shorts; for long-form 0.35 s, and ~1 s around chapter/title cards."""
+    if not LONG: return GAP
+    card = lambda j: 0 <= j < len(lines) and lines[j].get("visual", {}).get("type") in ("chapter", "title", "end")
+    return lines[i].get("pause", 1.0 if card(i) or card(i + 1) else 0.35)
+
+
 def piper(lines, cfg):
     from piper import PiperVoice, SynthesisConfig
     PIPER_SAY.update(cfg["fallback_tts"].get("say", {}))
     voice = PiperVoice.load(str(ROOT / cfg["fallback_tts"]["piper_model"]))
     syn = SynthesisConfig(length_scale=cfg["fallback_tts"]["length_scale"], noise_scale=cfg["fallback_tts"].get("noise_scale"))
     audio, t, out = [], 0.0, []
-    for l in lines:
+    for li, l in enumerate(lines):
         key = cache_key(l["text"], cfg)
         hit = load_line(key)
         if hit is None:
@@ -209,8 +219,9 @@ def piper(lines, cfg):
             a, rel = hit
         words = [{"w": w["w"], "start": t + w["start"], "end": t + w["end"]} for w in rel]
         out.append({"start": t, "end": t + len(a) / SR, "words": words})
-        audio += [a, np.zeros(int(GAP * SR), np.float32)]
-        t += len(a) / SR + GAP
+        gap = pause_after(lines, li)
+        audio += [a, np.zeros(int(gap * SR), np.float32)]
+        t += len(a) / SR + gap
     pcm = (np.clip(np.concatenate(audio), -1, 1) * 32767).astype(np.int16)
     return pcm, out, "piper-preview"
 
@@ -248,9 +259,13 @@ def tighten(ep, tl, cfg):
 
 
 def main(ep_dir):
+    global LONG
     ep = Path(ep_dir)
     cfg = json.loads((ROOT / "config.json").read_text())
-    lines = json.loads((ep / "script.json").read_text())["lines"]
+    script = json.loads((ep / "script.json").read_text()); lines = script["lines"]
+    LONG = script.get("format") == "long"
+    if LONG:   # ElevenLabs: keep natural pauses up to 1.1 s and the narrator's own pace
+        cfg["elevenlabs"] = dict(cfg["elevenlabs"], max_gap=1.1, tempo=1.0)
     if os.environ.get("ELEVENLABS_API_KEY") and os.environ.get("ELEVENLABS_VOICE_ID"):
         import hashlib, copy
         e = cfg["elevenlabs"]

@@ -12,6 +12,7 @@ or hand it to any other assistant. The work folder for every agent is `medical/`
 | 4 | [Publisher](04_publisher.md) | Daily 8:47 AM | Schedules Shorts (1 PM news, 7:30 PM evergreen) and text posts through Buffer |
 | 5 | [Growth Analyst](05_growth_analyst.md) | Sundays 11:13 AM | Weekly numbers, what worked, next week's topic mix in `reports/` |
 | 6 | [Engagement Desk](06_engagement_desk.md) | Inside the Publisher run | Drafts comment replies, polls and community posts for the owner to approve |
+| 7 | [Long-form Producer](07_longform_producer.md) | Wednesdays 10:23 AM (publishes Sun 6 PM) | One 5–10 min cinematic 16:9 Deep Dive with real licensed images |
 
 ## The pipeline every Short goes through
 

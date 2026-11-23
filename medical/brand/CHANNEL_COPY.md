@@ -7,6 +7,7 @@ Daily Shorts for medical students, NEET-PG / FMGE / USMLE aspirants, junior doct
 🩺 Med News in 60: new drug approvals, big trials, guideline updates, outbreaks and exam news, fact-checked.
 📚 High-Yield in 60: the triads, scores, signs and guideline numbers that keep showing up in exams and on the wards.
 🧪 Myth or Medicine?: popular health myths, answered with the best evidence.
+🎬 Deep Dives (weekly, Sundays): 5–10 minute cinematic explainers with real images, on the stories that matter most.
 
 Every fact is checked against at least two trusted sources (WHO, CDC, NICE, ICMR, MoHFW, Cochrane, NEJM, Lancet, JAMA, BMJ, StatPearls), listed in each description.
 

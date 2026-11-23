@@ -81,7 +81,7 @@
      "stop working"
     ],
     "kicker": "A PARAVION MED DEEP DIVE",
-    "bg": "File:Scanning electron micrograph of Methicillin-resistant Staphylococcus aureus (MRSA) and a dead Human neutrophil - NIAID.jpg"
+    "bg": "File:Methicillin-Resistant Staphylococcus Aureus (MRSA) Bacteria colorized scanning electron micrograph - 11.jpg"
    },
    "keys": [],
    "nofact": true
@@ -95,7 +95,7 @@
     "n": 1,
     "title": "The mould that changed medicine",
     "sub": "London, 1928",
-    "bg": "File:Penicillia on Petri dish.jpg"
+    "bg": "B0004843"
    },
    "keys": [],
    "nofact": true
@@ -106,7 +106,7 @@
    "ost": "1928|Alexander Fleming",
    "visual": {
     "type": "image",
-    "file": "File:Professor Alexander Fleming at work in his laboratory at St Mary's Hospital, London, during the Second World War. D17801.jpg",
+    "wellcome": "L0000655",
     "move": "in"
    },
    "keys": [],
@@ -118,7 +118,7 @@
    "ost": "Penicillium|The mould that killed bacteria",
    "visual": {
     "type": "image",
-    "file": "File:Penicillia on Petri dish.jpg",
+    "wellcome": "B0004843",
     "move": "in"
    },
    "keys": [],
@@ -127,10 +127,10 @@
   {
    "beat": "DEEP",
    "text": "That mould gave us penicillin, the first antibiotic to change medicine.",
-   "ost": "St Mary's Hospital, London|Where penicillin was found",
+   "ost": "1940s|Turning a mould into a medicine",
    "visual": {
     "type": "image",
-    "file": "File:St Marys hospital gate and Alexander Fleming laboratory.jpg",
+    "wellcome": "L0012312",
     "move": "left"
    },
    "keys": [],
@@ -142,7 +142,7 @@
    "ost": "",
    "visual": {
     "type": "image",
-    "file": "File:Medical laboratory, Where science, medicine converge 140417-F-FM358-007.jpg",
+    "wellcome": "L0032175",
     "move": "in"
    },
    "keys": [],
@@ -169,7 +169,7 @@
    "ost": "Higher risk|Surgery and procedures",
    "visual": {
     "type": "image",
-    "file": "File:Empty Beds in Ward of Hospital, Minneapolis Health Department.jpg",
+    "file": "File:Medical laboratory, Where science, medicine converge 140417-F-FM358-007.jpg",
     "move": "right"
    },
    "keys": [],
@@ -184,7 +184,7 @@
     "n": 2,
     "title": "How bacteria fight back",
     "sub": "Evolution, in fast-forward",
-    "bg": "File:E. coli Bacteria (16578744517).jpg"
+    "bg": "B0006979"
    },
    "keys": [],
    "nofact": true
@@ -195,7 +195,7 @@
    "ost": "Resistance|Germs defeat the drug",
    "visual": {
     "type": "image",
-    "file": "File:E. coli Bacteria (16578744517).jpg",
+    "wellcome": "B0006981",
     "move": "in"
    },
    "keys": [],
@@ -207,7 +207,7 @@
    "ost": "Selection pressure|Every use counts",
    "visual": {
     "type": "image",
-    "file": "File:Antimicrobial susceptibility testing (AST) result of Streptococcus sanguinis.jpg",
+    "wellcome": "N0038013",
     "move": "out"
    },
    "keys": [],
@@ -219,7 +219,7 @@
    "ost": "Random change|A few survivors",
    "visual": {
     "type": "image",
-    "file": "File:Klebsiella pneumoniae Bacterium (13383411493).jpg",
+    "wellcome": "B0006979",
     "move": "left"
    },
    "keys": [],
@@ -231,7 +231,7 @@
    "ost": "Survival of the fittest|The resistant ones multiply",
    "visual": {
     "type": "image",
-    "file": "File:E. coli Bacteria (16578744517).jpg",
+    "wellcome": "B0006983",
     "move": "out"
    },
    "keys": [],
@@ -243,7 +243,7 @@
    "ost": "",
    "visual": {
     "type": "image",
-    "file": "File:Antimicrobial susceptibility testing (AST) result of Streptococcus sanguinis.jpg",
+    "wellcome": "V0029664",
     "move": "right"
    },
    "keys": [],
@@ -283,9 +283,12 @@
    "text": "Some make enzymes that break the antibiotic down.",
    "ost": "Trick 1|Enzymes destroy the drug",
    "visual": {
-    "type": "image",
-    "file": "File:Modified Hodge Test (MHT).jpg",
-    "move": "in"
+    "type": "tags",
+    "tags": [
+     "Enzyme",
+     "breaks",
+     "the drug"
+    ]
    },
    "keys": [],
    "source": "CDC, Munita 2016"
@@ -295,9 +298,11 @@
    "text": "Some pump it straight back out, or change the target so the drug no longer fits.",
    "ost": "Tricks 2 and 3|Pumps and new targets",
    "visual": {
-    "type": "image",
-    "file": "File:Klebsiella pneumoniae Bacterium (13383411493).jpg",
-    "move": "right"
+    "type": "tags",
+    "tags": [
+     "Pump it out",
+     "Change the target"
+    ]
    },
    "keys": [],
    "source": "CDC, Munita 2016"
@@ -308,8 +313,8 @@
    "ost": "Trick 4|Restricted entry",
    "visual": {
     "type": "image",
-    "file": "File:Acinetobacter baumannii.JPG",
-    "move": "out"
+    "wellcome": "B0006981",
+    "move": "right"
    },
    "keys": [],
    "source": "CDC, Munita 2016"
@@ -319,9 +324,10 @@
    "text": "Worse, bacteria can share resistance with other bacteria that have never even seen the drug.",
    "ost": "Shared genes|Resistance spreads between bacteria",
    "visual": {
-    "type": "image",
-    "file": "File:Bacterial conjugation.png",
-    "move": "in"
+    "type": "two_hats",
+    "a": "Resistant bacterium",
+    "b": "Gets the gene too",
+    "join": "↓"
    },
    "keys": [],
    "source": "CDC, Munita 2016"
@@ -332,8 +338,8 @@
    "ost": "Mobile genetic elements|Fast spread",
    "visual": {
     "type": "image",
-    "file": "File:Bacterial conjugation.png",
-    "move": "out"
+    "wellcome": "B0006983",
+    "move": "in"
    },
    "keys": [],
    "source": "CDC, Munita 2016"
@@ -376,7 +382,7 @@
     "n": 3,
     "title": "The scale of the problem",
     "sub": "What the numbers say",
-    "bg": "File:World Health Organisation building from west.jpg"
+    "bg": "V0028053"
    },
    "keys": [],
    "nofact": true
@@ -414,7 +420,7 @@
    "ost": "The leaders|E. coli and K. pneumoniae",
    "visual": {
     "type": "image",
-    "file": "File:Klebsiella pneumoniae Bacterium (13383411493).jpg",
+    "wellcome": "B0006979",
     "move": "in"
    },
    "keys": [],
@@ -451,7 +457,7 @@
    "ost": "Carbapenems|Losing ground",
    "visual": {
     "type": "image",
-    "file": "File:Acinetobacter baumannii.JPG",
+    "wellcome": "N0038013",
     "move": "in"
    },
    "keys": [],
@@ -493,7 +499,7 @@
     "n": 4,
     "title": "Why South Asia should care",
     "sub": "Where resistance is highest",
-    "bg": "File:Microbiology cabinet.jpg"
+    "bg": "V0037748"
    },
    "keys": [],
    "nofact": true
@@ -519,8 +525,8 @@
    "ost": "Forecast to 2050|South Asia among the hardest hit",
    "visual": {
     "type": "image",
-    "file": "File:Mycobacterium Tuberculosis Bacteria, the Cause of TB (52766234986).jpg",
-    "move": "in"
+    "wellcome": "V0012306",
+    "move": "right"
    },
    "keys": [],
    "source": "Lancet 2024, WHO GLASS 2025"
@@ -531,7 +537,7 @@
    "ost": "One Health|People, animals, food, environment",
    "visual": {
     "type": "image",
-    "file": "File:Livestock rearing (poultry).jpg",
+    "wellcome": "V0021616",
     "move": "right"
    },
    "keys": [],
@@ -546,7 +552,7 @@
     "n": 5,
     "title": "What actually works",
     "sub": "For doctors, students and everyone else",
-    "bg": "File:Use of a touchless hand washing tap and solid bar soap dispenser.jpg"
+    "bg": "V0047895ER"
    },
    "keys": [],
    "nofact": true
@@ -613,7 +619,7 @@
    "ost": "Prevention|Clean hands",
    "visual": {
     "type": "image",
-    "file": "File:Use of a touchless hand washing tap and solid bar soap dispenser.jpg",
+    "wellcome": "V0047895ER",
     "move": "in"
    },
    "keys": [],
@@ -624,9 +630,12 @@
    "text": "Vaccines prevent infections too, including resistant ones.",
    "ost": "Vaccines|Fewer infections",
    "visual": {
-    "type": "image",
-    "file": "File:BioFarma vaccine vials Bandung.jpg",
-    "move": "out"
+    "type": "tags",
+    "tags": [
+     "Vaccines",
+     "Prevent infections",
+     "Including resistant ones"
+    ]
    },
    "keys": [],
    "source": "CDC, WHO"
@@ -662,8 +671,8 @@
    "ost": "Recap|Adaptation and spread",
    "visual": {
     "type": "image",
-    "file": "File:Klebsiella pneumoniae Bacterium (13383411493).jpg",
-    "move": "in"
+    "wellcome": "B0006981",
+    "move": "out"
    },
    "keys": [],
    "source": "CDC, Munita 2016"
@@ -674,8 +683,8 @@
    "ost": "Recap|Over a million deaths a year",
    "visual": {
     "type": "image",
-    "file": "File:Mycobacterium Tuberculosis Bacteria, the Cause of TB (52766234986).jpg",
-    "move": "out"
+    "wellcome": "V0037748",
+    "move": "in"
    },
    "keys": [],
    "source": "Lancet 2024, WHO GLASS 2025"
@@ -686,7 +695,7 @@
    "ost": "A major threat|Not a lost battle",
    "visual": {
     "type": "image",
-    "file": "File:World Health Organisation building from west.jpg",
+    "file": "File:Methicillin-Resistant Staphylococcus Aureus (MRSA) Bacteria colorized scanning electron micrograph - 11.jpg",
     "move": "left"
    },
    "keys": [],
@@ -698,7 +707,7 @@
    "ost": "",
    "visual": {
     "type": "image",
-    "file": "File:Antimicrobial susceptibility testing (AST) result of Streptococcus sanguinis.jpg",
+    "wellcome": "B0000376",
     "move": "in"
    },
    "keys": [],

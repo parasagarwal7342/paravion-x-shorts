@@ -17,6 +17,7 @@ All commands below run from `medical/`.
   | **Med News in 60** | 1:00 PM daily | the day's trending medical story: approvals, big trials, guidelines, outbreaks, NEET-PG/NMC/NBEMS exam news |
   | **High-Yield in 60** | 7:30 PM | exam-style pearls: triads, scores, guideline numbers, mnemonics, ECGs |
   | **Myth or Medicine?** | 7:30 PM (about 2 a week) | popular health myths answered with Cochrane / meta-analyses / WHO / CDC |
+  | **Deep Dive** (long-form, 16:9) | Sunday 6:00 PM | 5–10 min cinematic explainer with real licensed images (see section 7) |
 - **Fact-check date:** every video shows "FACT-CHECKED AS OF <date>" under the logo, and every description says
   "✅ Fact-checked as of <date>", from `meta.checked_on`. News must be re-checked within 1 day of posting, evergreen
   within 90 days; `medcheck.py` warns and `youtube_schedule.py` refuses to upload otherwise.
@@ -78,3 +79,18 @@ Then read `PACKAGE.md`, re-check facts, `touch episodes/<slug>/APPROVED`, commit
 - Space Grotesk has no arrow glyphs; don't put arrows in on-screen text (medcheck blocks them).
 - Keep scripts ≤ 130 words or the ElevenLabs voice runs over 60 s.
 - Whisper hears "Beck's" as "Bex" and "Paravion" as "Paravi on"; those QA mismatches are fine.
+
+## 7. Long-form "Deep Dive" videos (16:9, cinematic, real images)
+One 5–10 minute video a week (planned Sunday 6 PM IST), made by agent 7 (`agents/07_longform_producer.md`).
+| File | Job |
+|---|---|
+| `longform_specs/L01_*.py` | One script per episode, with the fact sources listed at the top. Writes `episodes/L01_*/script.json` (`"format": "long"`). |
+| `media.py` | Fetches **real, licensed images** from Wikimedia Commons and Wellcome Collection. It accepts only Public domain, CC0, CC BY and CC BY-SA, blocks patient, surgical and graphic images, and records the author and licence in `credits.json`. `--search` / `--wellcome` list candidates. |
+| `longform.py` | 1920×1080 renderer: slow camera moves over graded photos, vignette, film grain, lower thirds, letterboxed title and chapter cards, cross-dissolves, Shorts graphics on a studio card, a self-made score with swells and booms, −14 LUFS. Also writes `captions.srt` and `thumbnail.png` (1280×720). `--preview t1 t2 …` saves stills. |
+| `package_long.py` | `PACKAGE.md` + `upload.json`: YouTube chapters with timestamps, sources, every image credit (required by CC BY), the fact-check date and the disclaimer. |
+| `make_long.sh` | medcheck → images → voice → Whisper QA → render → package. |
+
+Rules on top of the Shorts rules: every fact line needs 2+ sources, and non-fact lines must be marked `"nofact": true`
+(medcheck enforces this). Each image shows an on-screen credit. No identifiable patients, no children in clinical
+settings, no NC/ND licences. Wikimedia sometimes rate-limits this cloud machine's IP; Wellcome Collection is the fallback.
+ElevenLabs cost is about 5,000–6,000 characters per 7-minute episode (Creator plan or higher).

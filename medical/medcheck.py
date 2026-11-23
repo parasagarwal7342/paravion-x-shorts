@@ -67,7 +67,7 @@ def check(ep):
     if long:
         for i, l in enumerate(s["lines"]):
             v = l.get("visual", {})
-            if v.get("type") == "image" and not (v.get("file") or v.get("query")): err.append(f"line {i + 1}: image scene needs `file` or `query`")
+            if v.get("type") == "image" and not (v.get("file") or v.get("query") or v.get("wellcome")): err.append(f"line {i + 1}: image scene needs `file`, `wellcome` or `query`")
             # long-form rule: every line either cites 2+ sources or is explicitly marked as non-factual (intro, transition, CTA)
             if not l.get("nofact"):
                 src = l.get("source", "")

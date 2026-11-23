@@ -16,3 +16,4 @@ yt_token.json
 # commit the real video with: git add -f episodes/<slug>/final_video.mp4 episodes/<slug>/voice.mp3 episodes/<slug>/voice_raw.mp3
 episodes/*/final_video.mp4
 episodes/*/voice.mp3
+episodes/*/preview_*.png

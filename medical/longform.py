@@ -140,21 +140,41 @@ def lower_third(img, ost, lt):
 def credit_line(img, cr):
     if not cr: return
     d = ImageDraw.Draw(img)
-    t = f"Image: {cr['author'][:60]} · {cr['license']} · Wikimedia Commons"
+    t = f"Image: {cr['author'][:60]} · {cr['license']} · {cr.get('source', 'Wikimedia Commons')}"
     d.text((W - 60, H - 36), t, font=F(20, "body"), fill=(235, 235, 235, 170), anchor="rm")
 
 
+def checked_nice():
+    """'FACT-CHECKED AS OF 23 NOV 2026' -> 'Fact-checked as of 23 Nov 2026'."""
+    c = R.CHECKED
+    if not c: return ""
+    head, _, date = c.partition(" AS OF ")
+    d, m, y = date.split()
+    return f"Fact-checked as of {d} {m.title()} {y}"
+
+
+def top_shade():
+    g = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(g)
+    for y in range(0, 170):
+        d.line([(0, y), (W, y)], fill=(0, 0, 0, int(150 * (1 - y / 170) ** 1.6)))
+    return g
+
+
+TOPSHADE = None
+
+
 def watermark(img):
+    img.alpha_composite(TOPSHADE)
     d = ImageDraw.Draw(img)
     a, b = CFG["wordmark"]; f = F(30)
     d.text((60, 52), a, font=f, fill=(255, 255, 255, 190), anchor="lm")
     d.text((60 + f.getlength(a), 52), b, font=f, fill=ACC[:3] + (230,), anchor="lm")
-    note = " · ".join(x for x in ("Educational only, not medical advice", R.CHECKED.capitalize().replace("as of", "as of")) if x)
+    note = " · ".join(x for x in ("Educational only, not medical advice", checked_nice()) if x)
     d.text((60, 86), note, font=F(18, "body"), fill=(255, 255, 255, 150), anchor="lm")
 
 
 def scene_image(line, lt, ld, credits, idx):
-    v = line["visual"]; key = v.get("file") or v.get("query")
+    v = line["visual"]; key = v.get("wellcome") or v.get("file") or v.get("query")
     cr = credits.get(key)
     if not cr: return scene_missing(line)
     base, fg = graded(str(CUR_EP / "images" / cr["local"]))
@@ -269,7 +289,7 @@ def scene_end(line, lt, ld, credits):
     d.rounded_rectangle([W / 2 - 220, H / 2 + 90 - bounce, W / 2 + 220, H / 2 + 180 - bounce], 46, fill=(230, 33, 23, 255))
     d.text((W / 2, H / 2 + 135 - bounce), "SUBSCRIBE", font=F(48), fill=WHITE, anchor="mm")
     d.text((W / 2, H - 150), "Educational content only, not medical advice. Sources and image credits are in the description.", font=F(26, "body"), fill=(190, 200, 200, 255), anchor="mm")
-    if R.CHECKED: d.text((W / 2, H - 110), R.CHECKED.capitalize(), font=F(24, "body"), fill=(160, 175, 175, 255), anchor="mm")
+    if R.CHECKED: d.text((W / 2, H - 110), checked_nice(), font=F(24, "body"), fill=(160, 175, 175, 255), anchor="mm")
     return img
 
 
@@ -400,7 +420,7 @@ def srt(ep, lines):
 
 def thumbnail(ep, script, credits):
     th = script["meta"].get("thumbnail", {})
-    key = th.get("image"); cr = credits.get(key)
+    key = th.get("image", ""); key = key[2:] if key.startswith("W:") else key; cr = credits.get(key)
     img = Image.new("RGBA", (W, H), DARK)
     if cr:
         base, fg = graded(str(ep / "images" / cr["local"]))
@@ -425,14 +445,14 @@ CUR_EP = None
 
 
 def main(ep_dir, thumb_only=False, preview=None):
-    global CUR_EP, VIGNETTE, GRAIN, SHADE
+    global CUR_EP, VIGNETTE, GRAIN, SHADE, TOPSHADE
     ep = CUR_EP = Path(ep_dir)
     script = json.loads((ep / "script.json").read_text())
     tim = json.loads((ep / "timings.json").read_text())
     credits = json.loads((ep / "credits.json").read_text()) if (ep / "credits.json").exists() else {}
     sl, lines = script["lines"], tim["lines"]
     R.CHECKED = R.checked_text(script)
-    VIGNETTE, GRAIN, SHADE = make_vignette(), make_grain(), bottom_shade()
+    VIGNETTE, GRAIN, SHADE, TOPSHADE = make_vignette(), make_grain(), bottom_shade(), top_shade()
     thumbnail(ep, script, credits)
     if thumb_only: return
     dur = tim["duration"] + 2.0
