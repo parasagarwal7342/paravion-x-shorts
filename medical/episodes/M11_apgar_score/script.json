@@ -1,0 +1,293 @@
+{
+ "slug": "M11_apgar_score",
+ "series": "High-Yield in 60",
+ "kickers": {
+  "HOOK": "HIGH-YIELD · NEONATOLOGY",
+  "SUB": "HIGH-YIELD · NEONATOLOGY",
+  "CONTEXT": "THE BASICS",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "RECAP": "REMEMBER IT",
+  "VERDICT": "MYTH OR MEDICINE?",
+  "CTA": "MEDICINE, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "HIGH-YIELD · NEONATOLOGY",
+  "head": [
+   "Apgar",
+   "score",
+   "in 60s"
+  ],
+  "sub": "The five signs, the timing, and the rule examiners love.",
+  "visual": {
+   "type": "mnemonic",
+   "title": "APGAR",
+   "items": [
+    [
+     "A",
+     "Appearance"
+    ],
+    [
+     "P",
+     "Pulse"
+    ],
+    [
+     "G",
+     "Grimace"
+    ],
+    [
+     "A",
+     "Activity"
+    ],
+    [
+     "R",
+     "Respiration"
+    ]
+   ]
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "Every newborn gets scored out of ten within a minute.",
+   "ost": "Out of 10|at 1 minute.",
+   "visual": {
+    "type": "stat",
+    "text": "0-10",
+    "count": false,
+    "label": "APGAR SCORE",
+    "sub": "At 1 and 5 minutes",
+    "color": "accent"
+   },
+   "keys": [
+    "ten"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "What does each letter mean?",
+   "ost": "What do the|letters mean?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "letter"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "Sixty seconds. Exam-ready.",
+   "ost": "60 seconds.|Exam-ready.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "Exam-ready."
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "The Apgar score was created by anaesthesiologist Virginia Apgar.",
+   "ost": "Named after|Virginia Apgar.",
+   "visual": {
+    "type": "hero",
+    "note": "An anaesthesiologist, 1950s"
+   },
+   "keys": [
+    "Virginia"
+   ],
+   "source": "StatPearls, Pediatrics"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Stay for fact three. It's the exam favourite.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. Five signs: appearance, pulse, grimace, activity, respiration.",
+   "ost": "Five signs.|A-P-G-A-R.",
+   "visual": {
+    "type": "mnemonic",
+    "title": "APGAR",
+    "items": [
+     [
+      "A",
+      "Appearance"
+     ],
+     [
+      "P",
+      "Pulse"
+     ],
+     [
+      "G",
+      "Grimace"
+     ],
+     [
+      "A",
+      "Activity"
+     ],
+     [
+      "R",
+      "Respiration"
+     ]
+    ]
+   },
+   "keys": [
+    "one.",
+    "Five"
+   ],
+   "source": "StatPearls, Pediatrics"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. Each scores zero to two, checked at one and five minutes.",
+   "ost": "0-2 each.|1 and 5 min.",
+   "visual": {
+    "type": "grid",
+    "tiles": [
+     [
+      "EACH SIGN",
+      "0-2",
+      "points"
+     ],
+     [
+      "TOTAL",
+      "0-10",
+      "points"
+     ],
+     [
+      "WHEN",
+      "1 + 5",
+      "minutes"
+     ]
+    ]
+   },
+   "keys": [
+    "two.",
+    "five"
+   ],
+   "source": "StatPearls, Pediatrics"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the exam favourite. Never wait for the score to start resuscitation.",
+   "ost": "Don't wait|to resuscitate.",
+   "visual": {
+    "type": "hero",
+    "note": "Start before the 1-minute score",
+    "icon": "x"
+   },
+   "keys": [
+    "favourite.",
+    "Never"
+   ],
+   "source": "Pediatrics, StatPearls"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And a low score alone doesn't prove birth asphyxia.",
+   "ost": "Low score alone|isn't asphyxia.",
+   "visual": {
+    "type": "hero",
+    "note": "Per AAP and ACOG"
+   },
+   "keys": [
+    "alone"
+   ],
+   "source": "Pediatrics, StatPearls"
+  },
+  {
+   "beat": "RECAP",
+   "text": "Five letters, two points each, at one and five minutes. Resus never waits.",
+   "ost": "Resus never|waits.",
+   "visual": {
+    "type": "mnemonic",
+    "title": "APGAR",
+    "items": [
+     [
+      "A",
+      "Appearance"
+     ],
+     [
+      "P",
+      "Pulse"
+     ],
+     [
+      "G",
+      "Grimace"
+     ],
+     [
+      "A",
+      "Activity"
+     ],
+     [
+      "R",
+      "Respiration"
+     ]
+    ]
+   },
+   "keys": [
+    "waits."
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion Med for more.",
+   "ost": "Follow for|daily medicine.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "more."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "Apgar Score in 60 Seconds",
+   "APGAR Explained: 5 Signs, 10 Points",
+   "Apgar Score for NEET-PG, USMLE and Nursing"
+  ],
+  "summary": "The Apgar score rates 5 signs (appearance, pulse, grimace, activity, respiration) from 0 to 2 each, at 1 and 5 minutes after birth. Resuscitation should start before the 1-minute score if needed, and a low score alone doesn't prove asphyxia (AAP/ACOG).",
+  "hashtags": [
+   "#shorts",
+   "#Neonatology",
+   "#Paediatrics",
+   "#Nursing",
+   "#NEETPG"
+  ],
+  "ig_tags": "#neonatology #paediatrics #nursing #neetpg #medicine #medstudent #doctor #paravionmed",
+  "pinned": "Quick quiz: what does the G stand for? 👇",
+  "poll": [
+   "Knew the resus rule?",
+   "Yes 👶",
+   "Not yet 📚"
+  ],
+  "sources": [
+   [
+    "StatPearls: APGAR Score (NBK470569)",
+    "https://pubmed.ncbi.nlm.nih.gov/29262097/"
+   ],
+   [
+    "AAP Committee on Fetus and Newborn, ACOG. The Apgar Score. Pediatrics 2015",
+    "https://pubmed.ncbi.nlm.nih.gov/26416932/"
+   ]
+  ],
+  "removed": [],
+  "notes": "Evergreen: not time-sensitive. Re-check the guideline version before posting.",
+  "schedule": "2026-12-06T19:30:00+05:30",
+  "verdict": "The Apgar score rates 5 signs (appearance, pulse, grimace, activity, respiration) from 0 to 2 each, at 1 and 5 minutes after birth.",
+  "audience": "students + doctors"
+ }
+}

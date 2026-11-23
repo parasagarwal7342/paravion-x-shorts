@@ -1,0 +1,276 @@
+{
+ "slug": "M02_antibiotics_cold",
+ "series": "Myth or Medicine?",
+ "kickers": {
+  "HOOK": "MYTH OR MEDICINE · INFECTION",
+  "SUB": "MYTH OR MEDICINE · INFECTION",
+  "CONTEXT": "THE BASICS",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "RECAP": "REMEMBER IT",
+  "VERDICT": "MYTH OR MEDICINE?",
+  "CTA": "MEDICINE, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "MYTH OR MEDICINE · INFECTION",
+  "head": [
+   "Do",
+   "antibiotics",
+   "cure colds?"
+  ],
+  "sub": "What a 2025 Cochrane review found.",
+  "visual": {
+   "type": "hero",
+   "note": "A very common myth",
+   "icon": "x"
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "Antibiotics do not cure the common cold.",
+   "ost": "Antibiotics for|a cold?",
+   "visual": {
+    "type": "hero",
+    "note": "A very common myth",
+    "icon": "x"
+   },
+   "keys": [
+    "not"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "So why do so many people take them?",
+   "ost": "Why take|them?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "why"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know the truth.",
+   "ost": "60 seconds.|The truth.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "truth."
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Colds are caused by viruses, like rhinoviruses.",
+   "ost": "Colds are|viruses.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "Rhinovirus",
+     "Not bacteria"
+    ]
+   },
+   "keys": [
+    "viruses,"
+   ],
+   "source": "CDC, WHO"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Antibiotics work against bacteria, not viruses.",
+   "ost": "Antibiotics kill|bacteria.",
+   "visual": {
+    "type": "versus",
+    "sides": [
+     {
+      "name": "BACTERIA",
+      "big": "Yes",
+      "mark": "check",
+      "lines": [
+       "antibiotics",
+       "can work"
+      ],
+      "color": "green"
+     },
+     {
+      "name": "VIRUSES",
+      "big": "No",
+      "mark": "x",
+      "lines": [
+       "antibiotics",
+       "don't work"
+      ],
+      "color": "red"
+     }
+    ]
+   },
+   "keys": [
+    "bacteria,"
+   ],
+   "source": "CDC, WHO"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Keep watching for fact three. It's the big one.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. In trials, people on antibiotics for colds did no better than placebo.",
+   "ost": "No better than|placebo.",
+   "visual": {
+    "type": "hero",
+    "note": "Cochrane review, 2025"
+   },
+   "keys": [
+    "one.",
+    "placebo."
+   ],
+   "source": "Cochrane, CDC"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. Adults on antibiotics had more side effects.",
+   "ost": "More|side effects.",
+   "visual": {
+    "type": "stat",
+    "text": "2.6x",
+    "count": false,
+    "label": "ADULT SIDE-EFFECT RISK",
+    "sub": "vs placebo, Cochrane",
+    "color": "red"
+   },
+   "keys": [
+    "two.",
+    "side"
+   ],
+   "source": "Cochrane, WHO"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. Misuse helps bacteria become resistant.",
+   "ost": "Misuse fuels|resistance.",
+   "visual": {
+    "type": "hero",
+    "note": "A global health threat, per WHO"
+   },
+   "keys": [
+    "big",
+    "resistant."
+   ],
+   "source": "WHO, CDC"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. Antibiotics for a cold? Myth.",
+   "ost": "The myth:|false.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "Antibiotics cure colds",
+      "FALSE",
+      "red"
+     ],
+     [
+      "Colds are viral",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "false."
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Colds are viral, and antibiotics don't treat viruses.",
+   "ost": "The truth:|colds are viral.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "Antibiotics cure colds",
+      "FALSE",
+      "red"
+     ],
+     [
+      "Colds are viral",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "viral,"
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion Med for more.",
+   "ost": "Follow for|daily medicine.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "more."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "Do Antibiotics Cure a Cold? (No, Here's Why)",
+   "Antibiotics vs Viruses in 60 Seconds",
+   "Why Your Doctor Won't Give Antibiotics for a Cold"
+  ],
+  "summary": "Colds are caused by viruses, and antibiotics only work on bacteria. A 2025 Cochrane review found people given antibiotics for colds did no better than placebo, and adults had more side effects. Misuse drives antimicrobial resistance (WHO).",
+  "hashtags": [
+   "#shorts",
+   "#Antibiotics",
+   "#Health",
+   "#MythBusting",
+   "#AMR"
+  ],
+  "ig_tags": "#antibiotics #health #mythbusting #amr #medicine #medstudent #doctor #paravionmed",
+  "pinned": "Has anyone ever offered you antibiotics for a cold? 👇",
+  "poll": [
+   "Believed this myth?",
+   "Yes 😬",
+   "No 🧠"
+  ],
+  "sources": [
+   [
+    "Kenealy T, Arroll B. Antibiotics for the common cold. Cochrane 2025",
+    "https://pubmed.ncbi.nlm.nih.gov/41277585/"
+   ],
+   [
+    "CDC: Common cold",
+    "https://www.cdc.gov/common-cold/about/index.html"
+   ],
+   [
+    "WHO fact sheet: Antimicrobial resistance",
+    "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance"
+   ]
+  ],
+  "removed": [],
+  "notes": "Evergreen: not time-sensitive. Re-check the guideline version before posting.",
+  "schedule": "2026-11-27T19:30:00+05:30",
+  "verdict": "Antibiotics cure colds: FALSE. Colds are viral: True.",
+  "audience": "public + students"
+ }
+}

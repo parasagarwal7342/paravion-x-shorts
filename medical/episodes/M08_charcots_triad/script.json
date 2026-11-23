@@ -1,0 +1,298 @@
+{
+ "slug": "M08_charcots_triad",
+ "series": "High-Yield in 60",
+ "kickers": {
+  "HOOK": "HIGH-YIELD · SURGERY",
+  "SUB": "HIGH-YIELD · SURGERY",
+  "CONTEXT": "THE BASICS",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "RECAP": "REMEMBER IT",
+  "VERDICT": "MYTH OR MEDICINE?",
+  "CTA": "MEDICINE, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "HIGH-YIELD · SURGERY",
+  "head": [
+   "Charcot's",
+   "triad vs",
+   "Reynolds'"
+  ],
+  "sub": "Acute cholangitis: 3 signs, 5 signs, and the Tokyo Guidelines.",
+  "visual": {
+   "type": "grid",
+   "tiles": [
+    [
+     "CHARCOT",
+     "3",
+     "fever, RUQ, jaundice"
+    ],
+    [
+     "REYNOLDS",
+     "5",
+     "+ shock, confusion"
+    ]
+   ]
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "Fever, pain, jaundice. Three clues to an infected bile duct.",
+   "ost": "Fever. Pain.|Jaundice.",
+   "visual": {
+    "type": "mnemonic",
+    "title": "CHARCOT'S TRIAD",
+    "items": [
+     [
+      "1",
+      "?"
+     ],
+     [
+      "2",
+      "?"
+     ],
+     [
+      "3",
+      "?"
+     ]
+    ]
+   },
+   "keys": [
+    "infected"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "And what makes it a pentad?",
+   "ost": "Triad, or|pentad?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "pentad?"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "Sixty seconds. Exam-ready.",
+   "ost": "60 seconds.|Exam-ready.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "Exam-ready."
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Acute cholangitis is infection of the bile ducts, usually behind a blockage.",
+   "ost": "Infected|bile ducts.",
+   "visual": {
+    "type": "hero",
+    "note": "Often a stone blocking the duct"
+   },
+   "keys": [
+    "blockage."
+   ],
+   "source": "StatPearls, Tokyo Guidelines"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Stay for fact three. It's the exam favourite.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. Charcot's triad is fever, right upper quadrant pain and jaundice.",
+   "ost": "Fever, RUQ pain,|jaundice.",
+   "visual": {
+    "type": "mnemonic",
+    "title": "CHARCOT'S TRIAD",
+    "items": [
+     [
+      "1",
+      "Fever"
+     ],
+     [
+      "2",
+      "RUQ pain"
+     ],
+     [
+      "3",
+      "Jaundice"
+     ]
+    ]
+   },
+   "keys": [
+    "one.",
+    "jaundice."
+   ],
+   "source": "StatPearls, Tokyo Guidelines"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. Add low blood pressure and confusion, and it's Reynolds' pentad.",
+   "ost": "Add shock +|confusion.",
+   "visual": {
+    "type": "mnemonic",
+    "title": "REYNOLDS' PENTAD",
+    "items": [
+     [
+      "1",
+      "Fever"
+     ],
+     [
+      "2",
+      "RUQ pain"
+     ],
+     [
+      "3",
+      "Jaundice"
+     ],
+     [
+      "4",
+      "Hypotension"
+     ],
+     [
+      "5",
+      "Confusion"
+     ]
+    ]
+   },
+   "keys": [
+    "two.",
+    "pentad."
+   ],
+   "source": "StatPearls, Tokyo Guidelines"
+  },
+  {
+   "beat": "FACT2",
+   "text": "That points to severe disease.",
+   "ost": "Pentad:|severe.",
+   "visual": {
+    "type": "stat",
+    "text": "Severe",
+    "count": false,
+    "label": "REYNOLDS' PENTAD",
+    "color": "red"
+   },
+   "keys": [
+    "severe"
+   ],
+   "source": "StatPearls, Tokyo Guidelines"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the exam favourite. The triad is specific, but misses many cases.",
+   "ost": "Specific, but|misses many.",
+   "visual": {
+    "type": "hero",
+    "note": "Low sensitivity"
+   },
+   "keys": [
+    "favourite.",
+    "misses"
+   ],
+   "source": "Tokyo Guidelines, StatPearls"
+  },
+  {
+   "beat": "FACT3",
+   "text": "So the Tokyo Guidelines use broader criteria, with blood tests and imaging.",
+   "ost": "Tokyo: labs|+ imaging.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "Inflammation",
+     "Cholestasis",
+     "Imaging"
+    ]
+   },
+   "keys": [
+    "broader"
+   ],
+   "source": "Tokyo Guidelines, StatPearls"
+  },
+  {
+   "beat": "RECAP",
+   "text": "Three is Charcot. Five is Reynolds. Tokyo for the diagnosis.",
+   "ost": "3 Charcot.|5 Reynolds.",
+   "visual": {
+    "type": "grid",
+    "tiles": [
+     [
+      "CHARCOT",
+      "3",
+      "fever, RUQ, jaundice"
+     ],
+     [
+      "REYNOLDS",
+      "5",
+      "+ shock, confusion"
+     ]
+    ]
+   },
+   "keys": [
+    "Tokyo"
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion Med for more.",
+   "ost": "Follow for|daily medicine.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "more."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "Charcot's Triad vs Reynolds' Pentad in 60s",
+   "Acute Cholangitis: The Signs to Know",
+   "Charcot's Triad Explained for NEET-PG"
+  ],
+  "summary": "Acute cholangitis: Charcot's triad is fever, right upper quadrant pain and jaundice. Adding hypotension and confusion gives Reynolds' pentad, which signals severe disease. The triad is specific but has low sensitivity, so the Tokyo Guidelines 2018 use broader clinical, lab and imaging criteria.",
+  "hashtags": [
+   "#shorts",
+   "#Surgery",
+   "#Cholangitis",
+   "#NEETPG",
+   "#MedicalStudent"
+  ],
+  "ig_tags": "#surgery #cholangitis #neetpg #medicalstudent #medicine #medstudent #doctor #paravionmed",
+  "pinned": "Which pentad or triad confuses you most? 👇",
+  "poll": [
+   "Knew Reynolds' pentad?",
+   "Yes 🩺",
+   "Not yet 📚"
+  ],
+  "sources": [
+   [
+    "StatPearls: Cholangitis (NBK558946)",
+    "https://pubmed.ncbi.nlm.nih.gov/32644372/"
+   ],
+   [
+    "Kiriyama S et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis",
+    "https://pubmed.ncbi.nlm.nih.gov/29032610/"
+   ]
+  ],
+  "removed": [],
+  "notes": "Evergreen: not time-sensitive. Re-check the guideline version before posting.",
+  "schedule": "2026-12-03T19:30:00+05:30",
+  "verdict": "Acute cholangitis: Charcot's triad is fever, right upper quadrant pain and jaundice.",
+  "audience": "students + doctors"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "slug": "2026-11-23_asundexian",
+ "series": "Med News in 60",
+ "kickers": {"HOOK": "MED NEWS · NEUROLOGY", "SUB": "MED NEWS · NEUROLOGY", "CONTEXT": "WHAT HAPPENED", "FACT1": "FACT 1 OF 3",
+             "FACT2": "FACT 2 OF 3", "FACT3": "FACT 3 OF 3", "VERDICT": "WHAT IT MEANS", "CTA": "MEDICINE, EXPLAINED"},
+ "cover": {"kicker": "MED NEWS · STROKE", "head": ["A new kind", "of blood", "thinner"], "sub": "FDA approves the first factor XIa inhibitor. What it does, and its limits.",
+           "visual": {"type": "drug_card", "name": "Asundexian", "cls": "FACTOR XIa INHIBITOR", "line": "First of its class, FDA, Nov 2026"}},
+ "lines": [
+  {"beat": "HOOK", "text": "The FDA just approved a brand new class of blood thinner.", "ost": "A new class of|blood thinner.", "visual": {"type": "drug_card", "name": "Asundexian", "cls": "FACTOR XIa INHIBITOR", "line": "Brand name Sunharbo"}, "keys": ["new", "class"]},
+  {"beat": "SUB", "text": "Here's what it means, in sixty seconds.", "ost": "What it means.|60 seconds.", "visual": {"type": "timer"}, "keys": ["means,"]},
+  {"beat": "CONTEXT", "text": "It's called asundexian, and it blocks clotting factor eleven A.", "ost": "It blocks|factor XIa.", "visual": {"type": "hero", "note": "The first approved factor XIa inhibitor"}, "keys": ["eleven"], "source": "FDA, Circulation"},
+  {"beat": "CONTEXT", "text": "It's for adults after a recent mild to moderate stroke, or high risk mini stroke.", "ost": "After a stroke|or TIA.", "visual": {"type": "tags", "tags": ["Ischemic stroke", "High-risk TIA"]}, "keys": ["stroke,"], "source": "FDA, Circulation"},
+  {"beat": "CONTEXT", "text": "Stay for fact three. It's the one that matters most.", "ost": "Wait for|fact 3.", "visual": {"type": "teaser", "n": 3}, "keys": ["three."]},
+  {"beat": "FACT1", "text": "Fact one. Added to antiplatelets, it cut repeat ischemic strokes by twenty six percent.", "ost": "26% fewer|repeat strokes.", "visual": {"type": "stat", "value": 26, "suffix": "%", "label": "RELATIVE REDUCTION", "sub": "Ischemic stroke, vs placebo"}, "keys": ["one.", "twenty"], "source": "FDA, Circulation"},
+  {"beat": "FACT2", "text": "Fact two. Major bleeding was similar to placebo, in over twelve thousand patients.", "ost": "Major bleeding:|similar.", "visual": {"type": "trial", "label": "ISTH MAJOR BLEEDING", "arms": [{"name": "Asundexian", "value": 1.9, "text": "1.9%"}, {"name": "Placebo", "value": 1.7, "text": "1.7%", "color": "muted"}], "sub": "OCEANIC-STROKE, Circulation 2026"}, "keys": ["two.", "similar"], "source": "Circulation, FDA"},
+  {"beat": "FACT2", "text": "But gut bleeding was more common.", "ost": "But more|GI bleeding.", "visual": {"type": "stat", "text": "GI bleeds", "count": false, "label": "MORE COMMON WITH ASUNDEXIAN", "color": "red"}, "keys": ["more"], "source": "Circulation, FDA"},
+  {"beat": "FACT3", "text": "And the big one. It's not approved for atrial fibrillation.", "ost": "Not for|atrial fibrillation.", "visual": {"type": "ecg", "pattern": "af", "label": "ATRIAL FIBRILLATION", "big": "Not approved"}, "keys": ["big", "not"], "source": "FDA, Circulation"},
+  {"beat": "VERDICT", "text": "Confirmed: a new option to prevent another stroke.", "ost": "Confirmed:|a new option.", "visual": {"type": "verdict", "shown": 1, "rows": [["Fewer repeat strokes", "CONFIRMED", "green"], ["Long-term, real-world use", "STILL OPEN", "amber"]]}, "keys": ["Confirmed:"]},
+  {"beat": "VERDICT", "text": "Still open: how it performs outside trials.", "ost": "Still open:|real-world use.", "visual": {"type": "verdict", "shown": 2, "rows": [["Fewer repeat strokes", "CONFIRMED", "green"], ["Long-term, real-world use", "STILL OPEN", "amber"]]}, "keys": ["open:"]},
+  {"beat": "CTA", "text": "Like and follow Paravion Med for more.", "ost": "Follow for|daily medicine.", "visual": {"type": "cta"}, "keys": ["Like", "follow", "more."]}
+ ],
+ "meta": {
+  "titles": ["FDA Approves First Factor XIa Inhibitor for Stroke", "Asundexian Explained: A New Blood Thinner", "New Stroke Drug Asundexian in 60 Seconds"],
+  "summary": "On Nov 9, 2026 the FDA approved asundexian (Sunharbo), the first factor XIa inhibitor, with antiplatelet therapy for adults after a recent mild-to-moderate non-cardioembolic ischemic stroke or high-risk TIA. In the OCEANIC-STROKE trial it cut ischemic stroke by 26% (relative) with similar major bleeding (1.9% vs 1.7%), but GI bleeding was more common. It is not approved for atrial fibrillation.",
+  "hashtags": ["#shorts", "#MedicalNews", "#Stroke", "#Neurology", "#FDA"],
+  "ig_tags": "#medicalnews #stroke #neurology #fda #pharmacology #medstudent #doctor #paravionmed",
+  "pinned": "Do you think factor XIa inhibitors will change stroke care? 👇",
+  "poll": ["Heard of factor XIa drugs?", "Yes 🩺", "First time 😮"],
+  "sources": [["FDA press release: FDA approves first factor XIa inhibitor to help prevent stroke (Nov 9, 2026)", "https://www.fda.gov/news-events/press-announcements/fda-approves-first-factor-xla-inhibitor-help-prevent-stroke-certain-adults-high-risk"],
+              ["Eikelboom JW et al. Bleeding with asundexian vs placebo: OCEANIC-STROKE. Circulation 2026", "https://pubmed.ncbi.nlm.nih.gov/42866879/"],
+              ["ClinicalTrials.gov: OCEANIC-STROKE (NCT05686070)", "https://clinicaltrials.gov/study/NCT05686070"]],
+  "removed": ["Ischemic stroke rates 6.2% vs 8.4%: only found in trade press (TCTMD), not in the FDA release or a trusted source read; cut.",
+              "Absolute risk reduction: sources disagree (1.9% at 1 year vs 2.2% at 2 years); cut.",
+              "Enrolment number: FDA says 12,327, trade press says 12,237; script says 'over twelve thousand' (Circulation safety population 12,254).",
+              "Dose and price: not stated (channel rule: no doses)."],
+  "notes": "News from Nov 9, 2026 (two weeks old): still a top trending topic in neurology/cardiology. Re-check the FDA page and any label update before posting.",
+  "schedule": "2026-11-24T13:00:00+05:30",
+  "event_date": "2026-11-09",
+  "checked_on": "2026-11-23",
+  "verdict": "Confirmed: fewer repeat ischemic strokes vs placebo, similar major bleeding. Still open: long-term, real-world performance."
+ }
+}

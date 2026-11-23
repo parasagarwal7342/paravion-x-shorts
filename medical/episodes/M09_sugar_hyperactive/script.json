@@ -1,0 +1,259 @@
+{
+ "slug": "M09_sugar_hyperactive",
+ "series": "Myth or Medicine?",
+ "kickers": {
+  "HOOK": "MYTH OR MEDICINE · PAEDIATRICS",
+  "SUB": "MYTH OR MEDICINE · PAEDIATRICS",
+  "CONTEXT": "THE BASICS",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "RECAP": "REMEMBER IT",
+  "VERDICT": "MYTH OR MEDICINE?",
+  "CTA": "MEDICINE, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "MYTH OR MEDICINE · PAEDIATRICS",
+  "head": [
+   "Does",
+   "sugar make kids",
+   "hyper?"
+  ],
+  "sub": "What 23 blinded studies found.",
+  "visual": {
+   "type": "hero",
+   "note": "The party myth",
+   "icon": "x"
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "Sugar does not make most kids hyperactive.",
+   "ost": "Sugar makes kids|hyper?",
+   "visual": {
+    "type": "hero",
+    "note": "The party myth",
+    "icon": "x"
+   },
+   "keys": [
+    "not"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "So why do parents see it?",
+   "ost": "Why do parents|see it?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "see"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know the truth.",
+   "ost": "60 seconds.|The truth.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "truth."
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Researchers tested it with blinded trials, using sugar or a sweetener.",
+   "ost": "Blinded trials.|Sugar vs sweetener.",
+   "visual": {
+    "type": "versus",
+    "sides": [
+     {
+      "name": "SUGAR",
+      "big": "?",
+      "mark": "q",
+      "lines": [
+       "real",
+       "sugar"
+      ],
+      "color": "accent"
+     },
+     {
+      "name": "PLACEBO",
+      "big": "?",
+      "mark": "q",
+      "lines": [
+       "artificial",
+       "sweetener"
+      ],
+      "color": "ink"
+     }
+    ]
+   },
+   "keys": [
+    "blinded"
+   ],
+   "source": "JAMA, BMJ"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Keep watching for fact three. It's the big one.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. A meta-analysis of twenty three studies found no effect on behaviour.",
+   "ost": "23 studies.|No effect.",
+   "visual": {
+    "type": "stat",
+    "value": 23,
+    "label": "BLINDED STUDIES",
+    "sub": "JAMA meta-analysis, 1995"
+   },
+   "keys": [
+    "one.",
+    "no"
+   ],
+   "source": "JAMA, BMJ"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. The myth persists even though trials keep finding no difference.",
+   "ost": "Myth vs|evidence.",
+   "visual": {
+    "type": "hero",
+    "note": "Reviewed in the BMJ, 2008"
+   },
+   "keys": [
+    "two.",
+    "no"
+   ],
+   "source": "BMJ, JAMA"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. Parents told their child had sugar rated them more hyperactive, even when it was placebo.",
+   "ost": "Expectation|changes perception.",
+   "visual": {
+    "type": "hero",
+    "note": "Expectation effect",
+    "icon": "x"
+   },
+   "keys": [
+    "big",
+    "placebo."
+   ],
+   "source": "BMJ, Hoover 1994"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. Sugar rush? Mostly myth.",
+   "ost": "The myth:|false.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "Sugar causes hyperactivity",
+      "FALSE",
+      "red"
+     ],
+     [
+      "Expectation changes perception",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "false."
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Studies found no effect. Expectation shapes what adults see.",
+   "ost": "The truth:|expectation.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "Sugar causes hyperactivity",
+      "FALSE",
+      "red"
+     ],
+     [
+      "Expectation changes perception",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "Expectation"
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion Med for more.",
+   "ost": "Follow for|daily medicine.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "more."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "Does Sugar Make Kids Hyper? What Studies Found",
+   "The Sugar Rush Myth in 60 Seconds",
+   "Sugar and Hyperactivity, Explained"
+  ],
+  "summary": "A 1995 JAMA meta-analysis of 23 blinded studies found sugar did not affect children's behaviour or cognition (a small effect in some children can't be ruled out). In one study, mothers told their child had sugar rated them as more hyperactive even when it was a placebo. Sugar still matters for teeth and weight.",
+  "hashtags": [
+   "#shorts",
+   "#Parenting",
+   "#Paediatrics",
+   "#MythBusting",
+   "#Health"
+  ],
+  "ig_tags": "#parenting #paediatrics #mythbusting #health #medicine #medstudent #doctor #paravionmed",
+  "pinned": "Parents: still believe the sugar rush? 👇",
+  "poll": [
+   "Believed the sugar rush?",
+   "Yes 🍭",
+   "No 🧠"
+  ],
+  "sources": [
+   [
+    "Wolraich ML et al. The effect of sugar on behavior or cognition in children: a meta-analysis. JAMA 1995",
+    "https://pubmed.ncbi.nlm.nih.gov/7474248/"
+   ],
+   [
+    "Vreeman RC, Carroll AE. Festive medical myths. BMJ 2008",
+    "https://pubmed.ncbi.nlm.nih.gov/19091758/"
+   ],
+   [
+    "Hoover DW, Milich R. Effects of sugar ingestion expectancies on mother-child interactions. 1994",
+    "https://pubmed.ncbi.nlm.nih.gov/7963081/"
+   ]
+  ],
+  "removed": [],
+  "notes": "Evergreen: not time-sensitive. Re-check the guideline version before posting.",
+  "schedule": "2026-12-04T19:30:00+05:30",
+  "verdict": "Sugar causes hyperactivity: FALSE. Expectation changes perception: True.",
+  "audience": "public + students"
+ }
+}

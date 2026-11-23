@@ -1,0 +1,255 @@
+{
+ "slug": "M04_vitamin_c_cold",
+ "series": "Myth or Medicine?",
+ "kickers": {
+  "HOOK": "MYTH OR MEDICINE · NUTRITION",
+  "SUB": "MYTH OR MEDICINE · NUTRITION",
+  "CONTEXT": "THE BASICS",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "RECAP": "REMEMBER IT",
+  "VERDICT": "MYTH OR MEDICINE?",
+  "CTA": "MEDICINE, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "MYTH OR MEDICINE · NUTRITION",
+  "head": [
+   "Does",
+   "vitamin C",
+   "stop colds?"
+  ],
+  "sub": "29 trials, 11,000+ people. The Cochrane answer.",
+  "visual": {
+   "type": "hero",
+   "note": "What 29 trials found",
+   "icon": "x"
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "Vitamin C does not stop most people catching colds.",
+   "ost": "Vitamin C|stops colds?",
+   "visual": {
+    "type": "hero",
+    "note": "What 29 trials found",
+    "icon": "x"
+   },
+   "keys": [
+    "not"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "So does it do anything?",
+   "ost": "Does it do|anything?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "anything?"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know the truth.",
+   "ost": "60 seconds.|The truth.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "truth."
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "A Cochrane review pooled twenty nine trials, with over eleven thousand people.",
+   "ost": "29 trials.|11,000+ people.",
+   "visual": {
+    "type": "stat",
+    "value": 11306,
+    "label": "PEOPLE IN THE TRIALS",
+    "sub": "Cochrane review, 2013"
+   },
+   "keys": [
+    "twenty",
+    "eleven"
+   ],
+   "source": "Cochrane, NIH"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Keep watching for fact three. It's the big one.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. Taking it every day didn't cut how often most people got colds.",
+   "ost": "Daily dose:|same colds.",
+   "visual": {
+    "type": "hero",
+    "note": "General population: no real change"
+   },
+   "keys": [
+    "one.",
+    "didn't"
+   ],
+   "source": "Cochrane, NIH"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. Colds were slightly shorter. About eight percent, in adults.",
+   "ost": "A bit shorter.|About 8%.",
+   "visual": {
+    "type": "stat",
+    "value": 8,
+    "suffix": "%",
+    "label": "SHORTER COLDS, ADULTS",
+    "sub": "With regular daily use"
+   },
+   "keys": [
+    "two.",
+    "eight"
+   ],
+   "source": "Cochrane, NIH"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. Starting it after symptoms began showed no consistent effect.",
+   "ost": "After symptoms?|No clear effect.",
+   "visual": {
+    "type": "hero",
+    "note": "Therapeutic trials",
+    "icon": "x"
+   },
+   "keys": [
+    "big",
+    "no"
+   ],
+   "source": "Cochrane, NIH"
+  },
+  {
+   "beat": "FACT3",
+   "text": "The exception: people under extreme physical stress, like marathon runners.",
+   "ost": "Exception:|extreme exercise.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "Marathon runners",
+     "Skiers",
+     "Soldiers"
+    ]
+   },
+   "keys": [
+    "exception:"
+   ],
+   "source": "Cochrane, NIH"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. Vitamin C preventing colds? Mostly myth.",
+   "ost": "The myth:|false.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "Vitamin C prevents colds",
+      "FALSE",
+      "red"
+     ],
+     [
+      "Slightly shorter colds",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "false."
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "For most people, it only makes colds slightly shorter.",
+   "ost": "The truth:|slightly shorter.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "Vitamin C prevents colds",
+      "FALSE",
+      "red"
+     ],
+     [
+      "Slightly shorter colds",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "shorter."
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion Med for more.",
+   "ost": "Follow for|daily medicine.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "more."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "Does Vitamin C Stop Colds? What 29 Trials Found",
+   "Vitamin C and the Common Cold, Explained",
+   "The Vitamin C Myth in 60 Seconds"
+  ],
+  "summary": "A Cochrane review of 29 trials (11,306 people) found regular vitamin C did not reduce how often most people catch colds. It shortened colds slightly (about 8% in adults, 14% in children). Taking it after symptoms start showed no consistent effect. People under extreme physical stress were the exception.",
+  "hashtags": [
+   "#shorts",
+   "#VitaminC",
+   "#CommonCold",
+   "#MythBusting",
+   "#Health"
+  ],
+  "ig_tags": "#vitaminc #commoncold #mythbusting #health #medicine #medstudent #doctor #paravionmed",
+  "pinned": "Do you take vitamin C when you feel a cold coming? 👇",
+  "poll": [
+   "Thought it prevents colds?",
+   "Yes 🍊",
+   "No 🧠"
+  ],
+  "sources": [
+   [
+    "Hemilä H, Chalker E. Vitamin C for preventing and treating the common cold. Cochrane 2013",
+    "https://pubmed.ncbi.nlm.nih.gov/23440782/"
+   ],
+   [
+    "NIH Office of Dietary Supplements: Vitamin C fact sheet",
+    "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+   ]
+  ],
+  "removed": [],
+  "notes": "Evergreen: not time-sensitive. Re-check the guideline version before posting.",
+  "schedule": "2026-11-29T19:30:00+05:30",
+  "verdict": "Vitamin C prevents colds: FALSE. Slightly shorter colds: True.",
+  "audience": "public + students"
+ }
+}

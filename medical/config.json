@@ -4,17 +4,31 @@
   "tagline": "Medicine, explained in 60 seconds.",
   "language": "English",
   "audience": "MBBS/BDS/nursing students, NEET-PG / USMLE aspirants, junior doctors, health-curious public (18-35, India + global)",
-  "wordmark": ["PARAVION ", "MED"],
-  "footer": ["@PARAVION_MED", "Medicine, explained."],
+  "wordmark": [
+    "PARAVION ",
+    "MED"
+  ],
+  "footer": [
+    "@PARAVION_MED",
+    "Medicine, explained."
+  ],
   "cta_line": "Like and follow Paravion Med for more.",
   "cta_kicker": "FOLLOW FOR DAILY HIGH-YIELD MEDICINE",
   "disclaimer": "EDUCATIONAL ONLY · NOT MEDICAL ADVICE",
   "description_footer": "Follow for daily medical news and high-yield medicine, explained in 60 seconds.\n\nEducational content only, not medical advice. Always follow local guidelines and talk to a qualified clinician about your own health.",
   "ig_follow": "Follow @PARAVION_MED for medicine explained daily.",
-  "youtube_category": {"news": "25", "default": "27"},
+  "youtube_category": {
+    "news": "25",
+    "default": "27"
+  },
   "elevenlabs": {
     "model_id": "eleven_multilingual_v2",
-    "voice_settings": {"stability": 0.45, "similarity_boost": 0.8, "style": 0.3, "use_speaker_boost": true},
+    "voice_settings": {
+      "stability": 0.45,
+      "similarity_boost": 0.8,
+      "style": 0.3,
+      "use_speaker_boost": true
+    },
     "max_gap": 0.3,
     "tempo": 1.08
   },
@@ -37,9 +51,11 @@
       "anhidrosis": "an-hi-droh-sis",
       "ptosis": "toe-sis",
       "Virchow's": "Fear-ko's",
-      
       "Charcot's": "Shar-ko's",
-      "Reynolds'": "Reynolds"
+      "Reynolds'": "Reynolds",
+      "asundexian,": "ah-sun-dex-ee-an,",
+      "asundexian": "ah-sun-dex-ee-an",
+      "antiplatelets,": "anti-platelets,"
     },
     "_note": "'say' = respellings for the free preview voice only. Check every episode's voice_qa.txt."
   },

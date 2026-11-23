@@ -1,0 +1,268 @@
+{
+ "slug": "M07_amr_body_resistant",
+ "series": "Myth or Medicine?",
+ "kickers": {
+  "HOOK": "MYTH OR MEDICINE · INFECTION",
+  "SUB": "MYTH OR MEDICINE · INFECTION",
+  "CONTEXT": "THE BASICS",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "RECAP": "REMEMBER IT",
+  "VERDICT": "MYTH OR MEDICINE?",
+  "CTA": "MEDICINE, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "MYTH OR MEDICINE · INFECTION",
+  "head": [
+   "Is it",
+   "your body",
+   "that resists?"
+  ],
+  "sub": "What antibiotic resistance really means.",
+  "visual": {
+   "type": "hero",
+   "note": "A common mix-up",
+   "icon": "x"
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "Your body does not become resistant to antibiotics.",
+   "ost": "Your body|resistant?",
+   "visual": {
+    "type": "hero",
+    "note": "A common mix-up",
+    "icon": "x"
+   },
+   "keys": [
+    "not"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "So what does?",
+   "ost": "So what|does?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "what"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "In sixty seconds, you'll know the truth.",
+   "ost": "60 seconds.|The truth.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "truth."
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Antimicrobial resistance means germs change, so medicines stop working on them.",
+   "ost": "Germs change.|Drugs fail.",
+   "visual": {
+    "type": "hero",
+    "note": "Called AMR"
+   },
+   "keys": [
+    "germs"
+   ],
+   "source": "WHO, CDC"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Keep watching for fact three. It's the big one.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. It's the bacteria that become resistant, not the person.",
+   "ost": "Bacteria resist.|Not you.",
+   "visual": {
+    "type": "versus",
+    "sides": [
+     {
+      "name": "BACTERIA",
+      "big": "Yes",
+      "mark": "check",
+      "lines": [
+       "become",
+       "resistant"
+      ],
+      "color": "red"
+     },
+     {
+      "name": "YOUR BODY",
+      "big": "No",
+      "mark": "x",
+      "lines": [
+       "does not",
+       "resist"
+      ],
+      "color": "ink"
+     }
+    ]
+   },
+   "keys": [
+    "one.",
+    "bacteria"
+   ],
+   "source": "WHO, CDC"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. Resistant bacteria can spread between people.",
+   "ost": "They can|spread.",
+   "visual": {
+    "type": "hero",
+    "note": "Homes, hospitals, communities"
+   },
+   "keys": [
+    "two.",
+    "spread"
+   ],
+   "source": "WHO, CDC"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the big one. Misuse and overuse of antibiotics speed this up.",
+   "ost": "Misuse|speeds it up.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "Overuse",
+     "Misuse"
+    ]
+   },
+   "keys": [
+    "big",
+    "Misuse"
+   ],
+   "source": "WHO, CDC"
+  },
+  {
+   "beat": "FACT3",
+   "text": "The WHO calls it one of the top global public health threats.",
+   "ost": "A top global|health threat.",
+   "visual": {
+    "type": "hero",
+    "note": "Per WHO"
+   },
+   "keys": [
+    "top"
+   ],
+   "source": "WHO, CDC"
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Verdict. Your body becoming resistant? Myth.",
+   "ost": "The myth:|false.",
+   "visual": {
+    "type": "verdict",
+    "shown": 1,
+    "rows": [
+     [
+      "Your body becomes resistant",
+      "FALSE",
+      "red"
+     ],
+     [
+      "Bacteria become resistant",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "false."
+   ]
+  },
+  {
+   "beat": "VERDICT",
+   "text": "Bacteria become resistant, and they can spread.",
+   "ost": "The truth:|bacteria adapt.",
+   "visual": {
+    "type": "verdict",
+    "shown": 2,
+    "rows": [
+     [
+      "Your body becomes resistant",
+      "FALSE",
+      "red"
+     ],
+     [
+      "Bacteria become resistant",
+      "TRUE",
+      "green"
+     ]
+    ]
+   },
+   "keys": [
+    "Bacteria"
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion Med for more.",
+   "ost": "Follow for|daily medicine.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "more."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "Antibiotic Resistance: It's Not Your Body",
+   "What Antibiotic Resistance Really Means",
+   "AMR Explained in 60 Seconds"
+  ],
+  "summary": "Antibiotic resistance doesn't mean your body becomes resistant. Bacteria change so medicines stop working on them, and resistant bacteria can spread between people. Misuse and overuse speed this up; WHO calls AMR one of the top global public health threats.",
+  "hashtags": [
+   "#shorts",
+   "#AMR",
+   "#Antibiotics",
+   "#PublicHealth",
+   "#MythBusting"
+  ],
+  "ig_tags": "#amr #antibiotics #publichealth #mythbusting #medicine #medstudent #doctor #paravionmed",
+  "pinned": "Did you think it was the body that becomes resistant? 👇",
+  "poll": [
+   "Believed this?",
+   "Yes 😬",
+   "No 🧠"
+  ],
+  "sources": [
+   [
+    "WHO fact sheet: Antimicrobial resistance",
+    "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance"
+   ],
+   [
+    "CDC: About antimicrobial resistance",
+    "https://www.cdc.gov/antimicrobial-resistance/about/index.html"
+   ]
+  ],
+  "removed": [],
+  "notes": "Evergreen: not time-sensitive. Re-check the guideline version before posting.",
+  "schedule": "2026-12-02T19:30:00+05:30",
+  "verdict": "Your body becomes resistant: FALSE. Bacteria become resistant: True.",
+  "audience": "public + students"
+ }
+}

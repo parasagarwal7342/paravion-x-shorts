@@ -1,0 +1,284 @@
+{
+ "slug": "M05_qsofa_sepsis",
+ "series": "High-Yield in 60",
+ "kickers": {
+  "HOOK": "HIGH-YIELD · CRITICAL CARE",
+  "SUB": "HIGH-YIELD · CRITICAL CARE",
+  "CONTEXT": "THE BASICS",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "RECAP": "REMEMBER IT",
+  "VERDICT": "MYTH OR MEDICINE?",
+  "CTA": "MEDICINE, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "HIGH-YIELD · CRITICAL CARE",
+  "head": [
+   "qSOFA",
+   "in 60",
+   "seconds"
+  ],
+  "sub": "The three criteria, and what the 2021 sepsis guidelines changed.",
+  "visual": {
+   "type": "mnemonic",
+   "title": "qSOFA",
+   "items": [
+    [
+     "R",
+     "RR 22+"
+    ],
+    [
+     "A",
+     "Altered mentation"
+    ],
+    [
+     "S",
+     "SBP 100 or less"
+    ]
+   ]
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "Three bedside checks can flag sepsis risk in seconds.",
+   "ost": "3 checks.|Sepsis risk.",
+   "visual": {
+    "type": "stat",
+    "text": "qSOFA",
+    "count": false,
+    "label": "QUICK SOFA",
+    "sub": "Sepsis-3, 2016",
+    "color": "accent"
+   },
+   "keys": [
+    "Three",
+    "sepsis"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "But should you screen with it alone?",
+   "ost": "Screen with|it alone?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "alone?"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "Sixty seconds. Exam-ready.",
+   "ost": "60 seconds.|Exam-ready.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "Exam-ready."
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "It's called q SOFA, from the 2016 Sepsis-3 definitions.",
+   "ost": "From|Sepsis-3.",
+   "visual": {
+    "type": "hero",
+    "note": "JAMA, 2016"
+   },
+   "keys": [
+    "2016"
+   ],
+   "source": "JAMA, Crit Care Med"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Stay for fact three. It's the exam favourite.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. Breathing rate of twenty two or more.",
+   "ost": "RR|22 or more.",
+   "visual": {
+    "type": "grid",
+    "tiles": [
+     [
+      "RESP RATE",
+      "22+",
+      "per minute"
+     ]
+    ]
+   },
+   "keys": [
+    "one.",
+    "twenty"
+   ],
+   "source": "JAMA, Crit Care Med"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. Altered mental state, and systolic pressure of one hundred or less.",
+   "ost": "Confusion.|SBP 100 or less.",
+   "visual": {
+    "type": "grid",
+    "tiles": [
+     [
+      "RESP RATE",
+      "22+",
+      "per minute"
+     ],
+     [
+      "MENTATION",
+      "Altered",
+      "any change"
+     ],
+     [
+      "SYSTOLIC BP",
+      "100 or less",
+      "mmHg"
+     ]
+    ]
+   },
+   "keys": [
+    "two.",
+    "hundred"
+   ],
+   "source": "JAMA, Crit Care Med"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Two or more points flags a higher risk of a poor outcome.",
+   "ost": "2+ points:|higher risk.",
+   "visual": {
+    "type": "stat",
+    "text": "2+",
+    "count": false,
+    "label": "qSOFA POSITIVE",
+    "sub": "Higher risk of poor outcome",
+    "color": "red"
+   },
+   "keys": [
+    "Two",
+    "risk"
+   ],
+   "source": "JAMA, Crit Care Med"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the exam favourite. The 2021 guidelines say don't use it alone to screen.",
+   "ost": "2021: not alone|to screen.",
+   "visual": {
+    "type": "hero",
+    "note": "Surviving Sepsis Campaign 2021",
+    "icon": "x"
+   },
+   "keys": [
+    "favourite.",
+    "alone"
+   ],
+   "source": "Crit Care Med, JAMA"
+  },
+  {
+   "beat": "FACT3",
+   "text": "Compared with SIRS or early warning scores, it's not advised as a single screen.",
+   "ost": "Not a single|screening tool.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "SIRS",
+     "NEWS",
+     "MEWS"
+    ]
+   },
+   "keys": [
+    "single"
+   ],
+   "source": "Crit Care Med, JAMA"
+  },
+  {
+   "beat": "RECAP",
+   "text": "Breathing, brain, blood pressure. Two flags risk. Never your only screen.",
+   "ost": "Two flags risk.|Not alone.",
+   "visual": {
+    "type": "mnemonic",
+    "title": "qSOFA",
+    "items": [
+     [
+      "R",
+      "Resp rate 22+"
+     ],
+     [
+      "A",
+      "Altered mentation"
+     ],
+     [
+      "S",
+      "Systolic BP 100 or less"
+     ]
+    ]
+   },
+   "keys": [
+    "only"
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion Med for more.",
+   "ost": "Follow for|daily medicine.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "more."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "qSOFA in 60 Seconds: Sepsis Criteria",
+   "qSOFA vs SIRS: What the 2021 Guidelines Say",
+   "Sepsis Screening Explained for Med Students"
+  ],
+  "summary": "qSOFA (Sepsis-3, 2016): respiratory rate 22 or more, altered mentation, systolic BP 100 or less. Two or more points flags a higher risk of poor outcome. The 2021 Surviving Sepsis Campaign guidelines recommend against using qSOFA alone as a screening tool compared with SIRS, NEWS or MEWS.",
+  "hashtags": [
+   "#shorts",
+   "#Sepsis",
+   "#CriticalCare",
+   "#qSOFA",
+   "#MedicalStudent"
+  ],
+  "ig_tags": "#sepsis #criticalcare #qsofa #medicalstudent #medicine #medstudent #doctor #paravionmed",
+  "pinned": "SIRS, NEWS or qSOFA: what does your hospital use? 👇",
+  "poll": [
+   "Knew the 2021 change?",
+   "Yes 🩺",
+   "News to me 😮"
+  ],
+  "sources": [
+   [
+    "Singer M et al. Sepsis-3 definitions. JAMA 2016",
+    "https://pubmed.ncbi.nlm.nih.gov/26903338/"
+   ],
+   [
+    "Evans L et al. Surviving Sepsis Campaign guidelines 2021. Crit Care Med",
+    "https://pubmed.ncbi.nlm.nih.gov/34605781/"
+   ]
+  ],
+  "removed": [],
+  "notes": "Evergreen: not time-sensitive. Re-check the guideline version before posting.",
+  "schedule": "2026-11-30T19:30:00+05:30",
+  "verdict": "qSOFA (Sepsis-3, 2016): respiratory rate 22 or more, altered mentation, systolic BP 100 or less.",
+  "audience": "students + doctors"
+ }
+}

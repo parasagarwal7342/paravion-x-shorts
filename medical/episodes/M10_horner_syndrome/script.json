@@ -1,0 +1,282 @@
+{
+ "slug": "M10_horner_syndrome",
+ "series": "High-Yield in 60",
+ "kickers": {
+  "HOOK": "HIGH-YIELD · NEUROLOGY",
+  "SUB": "HIGH-YIELD · NEUROLOGY",
+  "CONTEXT": "THE BASICS",
+  "FACT1": "FACT 1 OF 3",
+  "FACT2": "FACT 2 OF 3",
+  "FACT3": "FACT 3 OF 3",
+  "RECAP": "REMEMBER IT",
+  "VERDICT": "MYTH OR MEDICINE?",
+  "CTA": "MEDICINE, EXPLAINED"
+ },
+ "cover": {
+  "kicker": "HIGH-YIELD · NEUROLOGY",
+  "head": [
+   "Horner",
+   "syndrome",
+   "in 60s"
+  ],
+  "sub": "Ptosis, miosis, anhidrosis, and the causes you can't miss.",
+  "visual": {
+   "type": "mnemonic",
+   "title": "HORNER",
+   "items": [
+    [
+     "P",
+     "Ptosis"
+    ],
+    [
+     "M",
+     "Miosis"
+    ],
+    [
+     "A",
+     "Anhidrosis"
+    ]
+   ]
+  }
+ },
+ "lines": [
+  {
+   "beat": "HOOK",
+   "text": "A droopy eyelid and a tiny pupil can point to the lung or neck.",
+   "ost": "Droopy lid.|Tiny pupil.",
+   "visual": {
+    "type": "mnemonic",
+    "title": "HORNER SYNDROME",
+    "items": [
+     [
+      "P",
+      "?"
+     ],
+     [
+      "M",
+      "?"
+     ],
+     [
+      "A",
+      "?"
+     ]
+    ]
+   },
+   "keys": [
+    "droopy",
+    "tiny"
+   ]
+  },
+  {
+   "beat": "HOOK",
+   "text": "Why would the eye warn you?",
+   "ost": "Why the|eye?",
+   "visual": {
+    "type": "question"
+   },
+   "keys": [
+    "warn"
+   ]
+  },
+  {
+   "beat": "SUB",
+   "text": "Sixty seconds. Exam-ready.",
+   "ost": "60 seconds.|Exam-ready.",
+   "visual": {
+    "type": "timer"
+   },
+   "keys": [
+    "Exam-ready."
+   ]
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Horner syndrome happens when the sympathetic nerve path to the eye is interrupted.",
+   "ost": "Sympathetic path|cut.",
+   "visual": {
+    "type": "hero",
+    "note": "A long, three-neuron route"
+   },
+   "keys": [
+    "sympathetic"
+   ],
+   "source": "StatPearls, ACR"
+  },
+  {
+   "beat": "CONTEXT",
+   "text": "Stay for fact three. It's the exam favourite.",
+   "ost": "Wait for|fact 3.",
+   "visual": {
+    "type": "teaser",
+    "n": 3
+   },
+   "keys": [
+    "three."
+   ]
+  },
+  {
+   "beat": "FACT1",
+   "text": "Fact one. Ptosis. A mildly droopy upper eyelid.",
+   "ost": "P:|ptosis.",
+   "visual": {
+    "type": "mnemonic",
+    "title": "HORNER SYNDROME",
+    "items": [
+     [
+      "P",
+      "Ptosis"
+     ],
+     [
+      "M",
+      "?"
+     ],
+     [
+      "A",
+      "?"
+     ]
+    ]
+   },
+   "keys": [
+    "one.",
+    "Ptosis."
+   ],
+   "source": "StatPearls, ACR"
+  },
+  {
+   "beat": "FACT2",
+   "text": "Fact two. Miosis, a small pupil, and anhidrosis, less sweating on that side.",
+   "ost": "M: miosis.|A: anhidrosis.",
+   "visual": {
+    "type": "mnemonic",
+    "title": "HORNER SYNDROME",
+    "items": [
+     [
+      "P",
+      "Ptosis"
+     ],
+     [
+      "M",
+      "Miosis"
+     ],
+     [
+      "A",
+      "Anhidrosis"
+     ]
+    ]
+   },
+   "keys": [
+    "two.",
+    "Miosis,",
+    "anhidrosis,"
+   ],
+   "source": "StatPearls, ACR"
+  },
+  {
+   "beat": "FACT3",
+   "text": "And the exam favourite. The cause can be serious.",
+   "ost": "The cause|can be serious.",
+   "visual": {
+    "type": "hero",
+    "note": "Always look for it"
+   },
+   "keys": [
+    "favourite.",
+    "serious."
+   ],
+   "source": "StatPearls, ACR"
+  },
+  {
+   "beat": "FACT3",
+   "text": "Classic examples are a lung apex tumour, or carotid artery dissection.",
+   "ost": "Pancoast tumour.|Carotid dissection.",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "Pancoast tumour",
+     "Carotid dissection"
+    ]
+   },
+   "keys": [
+    "tumour,",
+    "dissection."
+   ],
+   "source": "StatPearls, ACR"
+  },
+  {
+   "beat": "RECAP",
+   "text": "Ptosis, miosis, anhidrosis. Same side. Then find the cause.",
+   "ost": "PMA.|Find the cause.",
+   "visual": {
+    "type": "mnemonic",
+    "title": "HORNER SYNDROME",
+    "items": [
+     [
+      "P",
+      "Ptosis"
+     ],
+     [
+      "M",
+      "Miosis"
+     ],
+     [
+      "A",
+      "Anhidrosis"
+     ]
+    ]
+   },
+   "keys": [
+    "cause."
+   ]
+  },
+  {
+   "beat": "CTA",
+   "text": "Like and follow Paravion Med for more.",
+   "ost": "Follow for|daily medicine.",
+   "visual": {
+    "type": "cta"
+   },
+   "keys": [
+    "Like",
+    "follow",
+    "more."
+   ]
+  }
+ ],
+ "meta": {
+  "titles": [
+   "Horner Syndrome in 60 Seconds (PMA)",
+   "Ptosis, Miosis, Anhidrosis: Horner Syndrome",
+   "Horner Syndrome Causes You Can't Miss"
+  ],
+  "summary": "Horner syndrome is interruption of the sympathetic pathway to the eye: ptosis, miosis and anhidrosis on the same side. Causes can be serious, classically a lung apex (Pancoast) tumour or carotid artery dissection, so the cause is always investigated.",
+  "hashtags": [
+   "#shorts",
+   "#Neurology",
+   "#Ophthalmology",
+   "#NEETPG",
+   "#USMLE"
+  ],
+  "ig_tags": "#neurology #ophthalmology #neetpg #usmle #medicine #medstudent #doctor #paravionmed",
+  "pinned": "Which eye sign should we cover next? 👇",
+  "poll": [
+   "Knew PMA?",
+   "Yes 👁️",
+   "Not yet 📚"
+  ],
+  "sources": [
+   [
+    "StatPearls: Horner Syndrome (NBK500000)",
+    "https://pubmed.ncbi.nlm.nih.gov/29763176/"
+   ],
+   [
+    "ACR Appropriateness Criteria: Horner Syndrome. J Am Coll Radiol 2025",
+    "https://pubmed.ncbi.nlm.nih.gov/41193044/"
+   ]
+  ],
+  "removed": [],
+  "notes": "Evergreen: not time-sensitive. Re-check the guideline version before posting.",
+  "schedule": "2026-12-05T19:30:00+05:30",
+  "verdict": "Horner syndrome is interruption of the sympathetic pathway to the eye: ptosis, miosis and anhidrosis on the same side.",
+  "audience": "students + doctors"
+ }
+}
