@@ -1,1 +1,1 @@
-MISMATCHES: [('scores', 'score is'), ('for', 'four'), ('scores', 'score is'), ('for', 'four'), ('paravion med for more', 'parav on medfourmore')]
+MISMATCHES: [('stay', 'say'), ('paravion', 'parav on')]
