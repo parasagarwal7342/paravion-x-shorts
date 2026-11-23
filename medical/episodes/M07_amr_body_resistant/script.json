@@ -155,14 +155,14 @@
   },
   {
    "beat": "FACT3",
-   "text": "The WHO calls it one of the top global public health threats.",
-   "ost": "A top global|health threat.",
+   "text": "The WHO calls it a major global health threat.",
+   "ost": "A major global|health threat.",
    "visual": {
     "type": "hero",
     "note": "Per WHO"
    },
    "keys": [
-    "top"
+    "major"
    ],
    "source": "WHO, CDC"
   },
@@ -234,7 +234,7 @@
    "What Antibiotic Resistance Really Means",
    "AMR Explained in 60 Seconds"
   ],
-  "summary": "Antibiotic resistance doesn't mean your body becomes resistant. Bacteria change so medicines stop working on them, and resistant bacteria can spread between people. Misuse and overuse speed this up; WHO calls AMR one of the top global public health threats.",
+  "summary": "Antibiotic resistance doesn't mean your body becomes resistant. Bacteria change so medicines stop working on them, and resistant bacteria can spread between people. Misuse and overuse speed this up; WHO calls AMR a major global health threat.",
   "hashtags": [
    "#shorts",
    "#AMR",

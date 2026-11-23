@@ -48,7 +48,7 @@ Every on-screen fact line and its sources:
 | 0:40–0:43 | CTA | Like and follow Paravion Med for more. | Follow for / daily medicine. | — |
 
 ## Files
-- `final_video.mp4`: 1080×1920, 30 fps, H.264 + AAC, 42.9 s, -14.0 LUFS, -3.3 dBTP peak, BT.709.
+- `final_video.mp4`: 1080×1920, 30 fps, H.264 + AAC, 42.9 s, -14.0 LUFS, -3.2 dBTP peak, BT.709.
 - `cover.png`: 1080×1920.
 - `voice.mp3` / `voice.wav`: preview voice. `timings.json`: word timestamps.
 - Voice QA (Whisper transcript vs script): `MISMATCHES: [('q sofa', 'qsofa'), ('sirs', 'csrs'), ('paravion', 'parav on')]`. Only number formatting ("12" vs "twelfth") or name spelling differences are acceptable.

@@ -60,8 +60,23 @@ def domain_ok(url, series):
 def check(ep):
     ep = Path(ep); s = json.loads((ep / "script.json").read_text()); m = s.get("meta", {})
     series = s.get("series", ""); err, warn = [], []
+    long = s.get("format") == "long"
     words = sum(len(l["text"].split()) for l in s["lines"])
-    if words > 135: err.append(f"script is {words} words (max 135, or it runs over 60 s)")
+    if not long and words > 135: err.append(f"script is {words} words (max 135, or it runs over 60 s)")
+    if long and not 500 <= words <= 2200: warn.append(f"long-form script is {words} words (aim for 800-1800, about 6-12 min)")
+    if long:
+        for i, l in enumerate(s["lines"]):
+            v = l.get("visual", {})
+            if v.get("type") == "image" and not (v.get("file") or v.get("query")): err.append(f"line {i + 1}: image scene needs `file` or `query`")
+            # long-form rule: every line either cites 2+ sources or is explicitly marked as non-factual (intro, transition, CTA)
+            if not l.get("nofact"):
+                src = l.get("source", "")
+                if len([x for x in re.split(r"[,;/&]| and ", src) if x.strip()]) < 2:
+                    err.append(f"line {i + 1}: long-form fact line needs 2+ sources (or \"nofact\": true if it states no fact): '{l['text'][:70]}'")
+        cr = Path(ep) / "credits.json"
+        if cr.exists():
+            for k, c in json.loads(cr.read_text()).items():
+                if not re.match(r"^(public domain|cc0|cc by(-sa)?( \d\.\d)?)", c["license"].lower()): err.append(f"image '{c['title']}' has licence '{c['license']}' (not allowed)")
     for i, l in enumerate(s["lines"]):
         tag = f"line {i + 1} [{l['beat']}]"
         txt = l["text"]
@@ -70,9 +85,9 @@ def check(ep):
         if DOSE.search(txt) or DOSE.search(l.get("ost", "")):
             if not m.get("allow_doses"): err.append(f"{tag}: contains a dose ('{DOSE.search(txt + ' ' + l.get('ost', '')).group(0)}'). Remove it, or set meta.allow_doses with a guideline source")
         ost = l.get("ost", "")
-        if len(ost.replace("|", " ").split()) > 6: warn.append(f"{tag}: on-screen text is over 6 words: '{ost}'")
+        if len(ost.replace("|", " ").split()) > (9 if long else 6): warn.append(f"{tag}: on-screen text is over 6 words: '{ost}'")
         if any(a in ost for a in "→←↓↑"): err.append(f"{tag}: arrow glyph in on-screen text (font has none)")
-        if l["beat"] in STATE_BEATS and not FILLER.search(txt):
+        if not long and l["beat"] in STATE_BEATS and not FILLER.search(txt):
             src = l.get("source", "")
             n = len([x for x in re.split(r"[,;/&]| and ", src) if x.strip()])
             if n < 2: err.append(f"{tag}: needs 2+ sources in `source` (has '{src or 'none'}'): '{txt}'")

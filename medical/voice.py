@@ -302,7 +302,7 @@ def main(ep_dir):
     wpm = nwords / (tl[-1]["end"] / 60)
     (ep / "timings.json").write_text(json.dumps({"engine": engine, "duration": dur, "wpm": round(wpm), "lines": tl}, indent=1))
     print(f"engine={engine} duration={dur:.1f}s words={nwords} pace={wpm:.0f} wpm")
-    if dur > 59.5:
+    if dur > 59.5 and json.loads((ep / "script.json").read_text()).get("format") != "long":
         print("OVER 60s — cut words from the script (do not speed voice above 1.1x)"); sys.exit(2)
 
 

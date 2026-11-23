@@ -1,0 +1,806 @@
+{
+ "slug": "L01_antibiotic_resistance",
+ "series": "Deep Dive",
+ "format": "long",
+ "kickers": {},
+ "cover": {
+  "kicker": "DEEP DIVE",
+  "head": [
+   "When",
+   "antibiotics",
+   "stop working"
+  ],
+  "sub": "Antimicrobial resistance, explained.",
+  "visual": {
+   "type": "tags",
+   "tags": [
+    "AMR"
+   ]
+  }
+ },
+ "lines": [
+  {
+   "beat": "DEEP",
+   "text": "In twenty twenty one, more than a million deaths worldwide were caused directly by bacteria that antibiotics could no longer kill.",
+   "ost": "Drug-resistant bacteria|1.14 million deaths in 2021",
+   "visual": {
+    "type": "image",
+    "file": "File:Methicillin-Resistant Staphylococcus Aureus (MRSA) Bacteria colorized scanning electron micrograph - 11.jpg",
+    "move": "in"
+   },
+   "keys": [],
+   "source": "Lancet 2024, WHO"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Resistant infections were linked to about four point seven million deaths that year.",
+   "ost": "The scale|Deaths linked to resistance",
+   "visual": {
+    "type": "stat",
+    "text": "4.7 million",
+    "count": false,
+    "label": "DEATHS ASSOCIATED WITH AMR, 2021",
+    "sub": "1.14 million directly caused",
+    "color": "red"
+   },
+   "keys": [],
+   "source": "Lancet 2024, WHO"
+  },
+  {
+   "beat": "DEEP",
+   "text": "The medicines that changed modern medicine are slowly losing their power.",
+   "ost": "",
+   "visual": {
+    "type": "image",
+    "file": "File:VariousPills.jpg",
+    "move": "out"
+   },
+   "keys": [],
+   "nofact": true
+  },
+  {
+   "beat": "DEEP",
+   "text": "This is the story of how it happened, and what still works.",
+   "ost": "",
+   "visual": {
+    "type": "image",
+    "file": "File:Medical laboratory, Where science, medicine converge 140417-F-FM358-007.jpg",
+    "move": "right"
+   },
+   "keys": [],
+   "nofact": true
+  },
+  {
+   "beat": "DEEP",
+   "text": "When antibiotics stop working.",
+   "ost": "",
+   "visual": {
+    "type": "title",
+    "lines": [
+     "When antibiotics",
+     "stop working"
+    ],
+    "kicker": "A PARAVION MED DEEP DIVE",
+    "bg": "File:Scanning electron micrograph of Methicillin-resistant Staphylococcus aureus (MRSA) and a dead Human neutrophil - NIAID.jpg"
+   },
+   "keys": [],
+   "nofact": true
+  },
+  {
+   "beat": "DEEP",
+   "text": "Chapter one. The mould that changed medicine.",
+   "ost": "",
+   "visual": {
+    "type": "chapter",
+    "n": 1,
+    "title": "The mould that changed medicine",
+    "sub": "London, 1928",
+    "bg": "File:Penicillia on Petri dish.jpg"
+   },
+   "keys": [],
+   "nofact": true
+  },
+  {
+   "beat": "DEEP",
+   "text": "In nineteen twenty eight, Alexander Fleming noticed something strange on a culture plate.",
+   "ost": "1928|Alexander Fleming",
+   "visual": {
+    "type": "image",
+    "file": "File:Professor Alexander Fleming at work in his laboratory at St Mary's Hospital, London, during the Second World War. D17801.jpg",
+    "move": "in"
+   },
+   "keys": [],
+   "source": "Cureus 2024, Int J Antimicrob Agents 2008"
+  },
+  {
+   "beat": "DEEP",
+   "text": "A mould had landed on it, and the bacteria around it had died.",
+   "ost": "Penicillium|The mould that killed bacteria",
+   "visual": {
+    "type": "image",
+    "file": "File:Penicillia on Petri dish.jpg",
+    "move": "in"
+   },
+   "keys": [],
+   "source": "Cureus 2024, Int J Antimicrob Agents 2008"
+  },
+  {
+   "beat": "DEEP",
+   "text": "That mould gave us penicillin, the first antibiotic to change medicine.",
+   "ost": "St Mary's Hospital, London|Where penicillin was found",
+   "visual": {
+    "type": "image",
+    "file": "File:St Marys hospital gate and Alexander Fleming laboratory.jpg",
+    "move": "left"
+   },
+   "keys": [],
+   "source": "Cureus 2024, Int J Antimicrob Agents 2008"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Before antibiotics, a simple infection could be a death sentence. Afterwards, medicine could take risks it never could before.",
+   "ost": "",
+   "visual": {
+    "type": "image",
+    "file": "File:Medical laboratory, Where science, medicine converge 140417-F-FM358-007.jpg",
+    "move": "in"
+   },
+   "keys": [],
+   "nofact": true
+  },
+  {
+   "beat": "DEEP",
+   "text": "Today, joint replacements, organ transplants and cancer therapy all depend on being able to treat infections.",
+   "ost": "Modern medicine|Built on antibiotics",
+   "visual": {
+    "type": "tags",
+    "tags": [
+     "Joint replacements",
+     "Organ transplants",
+     "Cancer therapy"
+    ]
+   },
+   "keys": [],
+   "source": "CDC, WHO"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Resistance raises the risk of complications from procedures like surgery.",
+   "ost": "Higher risk|Surgery and procedures",
+   "visual": {
+    "type": "image",
+    "file": "File:Empty Beds in Ward of Hospital, Minneapolis Health Department.jpg",
+    "move": "right"
+   },
+   "keys": [],
+   "source": "WHO, CDC"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Chapter two. How bacteria fight back.",
+   "ost": "",
+   "visual": {
+    "type": "chapter",
+    "n": 2,
+    "title": "How bacteria fight back",
+    "sub": "Evolution, in fast-forward",
+    "bg": "File:E. coli Bacteria (16578744517).jpg"
+   },
+   "keys": [],
+   "nofact": true
+  },
+  {
+   "beat": "DEEP",
+   "text": "Resistance happens when germs develop the ability to defeat the drugs designed to kill them.",
+   "ost": "Resistance|Germs defeat the drug",
+   "visual": {
+    "type": "image",
+    "file": "File:E. coli Bacteria (16578744517).jpg",
+    "move": "in"
+   },
+   "keys": [],
+   "source": "CDC, WHO"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Every time an antibiotic is used, it puts pressure on bacteria to adapt.",
+   "ost": "Selection pressure|Every use counts",
+   "visual": {
+    "type": "image",
+    "file": "File:Antimicrobial susceptibility testing (AST) result of Streptococcus sanguinis.jpg",
+    "move": "out"
+   },
+   "keys": [],
+   "source": "CDC, Munita 2016"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Picture billions of bacteria in an infection. A few carry a random genetic change that helps them survive the drug.",
+   "ost": "Random change|A few survivors",
+   "visual": {
+    "type": "image",
+    "file": "File:Klebsiella pneumoniae Bacterium (13383411493).jpg",
+    "move": "left"
+   },
+   "keys": [],
+   "source": "Munita 2016, CDC"
+  },
+  {
+   "beat": "DEEP",
+   "text": "The antibiotic kills the rest. The survivors now have room to multiply.",
+   "ost": "Survival of the fittest|The resistant ones multiply",
+   "visual": {
+    "type": "image",
+    "file": "File:E. coli Bacteria (16578744517).jpg",
+    "move": "out"
+   },
+   "keys": [],
+   "source": "Munita 2016, CDC"
+  },
+  {
+   "beat": "DEEP",
+   "text": "That's evolution, happening in days instead of millions of years.",
+   "ost": "",
+   "visual": {
+    "type": "image",
+    "file": "File:Antimicrobial susceptibility testing (AST) result of Streptococcus sanguinis.jpg",
+    "move": "right"
+   },
+   "keys": [],
+   "nofact": true
+  },
+  {
+   "beat": "DEEP",
+   "text": "They have four main tricks.",
+   "ost": "Four tricks|How bacteria resist",
+   "visual": {
+    "type": "mnemonic",
+    "title": "HOW BACTERIA RESIST",
+    "items": [
+     [
+      "1",
+      "Destroy the drug"
+     ],
+     [
+      "2",
+      "Pump it out"
+     ],
+     [
+      "3",
+      "Change the target"
+     ],
+     [
+      "4",
+      "Block the way in"
+     ]
+    ]
+   },
+   "keys": [],
+   "source": "CDC, Munita 2016"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Some make enzymes that break the antibiotic down.",
+   "ost": "Trick 1|Enzymes destroy the drug",
+   "visual": {
+    "type": "image",
+    "file": "File:Modified Hodge Test (MHT).jpg",
+    "move": "in"
+   },
+   "keys": [],
+   "source": "CDC, Munita 2016"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Some pump it straight back out, or change the target so the drug no longer fits.",
+   "ost": "Tricks 2 and 3|Pumps and new targets",
+   "visual": {
+    "type": "image",
+    "file": "File:Klebsiella pneumoniae Bacterium (13383411493).jpg",
+    "move": "right"
+   },
+   "keys": [],
+   "source": "CDC, Munita 2016"
+  },
+  {
+   "beat": "DEEP",
+   "text": "And some close the doors it uses to get in.",
+   "ost": "Trick 4|Restricted entry",
+   "visual": {
+    "type": "image",
+    "file": "File:Acinetobacter baumannii.JPG",
+    "move": "out"
+   },
+   "keys": [],
+   "source": "CDC, Munita 2016"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Worse, bacteria can share resistance with other bacteria that have never even seen the drug.",
+   "ost": "Shared genes|Resistance spreads between bacteria",
+   "visual": {
+    "type": "image",
+    "file": "File:Bacterial conjugation.png",
+    "move": "in"
+   },
+   "keys": [],
+   "source": "CDC, Munita 2016"
+  },
+  {
+   "beat": "DEEP",
+   "text": "They pass it on through mobile pieces of DNA, which is why resistance can spread so fast.",
+   "ost": "Mobile genetic elements|Fast spread",
+   "visual": {
+    "type": "image",
+    "file": "File:Bacterial conjugation.png",
+    "move": "out"
+   },
+   "keys": [],
+   "source": "CDC, Munita 2016"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Medical students, this is classic exam material. Enzymes, efflux pumps, target changes and reduced entry.",
+   "ost": "For the exam|The four mechanisms",
+   "visual": {
+    "type": "mnemonic",
+    "title": "THE FOUR MECHANISMS",
+    "items": [
+     [
+      "1",
+      "Enzymatic destruction"
+     ],
+     [
+      "2",
+      "Efflux pumps"
+     ],
+     [
+      "3",
+      "Target modification"
+     ],
+     [
+      "4",
+      "Reduced permeability"
+     ]
+    ]
+   },
+   "keys": [],
+   "source": "CDC, Munita 2016"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Chapter three. The scale of the problem.",
+   "ost": "",
+   "visual": {
+    "type": "chapter",
+    "n": 3,
+    "title": "The scale of the problem",
+    "sub": "What the numbers say",
+    "bg": "File:World Health Organisation building from west.jpg"
+   },
+   "keys": [],
+   "nofact": true
+  },
+  {
+   "beat": "DEEP",
+   "text": "In twenty twenty three, about one in six lab-confirmed bacterial infections worldwide were resistant to antibiotics.",
+   "ost": "WHO surveillance, 2025|1 in 6 infections resistant",
+   "visual": {
+    "type": "stat",
+    "text": "1 in 6",
+    "count": false,
+    "label": "INFECTIONS RESISTANT, 2023",
+    "sub": "Lab-confirmed, worldwide",
+    "color": "red"
+   },
+   "keys": [],
+   "source": "WHO GLASS 2025, WHO"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Between twenty eighteen and twenty twenty three, resistance rose in over forty percent of the drug and bug pairs WHO tracks.",
+   "ost": "2018 to 2023|Rising in over 40% of combinations",
+   "visual": {
+    "type": "image",
+    "file": "File:Medical laboratory, Where science, medicine converge 140417-F-FM358-007.jpg",
+    "move": "left"
+   },
+   "keys": [],
+   "source": "WHO GLASS 2025, WHO"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Two gut bacteria keep topping these lists: E. coli and Klebsiella.",
+   "ost": "The leaders|E. coli and K. pneumoniae",
+   "visual": {
+    "type": "image",
+    "file": "File:Klebsiella pneumoniae Bacterium (13383411493).jpg",
+    "move": "in"
+   },
+   "keys": [],
+   "source": "WHO GLASS 2025, Lancet 2022"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Globally, more than forty percent of E. coli and over fifty five percent of Klebsiella resist the first-choice antibiotics for these infections.",
+   "ost": "First-choice drugs|Failing more often",
+   "visual": {
+    "type": "trial",
+    "label": "RESISTANT TO 3RD-GEN CEPHALOSPORINS",
+    "arms": [
+     {
+      "name": "K. pneumoniae",
+      "value": 55,
+      "text": "over 55%",
+      "color": "red"
+     },
+     {
+      "name": "E. coli",
+      "value": 40,
+      "text": "over 40%"
+     }
+    ],
+    "sub": "WHO GLASS report, 2025"
+   },
+   "keys": [],
+   "source": "WHO GLASS 2025, WHO"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Even powerful drugs like carbapenems are losing effectiveness against Klebsiella and Acinetobacter.",
+   "ost": "Carbapenems|Losing ground",
+   "visual": {
+    "type": "image",
+    "file": "File:Acinetobacter baumannii.JPG",
+    "move": "in"
+   },
+   "keys": [],
+   "source": "WHO GLASS 2025, Lancet 2024"
+  },
+  {
+   "beat": "DEEP",
+   "text": "And M R S A, a resistant staph, caused over a hundred thousand deaths in a single year on its own.",
+   "ost": "MRSA|Over 100,000 deaths a year",
+   "visual": {
+    "type": "image",
+    "file": "File:Methicillin-Resistant Staphylococcus Aureus (MRSA) Bacteria colorized scanning electron micrograph - 11.jpg",
+    "move": "out"
+   },
+   "keys": [],
+   "source": "Lancet 2022, Lancet 2024"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Older people are hit hardest. Since nineteen ninety, resistance deaths in people over seventy have risen by more than eighty percent.",
+   "ost": "Older adults|The fastest-growing toll",
+   "visual": {
+    "type": "stat",
+    "text": "+80%",
+    "count": false,
+    "label": "AMR DEATHS, AGE 70+, 1990-2021",
+    "sub": "While deaths in under-5s more than halved",
+    "color": "red"
+   },
+   "keys": [],
+   "source": "Lancet 2024, WHO"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Chapter four. Why it matters for South Asia.",
+   "ost": "",
+   "visual": {
+    "type": "chapter",
+    "n": 4,
+    "title": "Why South Asia should care",
+    "sub": "Where resistance is highest",
+    "bg": "File:Microbiology cabinet.jpg"
+   },
+   "keys": [],
+   "nofact": true
+  },
+  {
+   "beat": "DEEP",
+   "text": "WHO estimates resistance is highest in its South-East Asia and Eastern Mediterranean regions, where one in three reported infections were resistant.",
+   "ost": "WHO South-East Asia|1 in 3 infections resistant",
+   "visual": {
+    "type": "stat",
+    "text": "1 in 3",
+    "count": false,
+    "label": "SOUTH-EAST ASIA REGION",
+    "sub": "Reported infections resistant",
+    "color": "red"
+   },
+   "keys": [],
+   "source": "WHO GLASS 2025, WHO"
+  },
+  {
+   "beat": "DEEP",
+   "text": "And forecasts in The Lancet put South Asia among the regions with the highest death rates from resistance by twenty fifty.",
+   "ost": "Forecast to 2050|South Asia among the hardest hit",
+   "visual": {
+    "type": "image",
+    "file": "File:Mycobacterium Tuberculosis Bacteria, the Cause of TB (52766234986).jpg",
+    "move": "in"
+   },
+   "keys": [],
+   "source": "Lancet 2024, WHO GLASS 2025"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Resistant germs spread in hospitals, in the community, through food and the environment, and between people and animals.",
+   "ost": "One Health|People, animals, food, environment",
+   "visual": {
+    "type": "image",
+    "file": "File:Livestock rearing (poultry).jpg",
+    "move": "right"
+   },
+   "keys": [],
+   "source": "CDC, WHO"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Chapter five. What actually works.",
+   "ost": "",
+   "visual": {
+    "type": "chapter",
+    "n": 5,
+    "title": "What actually works",
+    "sub": "For doctors, students and everyone else",
+    "bg": "File:Use of a touchless hand washing tap and solid bar soap dispenser.jpg"
+   },
+   "keys": [],
+   "nofact": true
+  },
+  {
+   "beat": "DEEP",
+   "text": "First, use antibiotics only when they're needed. Ask your doctor whether you really need one.",
+   "ost": "Use them wisely|Only when needed",
+   "visual": {
+    "type": "image",
+    "file": "File:VariousPills.jpg",
+    "move": "in"
+   },
+   "keys": [],
+   "source": "CDC, WHO"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Colds are viral, and trials show antibiotics don't help them.",
+   "ost": "Colds are viral|Antibiotics don't help",
+   "visual": {
+    "type": "versus",
+    "sides": [
+     {
+      "name": "BACTERIA",
+      "big": "Yes",
+      "mark": "check",
+      "lines": [
+       "antibiotics",
+       "can work"
+      ],
+      "color": "green"
+     },
+     {
+      "name": "VIRUSES",
+      "big": "No",
+      "mark": "x",
+      "lines": [
+       "colds:",
+       "no benefit"
+      ],
+      "color": "red"
+     }
+    ]
+   },
+   "keys": [],
+   "source": "Cochrane 2025, CDC"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Antibiotics also have side effects. In cold trials, adults given antibiotics had more of them than those on placebo.",
+   "ost": "Not harmless|More side effects",
+   "visual": {
+    "type": "image",
+    "file": "File:VariousPills.jpg",
+    "move": "left"
+   },
+   "keys": [],
+   "source": "Cochrane 2025, CDC"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Second, prevent infections. Clean hands are one of the best ways to stop germs spreading.",
+   "ost": "Prevention|Clean hands",
+   "visual": {
+    "type": "image",
+    "file": "File:Use of a touchless hand washing tap and solid bar soap dispenser.jpg",
+    "move": "in"
+   },
+   "keys": [],
+   "source": "CDC, WHO"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Vaccines prevent infections too, including resistant ones.",
+   "ost": "Vaccines|Fewer infections",
+   "visual": {
+    "type": "image",
+    "file": "File:BioFarma vaccine vials Bandung.jpg",
+    "move": "out"
+   },
+   "keys": [],
+   "source": "CDC, WHO"
+  },
+  {
+   "beat": "DEEP",
+   "text": "For clinicians: prescribe only when the benefits outweigh the risks, and pick the right drug.",
+   "ost": "Stewardship|Every prescription counts",
+   "visual": {
+    "type": "mnemonic",
+    "title": "STEWARDSHIP",
+    "items": [
+     [
+      "1",
+      "Right patient"
+     ],
+     [
+      "2",
+      "Right drug"
+     ],
+     [
+      "3",
+      "Right time"
+     ]
+    ]
+   },
+   "keys": [],
+   "source": "CDC, WHO"
+  },
+  {
+   "beat": "DEEP",
+   "text": "So, to recap. Resistance is caused by germs adapting under antibiotic pressure, and it spreads between bacteria, people and animals.",
+   "ost": "Recap|Adaptation and spread",
+   "visual": {
+    "type": "image",
+    "file": "File:Klebsiella pneumoniae Bacterium (13383411493).jpg",
+    "move": "in"
+   },
+   "keys": [],
+   "source": "CDC, Munita 2016"
+  },
+  {
+   "beat": "DEEP",
+   "text": "It already causes over a million deaths a year, and it's highest in regions like ours.",
+   "ost": "Recap|Over a million deaths a year",
+   "visual": {
+    "type": "image",
+    "file": "File:Mycobacterium Tuberculosis Bacteria, the Cause of TB (52766234986).jpg",
+    "move": "out"
+   },
+   "keys": [],
+   "source": "Lancet 2024, WHO GLASS 2025"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Antimicrobial resistance is a major global health threat. But it isn't a lost battle.",
+   "ost": "A major threat|Not a lost battle",
+   "visual": {
+    "type": "image",
+    "file": "File:World Health Organisation building from west.jpg",
+    "move": "left"
+   },
+   "keys": [],
+   "source": "WHO, CDC"
+  },
+  {
+   "beat": "DEEP",
+   "text": "Every antibiotic we don't need to use keeps the ones we have working longer.",
+   "ost": "",
+   "visual": {
+    "type": "image",
+    "file": "File:Antimicrobial susceptibility testing (AST) result of Streptococcus sanguinis.jpg",
+    "move": "in"
+   },
+   "keys": [],
+   "nofact": true
+  },
+  {
+   "beat": "DEEP",
+   "text": "If this helped, subscribe to Paravion Med. Sources are in the description.",
+   "ost": "",
+   "visual": {
+    "type": "end",
+    "bg": "File:Methicillin-Resistant Staphylococcus Aureus (MRSA) Bacteria colorized scanning electron micrograph - 11.jpg"
+   },
+   "keys": [],
+   "nofact": true
+  }
+ ],
+ "meta": {
+  "titles": [
+   "When Antibiotics Stop Working: The Superbug Crisis Explained",
+   "Antibiotic Resistance Explained (Deep Dive)",
+   "How Bacteria Beat Antibiotics, and What Still Works"
+  ],
+  "summary": "Drug-resistant bacteria directly caused 1.14 million deaths in 2021 and were linked to about 4.7 million. This deep dive covers how penicillin changed medicine, the four ways bacteria resist antibiotics, what WHO's 2025 surveillance found (1 in 6 infections resistant worldwide, 1 in 3 in WHO's South-East Asia region), and what actually works: using antibiotics only when needed, preventing infections, vaccines and stewardship.",
+  "hashtags": [
+   "#AntibioticResistance",
+   "#AMR",
+   "#Superbugs",
+   "#Medicine",
+   "#PublicHealth"
+  ],
+  "ig_tags": "#amr #antibioticresistance #superbugs #medicine #publichealth #medstudent #paravionmed",
+  "pinned": "Doctors and students: what's the biggest driver of antibiotic misuse where you work? 👇",
+  "poll": [
+   "Heard of AMR before?",
+   "Yes 🩺",
+   "First time 😮"
+  ],
+  "sources": [
+   [
+    "Antimicrobial Resistance Collaborators. Global burden of bacterial AMR 1990-2021 with forecasts to 2050. Lancet 2024",
+    "https://pubmed.ncbi.nlm.nih.gov/39299261/"
+   ],
+   [
+    "Antimicrobial Resistance Collaborators. Global burden of bacterial AMR in 2019. Lancet 2022",
+    "https://pubmed.ncbi.nlm.nih.gov/35065702/"
+   ],
+   [
+    "WHO fact sheet: Antimicrobial resistance (updated July 2026)",
+    "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance"
+   ],
+   [
+    "WHO news release: WHO warns of widespread resistance to common antibiotics worldwide (GLASS 2025)",
+    "https://www.who.int/news/item/13-10-2025-who-warns-of-widespread-resistance-to-common-antibiotics-worldwide"
+   ],
+   [
+    "CDC: About antimicrobial resistance",
+    "https://www.cdc.gov/antimicrobial-resistance/about/index.html"
+   ],
+   [
+    "CDC: Causes of antimicrobial resistance",
+    "https://www.cdc.gov/antimicrobial-resistance/causes/index.html"
+   ],
+   [
+    "CDC: Preventing antimicrobial resistance",
+    "https://www.cdc.gov/antimicrobial-resistance/prevention/index.html"
+   ],
+   [
+    "Munita JM, Arias CA. Mechanisms of antibiotic resistance. Microbiol Spectr 2016",
+    "https://pubmed.ncbi.nlm.nih.gov/27227291/"
+   ],
+   [
+    "Chhabra S et al. The penicillin pioneer: Alexander Fleming. Cureus 2024",
+    "https://pubmed.ncbi.nlm.nih.gov/39176366/"
+   ],
+   [
+    "Geddes A. 80th anniversary of the discovery of penicillin. Int J Antimicrob Agents 2008",
+    "https://pubmed.ncbi.nlm.nih.gov/18715766/"
+   ],
+   [
+    "Kenealy T, Arroll B. Antibiotics for the common cold. Cochrane 2025",
+    "https://pubmed.ncbi.nlm.nih.gov/41277585/"
+   ]
+  ],
+  "removed": [
+   "India 'Red Line' campaign: official page could not be verified (MoHFW/PIB blocked); cut.",
+   "2050 death forecast numbers (e.g. '39 million'): not confirmed by a second trusted source; kept only the qualitative South Asia forecast.",
+   "Fleming's Nobel lecture warning about underdosing: Nobel site blocked; cut.",
+   "'Finish the course' advice: evidence is debated (BMJ 2017); not stated either way."
+  ],
+  "notes": "The GLASS figures (1 in 6, 1 in 3, E. coli / Klebsiella resistance) are WHO's own surveillance data, cited from the report's release and the fact sheet. Evergreen deep dive. Re-check WHO/CDC pages and any newer GRAM estimates before posting.",
+  "schedule": "2026-11-29T18:00:00+05:30",
+  "checked_on": "2026-11-23",
+  "verdict": "AMR directly caused 1.14 million deaths in 2021; resistance is rising; prudent use, prevention and vaccines work.",
+  "thumbnail": {
+   "image": "File:Methicillin-Resistant Staphylococcus Aureus (MRSA) Bacteria colorized scanning electron micrograph - 11.jpg",
+   "lines": [
+    "WHEN",
+    "ANTIBIOTICS",
+    "STOP WORKING"
+   ],
+   "tag": "1 IN 6 INFECTIONS"
+  }
+ }
+}
