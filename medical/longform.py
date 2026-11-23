@@ -104,7 +104,7 @@ def make_grain(n=6):
     for _ in range(n):
         g = rng.normal(128, 40, (H // 2, W // 2)).clip(0, 255).astype(np.uint8)
         g = Image.fromarray(g).resize((W, H), Image.BILINEAR)
-        rgba = Image.merge("RGBA", (g, g, g, Image.new("L", (W, H), 14)))
+        rgba = Image.merge("RGBA", (g, g, g, Image.new("L", (W, H), 9)))
         out.append(rgba)
     return out
 
@@ -403,7 +403,23 @@ def finalize(ep, dur):
             m = json.loads(r[r.rindex("{"):r.rindex("}") + 1])
             LN = (f",loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}"
                   f":measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
+    loudness_trim(ep)
     (ep / "video_only.mp4").unlink()
+
+
+def loudness_trim(ep):
+    """Final check: nudge integrated loudness to -14 LUFS (±0.15) with a true-peak limiter; video stream copied."""
+    for _ in range(2):
+        r = subprocess.run(["ffmpeg", "-i", ep / "final_video.mp4", "-af", "ebur128=peak=true", "-f", "null", "-"],
+                           capture_output=True, text=True).stderr
+        I = float(r[r.rindex("I:"):].split()[1])
+        if abs(I + 14) < 0.15: return I
+        tmp = ep / "final_tmp.mp4"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", ep / "final_video.mp4", "-c:v", "copy",
+                        "-af", f"volume={-14 - I:.2f}dB,alimiter=limit=0.84:level=false", "-c:a", "aac", "-b:a", "192k",
+                        "-movflags", "+faststart", tmp], check=True)
+        tmp.replace(ep / "final_video.mp4")
+    return I
 
 
 # ------------------------------------------------------------------ captions + thumbnail
@@ -426,13 +442,15 @@ def thumbnail(ep, script, credits):
         base, fg = graded(str(ep / "images" / cr["local"]))
         img = base.resize((W, H), Image.LANCZOS, box=ken_burns(base, "in", 0.6)).convert("RGBA")
     shade = Image.new("RGBA", (W, H), (0, 0, 0, 0)); sd = ImageDraw.Draw(shade)
-    for x in range(W): sd.line([(x, 0), (x, H)], fill=(5, 10, 12, int(235 * max(0, 1 - x / (W * 0.72)))))
+    for x in range(W):                                       # solid dark panel on the left, fading out by 80% width
+        a = 1.0 if x < W * 0.42 else max(0.0, 1 - (x - W * 0.42) / (W * 0.38))
+        sd.line([(x, 0), (x, H)], fill=(6, 12, 14, int(238 * a ** 1.2)))
     img.alpha_composite(shade); d = ImageDraw.Draw(img)
     R.med_cross(d, 150, 150, 46, ACC)
     yy = 330
     for i, ln in enumerate(th.get("lines", ["DEEP DIVE"])):
         f = R.fit_font(ln, 1100, 170)
-        d.text((110, yy), ln, font=f, fill=ACC if i == len(th["lines"]) - 1 else WHITE, anchor="lm"); yy += 185
+        d.text((110, yy), ln, font=f, fill=(46, 214, 198, 255) if i == len(th["lines"]) - 1 else WHITE, anchor="lm"); yy += 185
     if th.get("tag"):
         tw = F(44).getlength(th["tag"]) + 60
         d.rounded_rectangle([110, yy + 10, 110 + tw, yy + 90], 18, fill=(230, 33, 23, 255))
@@ -468,7 +486,7 @@ def main(ep_dir, thumb_only=False, preview=None):
     score(ep, dur, vl, sl)
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
                            "-i", "-", "-vf", "scale=out_color_matrix=bt709:out_range=tv", "-c:v", "libx264", "-preset", "medium",
-                           "-crf", "20", "-pix_fmt", "yuv420p", "-colorspace", "bt709", "-color_primaries", "bt709",
+                           "-crf", "23", "-pix_fmt", "yuv420p", "-maxrate", "4M", "-bufsize", "8M", "-colorspace", "bt709", "-color_primaries", "bt709",
                            "-color_trc", "bt709", "-color_range", "tv", str(ep / "video_only.mp4")], stdin=subprocess.PIPE)
     nf = int(dur * FPS)
     for fi in range(nf):
