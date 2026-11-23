@@ -1,0 +1,276 @@
+{
+ "title": "Jensen Huang Is BACK: Nvidia's Board Reverses Itself in 11 Days",
+ "segments": [
+  {
+   "id": "hook1",
+   "kind": "photo",
+   "img": "jensen_computex",
+   "big": "HE'S BACK",
+   "sub": "NVIDIA · 23 NOV 2026",
+   "text": "Eleven days ago, he walked away from the company he built. Today, he's back."
+  },
+  {
+   "id": "hook2",
+   "kind": "photo",
+   "img": "hq",
+   "big": "UNANIMOUS",
+   "sub": "THE BOARD VOTED TO REINSTATE HIM",
+   "text": "Nvidia's board, the same board that said it did not intend to bring him back, has now voted unanimously to reinstate Jensen Huang as CEO."
+  },
+  {
+   "id": "hook3",
+   "kind": "photo",
+   "img": "racks",
+   "big": "~30%",
+   "sub": "SHARES SURGED BEFORE THE OPENING BELL",
+   "text": "And the stock? It exploded. So what changed in eleven days? Let's break it down, fact by fact."
+  },
+  {
+   "id": "intro",
+   "kind": "intro",
+   "text": "Welcome to Paravion X. The world, explained. Every fact in this video comes from Nvidia's own statements or major news outlets."
+  },
+  {
+   "id": "c1",
+   "kind": "chapter",
+   "n": "01",
+   "label": "THE ANNOUNCEMENT",
+   "img": "die",
+   "text": "Chapter one. The announcement."
+  },
+  {
+   "id": "a1",
+   "kind": "photo",
+   "img": "jensen_portrait",
+   "lower": [
+    "JENSEN HUANG",
+    "Reinstated as President, CEO and board director"
+   ],
+   "text": "On November twenty-third, Nvidia announced that Jensen Huang is reinstated as President, Chief Executive Officer, and a member of the board. Effective immediately."
+  },
+  {
+   "id": "a2",
+   "kind": "quote",
+   "img": "hq",
+   "quote": "Satisfied with his candor and ability to lead NVIDIA.",
+   "who": "NVIDIA BOARD · 23 NOV",
+   "text": "The board says it held a series of meetings with Huang, and came away satisfied with his candor and his ability to lead the company."
+  },
+  {
+   "id": "a3",
+   "kind": "quote",
+   "img": "capitol",
+   "quote": "Poses no national security risk.",
+   "who": "NVIDIA BOARD, CITING INPUT FROM SENIOR U.S. GOVERNMENT OFFICIALS",
+   "text": "And here's the key line. The board says it received input from senior levels of the United States government. Based on that input, it's confident his return poses no national security risk."
+  },
+  {
+   "id": "a4",
+   "kind": "quote",
+   "img": "jensen_computex",
+   "quote": "I can't wait to get back to work.",
+   "who": "JENSEN HUANG · 23 NOV",
+   "text": "Huang says he's honored to return. His words: I can't wait to get back to work."
+  },
+  {
+   "id": "c2",
+   "kind": "chapter",
+   "n": "02",
+   "label": "THE MARKET EXPLODES",
+   "img": "racks",
+   "text": "Chapter two. The market explodes."
+  },
+  {
+   "id": "m1",
+   "kind": "chart",
+   "text": "Nvidia's shares closed at about one hundred twenty-five dollars on Friday. Before Monday's opening bell, they were trading around one hundred sixty."
+  },
+  {
+   "id": "m2",
+   "kind": "photo",
+   "img": "racks",
+   "big": "+25% TO +30%",
+   "sub": "PREMARKET GAIN · REPORTS VARY BY SOURCE",
+   "text": "Depending on the source and the minute, that's a jump of roughly twenty-five to thirty percent. For one of the world's most valuable companies, that's an enormous move in a single morning."
+  },
+  {
+   "id": "m3",
+   "kind": "photo",
+   "img": "die",
+   "big": "WHY IT MATTERS",
+   "sub": "NVIDIA CHIPS POWER MOST AI DATA CENTRES",
+   "text": "Why does it matter? Nvidia's chips power most of the world's AI data centres. When Nvidia shakes, the whole AI economy feels it."
+  },
+  {
+   "id": "c3",
+   "kind": "chapter",
+   "n": "03",
+   "label": "HOW WE GOT HERE",
+   "img": "campus",
+   "text": "Chapter three. How we got here."
+  },
+  {
+   "id": "t1",
+   "kind": "timeline",
+   "step": 0,
+   "img": "jensen_portrait",
+   "text": "November eighth. Huang emails Nvidia employees. He admits, quote, I was unfaithful to my wife. He says the board has started an independent investigation into national security concerns raised in news reports."
+  },
+  {
+   "id": "t1b",
+   "kind": "photo",
+   "img": "capitol",
+   "big": "THE ALLEGATION",
+   "sub": "AS REPORTED BY THE NEW YORK TIMES · BEIJING DENIES IT",
+   "text": "The New York Times reported that one of those relationships was with a businesswoman whom American intelligence officials suspect of being a Chinese spy. Beijing denies it. None of this has been proven in public."
+  },
+  {
+   "id": "t2",
+   "kind": "timeline",
+   "step": 1,
+   "img": "hq",
+   "text": "November twelfth. Nvidia announces that Huang has resigned as CEO, President and board member, effective immediately. Thirty-three years at the top, over. The stock closes down more than four percent."
+  },
+  {
+   "id": "t2b",
+   "kind": "photo",
+   "img": "kress",
+   "lower": [
+    "COLETTE KRESS",
+    "Interim CEO from 12 Nov · Chief Financial Officer"
+   ],
+   "text": "Chief Financial Officer Colette Kress steps in as interim CEO. Former Synopsys chief Harvey Jones becomes Nvidia's first-ever board chair."
+  },
+  {
+   "id": "t3",
+   "kind": "timeline",
+   "step": 2,
+   "img": "synopsys",
+   "text": "November seventeenth. Earnings day. Huang says he'd be honored to return. But the board chair says it does not intend to reinstate him. The board also creates a new national security and export control committee."
+  },
+  {
+   "id": "t4",
+   "kind": "timeline",
+   "step": 3,
+   "img": "whitehouse",
+   "text": "November twentieth. President Trump weighs in at the White House. Quote: We have to protect our brilliant people. Jensen is one of them. Huang also agrees to testify before Congress."
+  },
+  {
+   "id": "t5",
+   "kind": "timeline",
+   "step": 4,
+   "img": "jensen_computex",
+   "text": "And November twenty-third. The complete reversal. Unanimous. Effective immediately."
+  },
+  {
+   "id": "c4",
+   "kind": "chapter",
+   "n": "04",
+   "label": "WHAT'S STILL OPEN",
+   "img": "capitol",
+   "text": "Chapter four. What's still open. Because this story is not over."
+  },
+  {
+   "id": "o1",
+   "kind": "photo",
+   "img": "capitol",
+   "big": "INVESTIGATION: ONGOING",
+   "sub": "INDEPENDENT DIRECTORS · INDEPENDENT COUNSEL",
+   "text": "First, the investigation is not finished. A committee of independent directors, with its own lawyers, is still looking into reports that Huang was the target of a foreign intelligence effort. Nvidia says it will run to its conclusion, and Huang says he'll cooperate fully."
+  },
+  {
+   "id": "o2",
+   "kind": "photo",
+   "img": "endeavor",
+   "big": "NEW WATCHDOGS",
+   "sub": "SECURITY COMMITTEE · CHIEF COMPLIANCE OFFICER SEARCH",
+   "text": "Second, new guardrails. The new national security committee oversees export controls and trade risk. And Nvidia is now hiring a Chief Compliance Officer, who will report to a board committee."
+  },
+  {
+   "id": "o3",
+   "kind": "photo",
+   "img": "kress",
+   "lower": [
+    "COLETTE KRESS",
+    "Back to Chief Financial Officer"
+   ],
+   "text": "Third, the leadership. Colette Kress goes back to being Chief Financial Officer, and the board thanked her for stepping up. Harvey Jones stays on as chair."
+  },
+  {
+   "id": "o4",
+   "kind": "photo",
+   "img": "capitol",
+   "big": "CONGRESS",
+   "sub": "HUANG HAS AGREED TO TESTIFY · DATE NOT CONFIRMED",
+   "text": "And fourth, Congress. Huang has agreed to testify. When that happens, the questions will be public."
+  },
+  {
+   "id": "c5",
+   "kind": "chapter",
+   "n": "05",
+   "label": "FAKE OR FACT?",
+   "img": "die",
+   "text": "Chapter five. Fake or fact. Three claims going viral right now."
+  },
+  {
+   "id": "f1",
+   "kind": "verdict",
+   "claim": "“The board voted unanimously to bring him back.”",
+   "verdict": "FACT",
+   "why": "Nvidia's 23 Nov statement",
+   "text": "Claim one. The board voted unanimously to bring him back. Fact. That's in Nvidia's own statement."
+  },
+  {
+   "id": "f2",
+   "kind": "verdict",
+   "claim": "“Huang has been cleared of everything.”",
+   "verdict": "FAKE",
+   "why": "The independent investigation is still running",
+   "text": "Claim two. Huang has been cleared of everything. Fake. The board says his return poses no national security risk, but the independent investigation is still running."
+  },
+  {
+   "id": "f3",
+   "kind": "verdict",
+   "claim": "“He never really left Nvidia.”",
+   "verdict": "FAKE",
+   "why": "He resigned on 12 Nov; Kress was interim CEO",
+   "text": "Claim three. He never really left. Fake. He resigned on November twelfth, and for eleven days, Colette Kress ran the company."
+  },
+  {
+   "id": "end1",
+   "kind": "photo",
+   "img": "jensen_portrait",
+   "big": "11 DAYS",
+   "sub": "OUT · THEN BACK IN CHARGE",
+   "text": "Eleven days. A resignation, a refusal, a president's push, and a complete U-turn. Jensen Huang is back in charge of the company at the centre of the AI boom."
+  },
+  {
+   "id": "end2",
+   "kind": "outro",
+   "q": "Was the board right to bring him back?",
+   "text": "So, was the board right to bring him back? Yes or no. Tell us in the comments. Stay tuned for further updates, and subscribe to Paravion X for more."
+  }
+ ],
+ "timeline": [
+  [
+   "8 NOV",
+   "Apology email"
+  ],
+  [
+   "12 NOV",
+   "Resigns"
+  ],
+  [
+   "17 NOV",
+   "Board says no"
+  ],
+  [
+   "20 NOV",
+   "Trump weighs in"
+  ],
+  [
+   "23 NOV",
+   "Reinstated"
+  ]
+ ]
+}
