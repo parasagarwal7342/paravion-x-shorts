@@ -447,7 +447,7 @@ def draw_visual(layer, v, lt, ld):
         wmax = max(fit_font(w, 560, 64).getlength(w) for _, w in items)
         left = CX - (124 + 38 + wmax) / 2 + 62          # centre the whole block
         for i, (letter, word) in enumerate(items):
-            k = ease((lt - i * 0.28) / 0.35); y = top + i * step
+            k = 1 if i < v.get("_seen", 0) else ease((lt - (i - v.get("_seen", 0)) * 0.28) / 0.35); y = top + i * step
             bx = left + (1 - k) * 60
             d.rounded_rectangle([bx - 62, y - 62, bx + 62, y + 62], 22, fill=fade(ACC, k))
             tc(d, (bx, y + 4), letter, fit_font(letter, 110, fs), fade(WHITE, k))
@@ -462,7 +462,7 @@ def draw_visual(layer, v, lt, ld):
             r, c = divmod(i, cols)
             in_row = min(cols, len(tiles) - r * cols)          # centre a lone tile on the last row
             x = CX - (in_row * tw + (in_row - 1) * gap) / 2 + c * (tw + gap); y = y0 + r * (th + gap)
-            k = back((lt - i * 0.18) / 0.35)
+            k = 1 if i < v.get("_seen", 0) else back((lt - (i - v.get("_seen", 0)) * 0.18) / 0.35)
             if k <= 0.05: continue
             d.rounded_rectangle([x, y, x + tw, y + th], 26, fill=BAND, outline=RULE, width=3)
             spaced(d, (x + tw / 2, y + 45), lab, fit_font(lab, tw - 40, 28), ACC, track=3)
@@ -544,7 +544,7 @@ def headline(d, text, y, lt=9.0, maxw=760, maxsize=104, minsize=64, img=None):
         total = f.getlength(ln); x = CX - total / 2
         cy = y + lh * i + lh / 2
         for w in words:
-            k = ease((lt - wi * 0.07) / 0.35)
+            k = ease((lt - wi * 0.035) / 0.22)
             if k > 0:
                 tc(d, (x, cy + (1 - k) * 26), w, f, fade(col, k), anchor="lm")
             x += f.getlength(w + " "); wi += 1
@@ -595,26 +595,28 @@ def content(li, lt, ld, sl, kickers):
     beat = sl[li]["beat"]; v = sl[li]["visual"]
     kw = spaced(ImageDraw.Draw(Image.new("RGBA", (1, 1))), (0, 0), kickers.get(beat, ""), F(28), ACC, track=5)
     spaced(d, (CX, 290), kickers.get(beat, ""), F(32), ACC, track=5)
-    d.line([(CX - kw / 2, 314), (CX - kw / 2 + kw * ease(lt / 0.5), 314)], fill=ACC, width=3)
+    d.line([(CX - kw / 2, 314), (CX - kw / 2 + kw * ease(lt / 0.3), 314)], fill=ACC, width=3)
     if v["type"] == "hero":
         # typography-only scene: one big statement, centred in the content area
         if v.get("icon") == "x": xmark(d, CX, 640, 70, lt, width=24)
         headline(d, sl[li].get("ost", ""), 760 if v.get("icon") else 680, lt, maxw=880, maxsize=160, minsize=100)
         if v.get("note"):
-            k = ease((lt - 0.5) / 0.4)
+            k = ease((lt - 0.2) / 0.3)
             tc(d, (CX, 1180), v["note"], F(42, "body"), fade(MUTED, k))
         return layer
     headline(d, sl[li].get("ost", ""), 345, lt, maxw=860, maxsize=122)
     vis = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    draw_visual(vis, v, lt, ld)
+    draw_visual(vis, v, lt * VIS_SPEED, ld * VIS_SPEED)
     z = VIS_SCALE * (1 + 0.04 * (lt / max(ld, .1)))      # slow push-in
     small = vis.resize((int(W * z), int(H * z)), Image.BILINEAR)
     layer.paste(small, (int(CX - CX * z), int(VY - VY * z)), small)
     return layer
 
 
-TR = 0.30     # push transition (same section)
-WIPE = 0.50   # orange bar sweep (new section)
+TR = 0.22     # push transition (same section)
+WIPE = 0.34   # bar sweep (new section)
+LEAD = 0.36   # picture cuts this much BEFORE the line is spoken, so the visual is in place when the words land
+VIS_SPEED = 1.7  # visual animations (counters, bars, tiles, ECG) play this much faster than their base timings
 CONTENT_BOX = (0, 232, W, BAND_Y - 1)
 
 
@@ -674,7 +676,7 @@ def frame(t, dur, li, lines, lt, ld, sl, kickers, groups):
     d = ImageDraw.Draw(img)
     src = sl[li].get("source")
     if src:
-        k = ease((lt - 0.4) / 0.4)
+        k = ease((lt - 0.15) / 0.3)
         tc(d, (SAFE_L, BAND_Y + 22), f"Source: {src}", F(30, "body"), fade(MUTED, k), anchor="lm")
     for g in groups:
         if g["start"] - 0.02 <= t < g["end"]:
@@ -735,9 +737,9 @@ def synth_audio(ep, dur, lines, sl):
             newsec = section(sl[i]["beat"]) != section(sl[i - 1]["beat"])
             add(l["start"] - (0.05 if newsec else 0), whoosh if newsec else tick)
         v = sl[i]["visual"]
-        if v["type"] == "chip_stamp": add(l["start"] + 1.2, impact)
-        if v["type"] == "verdict" and (v.get("shown") == 1 or v.get("lines", [""])[-1] == "CONFIRMED"): add(l["start"] + 0.3, impact)
-        if v["type"] == "versus" and v.get("reveal"): add(l["start"] + 0.3, impact * 0.8)
+        if v["type"] == "chip_stamp": add(l["start"] + 1.2 / VIS_SPEED, impact)
+        if v["type"] == "verdict" and (v.get("shown") == 1 or v.get("lines", [""])[-1] == "CONFIRMED"): add(l["start"] + 0.18, impact)
+        if v["type"] == "versus" and v.get("reveal"): add(l["start"] + 0.18, impact * 0.8)
     def wav(name, x):
         x = (np.clip(x, -1, 1) * 32767).astype(np.int16)
         with wave.open(str(ep / name), "wb") as wf:
@@ -782,6 +784,32 @@ def make_cover(ep, script):
 
 
 # ------------------------------------------------------------ main
+def visual_timeline(lines):
+    """Scene start times for the picture: each scene cuts in LEAD s before its line is spoken (never before the
+    previous line's last word has started, and at least 0.4 s after the previous scene)."""
+    out = [dict(lines[0], start=0.0)]
+    for i in range(1, len(lines)):
+        prev = lines[i - 1]
+        st = lines[i]["start"] - LEAD
+        st = max(st, prev["words"][-1]["start"] + 0.05, out[-1]["start"] + 0.4)
+        out.append(dict(lines[i], start=min(st, lines[i]["start"])))
+    return out
+
+
+def mark_seen(sl):
+    """When a scene repeats the previous scene's list (grid tiles, mnemonic rows) and adds to it, the items already
+    on screen stay still and only the new ones animate."""
+    for a, b in zip(sl, sl[1:]):
+        va, vb = a["visual"], b["visual"]
+        if va["type"] == vb["type"] and va["type"] in ("grid", "mnemonic"):
+            key = "tiles" if va["type"] == "grid" else "items"
+            n = 0
+            for x, y in zip(va[key], vb[key]):
+                if list(x) != list(y): break
+                n += 1
+            vb["_seen"] = n
+
+
 def render(ep_dir, only_cover=False):
     ep = Path(ep_dir)
     script = json.loads((ep / "script.json").read_text())
@@ -792,18 +820,20 @@ def render(ep_dir, only_cover=False):
     global CHECKED; CHECKED = checked_text(script)
     make_cover(ep, script)
     if only_cover: return
-    groups = caption_groups(lines)
-    synth_audio(ep, dur, lines, sl)
+    groups = caption_groups(lines)          # captions follow the voice exactly
+    vlines = visual_timeline(lines)         # scenes start LEAD seconds earlier
+    mark_seen(sl)
+    synth_audio(ep, dur, vlines, sl)
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
                            "-r", str(FPS), "-i", "-", "-vf", "scale=out_color_matrix=bt709:out_range=tv",
                            "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
                            "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709", "-color_range", "tv", str(ep / "video_only.mp4")], stdin=subprocess.PIPE)
     nframes = int(dur * FPS)
     for fi in range(nframes):
-        t = fi / FPS; li = scene_at(lines, t)
-        start = lines[li]["start"] if li else 0
-        nxt = lines[li + 1]["start"] if li + 1 < len(lines) else dur
-        img = frame(t, dur, li, lines, t - start, nxt - start, sl, script.get("kickers", {}), groups)
+        t = fi / FPS; li = scene_at(vlines, t)
+        start = vlines[li]["start"] if li else 0
+        nxt = vlines[li + 1]["start"] if li + 1 < len(vlines) else dur
+        img = frame(t, dur, li, vlines, t - start, nxt - start, sl, script.get("kickers", {}), groups)
         ff.stdin.write(img.convert("RGB").tobytes())
         if fi % 300 == 0: print(f"frame {fi}/{nframes}", flush=True)
     ff.stdin.close(); ff.wait()

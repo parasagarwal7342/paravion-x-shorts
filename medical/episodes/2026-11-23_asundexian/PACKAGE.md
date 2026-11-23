@@ -52,7 +52,7 @@ Every on-screen fact line and its sources:
 | 0:39–0:41 | CTA | Like and follow Paravion Med for more. | Follow for / daily medicine. | — |
 
 ## Files
-- `final_video.mp4`: 1080×1920, 30 fps, H.264 + AAC, 41.9 s, -14.0 LUFS, -2.8 dBTP peak, BT.709.
+- `final_video.mp4`: 1080×1920, 30 fps, H.264 + AAC, 41.9 s, -14.0 LUFS, -3.3 dBTP peak, BT.709.
 - `cover.png`: 1080×1920.
 - `voice.mp3` / `voice.wav`: preview voice. `timings.json`: word timestamps.
 - Voice QA (Whisper transcript vs script): `MISMATCHES: [('asundexian', 'osundexian'), ('eleven', 'elevena'), ('antiplatelets', 'anti platelets'), ('paravion med for more', 'paravine on medfourmore')]`. Only number formatting ("12" vs "twelfth") or name spelling differences are acceptable.
