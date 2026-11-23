@@ -22,6 +22,9 @@ BAR = 70                                   # letterbox bar height
 ACC = (232, 72, 28); INK = (17, 17, 17); WHITE = (255, 255, 255)
 GREEN = (27, 138, 74); RED = (224, 30, 30); BGG = (243, 243, 241)
 PAD_AFTER = 0.45
+TXT = 1.0        # text scale (vertical uses more)
+CAP_Y = None     # caption centre y (None = just above bottom bar)
+TITLE_Y = None   # big-title centre y (None = middle)
 _fc = {}
 def F(size, w="head"):
     k = (int(size), w)
@@ -59,7 +62,8 @@ def align(text, wav, model):
         t[i] = (s0 + (s1 - s0) * f0, s0 + (s1 - s0) * f1)
     return [(w, s, e) for w, (s, e) in zip(sw, t)]
 
-def chunks(words, maxc=42):
+def chunks(words, maxc=None):
+    maxc = maxc or int(42 / TXT)
     out, cur = [], []
     for w in words:
         if cur and (len(" ".join(x[0] for x in cur + [w])) > maxc or cur[-1][0][-1] in ".?!:"):
@@ -161,9 +165,9 @@ def caption(d, words, t):
     for c in chunks(words):
         if c[0][1] - 0.05 <= t <= c[-1][2] + 0.25: cur = c
     if not cur: return
-    f = F(34, "body"); s = " ".join(w[0] for w in cur)
-    tw = f.getlength(s); x0 = W / 2 - tw / 2; y = H - BAR - 58
-    d.rounded_rectangle([x0 - 20, y - 30, x0 + tw + 20, y + 28], radius=6, fill=(255, 255, 255, 235))
+    f = F(34 * TXT, "body"); s = " ".join(w[0] for w in cur)
+    tw = f.getlength(s); x0 = W / 2 - tw / 2; y = CAP_Y if CAP_Y else H - BAR - 58
+    d.rounded_rectangle([x0 - 20, y - 30 * TXT, x0 + tw + 20, y + 28 * TXT], radius=6, fill=(255, 255, 255, 235))
     x = x0
     for w, s0, e0 in cur:
         col = ACC if s0 <= t <= e0 + 0.08 else INK
@@ -171,7 +175,8 @@ def caption(d, words, t):
 
 
 # ---------------------------------------------------------------- segment painters
-def big_title(d, seg, lt, cy=H / 2):
+def big_title(d, seg, lt, cy=None):
+    cy = TITLE_Y if TITLE_Y else (H / 2 if cy is None else cy)
     a = ease(lt / 0.6)
     if seg.get("big"):
         f = fit_font(seg["big"], W - 300, 170)
@@ -179,8 +184,8 @@ def big_title(d, seg, lt, cy=H / 2):
         d.text((W / 2, cy - 30 + off), seg["big"], font=f, fill=(255, 255, 255, int(235 * a)), anchor="mm")
     if seg.get("sub"):
         a2 = ease((lt - 0.25) / 0.6)
-        spaced(d, (W / 2, cy + 85), seg["sub"], F(30, "body"), (255, 255, 255, int(220 * a2)), track=5)
-        d.rectangle([W / 2 - 60 * a2, cy + 120, W / 2 + 60 * a2, cy + 124], fill=ACC + (int(255 * a2),))
+        spaced(d, (W / 2, cy + 85 * TXT), seg["sub"], fit_font(seg["sub"], W - 120, 30 * TXT, "body"), (255, 255, 255, int(220 * a2)), track=5)
+        d.rectangle([W / 2 - 60 * a2, cy + 120 * TXT, W / 2 + 60 * a2, cy + 120 * TXT + 4], fill=ACC + (int(255 * a2),))
 
 def lower_third(d, seg, lt):
     a = ease(lt / 0.5); name, role = seg["lower"]

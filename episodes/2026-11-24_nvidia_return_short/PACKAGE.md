@@ -1,6 +1,6 @@
 # PARAVION X — Short · 24 Nov 2026 · "Jensen Huang Is BACK: The Whole Story in 30 Seconds"
 
-35 s, 1080×1920, built with `render.py`. Voice: Kokoro `af_heart` via `shorts_kokoro.py` (ElevenLabs credits used up). Summary/conclusion of the 23 Nov long-form; same fact file: `episodes/2026-11-23_nvidia_return_longform/PACKAGE.md`.
+35 s → 36 s cinematic version (`final_video.mp4`, built with `longform_vertical.py` from `script_cinematic.json`: real Commons photos incl. the public-domain 2025 official Trump portrait by Daniel Torok). The white-graphics version is kept as `final_video_graphics.mp4`. Voice: Kokoro `af_heart` (ElevenLabs credits used up).
 
 | Claim | Source | Label |
 |---|---|---|

@@ -1,0 +1,89 @@
+{
+ "segments": [
+  {
+   "id": "s01",
+   "kind": "photo",
+   "img": "jensen_computex",
+   "big": "HE'S BACK",
+   "sub": "NVIDIA CEO · 23 NOV 2026",
+   "text": "Jensen Huang is back as Nvidia's CEO."
+  },
+  {
+   "id": "s02",
+   "kind": "photo",
+   "img": "hq",
+   "big": "11 DAYS",
+   "sub": "AFTER HE QUIT",
+   "text": "Just eleven days after he quit. Here's the whole story in thirty seconds."
+  },
+  {
+   "id": "s03",
+   "kind": "photo",
+   "img": "campus",
+   "big": "12 NOV",
+   "sub": "HE RESIGNS",
+   "text": "November twelfth. He resigns, effective immediately."
+  },
+  {
+   "id": "s04",
+   "kind": "photo",
+   "img": "endeavor",
+   "big": "17 NOV",
+   "sub": "THE BOARD SAYS NO",
+   "text": "November seventeenth. The board says it won't bring him back."
+  },
+  {
+   "id": "s05",
+   "kind": "photo",
+   "img": "trump",
+   "big": "20 NOV",
+   "sub": "TRUMP BACKS HIS RETURN",
+   "text": "Then President Trump backs his return."
+  },
+  {
+   "id": "s06",
+   "kind": "photo",
+   "img": "jensen_portrait",
+   "big": "UNANIMOUS",
+   "sub": "23 NOV · REINSTATED AS CEO",
+   "text": "November twenty-third. The board votes unanimously. He's back."
+  },
+  {
+   "id": "s07",
+   "kind": "quote",
+   "img": "capitol",
+   "quote": "Poses no national security risk.",
+   "who": "NVIDIA BOARD, CITING SENIOR US OFFICIALS",
+   "text": "The board says American officials see no national security risk."
+  },
+  {
+   "id": "s08",
+   "kind": "chart",
+   "text": "And the stock jumped twenty-five to thirty percent before the bell."
+  },
+  {
+   "id": "s09",
+   "kind": "photo",
+   "img": "jensen_computex",
+   "big": "CONFIRMED",
+   "sub": "VERDICT · HIS RETURN",
+   "text": "Verdict. His return is confirmed."
+  },
+  {
+   "id": "s10",
+   "kind": "photo",
+   "img": "capitol",
+   "big": "STILL RUNNING",
+   "sub": "THE INDEPENDENT INVESTIGATION",
+   "text": "But the independent investigation is still running."
+  },
+  {
+   "id": "s11",
+   "kind": "photo",
+   "img": "hq",
+   "big": "FOLLOW",
+   "sub": "PARAVION X · FOR MORE UPDATES",
+   "text": "Like and follow Paravion X for more updates."
+  }
+ ]
+}
