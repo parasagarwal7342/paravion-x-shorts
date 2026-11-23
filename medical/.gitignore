@@ -12,3 +12,7 @@ __pycache__/
 client_secret.json
 yt_token.json
 .env
+# preview-voice renders are not for posting (same rule as PARAVION X). After re-voicing with ElevenLabs,
+# commit the real video with: git add -f episodes/<slug>/final_video.mp4 episodes/<slug>/voice.mp3 episodes/<slug>/voice_raw.mp3
+episodes/*/final_video.mp4
+episodes/*/voice.mp3

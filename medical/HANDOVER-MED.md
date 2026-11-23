@@ -61,7 +61,7 @@ python3 specs.py                                            # evergreen scripts
 ELEVENLABS_API_KEY=… ELEVENLABS_VOICE_ID=… REVOICE=1 ./make_episode.sh episodes/M01_becks_triad   # real voice
 ./eleven_batch.sh episodes/M0*                              # voice several while credits last
 ```
-Then read `PACKAGE.md`, re-check facts, `touch episodes/<slug>/APPROVED`, commit, push, schedule.
+Then read `PACKAGE.md`, re-check facts, `touch episodes/<slug>/APPROVED`, commit (`git add -f` the ElevenLabs `final_video.mp4`, `voice.mp3`, `voice_raw.mp3`, `eleven_take.json`: preview renders are git-ignored), push, schedule.
 
 ## 5. Status (Nov 23, 2026)
 - M01–M11 written, source-checked through PubMed E-utilities, and rendered with the **preview voice**
