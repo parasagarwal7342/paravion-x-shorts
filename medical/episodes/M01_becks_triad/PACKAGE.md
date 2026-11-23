@@ -14,7 +14,9 @@ Beck's triad of cardiac tamponade: hypotension, raised JVP (distended neck veins
 1. StatPearls: Cardiac Tamponade (NBK431090): https://pubmed.ncbi.nlm.nih.gov/28613742/
 2. Adler Y et al. Cardiac tamponade. Nat Rev Dis Primers 2023: https://pubmed.ncbi.nlm.nih.gov/37474539/
 
-## Fact-check: PASS
+## Fact-check: PASS (as of 23 Nov 2026)
+Facts were verified against the sources below on **23 Nov 2026**. Anything posted later than ~90 days after this date (or any news
+Short posted more than 1 day after it) must be re-checked first, and `meta.checked_on` updated.
 Every on-screen fact line and its sources:
 
 | Claim (as spoken) | Sources | Label |
@@ -29,7 +31,7 @@ Every on-screen fact line and its sources:
 **Removed during the check:**
 
 
-## Script (92 words, 162 wpm, 34.4 s)
+## Script (92 words, 161 wpm, 34.6 s)
 | Time | Beat | Voice | On-screen (black / orange) | Source tag |
 |---|---|---|---|---|
 | 0:00–0:03 | HOOK | Three signs. One emergency around the heart. | 3 signs. / 1 emergency. | — |
@@ -46,10 +48,10 @@ Every on-screen fact line and its sources:
 | 0:32–0:34 | CTA | Like and follow Paravion Med for more. | Follow for / daily medicine. | — |
 
 ## Files
-- `final_video.mp4`: 1080×1920, 30 fps, H.264 + AAC, 34.4 s, -14.0 LUFS, -2.9 dBTP peak, BT.709.
+- `final_video.mp4`: 1080×1920, 30 fps, H.264 + AAC, 34.6 s, -14.0 LUFS, -3.0 dBTP peak, BT.709.
 - `cover.png`: 1080×1920.
 - `voice.mp3` / `voice.wav`: preview voice. `timings.json`: word timestamps.
-- Voice QA (Whisper transcript vs script): `MISMATCHES: [('beck s', 'bex'), ('favourite', 'favorite'), ('favourite', 'favorite'), ('beck s', 'bex'), ('paravion', 'paravi on')]`. Only number formatting ("12" vs "twelfth") or name spelling differences are acceptable.
+- Voice QA (Whisper transcript vs script): `MISMATCHES: [('becks', 'bex'), ('stay', 'say'), ('becks', 'bex'), ('paravion', 'parav on')]`. Only number formatting ("12" vs "twelfth") or name spelling differences are acceptable.
 
 ## Asset licenses
 All graphics, music and SFX are generated in code (owned by the channel). ECG traces and trial bars are labelled illustrative where they are not real data. Font: Space Grotesk (SIL OFL 1.1). Voice: Piper preview (replace with a licensed ElevenLabs voice). No footage, patient images, logos or faces.
@@ -68,6 +70,8 @@ Sources:
 • StatPearls: Cardiac Tamponade (NBK431090): https://pubmed.ncbi.nlm.nih.gov/28613742/
 • Adler Y et al. Cardiac tamponade. Nat Rev Dis Primers 2023: https://pubmed.ncbi.nlm.nih.gov/37474539/
 
+✅ Fact-checked as of 23 Nov 2026. Medical evidence and guidelines change; check the sources above for updates.
+
 Follow for daily medical news and high-yield medicine, explained in 60 seconds.
 
 Educational content only, not medical advice. Always follow local guidelines and talk to a qualified clinician about your own health.
@@ -83,7 +87,7 @@ Beck's Triad in 60 Seconds (Cardiac Tamponade) 👇
 Beck's triad of cardiac tamponade: hypotension, raised JVP (distended neck veins) and muffled heart sounds. Fluid in the pericardial sac stops the heart filling. Echo confirms it and pericardiocentesis drains it.
 
 Follow @PARAVION_MED for medicine explained daily.
-Educational only, not medical advice.
+Fact-checked as of 23 Nov 2026. Educational only, not medical advice.
 Sources in comments.
 
 #cardiology #medicalstudent #neetpg #usmle #medicine #medstudent #doctor #paravionmed
@@ -98,7 +102,7 @@ Sources in comments.
 | Medical warnings | none |
 | Neutral on contested topics, no opinion | ✅ |
 | Hook in first 3 s; CTA in last 8 s (0:28–0:34) | ✅ |
-| Under 60 s (34.4 s), 1080×1920, centred layout, captions ≤760 px wide | ✅ |
+| Under 60 s (34.6 s), 1080×1920, centred layout, captions ≤760 px wide | ✅ |
 | Visuals/music self-made, font OFL | ✅ |
 | Licensed human-quality voice | ❌ preview voice |
 | No fake quotes; cover not misleading | ✅ |

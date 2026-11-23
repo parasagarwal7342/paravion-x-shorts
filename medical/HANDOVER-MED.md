@@ -5,6 +5,7 @@ Everything lives in `medical/` on the `medical-channel` branch of `parasagarwal7
 All commands below run from `medical/`.
 
 ## 1. The channel
+- **YouTube:** created Nov 23, 2026: https://www.youtube.com/@PARAVION_MED (channel ID `UCzw2JLcszzljlShEZxBcgfw`). Profile picture uploaded.
 - **Name:** PARAVION MED · **Handle:** @PARAVION_MED · **Tagline:** "Medicine, explained in 60 seconds."
   (Change any of these in `config.json`; the renderer, packager and brand kit all read from it.)
 - **Audience:** MBBS/BDS/nursing students, NEET-PG / FMGE / NExT / USMLE aspirants, junior doctors, and curious public. India + global, English.
