@@ -1,0 +1,399 @@
+1
+00:00:00,000 --> 00:00:02,879
+In twenty twenty one, more than a million deaths
+
+2
+00:00:02,729 --> 00:00:06,556
+worldwide were caused directly by bacteria that antibiotics could
+
+3
+00:00:06,406 --> 00:00:07,447
+no longer kill.
+
+4
+00:00:07,647 --> 00:00:10,853
+Resistant infections were linked to about four point seven
+
+5
+00:00:10,703 --> 00:00:12,200
+million deaths that year.
+
+6
+00:00:12,400 --> 00:00:15,482
+The medicines that changed modern medicine are slowly losing
+
+7
+00:00:15,332 --> 00:00:16,107
+their power.
+
+8
+00:00:16,307 --> 00:00:18,678
+This is the story of how it happened, and
+
+9
+00:00:18,528 --> 00:00:19,631
+what still works.
+
+10
+00:00:20,481 --> 00:00:22,469
+When antibiotics stop working.
+
+11
+00:00:23,319 --> 00:00:25,866
+Chapter one. The mould that changed medicine.
+
+12
+00:00:26,716 --> 00:00:30,265
+In nineteen twenty eight, Alexander Fleming noticed something strange
+
+13
+00:00:30,115 --> 00:00:31,237
+on a culture plate.
+
+14
+00:00:31,437 --> 00:00:34,184
+A mould had landed on it, and the bacteria
+
+15
+00:00:34,034 --> 00:00:35,392
+around it had died.
+
+16
+00:00:35,592 --> 00:00:38,953
+That mould gave us penicillin, the first antibiotic to
+
+17
+00:00:38,803 --> 00:00:39,945
+change medicine.
+
+18
+00:00:40,145 --> 00:00:43,584
+Before antibiotics, a simple infection could be a death
+
+19
+00:00:43,434 --> 00:00:47,283
+sentence. Afterwards, medicine could take risks it never could
+
+20
+00:00:47,133 --> 00:00:47,753
+before.
+
+21
+00:00:47,953 --> 00:00:52,135
+Today, joint replacements, organ transplants and cancer therapy all
+
+22
+00:00:51,985 --> 00:00:54,625
+depend on being able to treat infections.
+
+23
+00:00:54,825 --> 00:00:58,521
+Resistance raises the risk of complications from procedures like
+
+24
+00:00:58,371 --> 00:00:59,012
+surgery.
+
+25
+00:00:59,862 --> 00:01:02,556
+Chapter two. How bacteria fight back.
+
+26
+00:01:03,406 --> 00:01:06,587
+Resistance happens when germs develop the ability to defeat
+
+27
+00:01:06,437 --> 00:01:08,254
+the drugs designed to kill them.
+
+28
+00:01:08,454 --> 00:01:11,800
+Every time an antibiotic is used, it puts pressure
+
+29
+00:01:11,650 --> 00:01:13,179
+on bacteria to adapt.
+
+30
+00:01:13,379 --> 00:01:16,407
+Picture billions of bacteria in an infection. A few
+
+31
+00:01:16,257 --> 00:01:19,396
+carry a random genetic change that helps them survive
+
+32
+00:01:19,246 --> 00:01:19,950
+the drug.
+
+33
+00:01:20,150 --> 00:01:23,591
+The antibiotic kills the rest. The survivors now have
+
+34
+00:01:23,441 --> 00:01:24,688
+room to multiply.
+
+35
+00:01:24,888 --> 00:01:28,393
+That's evolution, happening in days instead of millions of
+
+36
+00:01:28,243 --> 00:01:28,790
+years.
+
+37
+00:01:28,990 --> 00:01:30,491
+They have four main tricks.
+
+38
+00:01:30,691 --> 00:01:33,732
+Some make enzymes that break the antibiotic down.
+
+39
+00:01:33,932 --> 00:01:36,622
+Some pump it straight back out, or change the
+
+40
+00:01:36,472 --> 00:01:38,556
+target so the drug no longer fits.
+
+41
+00:01:38,756 --> 00:01:41,089
+And some close the doors it uses to get
+
+42
+00:01:40,939 --> 00:01:41,308
+in.
+
+43
+00:01:41,508 --> 00:01:44,857
+Worse, bacteria can share resistance with other bacteria that
+
+44
+00:01:44,707 --> 00:01:46,457
+have never even seen the drug.
+
+45
+00:01:46,657 --> 00:01:49,307
+They pass it on through mobile pieces of DNA,
+
+46
+00:01:49,157 --> 00:01:51,698
+which is why resistance can spread so fast.
+
+47
+00:01:51,898 --> 00:01:56,138
+Medical students, this is classic exam material. Enzymes, efflux
+
+48
+00:01:55,988 --> 00:01:58,717
+pumps, target changes and reduced entry.
+
+49
+00:01:59,567 --> 00:02:01,930
+Chapter three. The scale of the problem.
+
+50
+00:02:02,780 --> 00:02:06,059
+In twenty twenty three, about one in six lab-confirmed
+
+51
+00:02:05,909 --> 00:02:09,586
+bacterial infections worldwide were resistant to antibiotics.
+
+52
+00:02:09,786 --> 00:02:13,264
+Between twenty eighteen and twenty twenty three, resistance rose
+
+53
+00:02:13,114 --> 00:02:15,415
+in over forty percent of the drug and bug
+
+54
+00:02:15,265 --> 00:02:16,337
+pairs WHO tracks.
+
+55
+00:02:16,537 --> 00:02:19,915
+Two gut bacteria keep topping these lists: E. coli
+
+56
+00:02:19,765 --> 00:02:20,927
+and Klebsiella.
+
+57
+00:02:21,127 --> 00:02:24,021
+Globally, more than forty percent of E. coli and
+
+58
+00:02:23,871 --> 00:02:27,492
+over fifty five percent of Klebsiella resist the first-choice
+
+59
+00:02:27,342 --> 00:02:29,396
+antibiotics for these infections.
+
+60
+00:02:29,596 --> 00:02:34,123
+Even powerful drugs like carbapenems are losing effectiveness against
+
+61
+00:02:33,973 --> 00:02:35,999
+Klebsiella and Acinetobacter.
+
+62
+00:02:36,199 --> 00:02:38,680
+And M R S A, a resistant staph, caused
+
+63
+00:02:38,530 --> 00:02:41,549
+over a hundred thousand deaths in a single year
+
+64
+00:02:41,399 --> 00:02:42,267
+on its own.
+
+65
+00:02:42,467 --> 00:02:45,788
+Older people are hit hardest. Since nineteen ninety, resistance
+
+66
+00:02:45,638 --> 00:02:48,216
+deaths in people over seventy have risen by more
+
+67
+00:02:48,066 --> 00:02:49,256
+than eighty percent.
+
+68
+00:02:50,106 --> 00:02:52,924
+Chapter four. Why it matters for South Asia.
+
+69
+00:02:53,774 --> 00:02:57,125
+WHO estimates resistance is highest in its South-East Asia
+
+70
+00:02:56,975 --> 00:03:00,544
+and Eastern Mediterranean regions, where one in three reported
+
+71
+00:03:00,394 --> 00:03:02,009
+infections were resistant.
+
+72
+00:03:02,209 --> 00:03:04,870
+And forecasts in The Lancet put South Asia among
+
+73
+00:03:04,720 --> 00:03:07,791
+the regions with the highest death rates from resistance
+
+74
+00:03:07,641 --> 00:03:08,662
+by twenty fifty.
+
+75
+00:03:08,862 --> 00:03:12,339
+Resistant germs spread in hospitals, in the community, through
+
+76
+00:03:12,189 --> 00:03:15,401
+food and the environment, and between people and animals.
+
+77
+00:03:16,251 --> 00:03:18,587
+Chapter five. What actually works.
+
+78
+00:03:19,437 --> 00:03:22,594
+First, use antibiotics only when they're needed. Ask your
+
+79
+00:03:22,444 --> 00:03:24,461
+doctor whether you really need one.
+
+80
+00:03:24,661 --> 00:03:28,114
+Colds are viral, and trials show antibiotics don't help
+
+81
+00:03:27,964 --> 00:03:28,468
+them.
+
+82
+00:03:28,668 --> 00:03:32,565
+Antibiotics also have side effects. In cold trials, adults
+
+83
+00:03:32,415 --> 00:03:35,677
+given antibiotics had more of them than those on
+
+84
+00:03:35,527 --> 00:03:36,249
+placebo.
+
+85
+00:03:36,449 --> 00:03:39,532
+Second, prevent infections. Clean hands are one of the
+
+86
+00:03:39,382 --> 00:03:41,398
+best ways to stop germs spreading.
+
+87
+00:03:41,598 --> 00:03:45,097
+Vaccines prevent infections too, including resistant ones.
+
+88
+00:03:45,297 --> 00:03:48,673
+For clinicians: prescribe only when the benefits outweigh the
+
+89
+00:03:48,523 --> 00:03:50,339
+risks, and pick the right drug.
+
+90
+00:03:50,539 --> 00:03:53,970
+So, to recap. Resistance is caused by germs adapting
+
+91
+00:03:53,820 --> 00:03:58,118
+under antibiotic pressure, and it spreads between bacteria, people
+
+92
+00:03:57,968 --> 00:03:58,922
+and animals.
+
+93
+00:03:59,122 --> 00:04:01,850
+It already causes over a million deaths a year,
+
+94
+00:04:01,700 --> 00:04:03,944
+and it's highest in regions like ours.
+
+95
+00:04:04,144 --> 00:04:07,731
+Antimicrobial resistance is a major global health threat. But
+
+96
+00:04:07,581 --> 00:04:09,062
+it isn't a lost battle.
+
+97
+00:04:09,262 --> 00:04:11,871
+Every antibiotic we don't need to use keeps the
+
+98
+00:04:11,721 --> 00:04:13,357
+ones we have working longer.
+
+99
+00:04:14,207 --> 00:04:17,311
+If this helped, subscribe to Paravion Med. Sources are
+
+100
+00:04:17,161 --> 00:04:18,385
+in the description.
