@@ -36,6 +36,10 @@ def episodes():
         if tim.get("engine") != "elevenlabs": problems.append("preview voice (needs ElevenLabs)")
         from medcheck import check as medcheck
         if medcheck(ep)[0]: problems.append("medcheck.py FAILED (run it for details)")
+        chk = json.loads((ep / "script.json").read_text()).get("meta", {}).get("checked_on")
+        series = json.loads((ep / "script.json").read_text()).get("series", "")
+        if chk and when and (dt.datetime.fromisoformat(when).date() - dt.date.fromisoformat(chk)).days > (1 if "news" in series.lower() else 90):
+            problems.append(f"fact-check from {chk} is too old for this publish date: re-check and update meta.checked_on")
         if not (ep / "APPROVED").exists(): problems.append("not APPROVED (re-check facts, then touch APPROVED)")
         when = meta.get("publish_at")
         if not when: problems.append("no publish time")

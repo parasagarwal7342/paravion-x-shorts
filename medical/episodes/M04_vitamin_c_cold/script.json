@@ -249,6 +249,7 @@
   "removed": [],
   "notes": "Evergreen: not time-sensitive. Re-check the guideline version before posting.",
   "schedule": "2026-11-29T19:30:00+05:30",
+  "checked_on": "2026-11-23",
   "verdict": "Vitamin C prevents colds: FALSE. Slightly shorter colds: True.",
   "audience": "public + students"
  }

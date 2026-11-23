@@ -21,6 +21,11 @@ Work in `medical/episodes/<slug>/`. You may edit `script.json` to cut or soften 
 7. On-screen: open 4 frames; every number on screen matches the narration and the source.
 8. Description (`upload.json`): sources listed, disclaimer present, no medical claims beyond the video.
 
+9. **"Fact-checked as of" date.** When every claim is confirmed, set `meta.checked_on` to today's date (YYYY-MM-DD) and
+   rebuild (`FORCE=1 ./make_episode.sh episodes/<slug>`; the saved voice is reused, so this is free). The date is printed on
+   every frame ("FACT-CHECKED AS OF 23 NOV 2026"), in the YouTube/Instagram description and in PACKAGE.md, so it must
+   be the date you actually checked, never a guess or a future date.
+
 ## Verdict
 Write `review.md` as a table (claim · source checked · OK / FIXED / CUT) plus one line: **PASS** or **FAIL**.
 Only PASS episodes are pushed. Never create the `APPROVED` file: that is the human owner's sign-off.

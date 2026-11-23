@@ -285,6 +285,7 @@
   "removed": [],
   "notes": "Evergreen: not time-sensitive. Re-check the guideline version before posting.",
   "schedule": "2026-11-28T19:30:00+05:30",
+  "checked_on": "2026-11-23",
   "verdict": "The Glasgow Coma Scale scores eyes (1-4), verbal (1-5) and motor (1-6), for a total of 3 to 15.",
   "audience": "students + doctors"
  }

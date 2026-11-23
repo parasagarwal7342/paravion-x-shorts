@@ -16,6 +16,9 @@ All commands below run from `medical/`.
   | **Med News in 60** | 1:00 PM daily | the day's trending medical story: approvals, big trials, guidelines, outbreaks, NEET-PG/NMC/NBEMS exam news |
   | **High-Yield in 60** | 7:30 PM | exam-style pearls: triads, scores, guideline numbers, mnemonics, ECGs |
   | **Myth or Medicine?** | 7:30 PM (about 2 a week) | popular health myths answered with Cochrane / meta-analyses / WHO / CDC |
+- **Fact-check date:** every video shows "FACT-CHECKED AS OF <date>" under the logo, and every description says
+  "✅ Fact-checked as of <date>", from `meta.checked_on`. News must be re-checked within 1 day of posting, evergreen
+  within 90 days; `medcheck.py` warns and `youtube_schedule.py` refuses to upload otherwise.
 - **Golden rule:** accurate first, useful second, viral third. 2+ trusted sources per fact. No doses, no personal advice.
 
 ## 2. What's built

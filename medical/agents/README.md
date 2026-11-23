@@ -34,4 +34,6 @@ topic → fact file (3+ sources) → script.json → medcheck.py ─┐
    comes only from the official body (NBEMS, NMC, USMLE.org) plus one reputable outlet.
 4. **Neutral and kind** on contested topics (vaccines, policy, pricing). State what's confirmed and what's still open.
 5. **No fake engagement.** No auto-replies, auto-follows, bought views, or fake accounts. Replies are drafted for the owner.
-6. **Never commit secrets.** ElevenLabs is injected by the environment proxy; YouTube OAuth files are git-ignored.
+6. **Every Short says when it was fact-checked.** `meta.checked_on` is shown on screen and in the description as
+   "Fact-checked as of <date>". Re-check and update it before posting if it is older than 1 day (news) or 90 days (evergreen).
+7. **Never commit secrets.** ElevenLabs is injected by the environment proxy; YouTube OAuth files are git-ignored.

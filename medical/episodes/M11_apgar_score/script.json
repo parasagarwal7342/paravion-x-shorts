@@ -287,6 +287,7 @@
   "removed": [],
   "notes": "Evergreen: not time-sensitive. Re-check the guideline version before posting.",
   "schedule": "2026-12-06T19:30:00+05:30",
+  "checked_on": "2026-11-23",
   "verdict": "The Apgar score rates 5 signs (appearance, pulse, grimace, activity, respiration) from 0 to 2 each, at 1 and 5 minutes after birth.",
   "audience": "students + doctors"
  }

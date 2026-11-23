@@ -253,6 +253,7 @@
   "removed": [],
   "notes": "Evergreen: not time-sensitive. Re-check the guideline version before posting.",
   "schedule": "2026-12-04T19:30:00+05:30",
+  "checked_on": "2026-11-23",
   "verdict": "Sugar causes hyperactivity: FALSE. Expectation changes perception: True.",
   "audience": "public + students"
  }

@@ -508,12 +508,23 @@ def fit_font(s, maxw, size, kind="head"):
 
 
 # ------------------------------------------------------------ chrome
+CHECKED = ""     # "Fact-checked as of …" stamp, set per episode from meta.checked_on
+
+
+def checked_text(script):
+    """'FACT-CHECKED AS OF 23 NOV 2026' from meta.checked_on (YYYY-MM-DD)."""
+    import datetime as dt
+    c = script.get("meta", {}).get("checked_on")
+    return ("FACT-CHECKED AS OF " + dt.date.fromisoformat(c).strftime("%-d %b %Y").upper()) if c else ""
+
+
 def header(d, chap=None):
     a, b = CFG["wordmark"]; f = F(54)
     wa, wb = f.getlength(a), f.getlength(b); x = CX - (wa + wb) / 2
     tc(d, (x, 170), a, f, INK, anchor="lm"); tc(d, (x + wa, 170), b, f, ACC, anchor="lm")
     d.line([(SAFE_L, 222), (SAFE_R, 222)], fill=RULE, width=2)
-    if CFG.get("disclaimer"): tc(d, (CX, 246), CFG["disclaimer"], F(20, "body"), MUTED)
+    note = " · ".join(x for x in (CFG.get("disclaimer", ""), CHECKED) if x)
+    if note: tc(d, (CX, 246), note, fit_font(note, 900, 20, "body"), MUTED)
     if chap: tc(d, (SAFE_R, 264), chap, F(26, "body"), MUTED, anchor="rm")
 
 
@@ -778,6 +789,7 @@ def render(ep_dir, only_cover=False):
     sl, lines = script["lines"], tim["lines"]
     for s, l in zip(sl, lines): l["keys"] = s.get("keys", [])
     dur = tim["duration"]
+    global CHECKED; CHECKED = checked_text(script)
     make_cover(ep, script)
     if only_cover: return
     groups = caption_groups(lines)

@@ -18,6 +18,9 @@ status = ("**STATUS: BLOCKED (medical check).** Fix the errors in the QA section
           "**STATUS: READY** once a human re-reads the facts and runs `touch APPROVED` in this folder." if eleven else
           "**STATUS: BLOCKED (voice only).** The narration is the free Piper preview voice. Re-run with ElevenLabs, then post.")
 category = cfg["youtube_category"]["news" if "news" in s["series"].lower() else "default"]
+import datetime as _dt
+chk = m.get("checked_on"); chk_h = _dt.date.fromisoformat(chk).strftime("%-d %b %Y") if chk else "NOT RECORDED"
+asof = f"✅ Fact-checked as of {chk_h}. Medical evidence and guidelines change; check the sources above for updates."
 nsrc = lambda x: len([y for y in re.split(r"[,;/&]| and ", x) if y.strip()])
 f = lambda x: f"{int(x // 60)}:{int(round(x % 60)):02d}"
 
@@ -55,7 +58,9 @@ md = f"""# {name} — {s['slug']} · "{s['series']}"
 ## Sources
 {chr(10).join(f'{i+1}. {n}: {u}' for i, (n, u) in enumerate(m['sources']))}
 
-## Fact-check: {'PASS' if not mc_err else 'FAIL'}
+## Fact-check: {'PASS' if not mc_err else 'FAIL'} (as of {chk_h})
+Facts were verified against the sources below on **{chk_h}**. Anything posted later than ~90 days after this date (or any news
+Short posted more than 1 day after it) must be re-checked first, and `meta.checked_on` updated.
 Every on-screen fact line and its sources:
 
 | Claim (as spoken) | Sources | Label |
@@ -90,6 +95,8 @@ All graphics, music and SFX are generated in code (owned by the channel). ECG tr
 Sources:
 {src_lines}
 
+{asof}
+
 {foot}
 {' '.join(m['hashtags'])}
 ```
@@ -103,7 +110,7 @@ Sources:
 {m['summary']}
 
 {cfg['ig_follow']}
-Educational only, not medical advice.
+Fact-checked as of {chk_h}. Educational only, not medical advice.
 Sources in comments.
 
 {m['ig_tags']}
@@ -127,7 +134,7 @@ Sources in comments.
 """
 (ep / "PACKAGE.md").write_text(md)
 (ep / "upload.json").write_text(json.dumps({
-    "title": m["titles"][0], "description": f"{m['summary']}\n\nSources:\n{src_lines}\n\n{foot}\n{' '.join(m['hashtags'])}", "category": category,
+    "title": m["titles"][0], "checked_on": chk, "description": f"{m['summary']}\n\nSources:\n{src_lines}\n\n{asof}\n\n{foot}\n{' '.join(m['hashtags'])}", "category": category,
     "tags": [h.lstrip('#') for h in m["hashtags"] if h != "#shorts"], "publish_at": m.get("schedule"),
     "pinned_comment": m["pinned"]}, indent=1, ensure_ascii=False))
 print("wrote", ep / "PACKAGE.md")

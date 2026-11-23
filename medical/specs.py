@@ -12,6 +12,7 @@ import datetime as dt, json, os
 
 START = dt.date(2026, 11, 26)         # first evergreen slot (7:30 PM IST)
 SLOT = "19:30:00+05:30"
+CHECKED = "2026-11-23"                # date every source below was last verified ("Fact-checked as of" on screen)
 CTA = ("Like and follow Paravion Med for more.", "Follow for|daily medicine.")
 
 
@@ -63,7 +64,7 @@ def build(i, t):
               "meta": {"titles": t["titles"], "summary": t["summary"], "hashtags": ["#shorts"] + tags,
                        "ig_tags": " ".join("#" + x.lower().lstrip("#") for x in tags + ["medicine", "medstudent", "doctor", "paravionmed"]),
                        "pinned": t["pinned"], "poll": t["poll"], "sources": t["sources"], "removed": t.get("removed", []),
-                       "notes": "Evergreen: not time-sensitive. Re-check the guideline version before posting.", "schedule": when,
+                       "notes": "Evergreen: not time-sensitive. Re-check the guideline version before posting.", "schedule": when, "checked_on": t.get("checked_on", CHECKED),
                        "verdict": t.get("verdict") or (f"{t['myth']}: FALSE. {t['truth'][0]}: {t['truth'][1].title()}." if not hy else t["summary"].split(". ")[0] + "."),
                        "audience": t.get("audience", "students + doctors" if hy else "public + students")}}
     os.makedirs(f"episodes/{slug}", exist_ok=True)

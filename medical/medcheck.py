@@ -9,9 +9,10 @@ What it enforces (the channel's medical safety rules, see agents/03_medical_revi
   * no doses (e.g. "500 mg", "2 tablets") unless meta.allow_doses is true AND a guideline is cited
   * script length: <= 135 spoken words (fits under 60 s with the ElevenLabs voice), on-screen text <= 6 words,
     no arrow glyphs in on-screen text (the font has none)
-  * news episodes need meta.checked_on (date the facts were re-checked) and meta.event_date
+  * every episode needs meta.checked_on (YYYY-MM-DD the facts were last verified). It is printed on screen and in the
+    description as "Fact-checked as of …". News must be re-checked within 1 day of posting, evergreen within 90 days.
 """
-import json, re, sys
+import datetime as dt, json, re, sys
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -80,9 +81,17 @@ def check(ep):
     for name, url in srcs:
         ok, why = domain_ok(url, series)
         if not ok: err.append(f"source '{name}': {why}")
-    if "news" in series.lower():
-        if not m.get("checked_on"): err.append("news episode: set meta.checked_on (YYYY-MM-DD the facts were last re-checked)")
-        if not m.get("event_date"): warn.append("news episode: meta.event_date missing")
+    news = "news" in series.lower()
+    if not m.get("checked_on"):
+        err.append("set meta.checked_on (YYYY-MM-DD the facts were last verified); it is shown as 'Fact-checked as of'")
+    else:
+        chk = dt.date.fromisoformat(m["checked_on"]); today = dt.date.today()
+        if chk > today: err.append(f"meta.checked_on {chk} is in the future")
+        if m.get("schedule"):
+            post = dt.datetime.fromisoformat(m["schedule"]).date(); limit = 1 if news else 90
+            if (post - chk).days > limit:
+                warn.append(f"posting {post} is {(post - chk).days} days after the fact-check ({chk}); re-check sources and update meta.checked_on before posting (limit {limit} days)")
+    if news and not m.get("event_date"): warn.append("news episode: meta.event_date missing")
     if not m.get("titles"): err.append("meta.titles missing")
     for t in m.get("titles", []):
         if len(t) > 70: warn.append(f"title over 70 chars: '{t}'")

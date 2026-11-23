@@ -11,6 +11,10 @@ Buffer organisation: the owner's ("My organization", timezone Asia/Kolkata). The
 - for news: `meta.checked_on` is today or yesterday, and you re-checked the primary source this morning
   (nothing retracted, corrected or overtaken). If it changed, stop and report.
 
+- **Fact-check freshness:** the "Fact-checked as of" date (`meta.checked_on`) must be no more than **1 day** before the
+  publish time for news and **90 days** for evergreen. If it's older, run the Medical Reviewer pass, update
+  `meta.checked_on`, rebuild, push, then schedule. `medcheck.py` and `youtube_schedule.py` both enforce this.
+
 ## Daily slots (IST)
 | Time | YouTube Shorts + Instagram Reels + X | Content |
 |---|---|---|
