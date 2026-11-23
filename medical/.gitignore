@@ -1,0 +1,14 @@
+assets/piper/
+assets/voice_cache/
+logs/
+*.log
+episodes/*/voice.wav
+episodes/*/music.wav
+episodes/*/sfx.wav
+episodes/*/video_only.mp4
+episodes/*/final_tmp.mp4
+episodes/*/final_video_preview.mp4
+__pycache__/
+client_secret.json
+yt_token.json
+.env

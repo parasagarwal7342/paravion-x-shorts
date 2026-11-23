@@ -1,0 +1,35 @@
+{
+ "slug": "YYYY-MM-DD_short_topic",
+ "series": "Med News in 60",
+ "kickers": {"HOOK": "MED NEWS · <AREA>", "SUB": "MED NEWS · <AREA>", "CONTEXT": "WHAT HAPPENED", "FACT1": "FACT 1 OF 3",
+             "FACT2": "FACT 2 OF 3", "FACT3": "FACT 3 OF 3", "VERDICT": "WHAT IT MEANS", "CTA": "MEDICINE, EXPLAINED"},
+ "cover": {"kicker": "MED NEWS · <AREA>", "head": ["<Line 1>", "<Line 2>", "<Line 3>"], "sub": "<One-line hook, no hype>",
+           "visual": {"type": "drug_card", "name": "<Drug or topic>", "cls": "<CLASS>", "line": "<What changed>"}},
+ "lines": [
+  {"beat": "HOOK", "text": "<The news in one sentence, under 12 words.>", "ost": "<black part>|<teal part>", "visual": {"type": "hero", "note": "<who announced it>"}, "keys": ["<word>"]},
+  {"beat": "SUB", "text": "Here's what it means, in sixty seconds.", "ost": "What it means.|60 seconds.", "visual": {"type": "timer"}, "keys": ["means,"]},
+  {"beat": "CONTEXT", "text": "<Who / what / when. One fact.>", "ost": "<≤6 words>", "visual": {"type": "grid", "tiles": [["WHO", "<agency>", ""], ["WHEN", "<date>", ""]]}, "keys": [], "source": "<Source A>, <Source B>"},
+  {"beat": "CONTEXT", "text": "Stay for fact three. It's the one that matters most.", "ost": "Wait for|fact 3.", "visual": {"type": "teaser", "n": 3}, "keys": ["three."]},
+  {"beat": "FACT1", "text": "Fact one. <Key finding or decision.>", "ost": "<≤6 words>", "visual": {"type": "trial", "label": "<OUTCOME>", "arms": [{"name": "<Drug>", "value": 0, "text": "<x%>"}, {"name": "Placebo", "value": 0, "text": "<y%>", "color": "muted"}], "sub": "<trial name, journal>"}, "keys": ["one."], "source": "<Source A>, <Source B>"},
+  {"beat": "FACT2", "text": "Fact two. <Who it applies to / limits.>", "ost": "<≤6 words>", "visual": {"type": "tags", "tags": ["<group>", "<group>"]}, "keys": ["two."], "source": "<Source A>, <Source B>"},
+  {"beat": "FACT3", "text": "And the big one. <Why it matters for students/doctors/patients.>", "ost": "<≤6 words>", "visual": {"type": "hero", "note": "<context>"}, "keys": ["big"], "source": "<Source A>, <Source B>"},
+  {"beat": "VERDICT", "text": "So: <what is confirmed>.", "ost": "Confirmed:|<x>.", "visual": {"type": "verdict", "shown": 1, "rows": [["<What is confirmed>", "CONFIRMED", "green"], ["<What is still open>", "STILL OPEN", "amber"]]}, "keys": []},
+  {"beat": "VERDICT", "text": "Still open: <what we don't know yet>.", "ost": "Still open:|<y>.", "visual": {"type": "verdict", "shown": 2, "rows": [["<What is confirmed>", "CONFIRMED", "green"], ["<What is still open>", "STILL OPEN", "amber"]]}, "keys": []},
+  {"beat": "CTA", "text": "Like and follow Paravion Med for more.", "ost": "Follow for|daily medicine.", "visual": {"type": "cta"}, "keys": ["Like", "follow", "more."]}
+ ],
+ "meta": {
+  "titles": ["<Keyword-first title, ≤60 chars>", "<alt>", "<alt>"],
+  "summary": "<2-3 sentences, plain facts, numbers with units, no advice>",
+  "hashtags": ["#shorts", "#MedicalNews", "#<Area>", "#<Topic>"],
+  "ig_tags": "#medicalnews #medicine #medstudent #doctor #paravionmed",
+  "pinned": "<One open question for the audience> 👇",
+  "poll": ["<Story poll question>", "<Option 1>", "<Option 2>"],
+  "sources": [["<Primary: regulator / journal / ministry>", "https://..."], ["<Independent second source>", "https://..."]],
+  "removed": ["<claims dropped in fact-check and why>"],
+  "notes": "<anything the Publisher must re-check before posting>",
+  "schedule": "YYYY-MM-DDT13:00:00+05:30",
+  "event_date": "YYYY-MM-DD",
+  "checked_on": "YYYY-MM-DD",
+  "verdict": "<Confirmed: ... Still open: ...>"
+ }
+}

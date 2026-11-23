@@ -1,0 +1,63 @@
+{
+  "channel_name": "PARAVION MED",
+  "handle": "PARAVION_MED",
+  "tagline": "Medicine, explained in 60 seconds.",
+  "language": "English",
+  "audience": "MBBS/BDS/nursing students, NEET-PG / USMLE aspirants, junior doctors, health-curious public (18-35, India + global)",
+  "wordmark": ["PARAVION ", "MED"],
+  "footer": ["@PARAVION_MED", "Medicine, explained."],
+  "cta_line": "Like and follow Paravion Med for more.",
+  "cta_kicker": "FOLLOW FOR DAILY HIGH-YIELD MEDICINE",
+  "disclaimer": "EDUCATIONAL ONLY · NOT MEDICAL ADVICE",
+  "description_footer": "Follow for daily medical news and high-yield medicine, explained in 60 seconds.\n\nEducational content only, not medical advice. Always follow local guidelines and talk to a qualified clinician about your own health.",
+  "ig_follow": "Follow @PARAVION_MED for medicine explained daily.",
+  "youtube_category": {"news": "25", "default": "27"},
+  "elevenlabs": {
+    "model_id": "eleven_multilingual_v2",
+    "voice_settings": {"stability": 0.45, "similarity_boost": 0.8, "style": 0.3, "use_speaker_boost": true},
+    "max_gap": 0.3,
+    "tempo": 1.08
+  },
+  "fallback_tts": {
+    "piper_model": "assets/piper/en_US-lessac-high.onnx",
+    "length_scale": 0.97,
+    "noise_scale": 0.5,
+    "say": {
+      "Paravion": "Para-vee-on",
+      "JVP": "J-V-P",
+      "GCS": "G-C-S",
+      "qSOFA": "quick-SOFA",
+      "SOFA": "Sofa",
+      "CPR": "C-P-R",
+      "AED": "A-E-D",
+      "NEET-PG": "neet P-G",
+      "USMLE": "U-S-M-L-E",
+      "Apgar": "App-gar",
+      "miosis": "my-oh-sis",
+      "anhidrosis": "an-hi-droh-sis",
+      "ptosis": "toe-sis",
+      "Virchow's": "Fear-ko's",
+      
+      "Charcot's": "Shar-ko's",
+      "Reynolds'": "Reynolds"
+    },
+    "_note": "'say' = respellings for the free preview voice only. Check every episode's voice_qa.txt."
+  },
+  "theme": {
+    "name": "clinic-light",
+    "bg": "#FFFFFF",
+    "band": "#F1F5F5",
+    "rule": "#DFE6E6",
+    "ink": "#0F1A1C",
+    "muted": "#62706F",
+    "accent": "#0B7A75",
+    "tint": "#EAF5F4",
+    "x_red": "#D62828",
+    "pill_green_bg": "#DDF4E4",
+    "pill_green_fg": "#1B7F45",
+    "pill_amber_bg": "#FFF0D6",
+    "pill_amber_fg": "#A86200"
+  },
+  "font_head": "assets/fonts/sg-700.woff",
+  "font_body": "assets/fonts/sg-500.woff"
+}
