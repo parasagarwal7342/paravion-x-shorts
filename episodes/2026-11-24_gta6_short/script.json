@@ -1,0 +1,95 @@
+{
+ "segments": [
+  {
+   "id": "s01",
+   "kind": "photo",
+   "img": "miami_night",
+   "big": "$3.79 BILLION",
+   "sub": "GTA VI · IN ONE DAY",
+   "text": "GTA Six just made three point seven nine billion dollars. In one day."
+  },
+  {
+   "id": "s02",
+   "kind": "photo",
+   "img": "crowd",
+   "big": "BIGGEST EVER",
+   "sub": "ENTERTAINMENT LAUNCH · ANY MEDIUM",
+   "text": "Take-Two says it's the biggest entertainment launch in history. Bigger than any game, any movie, any album."
+  },
+  {
+   "id": "s03",
+   "kind": "chart",
+   "bg": "crowd",
+   "chart": {
+    "title": "DAY-ONE / OPENING RECORDS",
+    "bars": [
+     [
+      "GTA V",
+      "DAY 1 · 2013",
+      0.8,
+      "$0.8B"
+     ],
+     [
+      "ENDGAME",
+      "WEEKEND · 2019",
+      1.2,
+      "$1.2B"
+     ],
+     [
+      "GTA VI",
+      "DAY 1 · 2026",
+      3.79,
+      "$3.79B"
+     ]
+    ],
+    "vmax": 4.2,
+    "step": 1.1,
+    "badge": "3X ENDGAME",
+    "badge_at": 4.2,
+    "source": "Take-Two; Disney via NPR. Company retail estimates."
+   },
+   "text": "GTA Five made eight hundred million on day one. Avengers Endgame made one point two billion in its whole opening weekend. GTA Six made more than three times that."
+  },
+  {
+   "id": "s04",
+   "kind": "photo",
+   "img": "xbox",
+   "big": "32.5 MILLION",
+   "sub": "COPIES SOLD BEFORE LAUNCH",
+   "text": "Thirty-two point five million copies were sold before it even launched."
+  },
+  {
+   "id": "s05",
+   "kind": "photo",
+   "img": "colony",
+   "big": "99",
+   "sub": "METACRITIC · TIES THE ALL-TIME RECORD",
+   "text": "And critics gave it a ninety-nine on Metacritic, tying the highest score ever."
+  },
+  {
+   "id": "s06",
+   "kind": "verdict",
+   "bg": "ps5",
+   "claim": "“Rockstar keeps all $3.79 billion.”",
+   "verdict": "FAKE",
+   "why": "Retail sales. Sony, Microsoft and stores take a cut",
+   "text": "But does Rockstar keep all of it? Fake. That's retail sales. Sony, Microsoft and stores take a cut."
+  },
+  {
+   "id": "s07",
+   "kind": "photo",
+   "img": "miami_night",
+   "big": "13 YEARS",
+   "sub": "WORTH THE WAIT?",
+   "text": "Thirteen years of waiting. Was it worth it? Tell us in the comments."
+  },
+  {
+   "id": "s08",
+   "kind": "photo",
+   "img": "carlyle",
+   "big": "FOLLOW",
+   "sub": "PARAVION X · FOR MORE UPDATES",
+   "text": "Like and follow Paravion X for more updates."
+  }
+ ]
+}

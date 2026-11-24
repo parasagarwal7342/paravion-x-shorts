@@ -250,7 +250,7 @@ def verdict_card(d, seg, lt):
     tv = seg.get("_tv", 2.0); s = lt - tv
     if s > 0:
         k = ease(s / 0.25); sc = 1.6 - 0.6 * k
-        col = GREEN if seg["verdict"] == "FACT" else RED
+        col = GREEN if seg["verdict"] == "FACT" else (RED if seg["verdict"] == "FAKE" else (232, 150, 20))
         fs = F(int(150 * sc)); txt = seg["verdict"]
         tw = fs.getlength(txt); cy = y + len(lines) * 90 + 120
         d.rounded_rectangle([W / 2 - tw / 2 - 40, cy - 95 * sc, W / 2 + tw / 2 + 40, cy + 95 * sc], radius=18,
@@ -262,26 +262,35 @@ def verdict_card(d, seg, lt):
 CHART = [("FRI 20 NOV", "CLOSE", 125.50), ("MON 23 NOV", "PREMARKET", 161.59)]
 def chart_card(d, seg, lt):
     a = ease(lt / 0.5)
-    spaced(d, (W / 2, 190), "NVDA SHARE PRICE (USD)", F(32, "body"), ACC + (int(255 * a),), track=8)
-    base = H - BAR - 190; top = 300; vmax = 175.0
-    bw = 300; xs = [W / 2 - 330, W / 2 + 330]
-    d.line([(W / 2 - 620, base), (W / 2 + 620, base)], fill=(255, 255, 255, 120), width=3)
-    for i, ((day, kind, v), x) in enumerate(zip(CHART, xs)):
-        k = ease((lt - 0.3 - i * 1.6) / 1.2)
+    c = seg.get("chart") or {"title": "NVDA SHARE PRICE (USD)", "bars": [[d0, k0, v0, None] for d0, k0, v0 in CHART],
+                             "badge": "+%.0f%%" % ((CHART[1][2] / CHART[0][2] - 1) * 100), "vmax": 175.0,
+                             "source": "Source: Benzinga premarket quote; Friday close per JFeed. Reports range +25% to +30%."}
+    bars = c["bars"]; n = len(bars)
+    spaced(d, (W / 2, BAR + 120), c["title"], fit_font(c["title"], W - 160, 32 * TXT, "body"), ACC + (int(255 * a),), track=8)
+    base = H - BAR - 190; top = BAR + 260; vmax = c.get("vmax") or max(b[2] for b in bars) * 1.12
+    span = min(W - 240, 330 * n * 2 / max(n, 2) * (n / 2) + 330)
+    gap = (W - 200) / n; bw = min(300, gap * 0.62); xs = [100 + gap * (i + 0.5) for i in range(n)]
+    d.line([(60, base), (W - 60, base)], fill=(255, 255, 255, 120), width=3)
+    step = c.get("step", 1.0)
+    for i, (lab, sub, v, disp) in enumerate(bars):
+        k = ease((lt - 0.3 - i * step) / 1.0)
         if k <= 0: continue
         h = (base - top) * v / vmax * k
-        col = (120, 120, 120) if i == 0 else ACC
-        d.rectangle([x - bw / 2, base - h, x + bw / 2, base], fill=col + (235,))
-        d.text((x, base - h - 50), f"${v * k:.2f}" if k < 1 else f"${v:.2f}", font=F(64), fill=WHITE, anchor="mm")
-        d.text((x, base + 40), day, font=F(30), fill=WHITE, anchor="mm")
-        d.text((x, base + 78), kind, font=F(22, "body"), fill=(200, 200, 200), anchor="mm")
-    k = ease((lt - 3.4) / 0.6)
-    if k > 0:
-        pct = (CHART[1][2] / CHART[0][2] - 1) * 100
-        d.rounded_rectangle([W / 2 - 150, 360, W / 2 + 150, 450], radius=12, fill=GREEN + (int(255 * k),))
-        d.text((W / 2, 405), f"+{pct:.0f}%", font=F(60), fill=(255, 255, 255, int(255 * k)), anchor="mm")
-    d.text((W - 90, H - BAR - 25), "Source: Benzinga premarket quote; Friday close per JFeed. Reports range +25% to +30%.",
-           font=F(20, "body"), fill=(170, 170, 170), anchor="rm")
+        hi = c.get("highlight", n - 1)
+        col = ACC if i == hi else (120, 120, 120)
+        d.rectangle([xs[i] - bw / 2, base - h, xs[i] + bw / 2, base], fill=col + (235,))
+        txt = disp if (disp and k >= 1) else (disp if disp and not isinstance(v, (int, float)) else (f"${v * k:.2f}" if disp is None else disp))
+        d.text((xs[i], base - h - 50), txt, font=fit_font(txt, gap - 10, 64), fill=WHITE, anchor="mm")
+        d.text((xs[i], base + 40), lab, font=fit_font(lab, gap - 10, 30), fill=WHITE, anchor="mm")
+        d.text((xs[i], base + 78), sub, font=fit_font(sub, gap - 10, 22, "body"), fill=(200, 200, 200), anchor="mm")
+    if c.get("badge"):
+        k = ease((lt - c.get("badge_at", 3.4)) / 0.6)
+        if k > 0:
+            f = F(60); bwid = f.getlength(c["badge"]) / 2 + 40
+            d.rounded_rectangle([W / 2 - bwid, top - 90, W / 2 + bwid, top], radius=12, fill=GREEN + (int(255 * k),))
+            d.text((W / 2, top - 45), c["badge"], font=f, fill=(255, 255, 255, int(255 * k)), anchor="mm")
+    if c.get("source"):
+        d.text((W - 60, H - BAR - 25), c["source"], font=fit_font(c["source"], W - 120, 20, "body"), fill=(170, 170, 170), anchor="rm")
 
 def logo_img(size):
     im = Image.open(ROOT / "brand/logo_800.png").convert("RGBA")
@@ -317,15 +326,15 @@ def outro_card(work, seg, lt, dur, words):
     f = F(30); tw = f.getlength("PARAVION X"); x = W / 2 - tw / 2
     d.text((x, 70), "PARAVION ", font=f, fill=INK, anchor="lm"); d.text((x + f.getlength("PARAVION "), 70), "X", font=f, fill=ACC, anchor="lm")
     spaced(d, (W / 2, 115), "THE WORLD, EXPLAINED", F(20, "body"), ACC, track=5)
-    ph = Image.open(work / "img" / "jensen_portrait.jpg").convert("RGB")
+    ph = Image.open(work / "img" / (seg.get("photo", "jensen_portrait") + ".jpg")).convert("RGB")
     s = 560 / ph.height; ph = ph.resize((int(ph.width * s), 560), Image.LANCZOS)
     if ph.width > 430: l = (ph.width - 430) // 2; ph = ph.crop((l, 0, l + 430, 560))
     px, py = 220, 210
     d.rectangle([px - 12, py - 12, px + ph.width + 12, py + ph.height + 12], fill=WHITE, outline=(220, 220, 220), width=2)
     im.paste(ph, (px, py))
     d.rounded_rectangle([px - 12, py + ph.height + 30, px + ph.width + 12, py + ph.height + 120], radius=8, fill=INK)
-    d.text((px + ph.width / 2, py + ph.height + 60), "JENSEN HUANG", font=F(32), fill=WHITE, anchor="mm")
-    d.text((px + ph.width / 2, py + ph.height + 96), "Reinstated as Nvidia CEO, 23 Nov", font=F(22, "body"), fill=(210, 210, 210), anchor="mm")
+    d.text((px + ph.width / 2, py + ph.height + 60), seg.get("name", "JENSEN HUANG"), font=F(32), fill=WHITE, anchor="mm")
+    d.text((px + ph.width / 2, py + ph.height + 96), seg.get("role", "Reinstated as Nvidia CEO, 23 Nov"), font=F(22, "body"), fill=(210, 210, 210), anchor="mm")
     a = ease(lt / 0.5); f2 = F(76); lines = wrap(seg["q"].replace("?", "") + "?", f2, 900)
     for i, ln in enumerate(lines):
         d.text((1200, 330 + i * 95), ln, font=f2, fill=INK + (int(255 * a),), anchor="mm")
@@ -358,12 +367,12 @@ def render_segment(args):
     kind = seg["kind"]
     bg = None
     if kind in ("photo", "quote", "chapter", "timeline", "verdict", "chart"):
-        name = seg.get("img") or {"verdict": "die", "chart": "racks"}[kind]
+        name = seg.get("img") or seg.get("bg") or {"verdict": "die", "chart": "racks"}[kind]
         bg = load_photo(work, name, blur=kind in ("quote", "chapter", "verdict", "chart"))
     dim = {"photo": 0.78, "quote": 0.45, "chapter": 0.40, "timeline": 0.42, "verdict": 0.32, "chart": 0.28}.get(kind, 1)
     if kind == "photo" and seg.get("big"): dim = 0.6
     if kind == "verdict":
-        vw = next((w for w in words if norm(w[0]) in ("fact", "fake") and w[1] > 1.0), None)
+        vw = next((w for w in words if norm(w[0]) in ("fact", "fake", norm(seg["verdict"])) and w[1] > 1.0), None)
         seg["_tv"] = vw[1] if vw else 2.0
     p = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
                           "-i", "-", "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p", out], stdin=subprocess.PIPE)
@@ -501,7 +510,7 @@ def main(work):
         elif s["kind"] == "photo" and s.get("big") and s["id"].startswith(("hook", "end")): marks += [("boom", starts[i] + 0.05)]
         elif s["kind"] in ("photo", "quote", "timeline", "chart"): marks += [("whoosh", max(0, starts[i] - 0.15))]
         if s["kind"] == "verdict":
-            vw = next((w for w in words_all[s["id"]]["w"] if norm(w[0]) in ("fact", "fake") and w[1] > 1.0), None)
+            vw = next((w for w in words_all[s["id"]]["w"] if norm(w[0]) in ("fact", "fake", norm(s["verdict"])) and w[1] > 1.0), None)
             if vw: marks.append(("stamp", starts[i] + vw[1]))
     mus, sfx = music_and_sfx(TOTAL, marks)
     # duck music under voice

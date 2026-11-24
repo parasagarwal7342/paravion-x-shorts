@@ -1,0 +1,505 @@
+{
+ "segments": [
+  {
+   "id": "h01",
+   "kind": "photo",
+   "img": "miami_night",
+   "big": "$3.79 BILLION",
+   "sub": "ONE DAY · GRAND THEFT AUTO VI",
+   "text": "Three point seven nine billion dollars. In one single day."
+  },
+  {
+   "id": "h02",
+   "kind": "photo",
+   "img": "crowd",
+   "big": "BIGGEST EVER",
+   "sub": "ENTERTAINMENT LAUNCH · ANY MEDIUM",
+   "text": "Not just the biggest video game launch ever. Take-Two says it's the biggest entertainment launch in history. Bigger than any movie. Bigger than any album."
+  },
+  {
+   "id": "h03",
+   "kind": "photo",
+   "img": "carlyle",
+   "big": "13 YEARS",
+   "sub": "SINCE GTA V",
+   "text": "After thirteen years of waiting, two delays, and one of the biggest leaks in gaming history, Grand Theft Auto Six is finally here."
+  },
+  {
+   "id": "h04",
+   "kind": "photo",
+   "img": "gamer",
+   "big": "HOW?",
+   "sub": "THE FULL STORY, FACT BY FACT",
+   "text": "So how did one game break every record? And which viral claims about it are actually fake? Let's break it down."
+  },
+  {
+   "id": "intro",
+   "kind": "intro",
+   "text": "Welcome to Paravion X. The world, explained. Every number in this video comes from Rockstar, Take-Two, or major news outlets."
+  },
+  {
+   "id": "c1",
+   "kind": "chapter",
+   "n": "01",
+   "label": "THE RECORD-BREAKER",
+   "img": "miami_night",
+   "text": "Chapter one. The record breaker."
+  },
+  {
+   "id": "r01",
+   "kind": "quote",
+   "img": "miami_pano",
+   "quote": "The biggest entertainment launch in history.",
+   "who": "TAKE-TWO INTERACTIVE · 20 NOV 2026",
+   "text": "On November twentieth, Take-Two, the company that owns Rockstar Games, made the announcement. Grand Theft Auto Six had made three point seven nine billion dollars in day one retail sales."
+  },
+  {
+   "id": "r02",
+   "kind": "photo",
+   "img": "ps5",
+   "big": "WORLDWIDE",
+   "sub": "COMPANY ESTIMATE · TO END OF 19 NOV",
+   "text": "That number covers sales worldwide, through the end of launch day, November nineteenth. And it's the company's own estimate."
+  },
+  {
+   "id": "r03",
+   "kind": "photo",
+   "img": "xbox",
+   "big": "32.5 MILLION",
+   "sub": "COPIES SOLD BEFORE LAUNCH",
+   "text": "Before the game even came out, it had already sold thirty-two point five million copies. Take-Two says that's a record across all platforms. The most pre-ordered video game of all time."
+  },
+  {
+   "id": "r03b",
+   "kind": "photo",
+   "img": "boulevard",
+   "big": "$2.36B",
+   "sub": "SENSOR TOWER PRE-ORDER ESTIMATE · PS & XBOX",
+   "text": "Independent trackers saw it coming. Sensor Tower estimated around two point three six billion dollars in pre-order revenue, on PlayStation and Xbox alone. Take-Two's final number came in far higher."
+  },
+  {
+   "id": "r04",
+   "kind": "chart",
+   "bg": "crowd",
+   "chart": {
+    "title": "DAY-ONE / OPENING RECORDS (USD)",
+    "bars": [
+     [
+      "GTA V",
+      "DAY ONE · 2013",
+      0.8,
+      "$0.8B"
+     ],
+     [
+      "ENDGAME",
+      "OPENING WEEKEND · 2019",
+      1.2,
+      "$1.2B"
+     ],
+     [
+      "GTA VI",
+      "DAY ONE · 2026",
+      3.79,
+      "$3.79B"
+     ]
+    ],
+    "vmax": 4.2,
+    "step": 1.3,
+    "badge": "3X ENDGAME",
+    "badge_at": 4.6,
+    "source": "Sources: Take-Two (2013, 2026); Disney via NPR/Variety (2019). Company retail estimates."
+   },
+   "text": "To put that in perspective. Grand Theft Auto Five made about eight hundred million dollars on its first day in twenty thirteen. Avengers Endgame, the biggest movie opening ever, made about one point two billion dollars in its whole opening weekend. GTA Six made more than three times that. In one day."
+  },
+  {
+   "id": "r05",
+   "kind": "photo",
+   "img": "colony",
+   "big": "99",
+   "sub": "METACRITIC · TIES THE ALL-TIME RECORD",
+   "text": "And critics loved it. The game scored ninety-nine on Metacritic. That ties The Legend of Zelda, Ocarina of Time, from nineteen ninety-eight, for the highest score in the site's history."
+  },
+  {
+   "id": "r06",
+   "kind": "photo",
+   "img": "gamer",
+   "big": "~3.3 MILLION",
+   "sub": "PEAK TWITCH VIEWERS · REPORTED",
+   "text": "Online, the hype was just as wild. Reports put the peak on Twitch at around three point three million viewers at once. And across Twitch, YouTube and Kick combined, the tracker Streams Charts estimated close to eight million. Those numbers are still preliminary."
+  },
+  {
+   "id": "c2",
+   "kind": "chapter",
+   "n": "02",
+   "label": "THE 13-YEAR WAIT",
+   "img": "dundee",
+   "text": "Chapter two. The thirteen year wait."
+  },
+  {
+   "id": "w01",
+   "kind": "timeline",
+   "step": 0,
+   "img": "rockstar_north",
+   "text": "To understand the hype, go back to September seventeenth, twenty thirteen. Grand Theft Auto Five launches. It makes about eight hundred million dollars on day one, and passes one billion in just three days."
+  },
+  {
+   "id": "w01b",
+   "kind": "photo",
+   "img": "miami_pano",
+   "big": "3 DAYS",
+   "sub": "GTA V TO $1 BILLION · 2013",
+   "text": "Back then, that was a world record. The previous fastest, Call of Duty Black Ops Two, took about two weeks to reach a billion dollars. GTA Five did it in three days. GTA Six made nearly four times that amount, in a single day."
+  },
+  {
+   "id": "w02",
+   "kind": "photo",
+   "img": "rockstar_north2",
+   "big": "235 MILLION",
+   "sub": "GTA V COPIES SOLD-IN · TAKE-TWO",
+   "text": "GTA Five never really stopped selling. Take-Two now puts it at nearly two hundred thirty-five million copies. One of the best-selling games ever made."
+  },
+  {
+   "id": "w03",
+   "kind": "timeline",
+   "step": 1,
+   "img": "rockstar_north",
+   "text": "Work on the next game started early. Preliminary work reportedly began back in twenty fourteen, with full production ramping up after Red Dead Redemption Two in twenty eighteen. In February twenty twenty-two, Rockstar finally confirmed it. The next Grand Theft Auto was well underway."
+  },
+  {
+   "id": "w04",
+   "kind": "photo",
+   "img": "dundee",
+   "big": "THE LEAK",
+   "sub": "SEPTEMBER 2022",
+   "text": "Then, disaster. In September twenty twenty-two, footage from unfinished versions of the game leaked online. It's described as one of the biggest leaks in the history of the video game industry."
+  },
+  {
+   "id": "w05",
+   "kind": "timeline",
+   "step": 2,
+   "img": "miami_night",
+   "text": "December twenty twenty-three. The first trailer drops. It gets more than ninety million YouTube views in twenty-four hours. That smashed MrBeast's record of fifty-nine million for a non-music video. Only BTS's Butter music video has done more in a single day."
+  },
+  {
+   "id": "w06",
+   "kind": "photo",
+   "img": "boulevard",
+   "big": "475 MILLION",
+   "sub": "TRAILER 2 VIEWS · 24 HOURS · ALL PLATFORMS",
+   "text": "In May twenty twenty-five, trailer two arrived. Rockstar says it hit four hundred seventy-five million views across all platforms in its first day. Rockstar called it the biggest video launch of all time."
+  },
+  {
+   "id": "w07",
+   "kind": "timeline",
+   "step": 3,
+   "img": "seven_mile",
+   "text": "But fans had to wait. The game was first planned for twenty twenty-five. Then it slipped to May twenty-sixth, twenty twenty-six. Then, again, to November nineteenth, twenty twenty-six. Rockstar said it needed the extra time to finish the game with the level of polish players expect."
+  },
+  {
+   "id": "w08",
+   "kind": "timeline",
+   "step": 4,
+   "img": "crowd",
+   "text": "And on November nineteenth, it finally launched."
+  },
+  {
+   "id": "c3",
+   "kind": "chapter",
+   "n": "03",
+   "label": "WELCOME TO LEONIDA",
+   "img": "carlyle",
+   "text": "Chapter three. Welcome to Leonida."
+  },
+  {
+   "id": "l01",
+   "kind": "photo",
+   "img": "miami_night",
+   "big": "VICE CITY",
+   "sub": "A FICTIONALISED MIAMI",
+   "text": "The game is set in Vice City, a fictional version of Miami. And it's not the first time. Grand Theft Auto Vice City, back in twenty oh two, was also based on Miami."
+  },
+  {
+   "id": "l02",
+   "kind": "photo",
+   "img": "colony",
+   "big": "NEON & ART DECO",
+   "sub": "MIAMI BEACH · THE REAL-LIFE INSPIRATION",
+   "text": "Think of Miami Beach. Neon signs, Art Deco hotels, palm trees, and ocean drives. Miami and its surrounding areas were extensively researched for the game."
+  },
+  {
+   "id": "l03",
+   "kind": "photo",
+   "img": "keys_aerial",
+   "big": "LEONIDA",
+   "sub": "A FICTIONAL STATE BASED ON FLORIDA",
+   "text": "But this time, the map goes beyond the city. The whole game takes place in Leonida, a fictional state based on Florida. With places like the Leonida Keys and Grassrivers."
+  },
+  {
+   "id": "l04",
+   "kind": "photo",
+   "img": "everglades",
+   "big": "JASON & LUCIA",
+   "sub": "THE TWO LEAD CHARACTERS",
+   "text": "The story follows two lead characters, Jason Duval and Lucia Caminos. A criminal duo caught up in a conspiracy that spans the whole state."
+  },
+  {
+   "id": "c4",
+   "kind": "chapter",
+   "n": "04",
+   "label": "LAUNCH WEEK",
+   "img": "ps5",
+   "text": "Chapter four. Launch week."
+  },
+  {
+   "id": "g01",
+   "kind": "photo",
+   "img": "ps5",
+   "big": "PS5 · XBOX SERIES X|S",
+   "sub": "NO PC VERSION ANNOUNCED",
+   "text": "The game launched on PlayStation Five and Xbox Series X and S. There is no PC version yet. Rockstar hasn't announced one."
+  },
+  {
+   "id": "g02",
+   "kind": "photo",
+   "img": "xbox",
+   "big": "$79.99",
+   "sub": "STANDARD · $99.99 ULTIMATE · US PRICES",
+   "text": "In the US, the standard edition costs seventy-nine ninety-nine. The Ultimate Edition costs ninety-nine ninety-nine. And Bank of America estimates that about eighty percent of launch day copies were that pricier Ultimate Edition."
+  },
+  {
+   "id": "g02b",
+   "kind": "photo",
+   "img": "carlyle",
+   "big": "$4.99",
+   "sub": "VINTAGE VICE CITY PACK · NOW SOLD SEPARATELY",
+   "text": "And the pre-order bonus, called the Vintage Vice City Pack, went on sale separately on November twentieth, for four ninety-nine on both consoles."
+  },
+  {
+   "id": "g03",
+   "kind": "quote",
+   "img": "rockstar_north2",
+   "quote": "We are incredibly humbled by the response from players around the world.",
+   "who": "SAM HOUSER · FOUNDER, ROCKSTAR GAMES",
+   "text": "Rockstar's founder, Sam Houser, said the team was incredibly humbled by the response from players around the world."
+  },
+  {
+   "id": "g03b",
+   "kind": "photo",
+   "img": "gamer",
+   "big": "99 vs 5.6",
+   "sub": "CRITICS vs PLAYER SCORE · REPORTED",
+   "text": "But not everyone is happy. While critics gave it ninety-nine, the player score on Metacritic has reportedly sat far lower, around five point six, from more than a hundred thousand ratings. Reports put much of that down to review bombing, so treat that number with care."
+  },
+  {
+   "id": "g04",
+   "kind": "photo",
+   "img": "zelnick",
+   "big": "+6%",
+   "sub": "TAKE-TWO STOCK · LAUNCH DAY",
+   "lower": [
+    "STRAUSS ZELNICK",
+    "CEO, Take-Two Interactive"
+   ],
+   "text": "On Wall Street, Take-Two's stock jumped more than six percent on launch day. But here's the twist. Over the following days, the shares gave back most of those gains, even with record sales."
+  },
+  {
+   "id": "g05",
+   "kind": "photo",
+   "img": "miami_pano",
+   "big": "$310",
+   "sub": "JPMORGAN PRICE TARGET · OVERWEIGHT",
+   "text": "Analysts are still bullish. JPMorgan kept its overweight rating with a three hundred ten dollar target. Bank of America raised its target to three hundred fifty."
+  },
+  {
+   "id": "c5",
+   "kind": "chapter",
+   "n": "05",
+   "label": "THE ROCKSTAR STORY",
+   "img": "rockstar_north",
+   "text": "Chapter five. The Rockstar story."
+  },
+  {
+   "id": "s01",
+   "kind": "photo",
+   "img": "dundee",
+   "big": "DUNDEE, 1997",
+   "sub": "WHERE GRAND THEFT AUTO BEGAN",
+   "text": "It all started in Dundee, Scotland. In nineteen ninety-seven, a studio called DMA Design released the very first Grand Theft Auto."
+  },
+  {
+   "id": "s02",
+   "kind": "photo",
+   "img": "rockstar_north2",
+   "big": "ROCKSTAR, 1998",
+   "sub": "FOUNDED BY SAM HOUSER",
+   "text": "A year later, in nineteen ninety-eight, Sam Houser founded Rockstar Games. In twenty oh one, Grand Theft Auto Three helped pioneer the open world genre."
+  },
+  {
+   "id": "s03",
+   "kind": "photo",
+   "img": "rockstar_north",
+   "big": "ROCKSTAR NORTH",
+   "sub": "EDINBURGH · FORMERLY DMA DESIGN",
+   "text": "That original Scottish studio is now Rockstar North, based in Edinburgh. And the series it started has sold nearly four hundred eighty million copies."
+  },
+  {
+   "id": "s04",
+   "kind": "photo",
+   "img": "rockstar_north2",
+   "big": "~118 MILLION",
+   "sub": "RED DEAD REDEMPTION SERIES · TAKE-TWO",
+   "text": "Rockstar also makes Red Dead Redemption. That series has sold nearly one hundred eighteen million copies, according to Take-Two. So Rockstar has two of the biggest franchises in gaming."
+  },
+  {
+   "id": "c6",
+   "kind": "chapter",
+   "n": "06",
+   "label": "FAKE OR FACT?",
+   "img": "miami_night",
+   "text": "Chapter six. Fake or fact. Four viral claims about GTA Six."
+  },
+  {
+   "id": "f1",
+   "kind": "verdict",
+   "bg": "crowd",
+   "claim": "“GTA VI made more in one day than any movie's opening weekend.”",
+   "verdict": "FACT",
+   "why": "$3.79B vs Endgame's ~$1.2B (Take-Two estimate)",
+   "text": "Claim one. GTA Six made more in one day than any movie's opening weekend. Fact. Three point seven nine billion, versus about one point two billion for Avengers Endgame."
+  },
+  {
+   "id": "f2",
+   "kind": "verdict",
+   "bg": "ps5",
+   "claim": "“Rockstar keeps all $3.79 billion.”",
+   "verdict": "FAKE",
+   "why": "It's retail sales. Sony, Microsoft and stores take a cut",
+   "text": "Claim two. Rockstar keeps all three point seven nine billion. Fake. That's what players paid at retail. Sony, Microsoft and retailers take a cut, so Take-Two books less."
+  },
+  {
+   "id": "f3",
+   "kind": "verdict",
+   "bg": "xbox",
+   "claim": "“GTA VI is already out on PC.”",
+   "verdict": "FAKE",
+   "why": "PS5 and Xbox Series X|S only. No PC version announced",
+   "text": "Claim three. GTA Six is already out on PC. Fake. It's only on PlayStation Five and Xbox Series X and S for now."
+  },
+  {
+   "id": "f4",
+   "kind": "verdict",
+   "bg": "colony",
+   "claim": "“GTA VI is the highest-rated game ever.”",
+   "verdict": "TIED",
+   "why": "Metacritic 99, tied with Zelda: Ocarina of Time (1998)",
+   "text": "Claim four. GTA Six is the highest rated game ever. Tied. Its ninety-nine on Metacritic ties Zelda, Ocarina of Time."
+  },
+  {
+   "id": "n01",
+   "kind": "chapter",
+   "n": "07",
+   "label": "WHAT'S NEXT",
+   "img": "rockstar_north2",
+   "text": "Chapter seven. What's next."
+  },
+  {
+   "id": "n02",
+   "kind": "photo",
+   "img": "ps5",
+   "big": "PC?",
+   "sub": "NOT ANNOUNCED YET",
+   "text": "The biggest question for millions of players is simple. When is it coming to PC? Take-Two hasn't announced a PC version, and its CEO has stayed coy when asked."
+  },
+  {
+   "id": "n03",
+   "kind": "photo",
+   "img": "zelnick",
+   "big": "WHAT TO WATCH",
+   "sub": "SALES UPDATES · PC · STOCK",
+   "lower": [
+    "STRAUSS ZELNICK",
+    "CEO, Take-Two Interactive"
+   ],
+   "text": "Watch for three things next. Updated sales numbers from Take-Two. Any news on a PC version. And whether the stock finally catches up with the hype."
+  },
+  {
+   "id": "b01",
+   "kind": "photo",
+   "img": "miami_night",
+   "big": ".79B",
+   "sub": "RECAP · DAY-ONE RETAIL SALES",
+   "text": "So let's recap the numbers. Three point seven nine billion dollars in day one retail sales."
+  },
+  {
+   "id": "b02",
+   "kind": "photo",
+   "img": "xbox",
+   "big": "32.5M",
+   "sub": "RECAP · COPIES SOLD BEFORE LAUNCH",
+   "text": "Thirty-two point five million copies sold before launch."
+  },
+  {
+   "id": "b03",
+   "kind": "photo",
+   "img": "colony",
+   "big": "99",
+   "sub": "RECAP · METACRITIC SCORE",
+   "text": "A ninety-nine on Metacritic."
+  },
+  {
+   "id": "b04",
+   "kind": "photo",
+   "img": "boulevard",
+   "big": "90M+",
+   "sub": "RECAP · TRAILER 1 YOUTUBE VIEWS IN 24 HOURS",
+   "text": "More than ninety million YouTube views for the first trailer, in a single day."
+  },
+  {
+   "id": "b05",
+   "kind": "photo",
+   "img": "rockstar_north",
+   "big": "~480M",
+   "sub": "RECAP · GTA SERIES COPIES, ALL TIME",
+   "text": "And a series that has now sold nearly four hundred eighty million copies."
+  },
+  {
+   "id": "e01",
+   "kind": "photo",
+   "img": "miami_night",
+   "big": "13 YEARS",
+   "sub": "ONE DAY · $3.79 BILLION",
+   "text": "Thirteen years of waiting. One day. Three point seven nine billion dollars. Grand Theft Auto Six didn't just break gaming records. It broke entertainment records."
+  },
+  {
+   "id": "e02",
+   "kind": "outro",
+   "photo": "carlyle",
+   "name": "GRAND THEFT AUTO VI",
+   "role": "Launched 19 Nov 2026",
+   "q": "Is GTA VI worth $80?",
+   "text": "So, is GTA Six worth eighty dollars? Yes or no. Tell us in the comments. Stay tuned for further updates, and subscribe to Paravion X for more."
+  }
+ ],
+ "timeline": [
+  [
+   "SEP 2013",
+   "GTA V launches"
+  ],
+  [
+   "FEB 2022",
+   "GTA VI confirmed"
+  ],
+  [
+   "DEC 2023",
+   "Trailer 1 record"
+  ],
+  [
+   "2025-26",
+   "Two delays"
+  ],
+  [
+   "19 NOV 2026",
+   "Launch day"
+  ]
+ ]
+}
