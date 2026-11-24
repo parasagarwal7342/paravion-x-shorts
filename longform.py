@@ -369,6 +369,8 @@ def render_segment(args):
     if kind in ("photo", "quote", "chapter", "timeline", "verdict", "chart"):
         name = seg.get("img") or seg.get("bg") or {"verdict": "die", "chart": "racks"}[kind]
         bg = load_photo(work, name, blur=kind in ("quote", "chapter", "verdict", "chart"))
+    # optional second photo: cut to it halfway through long scenes (keeps retention up)
+    bg2 = load_photo(work, seg["img2"], blur=kind in ("quote", "chapter", "verdict", "chart")) if seg.get("img2") else None
     dim = {"photo": 0.78, "quote": 0.45, "chapter": 0.40, "timeline": 0.42, "verdict": 0.32, "chart": 0.28}.get(kind, 1)
     if kind == "photo" and seg.get("big"): dim = 0.6
     if kind == "verdict":
@@ -382,7 +384,14 @@ def render_segment(args):
         if kind == "intro": im = intro_card(work, seg, lt, dur)
         elif kind == "outro": im = outro_card(work, seg, lt, dur, words)
         else:
-            fr = kenburns(bg, fi / max(1, n - 1), i * 7 + 3)
+            half = n // 2
+            if bg2 is not None and fi >= half:
+                fr = kenburns(bg2, (fi - half) / max(1, n - half - 1), i * 7 + 5)
+                xf = int(0.35 * FPS)
+                if fi - half < xf:
+                    fr = Image.blend(kenburns(bg, fi / max(1, n - 1), i * 7 + 3), fr, (fi - half) / xf)
+            else:
+                fr = kenburns(bg, fi / max(1, n - 1), i * 7 + 3)
             im = finish(darken(fr, dim), t)
             d = ImageDraw.Draw(im, "RGBA")
             if kind == "photo":
