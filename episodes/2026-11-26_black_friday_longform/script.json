@@ -1,0 +1,420 @@
+{
+ "segments": [
+  {
+   "id": "h01",
+   "kind": "photo",
+   "img": "crowd",
+   "img2": "sign",
+   "big": "ONLY 22%",
+   "sub": "OF BLACK FRIDAY 'DEALS' WERE CHEAPER ON THE DAY · WHICH? 2025",
+   "text": "Here's what shops don't want you to know. In one big study of more than seven hundred fifty Black Friday deals, only twenty-two percent were actually cheaper during Black Friday."
+  },
+  {
+   "id": "h02",
+   "kind": "photo",
+   "img": "laptop",
+   "img2": "records",
+   "big": "5 TRICKS",
+   "sub": "+ A 60-SECOND FAKE-DEAL CHECKLIST AT THE END",
+   "text": "So in the next few minutes, you'll learn the five tricks shops use, the fake story behind the name Black Friday, and a sixty second checklist to spot a fake deal. Stay till the end. That checklist could save you real money."
+  },
+  {
+   "id": "h03",
+   "kind": "photo",
+   "img": "sign",
+   "big": "FAKE OR FACT?",
+   "sub": "BLACK FRIDAY 2026 · FRIDAY 27 NOVEMBER",
+   "text": "This is Paravion X. Let's break it down, fact by fact."
+  },
+  {
+   "id": "c1",
+   "kind": "chapter",
+   "n": "01",
+   "label": "WHAT IS BLACK FRIDAY?",
+   "img": "crowd",
+   "text": "Chapter one. What is Black Friday?"
+  },
+  {
+   "id": "a01",
+   "kind": "photo",
+   "img": "crowd",
+   "big": "27 NOV 2026",
+   "sub": "THE DAY AFTER US THANKSGIVING",
+   "text": "Black Friday is the day after Thanksgiving in the United States. This year, that's Friday, November twenty-seventh. It's traditionally the start of the holiday shopping season."
+  },
+  {
+   "id": "a02",
+   "kind": "photo",
+   "img": "laptop",
+   "img2": "amazon",
+   "big": "CYBER MONDAY",
+   "sub": "MONDAY 30 NOVEMBER · ONLINE DEALS",
+   "text": "Three days later comes Cyber Monday, November thirtieth, focused on online deals. Together, the days from Thanksgiving to Cyber Monday are called Cyber Week."
+  },
+  {
+   "id": "a03",
+   "kind": "photo",
+   "img": "records",
+   "img2": "sign",
+   "big": "NOW GLOBAL",
+   "sub": "EUROPE · INDIA · EVERYWHERE ONLINE",
+   "text": "It started in America, but it's now everywhere. From shop windows in Europe to Indian shopping apps, Black Friday sales have gone global."
+  },
+  {
+   "id": "a03b",
+   "kind": "photo",
+   "img": "crowd",
+   "img2": "sign",
+   "big": "STAY TILL THE END",
+   "sub": "THE DEAL YOU'RE EXCITED ABOUT MIGHT BE A TRICK",
+   "text": "Stick around, because the deal you're most excited about this week might be the one that's tricking you."
+  },
+  {
+   "id": "c2",
+   "kind": "chapter",
+   "n": "02",
+   "label": "THE BILLIONS AT STAKE",
+   "img": "amazon",
+   "text": "Chapter two. The billions at stake."
+  },
+  {
+   "id": "b01",
+   "kind": "chart",
+   "bg": "amazon",
+   "chart": {
+    "title": "US ONLINE SPENDING (USD) · ADOBE",
+    "bars": [
+     [
+      "BLACK FRIDAY",
+      "2025 ACTUAL",
+      11.8,
+      "$11.8B"
+     ],
+     [
+      "CYBER MONDAY",
+      "2025 ACTUAL",
+      14.25,
+      "$14.25B"
+     ],
+     [
+      "BLACK FRIDAY",
+      "2026 FORECAST",
+      12.9,
+      "$12.9B"
+     ]
+    ],
+    "vmax": 17,
+    "step": 1.2,
+    "highlight": 2,
+    "source": "Source: Adobe Analytics (2025 results; 2026 forecast as reported). US online sales only."
+   },
+   "text": "The money is enormous. Last year, Americans spent a record eleven point eight billion dollars online on Black Friday alone, according to Adobe. Cyber Monday was even bigger, at about fourteen point two five billion. For this year, Adobe's forecast is around twelve point nine billion dollars on Black Friday."
+  },
+  {
+   "id": "b01b",
+   "kind": "photo",
+   "img": "amazon",
+   "img2": "laptop",
+   "big": "$47.5B",
+   "sub": "CYBER WEEK 2026 FORECAST · ADOBE, AS REPORTED",
+   "text": "Adobe expects Cyber Week, from Thanksgiving to Cyber Monday, to bring in about forty-seven point five billion dollars of online spending this year. And note, other trackers like Salesforce use different methods and report different numbers."
+  },
+  {
+   "id": "b02",
+   "kind": "photo",
+   "img": "cart",
+   "img2": "crowd",
+   "big": "$1 TRILLION+",
+   "sub": "US HOLIDAY RETAIL FORECAST · NOV–DEC · NRF",
+   "text": "And the whole holiday season? America's National Retail Federation forecasts more than one trillion dollars in sales across November and December."
+  },
+  {
+   "id": "b03",
+   "kind": "photo",
+   "img": "laptop",
+   "big": "WHY IT MATTERS",
+   "sub": "WITH THIS MUCH MONEY, THE TRICKS GET SMARTER",
+   "text": "With that much money on the line, shops work very hard to make you buy. And that's where the tricks come in. But first, a myth almost everyone believes."
+  },
+  {
+   "id": "c3",
+   "kind": "chapter",
+   "n": "03",
+   "label": "THE NAME: FAKE OR FACT?",
+   "img": "philly_old",
+   "text": "Chapter three. The name. Fake or fact?"
+  },
+  {
+   "id": "n01",
+   "kind": "photo",
+   "img": "records",
+   "big": "\"IN THE BLACK\"?",
+   "sub": "THE STORY YOU'VE PROBABLY HEARD",
+   "text": "You've probably heard this: Black Friday is when shops finally go into the black, meaning they start making a profit for the year."
+  },
+  {
+   "id": "n02",
+   "kind": "photo",
+   "img": "philly_old",
+   "img2": "philly",
+   "big": "PHILADELPHIA",
+   "sub": "LATE 1950s–1960s · POLICE SLANG FOR TRAFFIC CHAOS",
+   "text": "But historians trace the name to Philadelphia police in the late nineteen fifties and sixties. Officers used Black Friday to describe the traffic jams and crowds that flooded the city center the day after Thanksgiving."
+  },
+  {
+   "id": "n03",
+   "kind": "photo",
+   "img": "philly",
+   "big": "1981",
+   "sub": "EARLIEST KNOWN 'IN THE BLACK' EXPLANATION · SNOPES",
+   "text": "The fact-checkers at Snopes found that the in the black explanation only shows up around nineteen eighty-one, many years after Philadelphia police were already using the phrase."
+  },
+  {
+   "id": "n04",
+   "kind": "photo",
+   "img": "philly_old",
+   "big": "ALSO FALSE",
+   "sub": "THE SLAVERY STORY HAS NO BASIS · CNN, FACT-CHECKERS",
+   "text": "And a more recent claim, that the name comes from slavery, has no basis in fact, according to fact-checkers."
+  },
+  {
+   "id": "c4",
+   "kind": "chapter",
+   "n": "04",
+   "label": "5 TRICKS SHOPS USE",
+   "img": "records",
+   "text": "Chapter four. Five tricks shops use. Number one is the biggest."
+  },
+  {
+   "id": "t05",
+   "kind": "photo",
+   "img": "records",
+   "img2": "sign",
+   "big": "TRICK #5",
+   "sub": "THE INFLATED 'WAS' PRICE",
+   "text": "Trick number five. The inflated was price. A product shows a big crossed-out price, so the discount looks huge. But if the item rarely sold at that price, the saving isn't real."
+  },
+  {
+   "id": "t04",
+   "kind": "photo",
+   "img": "laptop",
+   "big": "TRICK #4",
+   "sub": "FAKE URGENCY · COUNTDOWN TIMERS · \"ONLY 2 LEFT\"",
+   "text": "Trick number four. Fake urgency. Countdown timers and only two left messages are designed to make you panic and buy before you think."
+  },
+  {
+   "id": "t03",
+   "kind": "photo",
+   "img": "laptop",
+   "img2": "cart",
+   "big": "TRICK #3",
+   "sub": "DRIP PRICING · FEES THAT APPEAR AT CHECKOUT",
+   "text": "Trick number three. Drip pricing. The price looks low, then extra fees appear one by one at checkout. By then, you've already decided to buy."
+  },
+  {
+   "id": "t03b",
+   "kind": "photo",
+   "img": "crowd",
+   "big": "THE TOP 2",
+   "sub": "THE TRICKS MOST PEOPLE FALL FOR",
+   "text": "Now the top two. These are the tricks most shoppers fall for, every single year."
+  },
+  {
+   "id": "t02",
+   "kind": "photo",
+   "img": "crowd",
+   "big": "TRICK #2",
+   "sub": "A FEW HEADLINE DEALS TO PULL YOU IN",
+   "text": "Trick number two. A handful of amazing headline deals, often in short supply, to get you into the store or onto the app. Once you're there, you buy other things at normal prices."
+  },
+  {
+   "id": "t01",
+   "kind": "photo",
+   "img": "sign",
+   "big": "TRICK #1",
+   "sub": "THE SAME PRICE AS THE REST OF THE YEAR",
+   "text": "And trick number one, the biggest. The deal isn't special at all. In that study by the UK consumer group called Which, only twenty-two percent of Black Friday deals were cheaper during Black Friday. Another forty-four percent had already been the same price earlier in the year."
+  },
+  {
+   "id": "t01b",
+   "kind": "photo",
+   "img": "records",
+   "big": "92%",
+   "sub": "SAME PRICE OR CHEAPER IN THE 6 MONTHS BEFORE · WHICH? 2020",
+   "text": "An earlier Which? study was even more shocking. Ninety-two percent of Black Friday deals it checked had been the same price or cheaper in the six months before."
+  },
+  {
+   "id": "t01c",
+   "kind": "photo",
+   "img": "cart",
+   "img2": "laptop",
+   "big": "1 IN 3",
+   "sub": "CHEAPER BEFORE BLACK FRIDAY · VISUALPING",
+   "text": "And it's not just one study. The price-tracking company Visualping found that about one in three deals it checked were cheaper before Black Friday than during the sale."
+  },
+  {
+   "id": "t01d",
+   "kind": "photo",
+   "img": "sign",
+   "img2": "crowd",
+   "big": "4 IN 10",
+   "sub": "SAME PRICE OR MORE EXPENSIVE · WALLETHUB",
+   "text": "And the finance site WalletHub found that in nearly four out of ten cases, Black Friday items cost about the same, or even more, than at other times of the year."
+  },
+  {
+   "id": "c5",
+   "kind": "chapter",
+   "n": "05",
+   "label": "WHAT INDIA DID ABOUT IT",
+   "img": "laptop",
+   "text": "Chapter five. What India did about it."
+  },
+  {
+   "id": "i01",
+   "kind": "photo",
+   "img": "laptop",
+   "img2": "cart",
+   "big": "30 NOV 2023",
+   "sub": "INDIA'S CCPA ISSUES DARK-PATTERN GUIDELINES",
+   "text": "In India, the Central Consumer Protection Authority issued guidelines against dark patterns on the thirtieth of November, twenty twenty-three. Dark patterns are tricky designs that push you into decisions you didn't mean to make."
+  },
+  {
+   "id": "i02",
+   "kind": "photo",
+   "img": "records",
+   "big": "13 BANNED TRICKS",
+   "sub": "INCLUDING FALSE URGENCY AND DRIP PRICING",
+   "text": "The guidelines list thirteen dark patterns that platforms must not use, including false urgency and drip pricing, two of the tricks you just learned."
+  },
+  {
+   "id": "i03",
+   "kind": "photo",
+   "img": "laptop",
+   "big": "CALL 1915",
+   "sub": "NATIONAL CONSUMER HELPLINE, INDIA",
+   "text": "So if an app in India rushes you with a fake timer, or hides fees until checkout, you can complain to the National Consumer Helpline by calling nineteen fifteen."
+  },
+  {
+   "id": "c6",
+   "kind": "chapter",
+   "n": "06",
+   "label": "FAKE OR FACT?",
+   "img": "sign",
+   "text": "Chapter six. Fake or fact. Test yourself."
+  },
+  {
+   "id": "f1",
+   "kind": "verdict",
+   "bg": "records",
+   "claim": "“Black Friday always has the year's lowest prices.”",
+   "verdict": "FAKE",
+   "why": "Which? 2025: only 22% of deals were cheaper on the day",
+   "text": "Claim one. Black Friday always has the lowest prices of the year. Fake. In the Which? study, only twenty-two percent of deals were cheaper on the day."
+  },
+  {
+   "id": "f2",
+   "kind": "verdict",
+   "bg": "philly",
+   "claim": "“It's named after shops going 'into the black'.”",
+   "verdict": "FAKE",
+   "why": "Philadelphia police slang for traffic chaos, late 1950s–60s",
+   "text": "Claim two. It's named after shops going into the black. Fake. It started as Philadelphia police slang for traffic chaos."
+  },
+  {
+   "id": "f3",
+   "kind": "verdict",
+   "bg": "laptop",
+   "claim": "“Cyber Monday is now bigger than Black Friday online.”",
+   "verdict": "FACT",
+   "why": "Adobe 2025: $14.25B vs $11.8B in US online sales",
+   "text": "Claim three. Cyber Monday is now bigger than Black Friday online. Fact. In twenty twenty-five, about fourteen point two five billion dollars versus eleven point eight billion, in US online sales."
+  },
+  {
+   "id": "f4",
+   "kind": "verdict",
+   "bg": "laptop",
+   "claim": "“Fake countdown timers are allowed in India.”",
+   "verdict": "FAKE",
+   "why": "False urgency is one of the 13 dark patterns in CCPA's 2023 guidelines",
+   "text": "Claim four. Fake countdown timers are allowed in India. Fake. False urgency is one of the dark patterns in the twenty twenty-three guidelines."
+  },
+  {
+   "id": "r01",
+   "kind": "photo",
+   "img": "records",
+   "img2": "laptop",
+   "big": "RECAP",
+   "sub": "WAS-PRICE · URGENCY · DRIP FEES · HEADLINE BAIT · SAME PRICE",
+   "text": "Quick recap of the five tricks. The inflated was price. Fake urgency. Drip pricing at checkout. A few headline deals to pull you in. And deals that are the same price as the rest of the year. Now, here's how to beat all five."
+  },
+  {
+   "id": "c7",
+   "kind": "chapter",
+   "n": "07",
+   "label": "YOUR 60-SECOND CHECKLIST",
+   "img": "cart",
+   "text": "Chapter seven. Your sixty second fake deal checklist. Screenshot this."
+  },
+  {
+   "id": "k1",
+   "kind": "photo",
+   "img": "laptop",
+   "big": "1. PRICE HISTORY",
+   "sub": "USE A PRICE TRACKER BEFORE YOU BUY",
+   "text": "One. Check the price history. A price tracking tool shows if that discount is real, or if the price was the same last month."
+  },
+  {
+   "id": "k2",
+   "kind": "photo",
+   "img": "cart",
+   "big": "2. COMPARE",
+   "sub": "CHECK 2–3 OTHER STORES",
+   "text": "Two. Compare. Check two or three other stores or apps for the same item."
+  },
+  {
+   "id": "k3",
+   "kind": "photo",
+   "img": "records",
+   "big": "3. IGNORE THE TIMER",
+   "sub": "REAL DEALS DON'T NEED PANIC",
+   "text": "Three. Ignore the timer. If a deal only works when you panic, it's probably not a great deal."
+  },
+  {
+   "id": "k4",
+   "kind": "photo",
+   "img": "laptop",
+   "img2": "sign",
+   "big": "4. CHECK THE TOTAL",
+   "sub": "LOOK AT THE FINAL PRICE AT CHECKOUT",
+   "text": "Four. Check the final total at checkout, after delivery, handling and convenience fees. Compare that number, not the headline price."
+  },
+  {
+   "id": "k5",
+   "kind": "photo",
+   "img": "crowd",
+   "img2": "sign",
+   "big": "5. MAKE A LIST",
+   "sub": "BUY WHAT YOU PLANNED, NOT WHAT'S 'ON SALE'",
+   "text": "And five. Make a list before the sale and stick to it. The best deal is the thing you actually needed."
+  },
+  {
+   "id": "e01",
+   "kind": "photo",
+   "img": "crowd",
+   "img2": "records",
+   "big": "ONLY 22%",
+   "sub": "NOW YOU KNOW THE TRICKS",
+   "text": "Only twenty-two percent of deals were really cheaper on the day. Now you know the five tricks, and how to beat them. Share this with someone who's about to go shopping."
+  },
+  {
+   "id": "e02",
+   "kind": "outro",
+   "photo": "sign",
+   "name": "BLACK FRIDAY 2026",
+   "role": "Friday, 27 November",
+   "q": "Will you shop this Black Friday?",
+   "text": "So, will you shop this Black Friday? Comment DEAL if this helped you, or SKIP if you're staying away. Stay tuned for further updates, and subscribe to Paravion X for more."
+  }
+ ],
+ "timeline": []
+}

@@ -1,0 +1,56 @@
+{
+ "segments": [
+  {
+   "id": "s01",
+   "kind": "photo",
+   "img": "crowd",
+   "img2": "sign",
+   "big": "ONLY 22%",
+   "sub": "OF BLACK FRIDAY DEALS WERE CHEAPER ON THE DAY",
+   "text": "Only twenty-two percent of Black Friday deals were actually cheaper on the day. Here are three signs a deal is fake."
+  },
+  {
+   "id": "s02",
+   "kind": "photo",
+   "img": "records",
+   "img2": "sign",
+   "big": "SIGN 1",
+   "sub": "AN INFLATED 'WAS' PRICE",
+   "text": "One. A huge crossed-out was price. Check the price history first. It's often been that low before."
+  },
+  {
+   "id": "s03",
+   "kind": "photo",
+   "img": "laptop",
+   "big": "SIGN 2",
+   "sub": "A COUNTDOWN TIMER RUSHING YOU",
+   "text": "Two. A countdown timer rushing you. In India, false urgency is one of the banned dark patterns."
+  },
+  {
+   "id": "s04",
+   "kind": "photo",
+   "img": "laptop",
+   "img2": "cart",
+   "big": "SIGN 3",
+   "sub": "FEES THAT APPEAR AT CHECKOUT",
+   "text": "Three. The price jumps at checkout. That's drip pricing, and it's on India's banned list too."
+  },
+  {
+   "id": "s05",
+   "kind": "photo",
+   "img": "philly_old",
+   "img2": "philly",
+   "big": "BONUS: FAKE",
+   "sub": "'IN THE BLACK' ISN'T WHERE THE NAME CAME FROM",
+   "text": "And no, the name has nothing to do with shops going into the black. The real story, and all five tricks, are in our full video."
+  },
+  {
+   "id": "s06",
+   "kind": "photo",
+   "img": "crowd",
+   "big": "FOLLOW",
+   "sub": "PARAVION X · SAVE THIS BEFORE YOU SHOP",
+   "text": "Save this before you shop, and follow Paravion X for more."
+  }
+ ]
+}
