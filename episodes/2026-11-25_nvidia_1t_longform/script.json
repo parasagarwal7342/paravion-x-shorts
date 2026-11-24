@@ -1,0 +1,497 @@
+{
+ "segments": [
+  {
+   "id": "h01",
+   "kind": "photo",
+   "img": "jensen_computex",
+   "big": "+31%",
+   "sub": "NVIDIA · ONE DAY · 23 NOV 2026",
+   "text": "Plus thirty-one percent. In one day. For one of the biggest companies on Earth."
+  },
+  {
+   "id": "h02",
+   "kind": "photo",
+   "img": "racks",
+   "big": "~$1 TRILLION",
+   "sub": "MARKET VALUE ADDED, AS REPORTED",
+   "text": "On Monday, Nvidia added close to one trillion dollars in market value. In a single trading session.",
+   "img2": "die"
+  },
+  {
+   "id": "h03",
+   "kind": "photo",
+   "img": "hq",
+   "big": "WHY?",
+   "sub": "A CRASH · A COMEBACK · A CEO",
+   "text": "Just three days earlier, the stock had crashed fourteen percent. So what flipped the switch? This is Paravion X. Let's break it down, fact by fact. And remember, this is news, not financial advice."
+  },
+  {
+   "id": "c1",
+   "kind": "chapter",
+   "n": "01",
+   "label": "THE $1 TRILLION DAY",
+   "img": "racks",
+   "text": "Chapter one. The one trillion dollar day."
+  },
+  {
+   "id": "r01",
+   "kind": "chart",
+   "bg": "racks",
+   "chart": {
+    "title": "NVDA CLOSING PRICE (USD)",
+    "bars": [
+     [
+      "FRI 20 NOV",
+      "CLOSE",
+      125.53,
+      "$125.53"
+     ],
+     [
+      "MON 23 NOV",
+      "CLOSE",
+      165.05,
+      "$165.05"
+     ]
+    ],
+    "vmax": 185,
+    "step": 1.6,
+    "badge": "+31.48%",
+    "badge_at": 3.6,
+    "source": "Source: The Motley Fool; StockTitan. Closing prices, 4:00 PM ET."
+   },
+   "text": "Nvidia closed Friday at one hundred twenty-five dollars and fifty-three cents. On Monday, it closed at one hundred sixty-five dollars and five cents. That's a gain of thirty-one point four eight percent."
+  },
+  {
+   "id": "r02",
+   "kind": "photo",
+   "img": "die",
+   "big": "BIGGEST IN 20+ YEARS",
+   "sub": "NVIDIA'S LARGEST ONE-DAY % GAIN · THE MOTLEY FOOL",
+   "text": "The Motley Fool called it Nvidia's largest single day percentage gain in more than two decades. Data firm Bespoke said it was the biggest since May two thousand three.",
+   "img2": "jensen_computex"
+  },
+  {
+   "id": "r03",
+   "kind": "photo",
+   "img": "racks",
+   "big": "35%",
+   "sub": "INTRADAY HIGH, AS REPORTED",
+   "text": "At one point during the day, the stock was up as much as thirty-five percent."
+  },
+  {
+   "id": "r04",
+   "kind": "photo",
+   "img": "hq",
+   "big": "4X",
+   "sub": "NORMAL TRADING VOLUME",
+   "text": "And trading went wild. More than seven hundred seventy million shares changed hands, over four times the normal daily average."
+  },
+  {
+   "id": "r05",
+   "kind": "photo",
+   "img": "endeavor",
+   "big": "A RECORD?",
+   "sub": "BESPOKE: BIGGEST MARKET-VALUE GAIN FOR ANY COMPANY",
+   "text": "In dollar terms, Bespoke said the market value gain was easily a record for any public company. Reports put it at between nine hundred fifty billion and a trillion dollars, depending on the minute.",
+   "img2": "racks"
+  },
+  {
+   "id": "c2",
+   "kind": "chapter",
+   "n": "02",
+   "label": "THE CRASH BEFORE IT",
+   "img": "die",
+   "text": "Chapter two. The crash before it."
+  },
+  {
+   "id": "b01",
+   "kind": "photo",
+   "img": "racks",
+   "big": "-14%",
+   "sub": "NVIDIA · FRIDAY 20 NOV",
+   "text": "To understand Monday, you need to understand Friday. On November twentieth, Nvidia fell fourteen percent, from about one hundred forty-six dollars to one hundred twenty-five."
+  },
+  {
+   "id": "b01b",
+   "kind": "photo",
+   "img": "die",
+   "img2": "racks",
+   "big": "$107.6B",
+   "sub": "DATA CENTER REVENUE · Q3 · REPORTED 17 NOV (CNBC)",
+   "text": "And here's the strange part. Just days earlier, on November seventeenth, Nvidia had reported huge earnings, with one hundred seven point six billion dollars in data center revenue in a single quarter, according to CNBC. The business was booming. The stock was still falling."
+  },
+  {
+   "id": "b02",
+   "kind": "photo",
+   "img": "capitol",
+   "big": "UNCONFIRMED",
+   "sub": "A REPORTED SEC REVIEW · NOT CONFIRMED BY NVIDIA OR THE SEC",
+   "text": "Some outlets linked the drop to a reported accounting review by the SEC. But neither Nvidia nor the SEC has confirmed any such probe. So treat that with care.",
+   "img2": "hq"
+  },
+  {
+   "id": "b03",
+   "kind": "photo",
+   "img": "die",
+   "big": "-10%",
+   "sub": "NASDAQ IN ONE WEEK · WORST SINCE MARCH 2020 (CNBC)",
+   "text": "What is confirmed is that the whole market was falling. CNBC reported the Nasdaq lost ten percent in a single week. Its biggest weekly decline since the Covid crash of March twenty twenty.",
+   "img2": "campus"
+  },
+  {
+   "id": "b04",
+   "kind": "photo",
+   "img": "campus",
+   "big": "CORRECTION",
+   "sub": "ALL THREE MAJOR US INDEXES · DOWN 10% FROM HIGHS",
+   "text": "All three major US stock indexes ended the week in a correction, meaning down at least ten percent from their recent highs. Yahoo Finance estimated about eight trillion dollars had been wiped off since the October peak.",
+   "img2": "racks"
+  },
+  {
+   "id": "b04b",
+   "kind": "photo",
+   "img": "campus",
+   "img2": "endeavor",
+   "big": "ANTHROPIC IPO",
+   "sub": "PRICED $83 · +17% DAY ONE · -9% NEXT DAY (YAHOO FINANCE)",
+   "text": "The fear was everywhere in AI. AI company Anthropic had just gone public, priced at eighty-three dollars a share. Its stock jumped seventeen percent on day one, then sank nine percent the next day, according to Yahoo Finance."
+  },
+  {
+   "id": "b05",
+   "kind": "quote",
+   "img": "racks",
+   "quote": "Fear and anxiety wise with the March 2020 Covid days.",
+   "who": "ANALYST DAN IVES · AS QUOTED BY CNBC",
+   "text": "Analyst Dan Ives compared the fear and anxiety to the March twenty twenty Covid days. AI stocks were being sold off hard."
+  },
+  {
+   "id": "c3",
+   "kind": "chapter",
+   "n": "03",
+   "label": "WHAT FLIPPED THE SWITCH",
+   "img": "jensen_portrait",
+   "text": "Chapter three. What flipped the switch."
+  },
+  {
+   "id": "t01",
+   "kind": "photo",
+   "img": "jensen_portrait",
+   "big": "8:55 AM ET",
+   "sub": "MONDAY · HUANG REINSTATED AS CEO",
+   "lower": [
+    "JENSEN HUANG",
+    "Reinstated as President and CEO"
+   ],
+   "text": "Then, at eight fifty-five on Monday morning, New York time, Nvidia's board announced that Jensen Huang was back as CEO. Effective immediately. Eleven days after he resigned.",
+   "img2": "hq"
+  },
+  {
+   "id": "t02",
+   "kind": "quote",
+   "img": "hq",
+   "quote": "The Board believes Jensen is the right person to lead NVIDIA.",
+   "who": "HARVEY JONES, NVIDIA BOARD CHAIR",
+   "text": "The board voted unanimously. Chair Harvey Jones said the board believes Jensen is the right person to lead Nvidia."
+  },
+  {
+   "id": "t03",
+   "kind": "quote",
+   "img": "capitol",
+   "quote": "Poses no national security risk.",
+   "who": "NVIDIA BOARD, CITING SENIOR US GOVERNMENT INPUT",
+   "text": "And the board said that, based on input from senior levels of the US government, it was confident his return poses no national security risk.",
+   "img2": "jensen_portrait"
+  },
+  {
+   "id": "t04",
+   "kind": "quote",
+   "img": "trump",
+   "quote": "The Country needs Jensen's leadership at NVIDIA.",
+   "who": "PRESIDENT TRUMP · TRUTH SOCIAL, AS QUOTED BY CNBC",
+   "text": "President Trump had pushed for this. On Truth Social, he wrote: The Country needs Jensen's leadership at Nvidia."
+  },
+  {
+   "id": "t04b",
+   "kind": "quote",
+   "img": "trump",
+   "quote": "Congratulations to NVIDIA on having made, what I consider to be, an absolutely GREAT decision!",
+   "who": "PRESIDENT TRUMP · TRUTH SOCIAL, VIA YAHOO FINANCE",
+   "text": "After the announcement, he posted again. Congratulations to Nvidia on having made, what I consider to be, an absolutely great decision."
+  },
+  {
+   "id": "t05",
+   "kind": "photo",
+   "img": "capitol",
+   "big": "\"I CONVINCED THEM\"",
+   "sub": "TRUMP, AS REPORTED BY CNBC AND YAHOO FINANCE",
+   "text": "Trump told CNBC that Huang did nothing wrong, other than create a chip that's invaluable. He also said he convinced the board. Asked if the market crash influenced him, he said: probably so.",
+   "img2": "trump"
+  },
+  {
+   "id": "c4",
+   "kind": "chapter",
+   "n": "04",
+   "label": "THE WHOLE MARKET EXPLODES",
+   "img": "die",
+   "text": "Chapter four. The whole market explodes."
+  },
+  {
+   "id": "p01",
+   "kind": "chart",
+   "bg": "campus",
+   "chart": {
+    "title": "US INDEXES · MONDAY 23 NOV",
+    "bars": [
+     [
+      "DOW",
+      "+1,448 PTS",
+      3.01,
+      "+3.01%"
+     ],
+     [
+      "S&P 500",
+      "7,237.17",
+      4.73,
+      "+4.73%"
+     ],
+     [
+      "NASDAQ",
+      "24,089.56",
+      6.51,
+      "+6.51%"
+     ]
+    ],
+    "vmax": 7.5,
+    "step": 1.2,
+    "badge": "BEST DAY SINCE APRIL 2025",
+    "badge_at": 4.2,
+    "source": "Source: CNBC; Yahoo Finance; The Motley Fool."
+   },
+   "text": "The whole market came roaring back. The Dow jumped more than fourteen hundred points. The S and P five hundred rose four point seven percent. And the Nasdaq soared six and a half percent. For the S and P and the Nasdaq, it was the best day since April twenty twenty-five."
+  },
+  {
+   "id": "p01b",
+   "kind": "photo",
+   "img": "campus",
+   "img2": "racks",
+   "big": "SINCE 1957",
+   "sub": "S&P 500: 33RD-BIGGEST ONE-DAY GAIN · STOCKTITAN",
+   "text": "How big was it? StockTitan calculated it was the S and P five hundred's thirty-third biggest one day gain since nineteen fifty-seven. And Yahoo Finance said the Nasdaq one hundred fund, QQQ, had its biggest opening jump since it launched in nineteen ninety-nine."
+  },
+  {
+   "id": "p02",
+   "kind": "chart",
+   "bg": "racks",
+   "chart": {
+    "title": "AI STOCKS · MONDAY 23 NOV",
+    "bars": [
+     [
+      "COREWEAVE",
+      "",
+      22.3,
+      "+22%"
+     ],
+     [
+      "MICRON",
+      "",
+      19.0,
+      "+19%"
+     ],
+     [
+      "AMD",
+      "",
+      6.85,
+      "+6.9%"
+     ],
+     [
+      "BROADCOM",
+      "",
+      3.0,
+      "+3%"
+     ]
+    ],
+    "vmax": 26,
+    "step": 0.9,
+    "highlight": 0,
+    "source": "Source: CNBC; StockTitan; The Motley Fool. Closing moves."
+   },
+   "text": "Other AI stocks flew too. CoreWeave jumped about twenty-two percent. Micron, about nineteen. AMD rose almost seven percent, and Broadcom three."
+  },
+  {
+   "id": "p03",
+   "kind": "photo",
+   "img": "die",
+   "big": "SK HYNIX +21%",
+   "sub": "INTRADAY · KOREA (CNBC)",
+   "text": "Even in Asia, memory maker SK Hynix rose as much as twenty-one percent during the day."
+  },
+  {
+   "id": "c5",
+   "kind": "chapter",
+   "n": "05",
+   "label": "IS IT REAL? BULLS vs BEARS",
+   "img": "campus",
+   "text": "Chapter five. Is it real? Bulls versus bears."
+  },
+  {
+   "id": "a01",
+   "kind": "quote",
+   "img": "endeavor",
+   "quote": "Jensen Huang's return restores and rebuilds confidence in the AI ecosystem.",
+   "who": "HENDI SUSANTO, GABELLI FUNDS · VIA CNBC",
+   "text": "The bulls are cheering. Hendi Susanto of Gabelli Funds said Huang's return restores and rebuilds confidence in the AI ecosystem."
+  },
+  {
+   "id": "a01b",
+   "kind": "quote",
+   "img": "hq",
+   "img2": "racks",
+   "quote": "Could serve as a catalyst for a much broader recovery in AI related stocks.",
+   "who": "DAVID MILLER, CATALYST FUNDS · VIA CNBC",
+   "text": "David Miller of Catalyst Funds said Huang's return could serve as a catalyst for a much broader recovery in AI related stocks."
+  },
+  {
+   "id": "a02",
+   "kind": "photo",
+   "img": "hq",
+   "big": "UPGRADES",
+   "sub": "MELIUS $220 · BERNSTEIN $200 · STONEX $270 (PRICE TARGETS, VIA CNBC)",
+   "text": "Several firms upgraded the stock. CNBC reported Melius, Bernstein and StoneX all turned more bullish, with price targets between two hundred and two hundred seventy dollars.",
+   "img2": "endeavor"
+  },
+  {
+   "id": "a03",
+   "kind": "quote",
+   "img": "racks",
+   "quote": "This 'Mechanical Bounce' guarantees us nothing.",
+   "who": "CHARLIE McELLIGOTT, NOMURA · VIA YAHOO FINANCE",
+   "text": "But the bears aren't convinced. Nomura's Charlie McElligott warned that this mechanical bounce guarantees us nothing."
+  },
+  {
+   "id": "a03b",
+   "kind": "photo",
+   "img": "campus",
+   "img2": "die",
+   "big": "\"SKEPTICAL\"",
+   "sub": "BARCLAYS · VIA CNBC",
+   "text": "Barclays put out a skeptical note too, warning that valuations were already pricing in substantial bad news, and that a quick recovery isn't guaranteed."
+  },
+  {
+   "id": "a04",
+   "kind": "photo",
+   "img": "campus",
+   "big": "\"TURNING LOWER AGAIN\"",
+   "sub": "BTIG'S JONATHAN KRINSKY, VIA CNBC",
+   "text": "And BTIG's Jonathan Krinsky expects a short-term rally, before the market likely turns lower again."
+  },
+  {
+   "id": "c6",
+   "kind": "chapter",
+   "n": "06",
+   "label": "FAKE OR FACT?",
+   "img": "jensen_computex",
+   "text": "Chapter six. Fake or fact. Four claims going viral."
+  },
+  {
+   "id": "f1",
+   "kind": "verdict",
+   "bg": "racks",
+   "claim": "“Nvidia gained over 30% in one day.”",
+   "verdict": "FACT",
+   "why": "+31.48%, from $125.53 to $165.05",
+   "text": "Claim one. Nvidia gained over thirty percent in one day. Fact. Plus thirty-one point four eight percent."
+  },
+  {
+   "id": "f2",
+   "kind": "verdict",
+   "bg": "capitol",
+   "claim": "“The SEC confirmed it's investigating Nvidia.”",
+   "verdict": "FAKE",
+   "why": "A reported review. Not confirmed by the SEC or Nvidia",
+   "text": "Claim two. The SEC confirmed it's investigating Nvidia. Fake. There were reports of a review, but neither the SEC nor Nvidia has confirmed it."
+  },
+  {
+   "id": "f3",
+   "kind": "verdict",
+   "bg": "die",
+   "claim": "“Nvidia is back to its record high.”",
+   "verdict": "FAKE",
+   "why": "$165 is still far below its 52-week high of about $243",
+   "text": "Claim three. Nvidia is back to its record high. Fake. Even after the jump, it's still well below its fifty-two week high of around two hundred forty-three dollars."
+  },
+  {
+   "id": "f4",
+   "kind": "verdict",
+   "bg": "trump",
+   "claim": "“Trump publicly backed Huang's return.”",
+   "verdict": "FACT",
+   "why": "Truth Social posts and CNBC interview",
+   "text": "Claim four. Trump publicly backed Huang's return. Fact. On Truth Social, and in an interview with CNBC."
+  },
+  {
+   "id": "c7",
+   "kind": "chapter",
+   "n": "07",
+   "label": "WHAT HAPPENS NEXT",
+   "img": "hq",
+   "text": "Chapter seven. What happens next."
+  },
+  {
+   "id": "n01",
+   "kind": "photo",
+   "img": "capitol",
+   "big": "INVESTIGATION",
+   "sub": "INDEPENDENT BOARD PROBE CONTINUES",
+   "text": "First, the independent board investigation into Huang is still running. Nvidia says it will proceed to its conclusion."
+  },
+  {
+   "id": "n02",
+   "kind": "photo",
+   "img": "kress",
+   "big": "BACK TO CFO",
+   "sub": "COLETTE KRESS",
+   "lower": [
+    "COLETTE KRESS",
+    "CFO, Nvidia"
+   ],
+   "text": "Second, Colette Kress goes back to being Chief Financial Officer, after eleven days as interim CEO."
+  },
+  {
+   "id": "n02b",
+   "kind": "photo",
+   "img": "capitol",
+   "img2": "campus",
+   "big": "9 DEC",
+   "sub": "FED DECISION · MARKETS EXPECT A HIKE (YAHOO FINANCE)",
+   "text": "And keep an eye on December ninth. That's the next decision from the US Federal Reserve. Yahoo Finance reported that prediction markets expect an interest rate hike, which could pressure tech stocks again."
+  },
+  {
+   "id": "n03",
+   "kind": "photo",
+   "img": "racks",
+   "big": "CAN IT HOLD?",
+   "sub": "ONE DAY DOESN'T MAKE A TREND",
+   "text": "And third, the big question. Can the rally hold? One great day doesn't erase a crash, and analysts are split.",
+   "img2": "jensen_portrait"
+  },
+  {
+   "id": "e01",
+   "kind": "photo",
+   "img": "jensen_computex",
+   "big": "11 DAYS",
+   "sub": "OUT · BACK · +31%",
+   "text": "Eleven days. A resignation, a crash, a comeback, and close to a trillion dollars in one day. Nvidia's story isn't over yet.",
+   "img2": "racks"
+  },
+  {
+   "id": "e02",
+   "kind": "outro",
+   "photo": "jensen_portrait",
+   "name": "JENSEN HUANG",
+   "role": "Back as Nvidia CEO, 23 Nov",
+   "q": "Will Nvidia's rally hold?",
+   "text": "So, will Nvidia's rally hold? Comment HOLD if you think it will, or FOLD if you think it won't. Stay tuned for further updates, and subscribe to Paravion X for more."
+  }
+ ],
+ "timeline": []
+}
