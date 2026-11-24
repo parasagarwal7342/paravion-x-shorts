@@ -160,13 +160,13 @@ def bug(d):
     d.text((60, BAR + 34), "PARAVION", font=f, fill=WHITE, anchor="lm")
     d.text((60 + f.getlength("PARAVION "), BAR + 34), "X", font=f, fill=ACC, anchor="lm")
 
-def caption(d, words, t):
+def caption(d, words, t, y=None):
     cur = None
     for c in chunks(words):
         if c[0][1] - 0.05 <= t <= c[-1][2] + 0.25: cur = c
     if not cur: return
     f = F(34 * TXT, "body"); s = " ".join(w[0] for w in cur)
-    tw = f.getlength(s); x0 = W / 2 - tw / 2; y = CAP_Y if CAP_Y else H - BAR - 58
+    tw = f.getlength(s); x0 = W / 2 - tw / 2; y = y or (CAP_Y if CAP_Y else H - BAR - 58)
     d.rounded_rectangle([x0 - 20, y - 30 * TXT, x0 + tw + 20, y + 28 * TXT], radius=6, fill=(255, 255, 255, 235))
     x = x0
     for w, s0, e0 in cur:
@@ -400,7 +400,7 @@ def render_segment(args):
             if kind == "chapter" and lt < 0.25:
                 im = Image.blend(Image.new("RGB", (W, H)), im, lt / 0.25); d = ImageDraw.Draw(im, "RGBA")
         d = ImageDraw.Draw(im, "RGBA")
-        if kind not in ("intro", "outro", "chapter"): caption(d, words, lt)
+        if kind not in ("intro", "outro", "chapter"): caption(d, words, lt, (BAR + 330) if (kind == "chart" and CAP_Y) else None)
         p.stdin.write(im.tobytes())
     p.stdin.close(); p.wait()
     return out
