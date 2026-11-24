@@ -1,0 +1,474 @@
+{
+ "segments": [
+  {
+   "id": "h01",
+   "kind": "photo",
+   "img": "racks",
+   "img2": "sanjose",
+   "big": "$43.9 BILLION",
+   "sub": "CROWDSTRIKE × ZSCALER · 23 NOV 2026",
+   "text": "Forty-three point nine billion dollars. That's what CrowdStrike just agreed to pay for its rival, Zscaler."
+  },
+  {
+   "id": "h02",
+   "kind": "photo",
+   "img": "heathrow",
+   "big": "8.5 MILLION",
+   "sub": "WINDOWS DEVICES CRASHED · JULY 2024",
+   "text": "Yes, that CrowdStrike. The company whose faulty update crashed millions of computers around the world in twenty twenty-four."
+  },
+  {
+   "id": "h03",
+   "kind": "photo",
+   "img": "himachal",
+   "big": "A VILLAGE IN HIMACHAL",
+   "sub": "WHERE ZSCALER'S FOUNDER GREW UP",
+   "text": "And the company it's buying was built by a man who grew up in a village in Himachal Pradesh, India, with no electricity. This is Paravion X. Let's break it down, fact by fact. This is news, not financial advice."
+  },
+  {
+   "id": "c1",
+   "kind": "chapter",
+   "n": "01",
+   "label": "THE $43.9 BILLION DEAL",
+   "img": "racks",
+   "text": "Chapter one. The forty-three point nine billion dollar deal."
+  },
+  {
+   "id": "d01",
+   "kind": "photo",
+   "img": "kurtz",
+   "img2": "chaudhry",
+   "big": "ANNOUNCED 23 NOV",
+   "sub": "CROWDSTRIKE TO ACQUIRE ZSCALER",
+   "lower": [
+    "GEORGE KURTZ",
+    "CEO & founder, CrowdStrike"
+   ],
+   "text": "On November twenty-third, CrowdStrike announced it will acquire Zscaler, in a deal that values Zscaler at about forty-three point nine billion dollars. The boards of both companies approved it unanimously."
+  },
+  {
+   "id": "d02",
+   "kind": "photo",
+   "img": "racecar",
+   "big": "ALL STOCK",
+   "sub": "1.135 CROWDSTRIKE SHARES PER ZSCALER SHARE",
+   "text": "There's no cash involved. It's an all-stock deal. Zscaler shareholders get one point one three five CrowdStrike shares for every Zscaler share they own."
+  },
+  {
+   "id": "d03",
+   "kind": "chart",
+   "bg": "sanjose",
+   "chart": {
+    "title": "ZSCALER: PRICE PER SHARE (USD)",
+    "bars": [
+     [
+      "20 NOV CLOSE",
+      "BEFORE THE DEAL",
+      194.3,
+      "~$194"
+     ],
+     [
+      "DEAL VALUE",
+      "1.135 CRWD SHARES",
+      260.41,
+      "$260.41"
+     ]
+    ],
+    "vmax": 300,
+    "step": 1.5,
+    "badge": "+34% PREMIUM",
+    "badge_at": 3.4,
+    "source": "Source: CrowdStrike release (SEC 8-K), based on 20 Nov 2026 closing prices. Pre-deal price implied by the 34% premium."
+   },
+   "text": "That works out to about two hundred sixty dollars and forty-one cents per Zscaler share. A premium of about thirty-four percent over Zscaler's price before the deal."
+  },
+  {
+   "id": "d04",
+   "kind": "photo",
+   "img": "racks",
+   "img2": "die",
+   "big": "84% / 16%",
+   "sub": "OWNERSHIP AFTER THE DEAL",
+   "text": "After the deal, CrowdStrike's current shareholders will own about eighty-four percent of the combined company. Zscaler's shareholders, about sixteen percent."
+  },
+  {
+   "id": "d05",
+   "kind": "photo",
+   "img": "sanjose",
+   "big": "BIGGER THAN WIZ",
+   "sub": "GOOGLE BOUGHT WIZ FOR $32B · 2025",
+   "text": "For scale: in twenty twenty-five, Google agreed to buy cloud security firm Wiz for thirty-two billion dollars, a deal that was called the biggest in cybersecurity history at the time. This one is valued higher."
+  },
+  {
+   "id": "c2",
+   "kind": "chapter",
+   "n": "02",
+   "label": "WHY BUY YOUR RIVAL?",
+   "img": "racecar",
+   "text": "Chapter two. Why buy your rival?"
+  },
+  {
+   "id": "w01",
+   "kind": "photo",
+   "img": "racks",
+   "img2": "heathrow",
+   "big": "ENDPOINT + NETWORK",
+   "sub": "DEVICES (CROWDSTRIKE) + CONNECTIONS (ZSCALER)",
+   "text": "Think of it like this. CrowdStrike mainly protects devices, like laptops and servers. Zscaler protects the connections between users, apps and the internet. Together, they want to cover both."
+  },
+  {
+   "id": "w02",
+   "kind": "photo",
+   "img": "racecar",
+   "big": "ZERO TRUST",
+   "sub": "\"NEVER TRUST, ALWAYS VERIFY\"",
+   "text": "Zscaler is known for something called zero trust. The idea is simple: never trust any user or device automatically. Always verify, every single time."
+  },
+  {
+   "id": "w03",
+   "kind": "quote",
+   "img": "kurtz",
+   "quote": "Security used to be about keeping the adversary out. Today, safety is required to let AI in.",
+   "who": "GEORGE KURTZ, CEO, CROWDSTRIKE",
+   "text": "And the big reason is AI. CrowdStrike's chief George Kurtz said: Security used to be about keeping the adversary out. Today, safety is required to let AI in."
+  },
+  {
+   "id": "w04",
+   "kind": "quote",
+   "img": "kurtz",
+   "img2": "racks",
+   "quote": "We see a path to become the largest AI safety and security company the world has ever seen.",
+   "who": "GEORGE KURTZ",
+   "text": "He went even further. We see a path to become the largest AI safety and security company the world has ever seen."
+  },
+  {
+   "id": "w05",
+   "kind": "quote",
+   "img": "chaudhry",
+   "quote": "This is the natural evolution of our longstanding partnership.",
+   "who": "JAY CHAUDHRY, CEO & FOUNDER, ZSCALER",
+   "text": "Zscaler's founder, Jay Chaudhry, called the two companies complementary, and said this is the natural evolution of their longstanding partnership."
+  },
+  {
+   "id": "c3",
+   "kind": "chapter",
+   "n": "03",
+   "label": "THE NUMBERS BEHIND IT",
+   "img": "die",
+   "text": "Chapter three. The numbers behind it."
+  },
+  {
+   "id": "n01",
+   "kind": "chart",
+   "bg": "racks",
+   "chart": {
+    "title": "ANNUAL RECURRING REVENUE (USD)",
+    "bars": [
+     [
+      "CROWDSTRIKE",
+      "Q3 FY27",
+      6.26,
+      "$6.26B"
+     ],
+     [
+      "ZSCALER",
+      "LATEST QUARTER",
+      3.9,
+      "$3.9B"
+     ],
+     [
+      "COMBINED",
+      "AT START",
+      10.2,
+      "$10B+"
+     ]
+    ],
+    "vmax": 12,
+    "step": 1.2,
+    "badge": "$10B+ ARR",
+    "badge_at": 3.8,
+    "source": "Source: CrowdStrike Q3 FY2027 results and deal release (SEC 8-K)."
+   },
+   "text": "CrowdStrike says the combined company will start with more than ten billion dollars in annual recurring revenue. That's the money customers pay every year for subscriptions."
+  },
+  {
+   "id": "n02",
+   "kind": "photo",
+   "img": "sanjose",
+   "img2": "racecar",
+   "big": "8,000",
+   "sub": "ZSCALER CUSTOMERS NOT YET USING CROWDSTRIKE",
+   "text": "It also says about eight thousand Zscaler customers don't use CrowdStrike yet. That's a ready-made list of new people to sell to."
+  },
+  {
+   "id": "n03",
+   "kind": "photo",
+   "img": "racks",
+   "big": "$1B + $500M",
+   "sub": "REVENUE + COST SYNERGIES, PER CROWDSTRIKE",
+   "text": "CrowdStrike is targeting about one billion dollars a year in extra revenue within thirty months, and five hundred million dollars a year in cost savings within two years."
+  },
+  {
+   "id": "n03b",
+   "kind": "photo",
+   "img": "die",
+   "img2": "racecar",
+   "big": "ONE CONTRACT",
+   "sub": "FALCON FLEX · DEVICE + NETWORK DATA IN ONE PLATFORM",
+   "text": "For customers, the pitch is simplicity. CrowdStrike says they'll be able to buy device protection and network security together, through a single contract called Falcon Flex, with all the security data in one place."
+  },
+  {
+   "id": "n04",
+   "kind": "photo",
+   "img": "die",
+   "img2": "racks",
+   "big": "+28%",
+   "sub": "CROWDSTRIKE REVENUE · Q3 FY2027 · $1.58B",
+   "text": "And CrowdStrike announced this alongside strong results. Quarterly revenue of one point five eight billion dollars, up twenty-eight percent, and record new recurring revenue of four hundred nineteen million dollars."
+  },
+  {
+   "id": "c4",
+   "kind": "chapter",
+   "n": "04",
+   "label": "HOW WALL STREET REACTED",
+   "img": "sanjose",
+   "text": "Chapter four. How Wall Street reacted."
+  },
+  {
+   "id": "m01",
+   "kind": "chart",
+   "bg": "sanjose",
+   "chart": {
+    "title": "STOCK MOVES · MONDAY 23 NOV (REPORTED)",
+    "bars": [
+     [
+      "ZSCALER",
+      "TARGET",
+      17,
+      "+16–18%"
+     ],
+     [
+      "CROWDSTRIKE",
+      "BUYER",
+      8,
+      "−7–9%"
+     ]
+    ],
+    "vmax": 20,
+    "step": 1.2,
+    "highlight": 0,
+    "source": "Sources: Quartz; CNBC; The Next Web. Figures vary by source and time of day."
+   },
+   "text": "Investors had very different reactions. Zscaler's stock jumped around sixteen to eighteen percent. CrowdStrike's fell around seven to nine percent, depending on the report."
+  },
+  {
+   "id": "m02",
+   "kind": "photo",
+   "img": "racecar",
+   "big": "WHY THE SPLIT?",
+   "sub": "BUYERS OFTEN DIP · TARGETS JUMP TOWARD THE OFFER",
+   "text": "That's common in big deals. The target's price rises toward the offer price. The buyer's price often drops, because it's issuing lots of new shares and taking on the risk."
+  },
+  {
+   "id": "c5",
+   "kind": "chapter",
+   "n": "05",
+   "label": "FROM A HIMACHAL VILLAGE",
+   "img": "himachal",
+   "text": "Chapter five. From a Himachal village to Silicon Valley."
+  },
+  {
+   "id": "j01",
+   "kind": "photo",
+   "img": "himachal",
+   "big": "PANOH, UNA",
+   "sub": "HIMACHAL PRADESH · ILLUSTRATIVE PHOTO",
+   "text": "Jay Chaudhry grew up in Panoh, a small village in the Una district of Himachal Pradesh. Reports say the village had no electricity or running water when he was a child."
+  },
+  {
+   "id": "j02",
+   "kind": "photo",
+   "img": "himachal",
+   "img2": "iitbhu",
+   "big": "4 KM",
+   "sub": "WALKED TO SCHOOL EVERY DAY, AS REPORTED",
+   "text": "He reportedly walked about four kilometers every day to go to high school in a neighboring village."
+  },
+  {
+   "id": "j03",
+   "kind": "photo",
+   "img": "iitbhu",
+   "big": "IIT-BHU",
+   "sub": "THEN THE UNIVERSITY OF CINCINNATI, USA",
+   "text": "He went on to study at IIT BHU in Varanasi, and then at the University of Cincinnati in the United States."
+  },
+  {
+   "id": "j03b",
+   "kind": "photo",
+   "img": "racecar",
+   "img2": "sanjose",
+   "big": "SERIAL FOUNDER",
+   "sub": "SECUREIT IN THE LATE 1990s · THEN MORE STARTUPS",
+   "text": "Zscaler wasn't his first company. He started his first security startup, SecureIT, in the late nineteen nineties, and built several more before Zscaler."
+  },
+  {
+   "id": "j04",
+   "kind": "photo",
+   "img": "chaudhry",
+   "img2": "racecar",
+   "big": "ZSCALER, 2007",
+   "sub": "FOUNDED BY JAY CHAUDHRY · PUBLIC IN 2018",
+   "lower": [
+    "JAY CHAUDHRY",
+    "CEO, chairman & founder, Zscaler"
+   ],
+   "text": "After working at companies like IBM and NCR, and starting several security businesses, he founded Zscaler in two thousand seven. It went public in twenty eighteen. Today he's estimated to be worth well over ten billion dollars, one of the richest Indian-Americans."
+  },
+  {
+   "id": "j05",
+   "kind": "photo",
+   "img": "chaudhry",
+   "big": "STAYING ON",
+   "sub": "WILL LEAD ZSCALER + JOIN CROWDSTRIKE'S BOARD",
+   "text": "And he's not leaving. After the deal closes, Chaudhry will keep leading the Zscaler business, and join CrowdStrike's board of directors. He and his affiliates own about thirty-four percent of Zscaler, and have agreed to vote for the deal."
+  },
+  {
+   "id": "c6",
+   "kind": "chapter",
+   "n": "06",
+   "label": "THE OUTAGE THAT HAUNTS IT",
+   "img": "heathrow",
+   "text": "Chapter six. The outage that still haunts CrowdStrike."
+  },
+  {
+   "id": "o01",
+   "kind": "photo",
+   "img": "heathrow",
+   "big": "19 JULY 2024",
+   "sub": "A FAULTY CROWDSTRIKE UPDATE",
+   "text": "On July nineteenth, twenty twenty-four, CrowdStrike pushed a faulty update to its security software for Windows computers."
+  },
+  {
+   "id": "o02",
+   "kind": "photo",
+   "img": "heathrow",
+   "img2": "racks",
+   "big": "8.5 MILLION",
+   "sub": "WINDOWS DEVICES AFFECTED · MICROSOFT ESTIMATE",
+   "text": "Microsoft estimated about eight and a half million Windows devices were affected. Many had to be fixed by hand, one machine at a time. Flights, banks and hospitals were hit around the world."
+  },
+  {
+   "id": "o02b",
+   "kind": "photo",
+   "img": "racks",
+   "img2": "heathrow",
+   "big": "NEW TESTING",
+   "sub": "CROWDSTRIKE CHANGED HOW IT TESTS UPDATES (AXIOS)",
+   "text": "Afterwards, CrowdStrike said it changed how it tests and rolls out updates, so a single bad file can't take down so many machines at once again."
+  },
+  {
+   "id": "o03",
+   "kind": "photo",
+   "img": "racks",
+   "big": "NOT A HACK",
+   "sub": "A BAD UPDATE, NOT A CYBERATTACK",
+   "text": "Importantly, it was not a cyberattack. It was a bug in an update. But it showed how much the world depends on a few security companies, and this deal makes CrowdStrike even bigger."
+  },
+  {
+   "id": "c7",
+   "kind": "chapter",
+   "n": "07",
+   "label": "FAKE OR FACT?",
+   "img": "racecar",
+   "text": "Chapter seven. Fake or fact. Four claims going viral."
+  },
+  {
+   "id": "f1",
+   "kind": "verdict",
+   "bg": "racks",
+   "claim": "“CrowdStrike is paying $43.9 billion in cash.”",
+   "verdict": "FAKE",
+   "why": "It's all stock: 1.135 CrowdStrike shares per Zscaler share",
+   "text": "Claim one. CrowdStrike is paying forty-three point nine billion dollars in cash. Fake. It's an all-stock deal."
+  },
+  {
+   "id": "f2",
+   "kind": "verdict",
+   "bg": "sanjose",
+   "claim": "“The deal is already done.”",
+   "verdict": "FAKE",
+   "why": "Needs shareholder and regulatory approval; expected to close in 2H of CrowdStrike's FY2028",
+   "text": "Claim two. The deal is already done. Fake. It still needs Zscaler shareholder and regulatory approval, and is expected to close in the second half of CrowdStrike's fiscal year twenty twenty-eight."
+  },
+  {
+   "id": "f3",
+   "kind": "verdict",
+   "bg": "himachal",
+   "claim": "“Zscaler's founder grew up in a village in India.”",
+   "verdict": "FACT",
+   "why": "Panoh, Una district, Himachal Pradesh",
+   "text": "Claim three. Zscaler's founder grew up in a village in India. Fact. Panoh, in Himachal Pradesh."
+  },
+  {
+   "id": "f4",
+   "kind": "verdict",
+   "bg": "heathrow",
+   "claim": "“The 2024 global outage was a cyberattack.”",
+   "verdict": "FAKE",
+   "why": "It was a faulty CrowdStrike update, not a hack",
+   "text": "Claim four. The twenty twenty-four global outage was a cyberattack. Fake. It was a faulty update."
+  },
+  {
+   "id": "c8",
+   "kind": "chapter",
+   "n": "08",
+   "label": "WHAT HAPPENS NEXT",
+   "img": "sanjose",
+   "text": "Chapter eight. What happens next."
+  },
+  {
+   "id": "x01",
+   "kind": "photo",
+   "img": "racecar",
+   "big": "REGULATORS",
+   "sub": "APPROVALS STILL NEEDED",
+   "text": "First, regulators. A deal this big will be closely reviewed, and it still needs the green light."
+  },
+  {
+   "id": "x02",
+   "kind": "photo",
+   "img": "chaudhry",
+   "big": "ZSCALER VOTE",
+   "sub": "SHAREHOLDERS MUST APPROVE",
+   "text": "Second, Zscaler's shareholders have to vote. With Chaudhry's thirty-four percent already committed, that's a strong start."
+  },
+  {
+   "id": "x03",
+   "kind": "photo",
+   "img": "racks",
+   "img2": "sanjose",
+   "big": "2027–2028",
+   "sub": "EXPECTED CLOSE · 2H OF CROWDSTRIKE FY2028",
+   "text": "And third, timing. CrowdStrike expects to close in the second half of its fiscal year twenty twenty-eight, so roughly late twenty twenty-seven to early twenty twenty-eight."
+  },
+  {
+   "id": "e01",
+   "kind": "photo",
+   "img": "himachal",
+   "img2": "sanjose",
+   "big": "$43.9 BILLION",
+   "sub": "FROM A VILLAGE WITH NO ELECTRICITY",
+   "text": "A forty-three point nine billion dollar deal, built on AI fears, a rivalry turned partnership, and a founder who started in a village with no electricity."
+  },
+  {
+   "id": "e02",
+   "kind": "outro",
+   "photo": "chaudhry",
+   "name": "JAY CHAUDHRY",
+   "role": "Founder, Zscaler",
+   "q": "Good deal for CrowdStrike?",
+   "text": "So, is this a good deal for CrowdStrike? Comment BUY if you think so, or SKIP if you don't. Stay tuned for further updates, and subscribe to Paravion X for more."
+  }
+ ],
+ "timeline": []
+}
