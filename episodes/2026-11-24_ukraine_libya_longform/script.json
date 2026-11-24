@@ -1,0 +1,423 @@
+{
+ "segments": [
+  {
+   "id": "h01",
+   "kind": "photo",
+   "img": "waves",
+   "big": "7 DRONES",
+   "sub": "ONE RUSSIAN WARSHIP · BENGHAZI, LIBYA",
+   "text": "Seven sea drones. One Russian warship. And a port in Libya, about fifteen hundred miles from the front line."
+  },
+  {
+   "id": "h02",
+   "kind": "photo",
+   "img": "zelensky",
+   "big": "\"SUNK\"",
+   "sub": "ZELENSKYY · 23 NOV 2026",
+   "text": "On Monday, Ukraine's President Volodymyr Zelenskyy said his forces had sunk the Russian corvette Merkury. Not in the Black Sea. In the Mediterranean."
+  },
+  {
+   "id": "h03",
+   "kind": "photo",
+   "img": "benghazi1",
+   "big": "FAR FROM HOME",
+   "sub": "THE WAR AT SEA JUST MOVED",
+   "text": "So how did a war in Eastern Europe reach a harbor in North Africa? What do we actually know? And what's still disputed? Let's break it down, fact by fact."
+  },
+  {
+   "id": "intro",
+   "kind": "intro",
+   "text": "Welcome to Paravion X. The world, explained. In this video, every claim is attributed to who made it, because in war, both sides tell their own story."
+  },
+  {
+   "id": "c1",
+   "kind": "chapter",
+   "n": "01",
+   "label": "WHAT HAPPENED",
+   "img": "benghazi1",
+   "text": "Chapter one. What happened."
+  },
+  {
+   "id": "a01",
+   "kind": "photo",
+   "img": "benghazi1",
+   "big": "22 NOV",
+   "sub": "EARLY SUNDAY · BENGHAZI NAVAL BASE",
+   "text": "It happened in the early hours of Sunday, November twenty-second, at the naval base in Benghazi, in eastern Libya. A Russian navy corvette called the Merkury was docked there."
+  },
+  {
+   "id": "a02",
+   "kind": "quote",
+   "img": "zelensky",
+   "quote": "Despite all the enemy's efforts to counter the attack, the Russian corvette Merkury was sunk.",
+   "who": "VOLODYMYR ZELENSKYY · VIA X, 23 NOV",
+   "text": "On Monday, Zelenskyy posted about it. His words: Despite all the enemy's efforts to counter the attack, the Russian corvette Merkury was sunk."
+  },
+  {
+   "id": "a03",
+   "kind": "photo",
+   "img": "magura",
+   "big": "7",
+   "sub": "UKRAINIAN-MADE NAVAL DRONES · PER ZELENSKYY",
+   "text": "He said Ukrainian forces used seven Ukrainian-made naval drones. According to Ukraine's security service, the SBU, they were launched from a mother ship near the target."
+  },
+  {
+   "id": "a04",
+   "kind": "photo",
+   "img": "moskva",
+   "big": "COMMISSIONED 2023",
+   "sub": "FILE PHOTO · RUSSIAN BLACK SEA FLEET (NOT MERKURY)",
+   "text": "Zelenskyy called the Merkury one of Russia's newest ships, commissioned in twenty twenty-three, during the full-scale war."
+  },
+  {
+   "id": "a05",
+   "kind": "photo",
+   "img": "ka27",
+   "big": "KA-27",
+   "sub": "FILE PHOTO · KA-27 TYPE HELICOPTER",
+   "text": "Ukraine says a Ka twenty-seven military helicopter on board the corvette was destroyed too."
+  },
+  {
+   "id": "a06",
+   "kind": "photo",
+   "img": "waves",
+   "big": "CAPSIZED",
+   "sub": "SATELLITE IMAGERY, AS REPORTED",
+   "text": "Satellite images reported by several outlets show the ship capsized, with only its bow still visible above the water."
+  },
+  {
+   "id": "c2",
+   "kind": "chapter",
+   "n": "02",
+   "label": "THE SECOND TARGET",
+   "img": "benghazi1",
+   "text": "Chapter two. The second target."
+  },
+  {
+   "id": "b01",
+   "kind": "quote",
+   "img": "benghazi1",
+   "quote": "Our second target was the Russian dry cargo vessel MV Angara.",
+   "who": "VOLODYMYR ZELENSKYY",
+   "text": "There was a second target. Zelenskyy said it was the Russian dry cargo vessel Angara, which he said Russia used to transport weapons. His verdict: target hit."
+  },
+  {
+   "id": "b02",
+   "kind": "photo",
+   "img": "benghazi1",
+   "big": "MV ANGARA",
+   "sub": "DAMAGE UNCLEAR · SANCTIONED, PER CBS",
+   "text": "CBS News reports the Angara has been under U.S. and international sanctions for illegally transporting weapons for Russia. But how badly it was damaged is still unclear."
+  },
+  {
+   "id": "c3",
+   "kind": "chapter",
+   "n": "03",
+   "label": "WHAT'S DISPUTED",
+   "img": "kremlin",
+   "text": "Chapter three. What's disputed."
+  },
+  {
+   "id": "d01",
+   "kind": "photo",
+   "img": "benghazi1",
+   "big": "SUNK vs DAMAGED",
+   "sub": "UKRAINE vs LIBYAN OFFICIALS",
+   "text": "Not everyone tells the same story. Ukraine says the Merkury was sunk. But two Libyan officials, quoted by CBS and ABC, described it as severely damaged."
+  },
+  {
+   "id": "d02",
+   "kind": "photo",
+   "img": "waves",
+   "big": "7 vs 20+",
+   "sub": "DRONES USED vs DRONE BOATS INTERCEPTED (REUTERS)",
+   "text": "Then there's the number of drones. Ukraine says seven. But according to a Roy-terz report, Libyan naval and air forces said they intercepted more than twenty drone boats. Those may be two different counts, and nobody has explained the gap."
+  },
+  {
+   "id": "d03",
+   "kind": "photo",
+   "img": "benghazi1",
+   "big": "10 INJURED",
+   "sub": "NO DEATHS REPORTED · LIBYAN OFFICIALS",
+   "text": "Libyan officials say at least ten people were injured, both Russian and Libyan. No deaths have been reported."
+  },
+  {
+   "id": "d04",
+   "kind": "quote",
+   "img": "kremlin",
+   "quote": "Information will be provided via the Defense Ministry.",
+   "who": "KREMLIN SPOKESMAN DMITRY PESKOV, AS REPORTED",
+   "text": "And Russia? The Kremlin said it had noted Zelenskyy's statement, and that information would come from the Defense Ministry. As of the latest reports, the ministry had not commented."
+  },
+  {
+   "id": "c4",
+   "kind": "chapter",
+   "n": "04",
+   "label": "WHY LIBYA?",
+   "img": "tripoli",
+   "text": "Chapter four. Why Libya?"
+  },
+  {
+   "id": "l01",
+   "kind": "photo",
+   "img": "tripoli",
+   "big": "TWO GOVERNMENTS",
+   "sub": "TRIPOLI IN THE WEST · BENGHAZI IN THE EAST",
+   "text": "Libya is split. A government in Tripoli runs the west. A rival administration runs the east, including Benghazi."
+  },
+  {
+   "id": "l01b",
+   "kind": "photo",
+   "img": "tripoli",
+   "big": "SINCE 2011",
+   "sub": "AFTER GADDAFI'S FALL",
+   "text": "Libya has been deeply divided since the fall of Muammar Gaddafi in twenty eleven. Rival governments, rival armies, and foreign powers backing different sides."
+  },
+  {
+   "id": "l02",
+   "kind": "photo",
+   "img": "benghazi1",
+   "big": "RUSSIA IN THE EAST",
+   "sub": "COOPERATION AGREEMENTS · PER NBC",
+   "text": "NBC reports the eastern government has cooperation agreements and maritime facility arrangements with Russia. Radio Free Europe says Russia has given major military and economic support to the eastern commander, Khalifa Haftar."
+  },
+  {
+   "id": "l03",
+   "kind": "photo",
+   "img": "tripoli",
+   "big": "~1,800",
+   "sub": "RUSSIAN MILITARY PERSONNEL · WASHINGTON INSTITUTE ESTIMATE",
+   "text": "Analysts at the Washington Institute estimate at least eighteen hundred Russian military personnel are in Libya. But a permanent Russian naval base there has not been confirmed."
+  },
+  {
+   "id": "l03b",
+   "kind": "photo",
+   "img": "benghazi1",
+   "big": "AIR BASES",
+   "sub": "AL-KHADIM NEAR BENGHAZI · AL-JUFRA · OTHERS, AS REPORTED",
+   "text": "Reports from analysts and Italian and African outlets say Russia has been building up several Libyan air bases, including Al Khadim, near Benghazi. Some analysts describe Libya as a supply hub for Russia's Africa Corps, which operates in countries like Mali and Burkina Faso."
+  },
+  {
+   "id": "l03c",
+   "kind": "photo",
+   "img": "waves",
+   "big": "TOBRUK?",
+   "sub": "A RUSSIAN NAVAL BASE · NOT AGREED, PER CEPA",
+   "text": "Russia has reportedly wanted a naval base on Libya's coast, with Tobruk seen as the favorite site. But the think tank CEPA says Haftar has not given the green light, likely because of pressure from Washington."
+  },
+  {
+   "id": "l04",
+   "kind": "quote",
+   "img": "benghazi1",
+   "quote": "En route back to Russia and had stopped at the port to refuel and take on supplies.",
+   "who": "LIBYA'S EASTERN GOVERNMENT, VIA NBC",
+   "text": "The eastern government says the Merkury was on its way back to Russia, and had stopped in Benghazi to refuel and take on supplies."
+  },
+  {
+   "id": "l05",
+   "kind": "photo",
+   "img": "tripoli",
+   "big": "WESTERN LIBYA?",
+   "sub": "UKRAINIAN FORCES THERE, LIBYAN OFFICIALS SAY",
+   "text": "And here's another twist. Libyan officials, quoted by several outlets, say Ukrainian forces operate in western Libya, under a deal they believe is backed by Kyiv's allies. The eastern government has even written to the UN about the possible use of western Libya to launch this attack. Kyiv has not confirmed operating there."
+  },
+  {
+   "id": "c5",
+   "kind": "chapter",
+   "n": "05",
+   "label": "THE SEA-DRONE WAR",
+   "img": "moskva",
+   "text": "Chapter five. The sea drone war."
+  },
+  {
+   "id": "s01",
+   "kind": "photo",
+   "img": "moskva",
+   "big": "SEVASTOPOL, 2023",
+   "sub": "BLACK SEA FLEET MOVES OUT · PER KYIV POST",
+   "text": "This didn't come out of nowhere. Ukraine has spent years attacking Russian ships with drones. In October twenty twenty-three, Russia's Black Sea Fleet left its main base in Sevastopol, moving many ships east to Novorossiysk."
+  },
+  {
+   "id": "s01b",
+   "kind": "photo",
+   "img": "waves",
+   "big": "NOVOROSSIYSK",
+   "sub": "2023 · 2025 · 2026 STRIKES, AS REPORTED",
+   "text": "Even Novorossiysk wasn't safe. In twenty twenty-three, a sea drone hit the landing ship Olenegorsky Gornyak there, leaving it listing badly. And in August twenty twenty-six, Naval News reported satellite images showing at least four Russian warships damaged there, including two frigates."
+  },
+  {
+   "id": "s02",
+   "kind": "photo",
+   "img": "waves",
+   "big": "2024 · 2025 · 2026",
+   "sub": "STRIKES ON RUSSIAN SHIPS, AS CLAIMED BY UKRAINE",
+   "text": "In March twenty twenty-four, Ukraine said a swarm of sea drones hit the patrol ship Sergei Kotov. In December twenty twenty-five, it claimed the first ever strike on a submarine with underwater drones. Many of these claims have not been independently confirmed."
+  },
+  {
+   "id": "s03",
+   "kind": "photo",
+   "img": "waves",
+   "big": "INTO THE MEDITERRANEAN",
+   "sub": "TANKER STRIKES ALLEGED · 2025–2026",
+   "text": "And the war had already crept into the Mediterranean. In March twenty twenty-six, Moscow accused Ukraine of hitting a gas tanker with sea drones between Libya and Malta. Kyiv did not comment."
+  },
+  {
+   "id": "s04",
+   "kind": "photo",
+   "img": "baltic",
+   "big": "SAME DAY · BALTIC",
+   "sub": "SPARTA II HIT · FINLAND: \"LIKELY\" UKRAINE",
+   "text": "On the very same day as Benghazi, a Russian cargo ship, the Sparta Two, was hit by drones in the Gulf of Finland. Finland's military said it was likely a Ukrainian strike. Kyiv has not confirmed it."
+  },
+  {
+   "id": "s05",
+   "kind": "photo",
+   "img": "kremlin",
+   "big": "SPIDER'S WEB",
+   "sub": "JUNE 2025 · 40+ AIRCRAFT HIT, PER UKRAINE",
+   "text": "It's part of a pattern of long-range, surprise drone operations. In June twenty twenty-five, in an operation Ukraine called Spider's Web, drones launched from trucks hit more than forty aircraft at bases across Russia, according to Ukraine."
+  },
+  {
+   "id": "c6",
+   "kind": "chapter",
+   "n": "06",
+   "label": "THE REACTIONS",
+   "img": "unsc",
+   "text": "Chapter six. The reactions."
+  },
+  {
+   "id": "r01",
+   "kind": "quote",
+   "img": "unsc",
+   "quote": "Libya cannot afford, and must not become a battleground for foreign conflicts.",
+   "who": "UN SUPPORT MISSION IN LIBYA",
+   "text": "The UN mission in Libya expressed serious concern. It called for an immediate, independent and transparent investigation, and said Libya must not become a battleground for foreign conflicts."
+  },
+  {
+   "id": "r02",
+   "kind": "quote",
+   "img": "benghazi1",
+   "quote": "A serious assault on national sovereignty.",
+   "who": "LIBYA'S EASTERN GOVERNMENT, VIA NBC",
+   "text": "The eastern government called the strike a serious assault on national sovereignty. It said it will investigate together with Russian authorities. It did not name Kyiv directly."
+  },
+  {
+   "id": "r03",
+   "kind": "photo",
+   "img": "tripoli",
+   "big": "TRIPOLI",
+   "sub": "WESTERN GOVERNMENT ALSO CONDEMNS",
+   "text": "Even the rival government in Tripoli condemned it. It said no side has the right to carry out military operations on Libyan territory or in its waters."
+  },
+  {
+   "id": "r04",
+   "kind": "quote",
+   "img": "zelensky",
+   "quote": "We are responding to Russia's aggression. We are developing Ukrainian weapons.",
+   "who": "VOLODYMYR ZELENSKYY",
+   "text": "Ukraine is standing by it. Zelenskyy called it an exemplary operation, saying, We are responding to Russia's aggression. We are developing Ukrainian weapons."
+  },
+  {
+   "id": "r05",
+   "kind": "quote",
+   "img": "zelensky",
+   "quote": "Peace is only possible through strength.",
+   "who": "UKRAINE'S DEFENSE MINISTER, IN BERLIN",
+   "text": "Ukraine's defense minister, speaking in Berlin, defended the strike, saying peace is only possible through strength. So far, no reactions from Washington, the EU or NATO have been reported."
+  },
+  {
+   "id": "c7",
+   "kind": "chapter",
+   "n": "07",
+   "label": "FAKE OR FACT?",
+   "img": "waves",
+   "text": "Chapter seven. Fake or fact. Four claims going viral right now."
+  },
+  {
+   "id": "f1",
+   "kind": "verdict",
+   "bg": "waves",
+   "claim": "“The warship was hit in the Black Sea.”",
+   "verdict": "FAKE",
+   "why": "It was in Benghazi, Libya, in the Mediterranean",
+   "text": "Claim one. The warship was hit in the Black Sea. Fake. It was docked in Benghazi, Libya, in the Mediterranean."
+  },
+  {
+   "id": "f2",
+   "kind": "verdict",
+   "bg": "kremlin",
+   "claim": "“Russia has confirmed it lost the ship.”",
+   "verdict": "FAKE",
+   "why": "The Kremlin deferred to the Defense Ministry, which hadn't commented",
+   "text": "Claim number two. Russia has confirmed it lost the ship. That's fake. The Kremlin deferred to the Defense Ministry, which had not commented."
+  },
+  {
+   "id": "f3",
+   "kind": "verdict",
+   "bg": "benghazi1",
+   "claim": "“Dozens of sailors were killed.”",
+   "verdict": "FAKE",
+   "why": "No deaths reported. At least 10 injured, per Libyan officials",
+   "text": "Claim three. Dozens of sailors were killed. Fake. No deaths have been reported. Libyan officials say at least ten people were injured."
+  },
+  {
+   "id": "f4",
+   "kind": "verdict",
+   "bg": "magura",
+   "claim": "“Ukraine used seven sea drones.”",
+   "verdict": "FACT",
+   "why": "That's what Zelenskyy said. Libya reported intercepting 20+",
+   "text": "Claim four. Ukraine used seven sea drones. Fact, according to Zelenskyy. But remember, Libya says it intercepted more than twenty drone boats."
+  },
+  {
+   "id": "c8",
+   "kind": "chapter",
+   "n": "08",
+   "label": "WHAT'S NEXT",
+   "img": "unsc",
+   "text": "Chapter eight. What's next."
+  },
+  {
+   "id": "n01",
+   "kind": "photo",
+   "img": "unsc",
+   "big": "INVESTIGATIONS",
+   "sub": "LIBYA + RUSSIA · UN CALLS FOR INDEPENDENT PROBE",
+   "text": "Watch for three things. First, the investigations, by Libya with Russia, and the independent probe the UN is calling for."
+  },
+  {
+   "id": "n02",
+   "kind": "photo",
+   "img": "kremlin",
+   "big": "MOSCOW'S ANSWER",
+   "sub": "DEFENSE MINISTRY STATEMENT PENDING",
+   "text": "Second, what Russia's Defense Ministry finally says, and whether it confirms the loss."
+  },
+  {
+   "id": "n03",
+   "kind": "photo",
+   "img": "waves",
+   "big": "A WIDER WAR AT SEA?",
+   "sub": "BLACK SEA · BALTIC · MEDITERRANEAN",
+   "text": "And third, whether more strikes follow, far from the front lines. In one weekend, drones hit Russian ships in two different seas."
+  },
+  {
+   "id": "e01",
+   "kind": "photo",
+   "img": "waves",
+   "big": "1,500 MILES",
+   "sub": "FROM THE FRONT LINE",
+   "text": "Seven drones, a Libyan port, and a war that keeps spreading across the sea. We'll keep tracking what's confirmed and what isn't."
+  },
+  {
+   "id": "e02",
+   "kind": "outro",
+   "photo": "zelensky",
+   "name": "VOLODYMYR ZELENSKYY",
+   "role": "President of Ukraine",
+   "q": "Will the war at sea keep spreading?",
+   "text": "So, will the war at sea keep spreading? Yes or no. Tell us in the comments. Stay tuned for further updates, and subscribe to Paravion X for more."
+  }
+ ],
+ "timeline": []
+}
