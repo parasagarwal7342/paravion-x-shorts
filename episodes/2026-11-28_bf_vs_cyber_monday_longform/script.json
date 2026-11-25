@@ -1,0 +1,467 @@
+{
+ "timeline": [],
+ "segments": [
+  {
+   "id": "h01",
+   "kind": "photo",
+   "img": "amazon",
+   "img2": "laptops",
+   "big": "$15.1 BILLION",
+   "sub": "CYBER MONDAY · ADOBE 2026 FORECAST",
+   "text": "Cyber Monday is expected to be the biggest online shopping day in history. Fifteen point one billion dollars, in one day. But here's the catch. For a lot of things, it's not the cheapest day to buy."
+  },
+  {
+   "id": "h02",
+   "kind": "photo",
+   "img": "toys",
+   "img2": "tv",
+   "big": "WHICH DAY?",
+   "sub": "BLACK FRIDAY OR CYBER MONDAY",
+   "text": "So in the next few minutes, you'll learn which day to buy what, category by category. You'll learn where Cyber Monday really came from. And you'll learn the one trap that spikes on Cyber Monday. Stay till the end for your buying calendar."
+  },
+  {
+   "id": "h03",
+   "kind": "photo",
+   "img": "sign",
+   "big": "FAKE OR FACT?",
+   "sub": "PARAVION X · FACT BY FACT",
+   "text": "This is Paravion X. Let's break it down, fact by fact."
+  },
+  {
+   "id": "c1",
+   "kind": "chapter",
+   "n": "01",
+   "label": "TWO DAYS, ONE BIG WEEK",
+   "img": "crowd",
+   "text": "Chapter one. Two days, one big week."
+  },
+  {
+   "id": "a01",
+   "kind": "photo",
+   "img": "crowd",
+   "img2": "records",
+   "big": "FRI 27 NOV",
+   "sub": "BLACK FRIDAY 2026",
+   "text": "Black Friday is the day after Thanksgiving in the United States. This year, that's Friday, November twenty-seventh. It's known for big store sales, and now huge online sales too."
+  },
+  {
+   "id": "a02",
+   "kind": "photo",
+   "img": "laptops",
+   "img2": "laptop",
+   "big": "MON 30 NOV",
+   "sub": "CYBER MONDAY 2026",
+   "text": "Cyber Monday comes three days later, on Monday, November thirtieth. It was made for online shopping, and online is still where it rules."
+  },
+  {
+   "id": "a03",
+   "kind": "photo",
+   "img": "amazon",
+   "img2": "cart",
+   "big": "$47.5B",
+   "sub": "CYBER WEEK · ADOBE FORECAST",
+   "text": "The five days from Thanksgiving to Cyber Monday are called Cyber Week. Adobe forecasts forty-seven point five billion dollars of US online spending in those five days alone. That's about seventeen percent of the whole holiday season."
+  },
+  {
+   "id": "a04",
+   "kind": "photo",
+   "img": "sign",
+   "big": "STAY TILL THE END",
+   "sub": "YOUR BUYING CALENDAR IS COMING",
+   "text": "So which day should you actually shop? The answer depends on what you're buying. And by the end of this video, you'll know exactly when."
+  },
+  {
+   "id": "c2",
+   "kind": "chapter",
+   "n": "02",
+   "label": "WHO INVENTED CYBER MONDAY?",
+   "img": "laptop",
+   "text": "Chapter two. Who invented Cyber Monday?"
+  },
+  {
+   "id": "o01",
+   "kind": "photo",
+   "img": "laptop",
+   "img2": "surface",
+   "big": "2005",
+   "sub": "THE YEAR 'CYBER MONDAY' WAS BORN",
+   "text": "Black Friday is decades old. Cyber Monday is much younger. The name was born in two thousand five."
+  },
+  {
+   "id": "o02",
+   "kind": "photo",
+   "img": "surface",
+   "img2": "laptops",
+   "big": "SHOP.ORG",
+   "sub": "THE ONLINE ARM OF THE NATIONAL RETAIL FEDERATION",
+   "text": "It came from Shop dot org, the online retail group of America's National Retail Federation. Its press release in late November two thousand five used the phrase Cyber Monday, and it stuck. The term is widely credited to Ellen Davis, who worked on the federation's communications."
+  },
+  {
+   "id": "o03",
+   "kind": "photo",
+   "img": "laptop",
+   "img2": "cart",
+   "big": "BACK AT WORK",
+   "sub": "THE ORIGINAL IDEA",
+   "text": "The idea at the time? People looked at products in stores over the long weekend. Then on Monday, back at work, many of them bought online. In two thousand five, office internet was often much faster than home internet."
+  },
+  {
+   "id": "o04",
+   "kind": "photo",
+   "img": "amazon",
+   "img2": "laptop",
+   "big": "NOT AMAZON",
+   "sub": "A RETAIL GROUP NAMED THE DAY",
+   "text": "So no, Cyber Monday was not invented by Amazon, even if Amazon is now one of its biggest players. A retail trade group named it, and the whole industry ran with it."
+  },
+  {
+   "id": "c3",
+   "kind": "chapter",
+   "n": "03",
+   "label": "THE MONEY: WHO WINS?",
+   "img": "amazon",
+   "text": "Chapter three. The money. Who wins?"
+  },
+  {
+   "id": "m01",
+   "kind": "chart",
+   "bg": "amazon",
+   "chart": {
+    "title": "US ONLINE SPENDING (USD) · ADOBE 2026 FORECAST",
+    "bars": [
+     [
+      "THANKSGIVING",
+      "THU 26 NOV",
+      6.9,
+      "$6.9B"
+     ],
+     [
+      "BLACK FRIDAY",
+      "FRI 27 NOV",
+      12.9,
+      "$12.9B"
+     ],
+     [
+      "CYBER MONDAY",
+      "MON 30 NOV",
+      15.1,
+      "$15.1B"
+     ]
+    ],
+    "vmax": 18,
+    "step": 1.2,
+    "highlight": 2,
+    "source": "Source: Adobe Analytics 2026 forecast (Sept 2026). US online sales only."
+   },
+   "text": "Here's Adobe's forecast for this year. Thanksgiving, about six point nine billion dollars online. Black Friday, about twelve point nine billion. And Cyber Monday, the biggest, at about fifteen point one billion."
+  },
+  {
+   "id": "m02",
+   "kind": "photo",
+   "img": "laptops",
+   "img2": "surface",
+   "big": "$14.25B",
+   "sub": "CYBER MONDAY 2025 · A RECORD",
+   "text": "Last year, Cyber Monday set a record of fourteen point two five billion dollars, according to Adobe. Black Friday was eleven point eight billion."
+  },
+  {
+   "id": "m03",
+   "kind": "photo",
+   "img": "crowd",
+   "img2": "sign",
+   "big": "+9.2% vs +6.2%",
+   "sub": "BLACK FRIDAY IS GROWING FASTER",
+   "text": "But here's the twist. Black Friday is growing faster. Adobe expects it to grow about nine percent this year, compared with about six percent for Cyber Monday. Why? Shops are moving their biggest discounts earlier, and Black Friday gets the best deals in several big categories."
+  },
+  {
+   "id": "c3b",
+   "kind": "chapter",
+   "label": "WHAT EVERYONE WILL BUY",
+   "img": "ps5",
+   "text": "Chapter four. What everyone will buy.",
+   "n": "04"
+  },
+  {
+   "id": "w01",
+   "kind": "photo",
+   "img": "ps5",
+   "img2": "surface",
+   "big": "HOT SELLERS",
+   "sub": "SWITCH 2 · PS5 · XBOX · GTA VI",
+   "text": "Adobe's list of expected hot sellers includes the Nintendo Switch 2, PlayStation 5 and Xbox Series X. And on the games list? Grand Theft Auto Six, the same game that made billions on day one."
+  },
+  {
+   "id": "w02",
+   "kind": "photo",
+   "img": "toys",
+   "img2": "sign",
+   "big": "TOP TOYS",
+   "sub": "LEGO POKÉMON · JELLYCAT · TOY STORY 5",
+   "text": "Top toys are expected to include LEGO Pokémon, Jellycat plush toys and Toy Story five toys. And in gadgets, think the latest iPhones, Samsung Galaxy phones and AirPods."
+  },
+  {
+   "id": "w03",
+   "kind": "photo",
+   "img": "cart",
+   "img2": "amazon",
+   "big": "+210%",
+   "sub": "CLOTHING BASICS IN CYBER WEEK · VS SEPTEMBER",
+   "text": "But it's not only gifts. Many people use the deals to stock up on everyday things. Adobe expects Cyber Week sales of clothing basics to jump two hundred ten percent, and personal hygiene products a hundred fifty percent, compared with normal September levels."
+  },
+  {
+   "id": "w04",
+   "kind": "photo",
+   "img": "laptop",
+   "img2": "laptops",
+   "big": "AI TRAFFIC +130%",
+   "sub": "SHOPPERS ARRIVING FROM AI TOOLS · ADOBE",
+   "text": "And there's a new way people shop. Adobe expects traffic from AI tools to US retail sites to rise about one hundred thirty percent this season. Shoppers are asking chatbots to compare products and find deals."
+  },
+  {
+   "id": "c4",
+   "kind": "chapter",
+   "n": "05",
+   "label": "WHICH DAY TO BUY WHAT",
+   "img": "tv",
+   "text": "Chapter five. Which day to buy what. This is the most useful part."
+  },
+  {
+   "id": "d00",
+   "kind": "chart",
+   "bg": "laptops",
+   "chart": {
+    "title": "PEAK DISCOUNT OFF LISTED PRICE · ADOBE 2026 FORECAST",
+    "bars": [
+     [
+      "ELECTRONICS",
+      "CYBER MONDAY",
+      30,
+      "30%"
+     ],
+     [
+      "TOYS",
+      "BLACK FRIDAY",
+      29,
+      "29%"
+     ],
+     [
+      "TVs",
+      "BLACK FRIDAY",
+      23,
+      "23%"
+     ],
+     [
+      "COMPUTERS",
+      "CYBER MONDAY",
+      23,
+      "23%"
+     ],
+     [
+      "SPORTING GOODS",
+      "THANKSGIVING",
+      19,
+      "19%"
+     ]
+    ],
+    "vmax": 36,
+    "step": 1.0,
+    "highlight": 0,
+    "source": "Source: Adobe Analytics 2026 forecast. Peak discounts across US online retailers; single deals vary."
+   },
+   "text": "Adobe tracks prices across US online stores, and it forecasts when each category hits its deepest discount. Here are the peaks. Electronics, about thirty percent off. Toys, twenty-nine. TVs and computers, about twenty-three. Sporting goods, nineteen."
+  },
+  {
+   "id": "d01",
+   "kind": "photo",
+   "img": "laptops",
+   "img2": "surface",
+   "big": "CYBER MONDAY",
+   "sub": "BEST FOR ELECTRONICS & COMPUTERS",
+   "text": "So, Cyber Monday. Adobe says this is the day for electronics and computers. Think laptops, headphones, tablets and gadgets. Electronics discounts are forecast to peak at around thirty percent off."
+  },
+  {
+   "id": "d02",
+   "kind": "photo",
+   "img": "tv",
+   "img2": "toys",
+   "big": "BLACK FRIDAY",
+   "sub": "BEST FOR TVs, TOYS & CLOTHES",
+   "text": "Black Friday is the day for TVs, toys and clothes. Adobe also expects the best deals on appliances and furniture to land on Black Friday."
+  },
+  {
+   "id": "d03",
+   "kind": "photo",
+   "img": "cart",
+   "img2": "records",
+   "big": "THANKSGIVING",
+   "sub": "BEST FOR SPORTING GOODS",
+   "text": "And Thanksgiving Day itself? That's forecast to be best for sporting goods."
+  },
+  {
+   "id": "d04",
+   "kind": "photo",
+   "img": "sign",
+   "img2": "laptop",
+   "big": "BUT…",
+   "sub": "A FORECAST, NOT A PROMISE",
+   "text": "But remember, this is a forecast of average peak discounts across many shops. Your exact product could be cheaper on a different day. And as we showed in our Black Friday video, many deals are not special at all. In one Which? study, only twenty-two percent of Black Friday deals were cheaper on the day."
+  },
+  {
+   "id": "c5",
+   "kind": "chapter",
+   "n": "06",
+   "label": "THE CYBER MONDAY TRAP",
+   "img": "laptop",
+   "text": "Chapter six. The Cyber Monday trap."
+  },
+  {
+   "id": "t01",
+   "kind": "photo",
+   "img": "laptop",
+   "img2": "cart",
+   "big": "$1.09 BILLION",
+   "sub": "BUY NOW, PAY LATER · CYBER MONDAY FORECAST",
+   "text": "Here's a number that should make you careful. Adobe forecasts that buy now, pay later will drive one point zero nine billion dollars of spending on Cyber Monday alone. It would be the second year in a row above one billion dollars."
+  },
+  {
+   "id": "t02",
+   "kind": "photo",
+   "img": "surface",
+   "img2": "cart",
+   "big": "82% ON PHONES",
+   "sub": "OF BNPL SPEND · ADOBE",
+   "text": "And most of that spending, about eighty-two percent, is expected to happen on phones. Adobe links that to impulse shopping. A quick tap, a small first payment, and the full bill comes later."
+  },
+  {
+   "id": "t03",
+   "kind": "photo",
+   "img": "records",
+   "img2": "sign",
+   "big": "PAY LATER = STILL PAY",
+   "sub": "MISS A PAYMENT, PAY MORE",
+   "text": "Pay later still means you pay. If you miss a payment, some plans can add late fees. So if you wouldn't buy it with cash today, it's not a deal."
+  },
+  {
+   "id": "t04",
+   "kind": "photo",
+   "img": "laptops",
+   "img2": "crowd",
+   "big": "DEALS START EARLY",
+   "sub": "14%, THEN 21%, THEN 30%, THEN 10–15%",
+   "text": "One more thing shops don't advertise. The discounts build in steps. Adobe expects up to fourteen percent off in early November, up to twenty-one percent just before Thanksgiving, up to thirty percent in Cyber Week, and then still up to ten to fifteen percent through December."
+  },
+  {
+   "id": "c6",
+   "kind": "chapter",
+   "n": "07",
+   "label": "FAKE OR FACT?",
+   "img": "sign",
+   "text": "Chapter seven. Fake or fact. Test yourself."
+  },
+  {
+   "id": "f1",
+   "kind": "verdict",
+   "bg": "amazon",
+   "claim": "“Cyber Monday is the biggest online shopping day.”",
+   "verdict": "FACT",
+   "why": "Adobe: record $14.25B in 2025; $15.1B forecast for 2026",
+   "text": "Claim one. Cyber Monday is the biggest online shopping day. Fact. A record fourteen point two five billion dollars in US online sales last year, and fifteen point one billion forecast this year."
+  },
+  {
+   "id": "f2",
+   "kind": "verdict",
+   "bg": "tv",
+   "claim": "“Cyber Monday has the best deals on everything.”",
+   "verdict": "FAKE",
+   "why": "Adobe: TVs, toys, clothes are forecast cheapest on Black Friday",
+   "text": "Claim two. Cyber Monday has the best deals on everything. Fake. Adobe expects TVs, toys and clothes to be cheapest on Black Friday."
+  },
+  {
+   "id": "f3",
+   "kind": "verdict",
+   "bg": "laptop",
+   "claim": "“Amazon invented Cyber Monday.”",
+   "verdict": "FAKE",
+   "why": "Named by Shop.org, part of the National Retail Federation, in 2005",
+   "text": "Claim three. Amazon invented Cyber Monday. Fake. The name came from Shop dot org, part of the National Retail Federation, in two thousand five."
+  },
+  {
+   "id": "f4",
+   "kind": "verdict",
+   "bg": "cart",
+   "claim": "“After Cyber Monday, the deals are gone.”",
+   "verdict": "MISLEADING",
+   "why": "Adobe expects up to 10–15% off through December, but smaller than Cyber Week",
+   "text": "Claim four. After Cyber Monday, the deals are gone. Misleading. Discounts get smaller, but Adobe still expects up to ten to fifteen percent off through December."
+  },
+  {
+   "id": "c7",
+   "kind": "chapter",
+   "n": "08",
+   "label": "YOUR BUYING CALENDAR",
+   "img": "cart",
+   "text": "Chapter eight. Your buying calendar. Screenshot this."
+  },
+  {
+   "id": "k1",
+   "kind": "photo",
+   "img": "cart",
+   "big": "THU · THANKSGIVING",
+   "sub": "SPORTING GOODS",
+   "text": "Thursday, Thanksgiving. Sporting goods."
+  },
+  {
+   "id": "k2",
+   "kind": "photo",
+   "img": "toys",
+   "img2": "tv",
+   "big": "FRI · BLACK FRIDAY",
+   "sub": "TVs · TOYS · CLOTHES · APPLIANCES · FURNITURE",
+   "text": "Friday, Black Friday. TVs, toys, clothes, appliances and furniture."
+  },
+  {
+   "id": "k3",
+   "kind": "photo",
+   "img": "laptops",
+   "img2": "surface",
+   "big": "MON · CYBER MONDAY",
+   "sub": "ELECTRONICS · COMPUTERS",
+   "text": "Monday, Cyber Monday. Electronics and computers."
+  },
+  {
+   "id": "k4",
+   "kind": "photo",
+   "img": "records",
+   "big": "DECEMBER",
+   "sub": "SMALLER DEALS FOR WHAT YOU MISSED",
+   "text": "December. Smaller deals, for anything you missed. No need to panic buy."
+  },
+  {
+   "id": "k5",
+   "kind": "photo",
+   "img": "laptop",
+   "img2": "sign",
+   "big": "EVERY DAY",
+   "sub": "CHECK PRICE HISTORY · COMPARE · TOTAL AT CHECKOUT",
+   "text": "And on every day, check the price history, compare two or three shops, and look at the final total at checkout, not the headline price."
+  },
+  {
+   "id": "e01",
+   "kind": "photo",
+   "img": "amazon",
+   "img2": "crowd",
+   "big": "FRIDAY OR MONDAY?",
+   "sub": "NOW YOU KNOW WHICH DAY FOR WHAT",
+   "text": "So, Black Friday or Cyber Monday? Now you know it depends on what you're buying. Share this with someone who's about to shop."
+  },
+  {
+   "id": "e02",
+   "kind": "outro",
+   "photo": "laptops",
+   "name": "BLACK FRIDAY vs CYBER MONDAY",
+   "role": "Fri 27 Nov · Mon 30 Nov",
+   "q": "Which day will you shop?",
+   "text": "So, which day will you shop? Comment FRIDAY or MONDAY. Stay tuned for further updates, and subscribe to Paravion X for more."
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "segments": [
+  {
+   "id": "s01",
+   "kind": "photo",
+   "img": "amazon",
+   "img2": "tv",
+   "big": "CYBER MONDAY",
+   "sub": "NOT THE CHEAPEST FOR EVERYTHING",
+   "text": "Cyber Monday is the biggest online shopping day of the year. But it's not the cheapest day for everything. Here's when to buy what, according to Adobe."
+  },
+  {
+   "id": "s02",
+   "kind": "photo",
+   "img": "laptops",
+   "img2": "surface",
+   "big": "MONDAY",
+   "sub": "ELECTRONICS & COMPUTERS",
+   "text": "Laptops and electronics? Cyber Monday. Adobe expects electronics discounts to peak around thirty percent off."
+  },
+  {
+   "id": "s03",
+   "kind": "photo",
+   "img": "tv",
+   "img2": "toys",
+   "big": "FRIDAY",
+   "sub": "TVs · TOYS · CLOTHES",
+   "text": "TVs, toys, clothes, appliances and furniture? Black Friday is expected to be best."
+  },
+  {
+   "id": "s04",
+   "kind": "photo",
+   "img": "cart",
+   "big": "THURSDAY",
+   "sub": "SPORTING GOODS",
+   "text": "Sporting goods? Thanksgiving Day."
+  },
+  {
+   "id": "s05",
+   "kind": "photo",
+   "img": "laptop",
+   "img2": "cart",
+   "big": "$1.09 BILLION",
+   "sub": "PAY LATER, ON CYBER MONDAY",
+   "text": "And watch out. Buy now, pay later is forecast to drive over a billion dollars on Cyber Monday alone. Pay later still means you pay."
+  },
+  {
+   "id": "s06",
+   "kind": "photo",
+   "img": "laptops",
+   "big": "FOLLOW",
+   "sub": "FULL GUIDE ON OUR CHANNEL",
+   "text": "The full buying guide is in our video. Save this, and follow Paravion X for more."
+  }
+ ]
+}
