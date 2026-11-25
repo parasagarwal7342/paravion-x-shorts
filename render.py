@@ -140,6 +140,46 @@ def num_text(v, p):
     return v.get("prefix", "") + s + v.get("suffix", "")
 
 
+PHOTO_CREDITS = {}
+_cf = ROOT / "assets" / "photos" / "credits.json"
+if _cf.exists(): PHOTO_CREDITS = json.loads(_cf.read_text())
+_photos = {}
+def photo_card(v, lt, ld, cw=940, ch=630):
+    """Graded, Ken-Burns-zoomed photo inside a rounded card, darker towards the bottom."""
+    from PIL import ImageEnhance, ImageFilter
+    key = v["src"]
+    if key not in _photos:
+        im = Image.open(ROOT / v["src"]).convert("RGB")
+        s0 = max(cw * 1.14 / im.width, ch * 1.14 / im.height)
+        im = im.resize((int(im.width * s0), int(im.height * s0)), Image.LANCZOS)
+        im = ImageEnhance.Contrast(im).enhance(1.10)
+        im = ImageEnhance.Color(im).enhance(0.88)
+        r, g, b = im.split()   # gentle warm highlights / cool shadows
+        r = r.point(lambda x: min(255, int(x * 1.04 + 4))); b = b.point(lambda x: int(x * 0.96 + 6))
+        _photos[key] = Image.merge("RGB", (r, g, b))
+        grad = Image.new("L", (cw, ch), 0); gd = ImageDraw.Draw(grad)
+        for y in range(ch):
+            a = 70 + 150 * max(0, (y - ch * 0.25) / (ch * 0.75)) ** 1.3
+            gd.line([(0, y), (cw, y)], fill=int(min(235, a)))
+        mask = Image.new("L", (cw, ch), 0); ImageDraw.Draw(mask).rounded_rectangle([0, 0, cw - 1, ch - 1], 30, fill=255)
+        _photos[key + "#g"] = (grad, mask)
+    im = _photos[key]; grad, mask = _photos[key + "#g"]
+    p = max(0, min(1, lt / max(ld, .1)))
+    sc = 1.0 + 0.10 * p                      # 1.00 -> 1.10
+    bw, bh = cw * 1.14 / sc, ch * 1.14 / sc  # crop box in source pixels
+    bw, bh = min(bw, im.width), min(bh, im.height)
+    pan = v.get("pan", 1)
+    fx, fy = v.get("focus", (0.5, 0.5))
+    cx = fx * im.width + pan * (p - 0.5) * (im.width - bw) * 0.6
+    cy = fy * im.height
+    x0 = max(0, min(im.width - bw, cx - bw / 2)); y0 = max(0, min(im.height - bh, cy - bh / 2))
+    crop = im.crop((int(x0), int(y0), int(x0 + bw), int(y0 + bh))).resize((cw, ch), Image.BILINEAR).convert("RGBA")
+    dark = Image.new("RGBA", (cw, ch), (8, 8, 10, 255)); dark.putalpha(grad)
+    crop.alpha_composite(dark)
+    crop.putalpha(mask)
+    return crop
+
+
 def draw_visual(layer, v, lt, ld):
     d = ImageDraw.Draw(layer)
     typ = v["type"]
@@ -360,6 +400,23 @@ def draw_visual(layer, v, lt, ld):
             d.rounded_rectangle([CX - w / 2 + (1 - kk) * 80, y - 62, CX + w / 2 + (1 - kk) * 80, y + 62], 62,
                                 fill=fade(INK if i % 2 else ACC, kk))
             tc(d, (CX + (1 - kk) * 80, y + 2), t, f, fade(WHITE, kk))
+    elif typ == "photo":
+        # cinematic photo card: slow Ken Burns zoom/pan, light grade, dark fade, big white figure, credit
+        img = photo_card(v, lt, ld)
+        layer.paste(img, (CX - img.width // 2, VY - 330), img)
+        d = ImageDraw.Draw(layer)
+        k = back((lt - 0.25) / 0.4)
+        if v.get("big"):
+            f = fit_font(v["big"], 820, v.get("size", 210) * max(k, 0.01))
+            tc(d, (CX + 4, VY + 64), v["big"], f, (0, 0, 0, 110))
+            tc(d, (CX, VY + 60), v["big"], f, WHITE)
+        if v.get("sub"):
+            kk = ease((lt - 0.6) / 0.4)
+            for j, ln in enumerate(wrap(v["sub"], F(34), 820)[:2]):
+                spaced(d, (CX, VY + 185 + j * 44), ln, F(30), fade(WHITE, kk), track=3)
+        cr = PHOTO_CREDITS.get(Path(v["src"]).name)
+        if cr:
+            tc(d, (CX + 455, VY + 282), f"Photo: {cr['artist'][:40]} · {cr['license']}", F(20, "body"), (255, 255, 255, 170), anchor="rm")
     elif typ == "cta":
         k = back(lt / 0.4)
         s = 95 * k

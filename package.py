@@ -14,6 +14,20 @@ handle = cfg["handle"]; name = cfg["channel_name"]
 f = lambda x: f"{int(x // 60)}:{int(round(x % 60)):02d}"
 
 
+def photo_credits(sc):
+    import json as _j
+    from pathlib import Path as _P
+    cf = _P(__file__).parent / "assets" / "photos" / "credits.json"
+    if not cf.exists(): return ""
+    cr = _j.loads(cf.read_text()); seen = []
+    for l in sc["lines"]:
+        v = l.get("visual", {})
+        if v.get("type") == "photo":
+            n = _P(v["src"]).name
+            if n in cr and n not in seen: seen.append(n)
+    if not seen: return ""
+    return "\n\nPhotos (Wikimedia Commons):\n" + "\n".join(f"• {cr[n]['title'][5:]} by {cr[n]['artist']} ({cr[n]['license']})" for n in seen)
+
 def probe():
     v = ep / "final_video.mp4"
     if not v.exists(): return "not rendered"
@@ -115,7 +129,7 @@ Sources in comments.
 """
 (ep / "PACKAGE.md").write_text(md)
 (ep / "upload.json").write_text(json.dumps({
-    "title": m["titles"][0], "description": f"{m['summary']}\n\nSources:\n{src_lines}\n\nFollow for daily world updates — the world, explained in 60 seconds.\n{' '.join(m['hashtags'])}",
+    "title": m["titles"][0], "description": f"{m['summary']}\n\nSources:\n{src_lines}{photo_credits(s)}\n\nFollow for daily world updates — the world, explained in 60 seconds.\n{' '.join(m['hashtags'])}",
     "tags": [h.lstrip('#') for h in m["hashtags"] if h != "#shorts"], "publish_at": m.get("schedule"),
     "pinned_comment": m["pinned"]}, indent=1, ensure_ascii=False))
 print("wrote", ep / "PACKAGE.md")

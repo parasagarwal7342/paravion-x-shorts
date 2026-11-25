@@ -7,9 +7,11 @@
    "text": "Black Friday is November twenty-seventh. Here's how to come out ahead.",
    "ost": "Black Friday|Nov. 27.",
    "visual": {
-    "type": "calendar",
-    "month": "NOV",
-    "day": "27"
+    "type": "photo",
+    "src": "assets/photos/bf_shoppers.jpg",
+    "big": "NOV 27",
+    "sub": "BLACK FRIDAY 2026",
+    "pan": 1
    },
    "keys": [
     "twenty-seventh.",
@@ -22,11 +24,15 @@
    "text": "Adobe expects electronics deals to peak at thirty percent off.",
    "ost": "Deals peak|at 30% off.",
    "visual": {
-    "type": "stat",
-    "value": 30,
-    "suffix": "%",
-    "label": "ADOBE 2026 FORECAST",
-    "sub": "Peak discount on electronics"
+    "type": "photo",
+    "src": "assets/photos/bf_bestbuy.jpg",
+    "big": "30%",
+    "sub": "ADOBE 2026 FORECAST · PEAK ELECTRONICS DISCOUNT",
+    "pan": -1,
+    "focus": [
+     0.6,
+     0.55
+    ]
    },
    "keys": [
     "thirty"
@@ -38,9 +44,15 @@
    "text": "But for laptops and gadgets, the deepest cuts may come on Cyber Monday.",
    "ost": "Gadgets:|Cyber Monday.",
    "visual": {
-    "type": "calendar",
-    "month": "NOV",
-    "day": "30"
+    "type": "photo",
+    "src": "assets/photos/online_cart.jpg",
+    "big": "NOV 30",
+    "sub": "CYBER MONDAY",
+    "pan": 1,
+    "focus": [
+     0.6,
+     0.5
+    ]
    },
    "keys": [
     "Cyber",
@@ -53,11 +65,11 @@
    "text": "Don't wait for the day. In India last year, electronics were already twenty-three percent off before Black Friday week.",
    "ost": "Deals came|early.",
    "visual": {
-    "type": "stat",
-    "value": 23,
-    "suffix": "%",
-    "label": "INDIA 2025 · DATAWEAVE",
-    "sub": "Electronics discount before Black Friday week"
+    "type": "photo",
+    "src": "assets/photos/delhi_electronics.jpg",
+    "big": "23%",
+    "sub": "INDIA 2025 · ELECTRONICS, BEFORE BLACK FRIDAY WEEK · DATAWEAVE",
+    "pan": -1
    },
    "keys": [
     "early",
@@ -127,11 +139,11 @@
    "text": "Pay by credit card. In the US, fraud liability is capped at fifty dollars.",
    "ost": "Card fraud cap:|$50.",
    "visual": {
-    "type": "stat",
-    "value": 50,
-    "prefix": "$",
-    "label": "US · FTC",
-    "sub": "Max liability for unauthorized credit card charges"
+    "type": "photo",
+    "src": "assets/photos/credit_card.jpg",
+    "big": "$50",
+    "sub": "US · MAX LIABILITY FOR UNAUTHORIZED CARD CHARGES",
+    "pan": 1
    },
    "keys": [
     "credit",
@@ -144,12 +156,12 @@
    "text": "And if a seller wants gift cards, wire transfers, or crypto, the FTC says it's a scam.",
    "ost": "Gift cards?|It's a scam.",
    "visual": {
-    "type": "tags",
-    "tags": [
-     "GIFT CARDS",
-     "WIRE TRANSFERS",
-     "CRYPTO"
-    ]
+    "type": "photo",
+    "src": "assets/photos/gift_cards.jpg",
+    "big": "SCAM",
+    "sub": "GIFT CARDS · WIRE TRANSFERS · CRYPTO",
+    "pan": -1,
+    "size": 190
    },
    "keys": [
     "scam."
