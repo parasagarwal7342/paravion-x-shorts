@@ -1,109 +1,98 @@
-# PARAVION X: handover (as of Nov 20, 2026, ~4 PM IST)
+# PARAVION X: handover (as of Thu 26 Nov 2026, ~11:30 AM IST)
 
-Everything a new assistant (e.g. Grok) or a person needs to keep the channel running.
-Repo: **https://github.com/parasagarwal7342/paravion-x-shorts** (public). Clone it first; all paths below are relative to it.
+This file is for a new assistant or person who needs to keep the channel running.
+- **Repo:** https://github.com/parasagarwal7342/paravion-x-shorts (public, branch `main`). Clone it first. All paths below are relative to it.
+- **Older notes** (the Nov 20 version of this file, with the Shorts-only pipeline, brand and growth rules) are in git history (`git log -p -- HANDOVER.md`). See also `CHANNEL_AUDIT.md`, `GROWTH.md`, `ENGAGEMENT.md` and `SCHEDULE.md`.
 
 ---
 
-## 1. What the channel is
-- **Name:** PARAVION X · **Tagline:** "The world, explained in 60 seconds."
-- **Format:** 1080×1920 vertical Shorts/Reels, 35–59 s, English, Indian + global audience (16–35).
-- **Two series:**
-  - **News in 60 seconds** (1:00 PM IST): today's biggest story, what happened, 3 facts, verdict.
-  - **Fake or Fact?** (7:30 PM IST): evergreen myth-busters (30 written, E01–E30).
-- **Golden rule:** accurate first, engaging second, viral third. Every fact needs **2+ reliable, independent sources**. No invented quotes, no financial, medical or legal advice, neutral on politics. If a fact can't be confirmed, cut it.
+## 1. What the channel is now
+- **Name:** PARAVION X. **Niche, agreed with the owner on 24 Nov:** *"The world's biggest trending story, explained & fact-checked."* Any topic, same format every time.
+- **Main product:** long videos of 8–10 min, landscape 1920×1080, **daily at 7 PM IST**. They must run past 8:00 so mid-roll ads are allowed, and only long videos count toward the 4,000 watch hours.
+- **Supporting content:** a vertical teaser Short at **1 PM IST** that points to a long video (set "Related video" in YouTube Studio), plus X posts.
+- **Structure of every long video:** hook (0:00–0:30) → chapters with curiosity names → **Fake or Fact?** verdict segment (the signature) → what happens next → a one-word comment prompt (e.g. "Comment HOLD or FOLD").
+- **Title formula:** `[Big fact/number] + [Topic]: [What We Know / Explained]`.
+- **Thumbnail:** one huge number or 2–3 words, one real photo, and the PX logo, in the same layout every time.
+- **Playlists:** Tech & Money, Explained · World News, Explained · Gaming & Entertainment, Explained · Fake or Fact?
 
-## 2. Accounts
-| Platform | Handle / ID | Notes |
-|---|---|---|
-| YouTube | **@PARAVION_X**, channel UCE0ZwrfC8ARoL5lP1vWM78Q | Description, keywords and upload defaults updated. Audience: **not made for kids**. |
-| X | **@PARAVION_X** | Bio, header and profile picture done (brand/x/). Professional account: Media & News. |
-| Instagram | not connected yet | Kit ready in brand/instagram/ (profile picture, bio, highlight covers). |
-| Buffer | org "My organization" (free plan), timezone Asia/Kolkata | Channels: **YouTube** (id 6b00007dece6dfde5f2ea064), **X** (id 6b001a7fece6dfde5f2f9789). 1 free channel slot left (for Instagram). |
-| ElevenLabs | free plan | 9,680 / 10,000 characters used this month. Voice: **Daniel** (built-in, id `onwK4e9ZLuTAKqWW03F9`). Indian-English library voices (Viraj, Ranbir, Riya Rao, Tia Mirza) were added to the account but need a **paid** plan to use through the API. |
-| Google Drive | folder "PARAVION X — Shorts" | Older backup only; GitHub is now the source of truth. |
+## 2. Hard rules (owner's)
+1. **Facts first.** Every claim needs 2+ independent reliable sources and is attributed on screen ("according to Adobe"). Forecasts are labelled as forecasts. If a claim can't be confirmed, cut it. No clickbait lies; thumbnails use "~" or "record" rather than invented absolutes.
+2. **Real photos only:** Wikimedia Commons CC/PD, credited in the description or pinned comment. **No AI images of real people. No game footage** (copyright).
+3. **Neutral** on wars and politics.
+4. **Nvidia / Alice Huang:** never call her a spy. As of 25 Nov she has not been charged and the investigation is ongoing. Say "the investigation is still running."
+5. **Never commit secrets.** Don't put model names or IDs in commits.
+6. **Posting:** the owner uploads **long videos manually** in YouTube Studio, because Buffer's YouTube channel only takes Shorts (≤3 min, vertical). Buffer is used for X posts and YouTube Shorts. Only change Buffer when the owner asks.
 
-**Secrets:** none are in the repo. The ElevenLabs key was stored as a Claude environment network secret. With another tool, set `ELEVENLABS_API_KEY` yourself. Never commit keys.
+## 3. Accounts and IDs
+| What | ID / handle |
+|---|---|
+| YouTube | @PARAVION_X, channel `UCE0ZwrfC8ARoL5lP1vWM78Q` |
+| X | @PARAVION_X |
+| Buffer org | "My organization" `6afff89f0d778e6235384d9f`, timezone Asia/Kolkata |
+| Buffer YouTube channel | `6b00007dece6dfde5f2ea064` (Shorts only) |
+| Buffer X channel | `6b001a7fece6dfde5f2f9789` |
+| Google Sheet | "PARAVION X — Content Tracker", `11qhgXQCTzNlRfv0Ob7hrMjDx-NGPRJQg55Qz0jz8ttk` |
+| ElevenLabs | **out of credits** (~320 chars left). All new videos use the free local Kokoro voice. |
 
-## 3. Brand
-- Colours: ink `#111111`, accent orange `#E8481C`, white page, light grey `#F3F3F1`, green `#1B8A4A` (TRUE), red `#E01E1E` (FALSE).
-- Font: **Space Grotesk** 500/700 (assets/fonts, SIL OFL).
-- Wordmark: "PARAVION" black + "X" orange. Logo: white P + orange X on black (brand/logo_800.png).
-- Video style: white editorial look. Spaced red kicker, two-tone headline ("black part|orange part"), centred graphics, karaoke captions, orange progress bar, light brand pattern at the bottom.
-- Ending line on every Short: **"Like and follow Paravion X for more updates."** No loop line after it.
-- Voice of text posts: like a real person typing. Short sentences, contractions, max 1 emoji, light source mentions ("per NASA"), no "Great post!", no hashtags in replies.
+**Channel stats (owner's Studio screenshot, ~25 Nov):** about 15 subscribers and 2.7 public watch hours. YPP needs 1,000 subs plus 4,000 long-form watch hours.
 
-## 4. How a Short is made (the pipeline)
-Requirements: Python 3, ffmpeg, `pip install pillow numpy piper-tts faster-whisper`. Download the preview voice: `en_US-lessac-high.onnx` + `.onnx.json` from huggingface.co/rhasspy/piper-voices into `assets/piper/`.
+## 4. Google Sheet (tracker)
+Tabs: **Dashboard** (KPIs, monetization progress, where B9 = subs and B10 = watch hours are yellow inputs the owner types, top videos, long vs short, by area, queue, 3 charts), **Summary**, **X Posts**, **Instagram Posts**, **YouTube**, **Replies**.
+- **YouTube tab columns:** A # · B Date · C Time · D Series ("Long-form" / "Short" / …) · E slug · F Title · G Status · H Link · I Views · J–L Likes/Comments/Shares · **M Subs gained (owner's; never write)** · N Area · **O Format (ARRAYFORMULA; never write)** · **P/Q formulas (never write)** · R Last updated · S Notes.
+- **X Posts tab:** H Status · I Link · J Views (impressions) · K Likes · L Replies · M Reposts · P/Q formulas (never write) · R Last updated · S Notes.
+- **Status values must be exactly one of:** Posted, Scheduled, Pending, In production, Draft, Cancelled, Failed.
 
-1. **Script:** `episodes/<slug>/script.json`, copied from an existing one (e.g. `episodes/2026-11-19_eu_ukraine_loan/script.json`). Lines have `beat` (HOOK, SUB, CONTEXT, FACT1–3, VERDICT, CTA), `text` (spoken, sentences under 12 words), `ost` (on-screen "black|orange", ≤5 words), `visual` (a type from `render.py → draw_visual`), `keys` (highlighted words) and `source`. `meta` has titles, summary, hashtags, ig_tags, pinned, poll, sources, removed, notes, schedule and verdict. Target 100–130 words.
-   - Evergreen explainers are generated from `evergreen_specs.py` (`python3 evergreen_specs.py`).
-2. **Build:** `./make_episode.sh episodes/<slug>` runs voice → transcript QA → render → PACKAGE.md + upload.json.
-   - With ElevenLabs: `ELEVENLABS_API_KEY=… ELEVENLABS_VOICE_ID=onwK4e9ZLuTAKqWW03F9 ./make_episode.sh episodes/<slug>`. Paid takes are saved (`voice_raw.mp3`, `eleven_take.json`) and reused, so rebuilds never cost credits. Pauses over 0.3 s are trimmed and tempo is ×1.08 so Daniel fits under 60 s. Deleting script lines is free (they're cut from the saved take).
-   - Without a key: free Piper preview voice. **Not for posting.**
-   - `./eleven_batch.sh ep1 ep2 …` voices several episodes while credits last.
-3. **QA:** `voice_qa.txt` (Whisper transcript vs script). Only number formatting or name spelling differences are OK. Check length < 60 s and loudness −14 LUFS (both printed). Look at a few frames.
-4. **Publish:** video link for Buffer = `https://raw.githubusercontent.com/parasagarwal7342/paravion-x-shorts/main/episodes/<slug>/final_video.mp4`. Commit and push the episode first.
+**Automatic sync:** the scheduled task **"PARAVION X — tracker sync"** (`trig_01V5EphtKLun5eyQhvRHBxTp`) runs at **11:27 AM and 11:27 PM IST**. It runs `python3 stats_sync.py`, which scrapes the public /videos and /shorts pages (views only; no API key). It also reads Buffer's `list_posts` with metrics for X, then updates the sheet. It never posts anything. Last run: 26 Nov 11:27 AM, when YouTube had 343 total views and X had 187.
 
-## 5. Status of all 36 Shorts
-- **Real ElevenLabs voice (18), committed to GitHub:** Nvidia, EU loan, SAFF final, Amazon India, E01–E14.
-- **Preview voice only (18), need re-voicing before posting:** Trump–Xi–Putin summit and South Korea exam alerts (both stale now, skip them), and **E15–E30**. About 650 characters each with ElevenLabs.
+## 5. How a long video is made
+Requirements: Python 3, ffmpeg, Pillow, numpy, soundfile, `kokoro-onnx` (voice `af_heart`; model files in a local `kok/` folder pointed to by `KOKORO_DIR`), and `faster-whisper` (small.en, used for word timing and QA).
+1. **Research** with 2+ sources per claim. Write `sources.txt`.
+2. **Photos:** search Wikimedia Commons (standard thumb width 1920; slow down on 429 errors). Save to `<work>/img/<key>.jpg` and keep a `meta.json` with author, licence and page. **Look at every photo before using it.** On 25 Nov, the "Cyber Monday at Amazon HQ" photos turned out to be a union protest and had to be dropped.
+3. **Script:** `<work>/script.json` → `{"segments":[…]}`. Segment kinds: `photo` (img, optional img2 for a mid-scene crossfade, big, sub, text), `chapter` (n, label, img), `chart` ({title, bars:[[label, sub, value, display]], vmax, step, highlight, source}, bg), `verdict` (claim, verdict FACT/FAKE/other→amber, why, bg), `quote`, `timeline`, `outro` (photo, name, role, q). Copy from `episodes/2026-11-28_bf_vs_cyber_monday_longform/script.json`. About 1,000–1,150 words gives ~8 min at speed 0.92.
+4. **Voice:** `KOKORO_DIR=… python3 longform_voice.py <work> af_heart 0.92 [ids…]`. Name respellings go in `SAY` in that file.
+5. **Render:** `python3 longform_pad.py <work> <pad_seconds>`. Pick a pad so the total lands just over 8:00: pad = (488 − voice total) / number of segments, ideally 0.8–1.6 s. The render resumes; delete `parts/NN.mp4` to redo one scene. Vertical Short: `python3 longform_vertical.py <work>/short` with its own `script.json`, voiced at speed 1.1.
+6. **QA:** grab frames into a grid and look at them. **Space Grotesk has no arrow glyphs** (→ shows as boxes), so don't use arrows in on-screen text.
+7. **Encode for GitHub (100 MB limit):** long video `-c:v libx264 -preset veryfast -b:v 1250k -maxrate 2500k -bufsize 5000k -c:a aac -b:a 160k -movflags +faststart` (≈86 MB for 8 min). Short: `-crf 21 -maxrate 10M`.
+8. **Thumbnail:** 1280×720 using `longform.L.grade`, `L.F(size)`, `L.ACC`/`RED`/`GREEN`, `L.logo_img`. See the BF-vs-CM thumbnail code in its episode folder history.
+9. **Episode folder:** `episodes/<date>_<slug>_longform/` with final_video.mp4, thumbnail.png, yt_title.txt, yt_desc.txt (hook lines, what you'll learn, timestamped chapters, comment prompt, sources, hashtags), sources.txt, credits.txt and script.json. Commit and push.
 
-## 6. What's scheduled in Buffer (all IST)
-**Nov 21 update (owner request):** Amazon $7B India and E01–E06 were **unscheduled and deleted from Buffer on Nov 21** at the owner's request (he wants daily trending, fact-checked Shorts instead). **Do not re-add Amazon or E01–E14 to Buffer** unless the owner asks again. The failed SAFF YouTube entry was also removed.
+## 6. Long videos: status and schedule (owner uploads in YouTube Studio)
+| Date (IST) | Video | Folder | Status |
+|---|---|---|---|
+| 22 Nov | Why Nvidia CEO Jensen Huang Resigned | `2026-11-22_nvidia_longform` | Live (utpX4Q9lxPY) |
+| 23 Nov | Jensen Huang Is BACK as Nvidia CEO | `2026-11-23_nvidia_return_longform` | Live (y2-cLR8VZFA) |
+| 24 Nov | GTA VI Made $3.79 BILLION in One Day | `2026-11-24_gta6_longform` | Live (Vs0T3ewJYJY), best long so far |
+| 25 Nov | Ukraine Says 7 Sea Drones Sank a Russian Warship in LIBYA | `2026-11-24_ukraine_libya_longform` | Live (29_AgL6Mjdo) |
+| 25 Nov 7 PM | Nvidia Added ~$1 TRILLION in One Day | `2026-11-25_nvidia_1t_longform` | Live (j0gY8O4e7WA) |
+| **26 Nov 7 PM** | Black Friday 2026: Are the Deals FAKE? 5 Tricks Shops Use | `2026-11-26_black_friday_longform` | Owner to schedule |
+| **27 Nov 7 PM** | CrowdStrike Buys Zscaler for $43.9 BILLION | `2026-11-26_crowdstrike_zscaler_longform` | Owner to schedule |
+| **28 Nov 7 PM** | Black Friday vs Cyber Monday 2026: Which Day Is ACTUALLY Cheaper? | `2026-11-28_bf_vs_cyber_monday_longform` | Owner to schedule |
 
-| Date | YouTube | X |
-|---|---|---|
-| Nov 20, 7:30 PM | Nvidia CEO exit (sent) | same (sent) |
-| Nov 21, 8:00 AM | EU €45B Ukraine loan (sent) | same (sent) |
-| Nov 21, 1:00 PM | SAFF final (failed: YouTube daily limit) | sent |
-| Nov 23, 1:00 PM | Nvidia series Part 1 (`episodes/2026-11-23_nvidia_part01`) | same |
-| Nov 24, 1:00 PM | Nvidia series Part 2 | same |
-| Nov 25, 1:00 PM | Nvidia series Part 3 | same |
+Shorts the owner uploads by hand: **BF vs Cyber Monday Short on 29 Nov at 1 PM** (`2026-11-28_bf_vs_cyber_monday_short/`, text in `captions.md`, plus an X post for 30 Nov at 9 AM).
+Note: another session made a separate `2026-11-26_black_friday_guide` Short (51 s). Don't post both it and the Black Friday Short.
 
-Nvidia Parts 4–10 are added one a day at 1 PM (Nov 26 – Dec 2) by a Grok Bot routine as Buffer slots open. YouTube descriptions now end with "Subscribe to PARAVION X for more".
+## 7. Buffer queue (checked 26 Nov ~11:30 AM IST)
+**Ours (planned):**
+- YouTube Shorts: Black Friday Short 27 Nov 1 PM (`6b05788698255767f8684e58`); CrowdStrike teaser 28 Nov 1 PM (`6b05625c637ab97445e1f01b`). The Ukraine and Nvidia teasers have already gone out.
+- Drafts: Nvidia series Parts 2 and 3 (YouTube and X). Parked on purpose because the story moved on.
 
-**Waiting for a free X slot:** the G20 poll answer post for Nov 22 at 5 PM (text in `growth/approved.md`).
-**Owner posts by hand:** the G20 native X poll on **Nov 21 at 5 PM**: "Quick one 🌐 How many members does the G20 actually have?" with options `20 countries` / `19 + EU + African Union` / `25 countries`, 1 day.
+**⚠️ Needs the owner's decision.** On 25 Nov another session queued evergreen Fake-or-Fact posts (E02 leap year, E03 GPS, E04 black holes, E05 tides, E06 ozone). These are YouTube Shorts and X posts at 7:30 PM IST from 26 to 30 Nov, plus X text posts at 4 PM / 5 PM. They clash with the 7 PM long-video slot and with the owner's 21 Nov instruction not to re-add E01–E14. Two have already gone out on X: "sky is blue" (25 Nov, 7:31 PM) and "1900 wasn't a leap year" (26 Nov, 10 AM). The second one promises a "full explainer tonight at 7:30 PM". **Ask the owner** whether to keep them or move them to drafts.
 
-**Buffer free-plan limits:** 10 queued posts per channel, YouTube max 2 posts/day. Keep topping up as posts go out with the daily trending Shorts and the remaining Nvidia parts (not E07–E14, see the Nov 21 note above). Use YouTube category 27 (Education) or 28 (Science & Tech) for explainers, 25 for news, 17 for sports. Set madeForKids false and public.
+## 8. Story notes (as of 25–26 Nov)
+- **Nvidia:** Huang resigned 12 Nov; the board said no on 17 Nov; he was reinstated unanimously on 23 Nov; the stock rose about 31% on 23 Nov. The investigation is ongoing and **no charges have been filed**. A reported SEC review is **unconfirmed**. Congressional interviews are expected around **1–2 Dec**, which is a possible "comeback under fire" follow-up.
+- **Ideas offered but not confirmed by the owner:** a Fed/PCE inflation explainer and the Nvidia follow-up above.
 
-## 7. Automations (currently running in Claude Code; they keep running unless paused)
-| Name | When (IST) | What |
-|---|---|---|
-| PARAVION X — daily current-topic Short | 6:23 AM daily | Researches the day's top story, fact-checks it, builds a Short, pushes it to GitHub. Uses the preview voice while ElevenLabs credits are under 900. |
-| PARAVION X — daily Publisher | 8:47 AM daily | Auto-schedules our own posts (news Short at 1 PM, explainers at 7:30 PM, 2 X text posts at 10 AM and 5 PM), drafts the daily poll for the owner, plus 3 optional replies. Never replies to, mentions, follows or DMs other accounts. |
-| PARAVION X — weekly Growth Analyst | Sundays 11:13 AM | Buffer metrics → best hooks and topics → next week's plan in `reports/<date>.md`. |
+## 9. Owner to-dos
+1. Schedule the 26, 27 and 28 Nov long videos in Studio, and the 29 Nov Short.
+2. Pin the comment prompt on each video after it goes live, plus photo credits on the BF-vs-CM video.
+3. Set "Related video" on each teaser Short.
+4. Fix the channel's upload-default tags: they had comedy and kids tags. Keep "Not made for kids".
+5. Every Sunday, check CTR (aim 5%+), average view duration (aim 40%+) and the retention graph, and share the numbers.
+6. Biggest monetization risk: the same template with an AI voice can be flagged as "inauthentic content". Recording your own voice-over, or a short on-camera intro, would help a lot.
 
-If Grok takes over these jobs, **pause them in Claude** (claude.ai → Scheduled tasks), or posts will be duplicated.
-
-## 8. Daily routine (if done by hand or by another assistant)
-1. **Morning:** pick the top story → fact file (3+ sources) → keep only claims confirmed by 2+ → script → build → QA → push → schedule at 1 PM on YouTube + X.
-2. Top up Buffer with the next explainer at 7:30 PM.
-3. Schedule 2 X text posts (10 AM fact, 5 PM poll answer or "did you know").
-4. Draft tomorrow's native X poll for the owner.
-5. Owner: post the poll (5 PM), reply to people who comment on our posts.
-6. Sundays: review numbers, keep what works (hook type, topic, length).
-
-## 9. Growth rules (see GROWTH.md and ENGAGEMENT.md)
-- Speed on news, strong first 2 seconds, 2 Shorts a day at fixed times, keyword-first titles, playlists ("Fake or Fact?", "News in 60 Seconds"), a pinned question on every Short, the same video native on every platform.
-- **Never:** auto-replies to others, auto-follow/like, bought engagement, fake accounts, clickbait lies. X bans unsolicited automated replies.
-- 60 target accounts for manual replies: `growth/x_targets.md`.
-
-## 10. Ready-made assets
-- `brand/`: logo, YouTube banner (2560×1440), Instagram kit + bio, X header/profile + bio, social posts (6 Instagram, 2 YouTube Community images, POSTS.md with captions and polls).
-- `episodes/*/PACKAGE.md`: per Short: sources, fact-check table, script with timestamps, titles, description, pinned comment, Instagram caption.
-- `brand/x/X_POSTS.json`: the X post texts for the 10 scheduled Shorts (the house style).
-
-## 11. Open to-dos
-1. More ElevenLabs credits (paid **Starter/Creator**, or a new key): re-voice E15–E30, voice daily news, and unlock the Indian-English voices.
-2. Connect **Instagram** in Buffer (last free channel), then schedule Reels and the 6 Instagram posts.
-3. Optional: YouTube Data API key (console.cloud.google.com → YouTube Data API v3) to read comments for replies.
-4. YouTube Studio: create the 2 playlists; verify the phone number (Feature eligibility → Intermediate features).
-5. Pin a comment on each Short after it goes live (Buffer can't pin).
-
-## 12. Known gotchas
-- Buffer needs a **public direct** video URL (GitHub raw works; Drive links didn't).
-- Space Grotesk has no arrow glyphs (→ ↓). The renderer draws arrows as shapes, so don't put arrows in on-screen text.
-- The preview voice mispronounces names. Always check `voice_qa.txt`; respellings go in `config.json → fallback_tts.say`.
-- Daniel (ElevenLabs) speaks ~126 wpm raw. Keep scripts ≤130 words, or the Short runs over 60 s.
+## 10. Gotchas
+- Buffer needs a **public direct** video URL. GitHub raw links work: `https://raw.githubusercontent.com/parasagarwal7342/paravion-x-shorts/main/<path>`.
+- GitHub rejects files over 100 MB. Re-encode with the long-video settings above.
+- Wikimedia returns 429 when you go too fast. Use 1920-wide thumbs and wait between downloads.
+- faster-whisper: pass numpy audio, not a file path (there's an `av` version error).
+- When updating the sheet, a null value skips a cell. Never overwrite headers or the formula columns.
