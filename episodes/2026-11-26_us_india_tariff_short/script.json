@@ -1,0 +1,84 @@
+{
+ "title": "US 25% Tariff on India: Fake or Fact?",
+ "segments": [
+  {
+   "id": "hook01",
+   "kind": "photo",
+   "img": "trump",
+   "img2": "modi_crop",
+   "big": "25% ON INDIA?",
+   "sub": "FAKE OR FACT?",
+   "text": "Trump just hit India with a twenty-five percent tariff. Or did he?"
+  },
+  {
+   "id": "s02",
+   "kind": "photo",
+   "img": "winder",
+   "img2": "jnpt",
+   "big": "UP TO 25%",
+   "sub": "FACT 1/3 · USTR, 25 NOV",
+   "text": "Three facts. One: the US proposed tariffs of up to twenty-five percent on all Indian goods."
+  },
+  {
+   "id": "s03",
+   "kind": "photo",
+   "img": "pills",
+   "img2": "steel",
+   "big": "PHARMA · STEEL",
+   "sub": "SECTORS NAMED IN USTR'S REPORT",
+   "text": "It blames Indian overcapacity in pharma, steel and solar."
+  },
+  {
+   "id": "s04",
+   "kind": "photo",
+   "img": "haiphong",
+   "big": "ONLY VIETNAM HIGHER",
+   "sub": "VIETNAM 35% · PER THE HINDU",
+   "text": "Of fourteen economies, only Vietnam's proposed rate is higher."
+  },
+  {
+   "id": "s05",
+   "kind": "photo",
+   "img": "goyal",
+   "img2": "flag",
+   "big": "\"NO EXCESS CAPACITY\"",
+   "sub": "2/3 · INDIA COMMERCE MINISTRY",
+   "text": "Two: India says it has no excess capacity in any sector. But here's the catch."
+  },
+  {
+   "id": "s06",
+   "kind": "verdict",
+   "bg": "jnpt",
+   "claim": "The 25% tariff is already in force",
+   "verdict": "FAKE",
+   "why": "FACT 3/3 · ONLY PROPOSED · REUTERS, USTR",
+   "text": "Three: is it already in force? Fake. It's only a proposal, and per Reuters, nothing starts before a January hearing."
+  },
+  {
+   "id": "s07",
+   "kind": "photo",
+   "img": "greer_goyal",
+   "big": "17%",
+   "sub": "WITH A TRADE DEAL · USTR",
+   "text": "The twist? Sign a trade deal, and India's rate drops to seventeen percent."
+  },
+  {
+   "id": "s08",
+   "kind": "photo",
+   "img": "yangshan",
+   "img2": "haiphong",
+   "big": "BELOW CHINA",
+   "sub": "CHINA, VIETNAM 20% · REUTERS",
+   "text": "That's below China, Vietnam, even Bangladesh."
+  },
+  {
+   "id": "end09",
+   "kind": "photo",
+   "img": "modi_crop",
+   "big": "DEAL OR NO DEAL?",
+   "sub": "COMMENT BELOW",
+   "text": "So will India sign? Comment deal, or no deal. Because right now, the headlines say",
+   "img2": "trump"
+  }
+ ]
+}

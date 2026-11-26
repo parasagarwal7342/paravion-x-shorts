@@ -1,0 +1,26 @@
+US 25% tariff on India: Fake or Fact? (Short, 26 Nov 2026). Facts checked 26 Nov 2026 ~1:45 PM IST.
+
+CLAIM -> SOURCES (2+ independent each)
+1. USTR proposed tariffs of up to 25% on all goods of India (with exemptions), 25 Nov 2026, under Section 301 "structural excess capacity" probe of 14 economies.
+   - USTR press release, 25 Nov 2026: https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural
+   - Reuters, 25 Nov 2026: https://www.reuters.com/3fec1b0a85a0/world/china/us-proposes-new-tariffs-14-trading-partners-fight-excess-factory-capacity-2026-11-25/
+   - The Hindu, 25-26 Nov 2026: https://www.thehindu.com/news/international/donald-trump-tariffs-us-midterm-elections/article71743081.ece
+2. USTR cited sectors incl. pharmaceuticals/health, steel, solar, ICT.
+   - USTR press release (above); ET Now, 26 Nov 2026: https://www.etnownews.com/economy/us-tariffs-india-25-percent-ustr-section-301-commerce-ministry-response-trade-deal-article-156567178
+3. Of the 14 economies, only Vietnam's headline proposed rate (35%) is higher than India's 25%.
+   - The Hindu (above); Holland & Knight alert, 25 Nov 2026: https://www.hklaw.com/en/insights/publications/2026/11/ustr-proposes-tariffs-following-14-section-301 ; Reuters (Vietnam 35% if talks fail)
+   - Caveat: China could face 40% only if the US-China truce unravels (alternative rate, Reuters). Script says "proposed rate", attributed to The Hindu on screen.
+4. India's Commerce Ministry: notice "under examination"; India "does not have structural excess capacity in any sector"; prefers resolving within BTA talks.
+   - PIB statement, 25 Nov 2026 10:48 PM IST: https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2341690&lang=2&reg=48
+   - NDTV: https://www.ndtv.com/india-news/us-proposes-25-tariffs-on-india-centre-says-notice-under-examination-12377430
+   - Indian Express: https://indianexpress.com/article/business/united-states-india-25-percent-section-301-tariffs-trade-10978618/
+5. NOT in force yet: it is a proposal open for public comment; comments due 5 Jan 2027, hearings from 25 Jan 2027; Reuters: tariffs "would not take effect until after a January 25 public hearing".
+   - Reuters (above); Holland & Knight (above); USTR press release ("proposed responsive action ... for public comment")
+6. With a trade deal India's rate would be 17%.
+   - USTR press release; Reuters; The Hindu (all above)
+7. Comparison: China capped at 20% (on top of ~25% first-term duties), Vietnam 20% with a deal, Bangladesh 18%.
+   - Reuters (above); The Hindu (above)
+
+Freshness: USTR announcement 25 Nov 2026 (Reuters story 6:45 PM IST); India's response 10:48 PM IST 25 Nov; Indian coverage still updating 26 Nov (The Hindu updated 12:50 PM IST).
+X volume (posts/hour matching India + tariff): peak 256/hr around 7:30-8:30 PM IST 25 Nov; second India-morning wave 99-118/hr between 8:30-11:30 AM IST 26 Nov.
+Neutrality: no opinion on whether the tariff is fair; both sides' positions stated.
