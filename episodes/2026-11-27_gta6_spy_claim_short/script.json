@@ -1,0 +1,29 @@
+{
+ "slug": "2026-11-27_gta6_spy_claim_short",
+ "title": "Is GTA 6 Spying on You? The Viral Insurer Claim, Fact-Checked",
+ "segments": [
+  {"id": "hook", "kind": "photo", "img": "dualsense_sticks", "big": "SPYING ON YOU?", "sub": "GTA VI · FAKE OR FACT?",
+   "text": "Is GTA Six secretly profiling you, and selling it to insurers?"},
+  {"id": "intro", "kind": "intro",
+   "text": "Welcome to Paravion X. Daily world news, and whether it's real or fake."},
+  {"id": "s1", "kind": "photo", "img": "rockstar_north", "big": "VIRAL CLAIM", "sub": "ANONYMOUS X POST · 'FIRED ROCKSTAR ENGINEER'",
+   "text": "A viral post claims a fired Rockstar engineer found a hidden system called Lens."},
+  {"id": "s2", "kind": "photo", "img": "dualsense", "big": "\u201cLENS\u201d", "sub": "CLAIM · SCORES IMPULSE CONTROL, AGGRESSION",
+   "text": "It supposedly scores your impulse control and aggression from how you play."},
+  {"id": "s3", "kind": "photo", "img": "datacenter", "big": "SOLD TO INSURERS?", "sub": "CLAIM · VIA 'VANTAGE ANALYTICS' · UNVERIFIED",
+   "text": "Then a secret Take-Two company sells those profiles to insurers."},
+  {"id": "f1", "kind": "photo", "img": "sec_hq", "big": "NOT IN FILINGS", "sub": "1/3 · TAKE-TWO SEC FILINGS · GETREKT, NOTEBOOKCHECK",
+   "text": "Check one. That company, Vantage Analytics, isn't in any of Take-Two's SEC filings."},
+  {"id": "f2", "kind": "photo", "img": "phone_man", "big": "CREATED IN AUGUST", "sub": "2/3 · ANONYMOUS ACCOUNT · FRANCE 24, GETREKT",
+   "text": "Check two. The account is anonymous, created in August, and its firing email shows signs of a fake."},
+  {"id": "verdict", "kind": "verdict", "bg": "ps5", "claim": "GTA VI sells your psych profile to insurers", "verdict": "FAKE",
+   "why": "NO EVIDENCE · FRANCE 24, WHAT THE FACT",
+   "text": "The verdict? Fake. There's no evidence."},
+  {"id": "f3", "kind": "photo", "img": "crowd", "big": "THE TWIST", "sub": "3/3 · TAKE-TWO PRIVACY POLICY · 'PROFILE INFERENCES'",
+   "text": "But here's the twist. Take-Two's real privacy policy does build profile inferences, and shares them with advertisers."},
+  {"id": "f4", "kind": "photo", "img": "miami_night", "big": "ADS, NOT INSURERS", "sub": "OPT-OUT · 'DO NOT SELL OR SHARE' · TAKE-TWO",
+   "text": "Not insurers. Advertisers. And in many places, you can opt out."},
+  {"id": "outro", "kind": "outro", "photo": "dualsense", "q": "Should games profile players for ads",
+   "text": "Should games profile players for ads? Yes or no? Comment below. Stay tuned for further updates, and subscribe to Paravion X for more."}
+ ]
+}
