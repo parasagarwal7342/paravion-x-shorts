@@ -1,0 +1,80 @@
+{
+ "slug": "2026-11-28_rohit_mi_captain_short",
+ "title": "Rohit Sharma Back as Mumbai Indians Captain? Real or Fake",
+ "segments": [
+  {
+   "id": "hook",
+   "kind": "photo",
+   "img": "rohit_test",
+   "big": "ROHIT IS BACK?",
+   "sub": "MI CAPTAIN · REAL OR FAKE?",
+   "text": "Rohit Sharma is Mumbai Indians captain again. Real or fake?"
+  },
+  {
+   "id": "intro",
+   "kind": "intro",
+   "text": "Welcome to Paravion X. Daily world news, and whether it's real or fake."
+  },
+  {
+   "id": "s1",
+   "kind": "photo",
+   "img": "hardik",
+   "img2": "rohit_bat",
+   "big": "REPLACED IN 2023",
+   "sub": "IPL 2024 · HARDIK PANDYA MADE CAPTAIN · ESPNCRICINFO, MINT",
+   "text": "Three years ago, Mumbai took the captaincy away from him, and handed it to Hardik Pandya."
+  },
+  {
+   "id": "f1",
+   "kind": "photo",
+   "img": "wankhede3",
+   "img2": "wankhede2",
+   "big": "LAST · Q2 · NINTH",
+   "sub": "1/3 · MI UNDER HARDIK · ESPNCRICINFO, THE HINDU",
+   "text": "Fact one. Under Hardik, Mumbai finished last in 2024, lost Qualifier 2 in 2025, and slipped to ninth in 2026. But that's not the big part."
+  },
+  {
+   "id": "f2",
+   "kind": "photo",
+   "img": "arshdeep",
+   "img2": "rohit_bowl",
+   "big": "HARDIK TRADED",
+   "sub": "2/3 · TO PUNJAB FOR ARSHDEEP · ₹18 CR EACH · IPLT20.COM",
+   "text": "Fact two. This month, Mumbai traded Hardik to Punjab Kings, for pacer Arshdeep Singh. Eighteen crore rupees each."
+  },
+  {
+   "id": "verdict",
+   "kind": "verdict",
+   "bg": "mi_edu",
+   "claim": "Rohit Sharma is MI captain for IPL 2027",
+   "verdict": "REAL",
+   "why": "CONFIRMED · MUMBAI INDIANS, ESPNCRICINFO",
+   "text": "So, is Rohit back? Real. Mumbai Indians confirmed it on Friday."
+  },
+  {
+   "id": "f3",
+   "kind": "photo",
+   "img": "rohit_bat3",
+   "img2": "rohit_flag",
+   "big": "5 FINALS. 5 TITLES.",
+   "sub": "3/3 · 2013 TO 2020 · ESPNCRICINFO, THE HINDU",
+   "text": "Fact three. Rohit captained Mumbai in five IPL finals, and won every single one."
+  },
+  {
+   "id": "f4",
+   "kind": "photo",
+   "img": "rohit_mi",
+   "img2": "wankhede",
+   "big": "5:45 PM",
+   "sub": "FAN THEORY · NOT CONFIRMED BY MI · MINT, CRICTRACKER",
+   "text": "And the hidden message? Mumbai announced it at exactly five forty-five p.m. Fans say that's five titles, plus his jersey number, forty-five. Mumbai hasn't confirmed that."
+  },
+  {
+   "id": "outro",
+   "kind": "outro",
+   "photo": "rohit_test",
+   "q": "Can Rohit win Mumbai a sixth title",
+   "text": "Can Rohit win Mumbai a sixth title? Yes or no? Comment below. Stay tuned for further updates, and subscribe to Paravion X for more."
+  }
+ ]
+}
